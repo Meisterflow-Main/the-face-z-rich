@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Calendar, MessageCircle } from "lucide-react";
 import { BRAND, ASSETS } from "@/lib/brand";
-import TreatmentVideos from "@/components/TreatmentVideos";
 
 export default function Hero() {
   return (
@@ -85,8 +84,6 @@ export default function Hero() {
 
         <p className="mt-8 text-charcoal/50 text-sm italic">Ich freue mich auf deine Online-Buchung. – Herzlichst DC</p>
       </motion.div>
-
-      <TreatmentVideos />
     </section>
   );
 }

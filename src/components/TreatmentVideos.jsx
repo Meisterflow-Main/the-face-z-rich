@@ -63,15 +63,19 @@ function VideoCard({ video, index }) {
 
 export default function TreatmentVideos() {
   return (
-    <div className="relative z-10 w-full max-w-6xl mt-14">
-      <p className="text-center text-charcoal/50 text-xs tracking-[0.25em] uppercase mb-5">
-        Einblicke in meine Behandlungen
-      </p>
+    <section className="w-full max-w-6xl mx-auto px-5 sm:px-8 py-16 sm:py-20">
+      <div className="text-center mb-10">
+        <p className="text-gold font-semibold tracking-[0.25em] text-xs uppercase mb-3">Einblicke</p>
+        <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-charcoal">
+          Erlebe die Behandlungen in Bewegung
+        </h2>
+        <div className="hairline w-16 mx-auto mt-5" />
+      </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         {VIDEOS.map((v, i) => (
           <VideoCard key={v.title} video={v} index={i} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

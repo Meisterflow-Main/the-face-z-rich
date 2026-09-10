@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import TreatmentVideos from "@/components/TreatmentVideos";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Stats from "@/components/Stats";
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <TreatmentVideos />
         <About />
         <Services />
         <Stats />
