@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export default function Datenschutz() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-white">
       <Navbar />
       <main className="pt-28 sm:pt-32 pb-20 px-5 sm:px-8">
         <article className="mx-auto max-w-3xl">

@@ -167,7 +167,7 @@ export default function Bewertung() {
                       value={critique}
                       onChange={(e) => setCritique(e.target.value)}
                       placeholder="Was können wir verbessern?"
-                      className="w-full rounded-xl border border-gold/20 bg-card px-4 py-3 text-charcoal focus:outline-none focus:border-gold resize-none"
+                      className="w-full rounded-xl border border-gold/20 bg-white px-4 py-3 text-charcoal focus:outline-none focus:border-gold resize-none"
                     />
                     <p className="text-xs text-charcoal/40 mt-2">
                       Dein Feedback wird intern bearbeitet und nicht öffentlich geteilt.
@@ -179,7 +179,7 @@ export default function Bewertung() {
                   <button
                     onClick={isHigh ? () => setSubmitted(true) : submitLowRating}
                     disabled={status === "loading"}
-                    className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#0EA5E9] disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
+                    className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#A88A4A] disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
                   >
                     {status === "loading" && <Loader2 size={18} className="animate-spin" />}
                     {isHigh ? "Bewertung abgeben" : status === "loading" ? "Wird gesendet…" : "Feedback senden"}
@@ -218,7 +218,7 @@ export default function Bewertung() {
                       href={BRAND.googleReview}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 bg-gold hover:bg-[#0EA5E9] text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
+                      className="inline-flex items-center gap-2 bg-gold hover:bg-[#A88A4A] text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
                     >
                       <Star size={18} /> Auf Google bewerten <ExternalLink size={16} />
                     </a>
