@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { ChevronDown, Calendar } from "lucide-react";
+import React from "react";
+import { motion } from "framer-motion";
+import { Calendar } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
 
@@ -108,98 +108,78 @@ const PRICE_LIST = [
   },
 ];
 
-function PriceRow({ name, price, neu }) {
+function ServiceBox({ name, price, neu, index }) {
   return (
-    <li className="flex items-baseline gap-3 py-3 border-b border-charcoal/8 last:border-b-0">
-      <span className="flex-1 text-charcoal/80 text-[15px] leading-snug">
+    <motion.a
+      href={BRAND.booking}
+      target="_blank"
+      rel="noopener noreferrer"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-40px" }}
+      transition={{ duration: 0.5, delay: Math.min(index * 0.05, 0.3), ease: [0.22, 1, 0.36, 1] }}
+      className="group flex flex-col justify-between bg-white border border-charcoal/10 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:border-gold/40 transition-all duration-300"
+    >
+      <div className="flex items-start justify-between gap-3 mb-6">
         {neu && (
-          <span className="inline-block mr-2 text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-1.5 py-0.5 rounded-sm align-middle">
+          <span className="text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-2 py-0.5 rounded-sm">
             Neu
           </span>
         )}
+        <span className="ml-auto font-heading text-3xl sm:text-4xl font-semibold text-charcoal tabular-nums leading-none">
+          {price}
+          <span className="text-charcoal/40 text-sm font-body font-normal ml-1">CHF</span>
+        </span>
+      </div>
+      <p className="text-charcoal/80 text-[15px] leading-snug font-medium min-h-[2.5rem]">
         {name}
+      </p>
+      <span className="mt-4 inline-flex items-center gap-1 text-gold text-xs tracking-[0.15em] uppercase font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+        Termin buchen →
       </span>
-      <span className="hairline flex-1 max-w-[6rem] opacity-40 self-center hidden sm:block" />
-      <span className="text-charcoal font-heading text-lg font-semibold whitespace-nowrap tabular-nums">
-        {price}
-        <span className="text-charcoal/50 text-sm font-body font-normal ml-1">CHF</span>
-      </span>
-    </li>
+    </motion.a>
   );
 }
 
-function CategoryCard({ category, index }) {
-  const [open, setOpen] = useState(index === 0);
-
+function CategoryBlock({ category, index }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-60px" }}
-      transition={{ duration: 0.6, delay: Math.min(index * 0.04, 0.3), ease: [0.22, 1, 0.36, 1] }}
-      className="bg-white border border-charcoal/10 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
-    >
-      <button
-        onClick={() => setOpen((v) => !v)}
-        aria-expanded={open}
-        className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left group"
-      >
-        <div className="flex items-center gap-3">
-          <span className="text-charcoal/30 font-heading text-xl tabular-nums">
+    <div className="mb-16 last:mb-0">
+      <ScrollReveal className="mb-8">
+        <div className="flex items-center gap-4">
+          <span className="text-charcoal/25 font-heading text-2xl tabular-nums">
             {String(index + 1).padStart(2, "0")}
           </span>
-          <div>
-            <h3 className="font-heading text-xl sm:text-2xl font-semibold text-charcoal leading-tight">
+          <div className="flex-1">
+            <h3 className="font-heading text-2xl sm:text-3xl font-semibold text-charcoal leading-tight">
               {category.title}
             </h3>
             {category.note && (
-              <p className="text-charcoal/50 text-sm mt-0.5">{category.note}</p>
-            )}
-            {category.tag && (
-              <span className="inline-block mt-1 text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-2 py-0.5 rounded-sm">
-                {category.tag}
-              </span>
+              <p className="text-charcoal/50 text-sm mt-1">{category.note}</p>
             )}
           </div>
+          {category.tag && (
+            <span className="text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-2.5 py-1 rounded-sm">
+              {category.tag}
+            </span>
+          )}
         </div>
-        <div className="flex items-center gap-3 shrink-0">
-          <span className="text-charcoal/40 text-sm hidden sm:inline">
-            {category.services.length} {category.services.length === 1 ? "Behandlung" : "Behandlungen"}
-          </span>
-          <ChevronDown
-            size={22}
-            className={`text-gold transition-transform duration-300 ${open ? "rotate-180" : ""}`}
-          />
-        </div>
-      </button>
+        <div className="hairline w-full mt-5 opacity-30" />
+      </ScrollReveal>
 
-      <AnimatePresence initial={false}>
-        {open && (
-          <motion.div
-            key="content"
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-            className="overflow-hidden"
-          >
-            <ul className="px-6 pb-5 pt-1">
-              {category.services.map((s) => (
-                <PriceRow key={s.name} {...s} />
-              ))}
-            </ul>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </motion.div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {category.services.map((s, i) => (
+          <ServiceBox key={s.name} {...s} index={i} />
+        ))}
+      </div>
+    </div>
   );
 }
 
 export default function Pricing() {
   return (
     <section id="preise" className="bg-sand py-20 sm:py-28 px-5">
-      <div className="max-w-4xl mx-auto">
-        <ScrollReveal className="text-center mb-12">
+      <div className="max-w-6xl mx-auto">
+        <ScrollReveal className="text-center mb-16">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">
             Behandlungen & Preise
           </p>
@@ -212,11 +192,9 @@ export default function Pricing() {
           <div className="hairline w-24 mx-auto mt-6" />
         </ScrollReveal>
 
-        <div className="space-y-4">
-          {PRICE_LIST.map((cat, i) => (
-            <CategoryCard key={cat.id} category={cat} index={i} />
-          ))}
-        </div>
+        {PRICE_LIST.map((cat, i) => (
+          <CategoryBlock key={cat.id} category={cat} index={i} />
+        ))}
 
         <ScrollReveal className="text-center mt-14" delay={0.1}>
           <p className="text-charcoal/50 text-sm mb-5 italic">
