@@ -12,20 +12,20 @@
     --card-foreground: 0 0% 15%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 15%;
-    --primary: 43 74% 50%;
+    --primary: 199 89% 60%;
     --primary-foreground: 0 0% 100%;
     --secondary: 40 20% 94%;
     --secondary-foreground: 0 0% 15%;
     --muted: 40 20% 94%;
     --muted-foreground: 0 0% 40%;
-    --accent: 43 74% 50%;
+    --accent: 199 89% 60%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 98%;
     --border: 40 15% 88%;
     --input: 40 15% 88%;
-    --ring: 43 74% 50%;
-    --gold: 43 74% 50%;
+    --ring: 199 89% 60%;
+    --gold: 199 89% 60%;
     --charcoal: 0 0% 15%;
     --sand: 40 30% 96%;
     --radius: 0.5rem;
@@ -104,7 +104,7 @@
   }
 
   .gold-gradient-text {
-    background: linear-gradient(135deg, #D4B876 0%, #C5A572 50%, #A88A4A 100%);
+    background: linear-gradient(135deg, #BAE6FD 0%, #38BDF8 50%, #0EA5E9 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
