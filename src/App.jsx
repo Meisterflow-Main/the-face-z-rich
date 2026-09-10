@@ -11,6 +11,7 @@ import Home from '@/pages/Home';
 import Bewertung from '@/pages/Bewertung';
 import Impressum from '@/pages/Impressum';
 import Datenschutz from '@/pages/Datenschutz';
+import Region from '@/pages/Region';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -43,6 +44,7 @@ const AuthenticatedApp = () => {
     <Route path="/bewertung" element={<Bewertung />} />
     <Route path="/impressum" element={<Impressum />} />
     <Route path="/datenschutz" element={<Datenschutz />} />
+    <Route path="/regionen/:slug" element={<Region />} />
     <Route path="*" element={<PageNotFound />} />
     </Routes>
   );

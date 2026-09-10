@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown, MapPin } from "lucide-react";
 import { BRAND, ASSETS } from "@/lib/brand";
+import { REGIONS } from "@/lib/regions";
 
 const LINKS = [
   { label: "Über uns", href: "/#ueber" },
@@ -13,6 +14,7 @@ const LINKS = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [regionsOpen, setRegionsOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -41,6 +43,36 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
+
+          <div
+            className="relative"
+            onMouseEnter={() => setRegionsOpen(true)}
+            onMouseLeave={() => setRegionsOpen(false)}
+          >
+            <button
+              onClick={() => setRegionsOpen((v) => !v)}
+              className="inline-flex items-center gap-1 text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide"
+            >
+              Regionen <ChevronDown size={15} className={`transition-transform ${regionsOpen ? "rotate-180" : ""}`} />
+            </button>
+            {regionsOpen && (
+              <div className="absolute top-full right-0 pt-3 w-64">
+                <div className="glass border border-gold/20 rounded-2xl p-3 shadow-lg grid grid-cols-1 gap-0.5 max-h-[70vh] overflow-y-auto">
+                  {REGIONS.map((r) => (
+                    <Link
+                      key={r.slug}
+                      to={`/regionen/${r.slug}`}
+                      onClick={() => setRegionsOpen(false)}
+                      className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-charcoal/75 hover:bg-gold/10 hover:text-gold transition-colors"
+                    >
+                      <MapPin size={13} className="text-gold shrink-0" /> {r.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
           <a
             href={BRAND.booking}
             target="_blank"
@@ -62,7 +94,7 @@ export default function Navbar() {
 
       {open && (
         <div className="md:hidden glass border-t border-gold/20">
-          <div className="px-5 py-6 flex flex-col gap-4">
+          <div className="px-5 py-6 flex flex-col gap-4 max-h-[80vh] overflow-y-auto">
             {LINKS.map((l) => (
               <a
                 key={l.href}
@@ -73,6 +105,26 @@ export default function Navbar() {
                 {l.label}
               </a>
             ))}
+            <button
+              onClick={() => setRegionsOpen((v) => !v)}
+              className="flex items-center gap-1 text-base font-medium text-charcoal/80"
+            >
+              Regionen <ChevronDown size={16} className={`transition-transform ${regionsOpen ? "rotate-180" : ""}`} />
+            </button>
+            {regionsOpen && (
+              <div className="pl-4 flex flex-col gap-2 border-l border-gold/20">
+                {REGIONS.map((r) => (
+                  <Link
+                    key={r.slug}
+                    to={`/regionen/${r.slug}`}
+                    onClick={() => { setOpen(false); setRegionsOpen(false); }}
+                    className="flex items-center gap-2 text-sm text-charcoal/75 hover:text-gold transition-colors"
+                  >
+                    <MapPin size={13} className="text-gold" /> {r.name}
+                  </Link>
+                ))}
+              </div>
+            )}
             <a
               href={BRAND.booking}
               target="_blank"

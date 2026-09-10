@@ -1,0 +1,40 @@
+import React from "react";
+import Seo from "@/components/region/Seo";
+import RegionHero from "@/components/region/RegionHero";
+import TrustBar from "@/components/region/TrustBar";
+import ContactBlock from "@/components/region/ContactBlock";
+import RegionServices from "@/components/region/RegionServices";
+import WhyUs from "@/components/region/WhyUs";
+import PriceCalculator from "@/components/region/PriceCalculator";
+import RegionReviews from "@/components/region/RegionReviews";
+import RegionFAQ from "@/components/region/RegionFAQ";
+import MoreServices from "@/components/region/MoreServices";
+import ServiceArea from "@/components/region/ServiceArea";
+import FinalCTA from "@/components/region/FinalCTA";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
+
+export default function RegionLandingPage({ region }) {
+  return (
+    <>
+      <Seo title={region.metaTitle} description={region.metaDescription} />
+      <Navbar />
+      <main>
+        <RegionHero region={region} />
+        <TrustBar />
+        <ContactBlock region={region} />
+        <RegionServices region={region} />
+        <WhyUs region={region} />
+        <PriceCalculator region={region} />
+        <RegionReviews region={region} />
+        <RegionFAQ region={region} />
+        <MoreServices />
+        <ServiceArea region={region} />
+        <FinalCTA region={region} />
+      </main>
+      <Footer />
+      <WhatsAppButton />
+    </>
+  );
+}

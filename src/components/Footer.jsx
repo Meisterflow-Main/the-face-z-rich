@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BRAND, ASSETS } from "@/lib/brand";
+import { REGIONS } from "@/lib/regions";
 import { Instagram, Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
     <footer className="bg-charcoal text-white pt-16 pb-24 sm:pb-16 px-5 sm:px-8">
       <div className="mx-auto max-w-7xl">
-        <div className="grid md:grid-cols-3 gap-10 mb-12">
+        <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div>
             <img src={ASSETS.logo} alt="THE FACE® Zürich" className="h-10 w-auto mb-5 brightness-0 invert" />
             <p className="text-white/50 text-sm leading-relaxed max-w-xs">
@@ -50,6 +51,19 @@ export default function Footer() {
               <li><Link to="/bewertung" className="hover:text-gold transition-colors">Bewertung abgeben</Link></li>
               <li><Link to="/impressum" className="hover:text-gold transition-colors">Impressum</Link></li>
               <li><Link to="/datenschutz" className="hover:text-gold transition-colors">Datenschutz</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-5">Regionen</p>
+            <ul className="space-y-2.5 text-sm text-white/60 grid grid-cols-1">
+              {REGIONS.map((r) => (
+                <li key={r.slug}>
+                  <Link to={`/regionen/${r.slug}`} className="hover:text-gold transition-colors">
+                    Gesichtsbehandlung {r.short}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
