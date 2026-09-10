@@ -3,7 +3,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { Image } from "@/components/ui/image";
 
 const ROOM_IMAGE =
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/8406b6bbe_WhatsAppImage2026-09-10at162208.jpeg";
+  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/daac4795b_WhatsAppImage2026-09-10at1700351.jpeg";
 
 export default function AboutIntro() {
   return (
@@ -60,7 +60,7 @@ export default function AboutIntro() {
               <div className="absolute -top-4 -right-4 w-full h-full border border-gold/30 rounded-2xl" />
               <Image
                 src={ROOM_IMAGE}
-                alt="Behandlungsraum von THE FACE® Zürich mit Tageslicht und Dermalogica-Produkten"
+                alt="Denise Claire Gadient von THE FACE® Zürich mit Dermalogica Gabriel Award"
                 fittingType="cover"
                 className="relative rounded-2xl w-full aspect-[4/5] shadow-xl"
               />
