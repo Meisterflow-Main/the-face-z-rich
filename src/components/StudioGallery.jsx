@@ -13,36 +13,36 @@ const STUDIO_IMAGES = [
 
 export default function StudioGallery() {
   return (
-    <section className="bg-white py-20 sm:py-28 px-5">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+    <section className="bg-white py-14 sm:py-16 px-5">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
         {/* Caption on the left */}
-        <ScrollReveal className="lg:col-span-4 lg:sticky lg:top-28">
-          <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">
+        <ScrollReveal className="lg:col-span-5 lg:sticky lg:top-28">
+          <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-2">
             Einblick
           </p>
-          <h2 className="font-heading text-4xl sm:text-5xl font-bold text-charcoal leading-[1.05] mb-6">
+          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-charcoal leading-[1.05] mb-4">
             Unsere <span className="gold-gradient-text">Räumlichkeiten</span>
           </h2>
-          <div className="hairline w-24 mb-6" />
-          <p className="text-charcoal/70 text-base sm:text-lg leading-relaxed mb-4">
+          <div className="hairline w-20 mb-4" />
+          <p className="text-charcoal/70 text-sm sm:text-base leading-relaxed mb-3">
             Entdecken Sie unsere Räumlichkeiten und erhalten Sie einen Einblick in die angenehme Atmosphäre unseres Studios.
           </p>
-          <p className="text-charcoal/60 text-base sm:text-lg leading-relaxed">
+          <p className="text-charcoal/60 text-sm sm:text-base leading-relaxed">
             Lernen Sie unsere Behandlungsräume und das besondere Ambiente bereits vor Ihrem Besuch kennen.
           </p>
         </ScrollReveal>
 
         {/* Image grid on the right */}
-        <div className="lg:col-span-8 grid grid-cols-2 gap-4 sm:gap-5">
+        <div className="lg:col-span-7 grid grid-cols-3 gap-3">
           {STUDIO_IMAGES.map((src, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 24 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
-              transition={{ duration: 0.6, delay: Math.min(i * 0.08, 0.4), ease: [0.22, 1, 0.36, 1] }}
-              className={`relative overflow-hidden rounded-2xl border border-charcoal/10 shadow-sm ${
-                i === 0 ? "col-span-2 aspect-[16/10]" : "aspect-[4/5]"
+              transition={{ duration: 0.5, delay: Math.min(i * 0.06, 0.3), ease: [0.22, 1, 0.36, 1] }}
+              className={`relative overflow-hidden rounded-xl border border-charcoal/10 shadow-sm ${
+                i === 0 ? "col-span-2 row-span-2 aspect-square" : "aspect-square"
               }`}
             >
               <Image
