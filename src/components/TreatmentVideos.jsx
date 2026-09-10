@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const VIDEOS = [
@@ -23,27 +23,23 @@ const VIDEOS = [
 function VideoCard({ video, index }) {
   const ref = useRef(null);
 
-  const handleEnter = () => {
+  useEffect(() => {
     const v = ref.current;
-    if (v && v.paused) v.play().catch(() => {});
-  };
-  const handleLeave = () => {
-    const v = ref.current;
-    if (v) v.pause();
-  };
+    if (!v) return;
+    v.play().catch(() => {});
+  }, []);
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7, delay: 0.4 + index * 0.1, ease: [0.22, 1, 0.36, 1] }}
-      onMouseEnter={handleEnter}
-      onMouseLeave={handleLeave}
       className="group relative aspect-[4/5] sm:aspect-[3/4] rounded-2xl overflow-hidden border border-gold/20 bg-charcoal shadow-lg"
     >
       <video
         ref={ref}
         src={video.src}
+        autoPlay
         muted
         loop
         playsInline
