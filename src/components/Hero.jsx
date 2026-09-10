@@ -6,6 +6,19 @@ import { BRAND, ASSETS } from "@/lib/brand";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center pt-24 pb-16 px-5 overflow-hidden bg-sand">
+      {/* Background video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/38055fc91_Hero_Background_Video.mp4" type="video/mp4" />
+      </video>
+      {/* Soft overlay for legibility */}
+      <div className="absolute inset-0 bg-sand/70" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/40 via-transparent to-white/50" />
       {/* Decorative gold glow */}
       <div className="pointer-events-none absolute -top-32 -right-32 w-[40rem] h-[40rem] rounded-full bg-gold/10 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-40 -left-40 w-[36rem] h-[36rem] rounded-full bg-gold/5 blur-3xl" />
