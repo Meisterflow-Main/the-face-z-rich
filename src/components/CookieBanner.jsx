@@ -30,7 +30,7 @@ export default function CookieBanner() {
         </div>
         <button
           onClick={accept}
-          className="w-full bg-gold hover:bg-[#b08e4d] text-white text-sm font-semibold py-2.5 rounded-full transition-colors"
+          className="w-full bg-gold hover:bg-[#6B7280] text-white text-sm font-semibold py-2.5 rounded-full transition-colors"
         >
           Akzeptieren
         </button>
