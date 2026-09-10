@@ -5,6 +5,7 @@ import TreatmentVideos from "@/components/TreatmentVideos";
 import AboutIntro from "@/components/AboutIntro";
 import About from "@/components/About";
 import Services from "@/components/Services";
+import Pricing from "@/components/Pricing";
 import Stats from "@/components/Stats";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
@@ -23,6 +24,7 @@ export default function Home() {
         <AboutIntro />
         <About />
         <Services />
+        <Pricing />
         <Stats />
         <FAQ />
         <ContactForm />
