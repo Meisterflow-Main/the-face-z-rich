@@ -6,6 +6,7 @@ import AboutIntro from "@/components/AboutIntro";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Pricing from "@/components/Pricing";
+import StudioGallery from "@/components/StudioGallery";
 import Stats from "@/components/Stats";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
@@ -25,6 +26,7 @@ export default function Home() {
         <About />
         <Services />
         <Pricing />
+        <StudioGallery />
         <Stats />
         <FAQ />
         <ContactForm />
