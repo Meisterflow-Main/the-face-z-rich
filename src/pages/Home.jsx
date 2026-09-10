@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import TreatmentVideos from "@/components/TreatmentVideos";
+import AboutIntro from "@/components/AboutIntro";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Stats from "@/components/Stats";
@@ -19,6 +20,7 @@ export default function Home() {
       <main>
         <Hero />
         <TreatmentVideos />
+        <AboutIntro />
         <About />
         <Services />
         <Stats />
