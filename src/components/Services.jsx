@@ -24,8 +24,8 @@ export default function Services() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {TREATMENTS.map((t, i) => (
             <ScrollReveal key={t.title} delay={i * 0.06}>
-              <div className="group h-full bg-white rounded-2xl p-7 border border-gold/10 hover:border-gold/40 transition-all duration-500 hover:shadow-xl hover:shadow-gold/10 hover:-translate-y-1">
-                <div className="w-11 h-11 rounded-full bg-sand flex items-center justify-center mb-5 group-hover:bg-gold transition-colors duration-500">
+              <div className="group h-full bg-card rounded-2xl p-7 border border-gold/10 hover:border-gold/40 transition-all duration-500 hover:shadow-xl hover:shadow-gold/10 hover:-translate-y-1">
+                <div className="w-11 h-11 rounded-full bg-secondary flex items-center justify-center mb-5 group-hover:bg-gold transition-colors duration-500">
                   <Sparkles size={20} className="text-gold group-hover:text-white transition-colors duration-500" />
                 </div>
                 <h3 className="font-heading text-xl font-semibold text-charcoal mb-3">

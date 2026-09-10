@@ -7,7 +7,7 @@ const ROOM_IMAGE =
 
 export default function AboutIntro() {
   return (
-    <section className="py-24 sm:py-32 px-5 sm:px-8 bg-white">
+    <section className="py-24 sm:py-32 px-5 sm:px-8 bg-background">
       <div className="mx-auto max-w-7xl">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           <ScrollReveal>

@@ -6,28 +6,28 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 10%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 10%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 10%;
+    --background: 217 73% 18%;
+    --foreground: 210 40% 98%;
+    --card: 217 70% 24%;
+    --card-foreground: 210 40% 98%;
+    --popover: 217 70% 24%;
+    --popover-foreground: 210 40% 98%;
     --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 214 47% 96%;
-    --secondary-foreground: 217 33% 20%;
-    --muted: 214 47% 96%;
-    --muted-foreground: 217 33% 40%;
+    --secondary: 217 60% 30%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 60% 30%;
+    --muted-foreground: 213 40% 80%;
     --accent: 217 91% 60%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 98%;
-    --border: 214 32% 90%;
-    --input: 214 32% 90%;
-    --ring: 217 91% 60%;
-    --gold: 217 91% 60%;
-    --charcoal: 222 47% 11%;
-    --sand: 214 60% 97%;
+    --border: 217 60% 38%;
+    --input: 217 60% 38%;
+    --ring: 199 89% 70%;
+    --gold: 199 89% 70%;
+    --charcoal: 210 40% 98%;
+    --sand: 217 73% 16%;
     --radius: 0.5rem;
     --font-heading: 'Cormorant Garamond', ui-serif, Georgia, serif;
     --font-body: 'Jost', ui-sans-serif, system-ui, sans-serif;
@@ -79,32 +79,32 @@
 }
 
 @layer utilities {
-  .text-gold { color: #2563EB; }
-  .bg-gold { background-color: #2563EB; }
-  .bg-charcoal { background-color: #0F172A; }
-  .bg-sand { background-color: #EFF4FB; }
-  .border-gold { border-color: #2563EB; }
-  .text-charcoal { color: #0F172A; }
+  .text-gold { color: #7DD3FC; }
+  .bg-gold { background-color: #38BDF8; }
+  .bg-charcoal { background-color: #0C1A3D; }
+  .bg-sand { background-color: #1E3A8A; }
+  .border-gold { border-color: #38BDF8; }
+  .text-charcoal { color: #F8FAFC; }
 
   .hairline {
     height: 0.5px;
-    background: linear-gradient(90deg, transparent, #2563EB, transparent);
+    background: linear-gradient(90deg, transparent, #7DD3FC, transparent);
   }
 
   .glass {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(30, 58, 138, 0.6);
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
   }
 
   .glass-dark {
-    background: rgba(26, 26, 26, 0.55);
+    background: rgba(15, 23, 42, 0.55);
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
   }
 
   .gold-gradient-text {
-    background: linear-gradient(135deg, #60A5FA 0%, #2563EB 50%, #1D4ED8 100%);
+    background: linear-gradient(135deg, #BAE6FD 0%, #38BDF8 50%, #0EA5E9 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

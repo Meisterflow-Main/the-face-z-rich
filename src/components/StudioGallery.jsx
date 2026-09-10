@@ -13,7 +13,7 @@ const STUDIO_IMAGES = [
 
 export default function StudioGallery() {
   return (
-    <section className="bg-white py-14 sm:py-16 px-5">
+    <section className="bg-background py-14 sm:py-16 px-5">
       <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
         {/* Caption on the left */}
         <ScrollReveal className="lg:col-span-5 lg:sticky lg:top-28">

@@ -4,7 +4,7 @@ import { ASSETS, SKIN_CONCERNS } from "@/lib/brand";
 
 export default function About() {
   return (
-    <section id="ueber" className="py-24 sm:py-32 px-5 sm:px-8 bg-white">
+    <section id="ueber" className="py-24 sm:py-32 px-5 sm:px-8 bg-background">
       <div className="mx-auto max-w-7xl">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           <ScrollReveal>
@@ -39,7 +39,7 @@ export default function About() {
               {SKIN_CONCERNS.map((c) => (
                 <span
                   key={c}
-                  className="text-sm px-4 py-2 rounded-full bg-sand text-charcoal/70 border border-gold/20"
+                  className="text-sm px-4 py-2 rounded-full bg-secondary text-charcoal/70 border border-gold/20"
                 >
                   {c}
                 </span>

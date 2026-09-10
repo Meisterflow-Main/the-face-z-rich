@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export default function Impressum() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <Navbar />
       <main className="pt-28 sm:pt-32 pb-20 px-5 sm:px-8">
         <article className="mx-auto max-w-3xl">

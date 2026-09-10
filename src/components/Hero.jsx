@@ -17,8 +17,8 @@ export default function Hero() {
         <source src="https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/38055fc91_Hero_Background_Video.mp4" type="video/mp4" />
       </video>
       {/* Soft overlay for legibility */}
-      <div className="absolute inset-0 bg-sand/70" />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/40 via-transparent to-white/50" />
+      <div className="absolute inset-0 bg-sand/80" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/60" />
       {/* Decorative gold glow */}
       <div className="pointer-events-none absolute -top-32 -right-32 w-[40rem] h-[40rem] rounded-full bg-gold/10 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-40 -left-40 w-[36rem] h-[36rem] rounded-full bg-gold/5 blur-3xl" />
@@ -66,7 +66,7 @@ export default function Hero() {
             href={BRAND.booking}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#6B7280] text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
+            className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#0EA5E9] text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
           >
             <Calendar size={18} />
             Termin buchen

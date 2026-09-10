@@ -7,7 +7,7 @@ export default function FAQ() {
   const [open, setOpen] = useState(0);
 
   return (
-    <section id="faq" className="py-24 sm:py-32 px-5 sm:px-8 bg-white">
+    <section id="faq" className="py-24 sm:py-32 px-5 sm:px-8 bg-background">
       <div className="mx-auto max-w-3xl">
         <ScrollReveal className="text-center mb-14">
           <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-4">
@@ -24,7 +24,7 @@ export default function FAQ() {
             const isOpen = open === i;
             return (
               <ScrollReveal key={f.q} delay={i * 0.05}>
-                <div className="border border-gold/15 rounded-xl overflow-hidden bg-sand/40">
+                <div className="border border-gold/15 rounded-xl overflow-hidden bg-secondary/60">
                   <button
                     onClick={() => setOpen(isOpen ? -1 : i)}
                     className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left"

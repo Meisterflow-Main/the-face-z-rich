@@ -115,7 +115,7 @@ const PRICE_LIST = [
 
 function ServiceRow({ name, price, neu }) {
   return (
-    <div className="flex items-center justify-between gap-4 py-3 border-b border-charcoal/5 last:border-0">
+    <div className="flex items-center justify-between gap-4 py-3 border-b border-gold/10 last:border-0">
       <div className="flex items-center gap-2 min-w-0">
         {neu && (
           <span className="text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-2 py-0.5 rounded-sm shrink-0">
@@ -155,7 +155,7 @@ export default function Pricing() {
               <AccordionItem
                 key={cat.id}
                 value={cat.id}
-                className="bg-white border border-charcoal/10 rounded-2xl px-6 shadow-sm overflow-hidden"
+                className="bg-card border border-gold/15 rounded-2xl px-6 shadow-sm overflow-hidden"
               >
                 <AccordionTrigger className="hover:no-underline py-6 group">
                   <div className="flex items-center gap-3 text-left pr-4">
@@ -194,7 +194,7 @@ export default function Pricing() {
             href={BRAND.booking}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#6B7280] text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
+            className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#0EA5E9] text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
           >
             <Calendar size={18} />
             Termin buchen

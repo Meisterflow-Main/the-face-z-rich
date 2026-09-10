@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
-        scrolled ? "glass shadow-[0_1px_0_0_rgba(197,160,89,0.25)]" : "bg-transparent"
+        scrolled ? "glass shadow-[0_1px_0_0_rgba(56,189,248,0.25)]" : "bg-transparent"
       }`}
     >
       <nav className="mx-auto max-w-7xl px-5 sm:px-8 h-16 sm:h-20 flex items-center justify-between">
@@ -45,7 +45,7 @@ export default function Navbar() {
             href={BRAND.booking}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-semibold text-white bg-gold hover:bg-[#6B7280] px-5 py-2.5 rounded-full transition-colors tracking-wide"
+            className="text-sm font-semibold text-white bg-gold hover:bg-[#0EA5E9] px-5 py-2.5 rounded-full transition-colors tracking-wide"
           >
             Termin buchen
           </a>

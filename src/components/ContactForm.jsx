@@ -54,7 +54,7 @@ export default function ContactForm() {
           rows={4}
           value={form[name]}
           onChange={(e) => setForm({ ...form, [name]: e.target.value })}
-          className="w-full rounded-xl border border-gold/20 bg-white px-4 py-3 text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors resize-none"
+          className="w-full rounded-xl border border-gold/20 bg-card px-4 py-3 text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors resize-none"
           placeholder="Wie können wir Dir helfen?"
         />
       ) : (
@@ -62,7 +62,7 @@ export default function ContactForm() {
           type={type}
           value={form[name]}
           onChange={(e) => setForm({ ...form, [name]: e.target.value })}
-          className="w-full rounded-xl border border-gold/20 bg-white px-4 py-3 text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors"
+          className="w-full rounded-xl border border-gold/20 bg-card px-4 py-3 text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors"
         />
       )}
       {errors[name] && <p className="text-destructive text-xs mt-1.5">{errors[name]}</p>}
@@ -88,19 +88,19 @@ export default function ContactForm() {
 
             <div className="space-y-4">
               <a href={`tel:${BRAND.phoneRaw}`} className="flex items-center gap-4 group">
-                <span className="w-11 h-11 rounded-full bg-white border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
+                <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
                   <Phone size={18} className="text-gold group-hover:text-white transition-colors" />
                 </span>
                 <span className="text-charcoal/70 group-hover:text-gold transition-colors">{BRAND.phone}</span>
               </a>
               <a href={`mailto:${BRAND.email}`} className="flex items-center gap-4 group">
-                <span className="w-11 h-11 rounded-full bg-white border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
+                <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
                   <Mail size={18} className="text-gold group-hover:text-white transition-colors" />
                 </span>
                 <span className="text-charcoal/70 group-hover:text-gold transition-colors">{BRAND.email}</span>
               </a>
               <div className="flex items-center gap-4">
-                <span className="w-11 h-11 rounded-full bg-white border border-gold/20 flex items-center justify-center">
+                <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center">
                   <MapPin size={18} className="text-gold" />
                 </span>
                 <span className="text-charcoal/70">
@@ -110,7 +110,7 @@ export default function ContactForm() {
                 </span>
               </div>
               <a href={BRAND.instagram} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
-                <span className="w-11 h-11 rounded-full bg-white border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
+                <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
                   <Instagram size={18} className="text-gold group-hover:text-white transition-colors" />
                 </span>
                 <span className="text-charcoal/70 group-hover:text-gold transition-colors">@thefacezuerich</span>
@@ -140,7 +140,7 @@ export default function ContactForm() {
               <button
                 type="submit"
                 disabled={status === STATUS.LOADING}
-                className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#6B7280] disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
+                className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#0EA5E9] disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
               >
                 {status === STATUS.LOADING && <Loader2 size={18} className="animate-spin" />}
                 {status === STATUS.SUCCESS && <CheckCircle2 size={18} />}
