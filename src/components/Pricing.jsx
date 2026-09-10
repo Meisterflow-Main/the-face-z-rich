@@ -1,5 +1,10 @@
 import React from "react";
-import { motion } from "framer-motion";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { Calendar } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
@@ -108,69 +113,21 @@ const PRICE_LIST = [
   },
 ];
 
-function ServiceBox({ name, price, neu, index }) {
+function ServiceRow({ name, price, neu }) {
   return (
-    <motion.a
-      href={BRAND.booking}
-      target="_blank"
-      rel="noopener noreferrer"
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-40px" }}
-      transition={{ duration: 0.5, delay: Math.min(index * 0.05, 0.3), ease: [0.22, 1, 0.36, 1] }}
-      className="group flex flex-col justify-between bg-white border border-charcoal/10 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:border-gold/40 transition-all duration-300"
-    >
-      <div className="flex items-start justify-between gap-3 mb-6">
+    <div className="flex items-center justify-between gap-4 py-3 border-b border-charcoal/5 last:border-0">
+      <div className="flex items-center gap-2 min-w-0">
         {neu && (
-          <span className="text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-2 py-0.5 rounded-sm">
+          <span className="text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-2 py-0.5 rounded-sm shrink-0">
             Neu
           </span>
         )}
-        <span className="ml-auto font-heading text-3xl sm:text-4xl font-semibold text-charcoal tabular-nums leading-none">
-          {price}
-          <span className="text-charcoal/40 text-sm font-body font-normal ml-1">CHF</span>
-        </span>
+        <span className="text-charcoal/80 text-[15px] font-medium truncate">{name}</span>
       </div>
-      <p className="text-charcoal/80 text-[15px] leading-snug font-medium min-h-[2.5rem]">
-        {name}
-      </p>
-      <span className="mt-4 inline-flex items-center gap-1 text-gold text-xs tracking-[0.15em] uppercase font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-        Termin buchen →
+      <span className="font-heading text-xl font-semibold text-charcoal tabular-nums shrink-0">
+        {price}
+        <span className="text-charcoal/40 text-xs font-body font-normal ml-1">CHF</span>
       </span>
-    </motion.a>
-  );
-}
-
-function CategoryBlock({ category, index }) {
-  return (
-    <div className="mb-16 last:mb-0">
-      <ScrollReveal className="mb-8">
-        <div className="flex items-center gap-4">
-          <span className="text-charcoal/25 font-heading text-2xl tabular-nums">
-            {String(index + 1).padStart(2, "0")}
-          </span>
-          <div className="flex-1">
-            <h3 className="font-heading text-2xl sm:text-3xl font-semibold text-charcoal leading-tight">
-              {category.title}
-            </h3>
-            {category.note && (
-              <p className="text-charcoal/50 text-sm mt-1">{category.note}</p>
-            )}
-          </div>
-          {category.tag && (
-            <span className="text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-2.5 py-1 rounded-sm">
-              {category.tag}
-            </span>
-          )}
-        </div>
-        <div className="hairline w-full mt-5 opacity-30" />
-      </ScrollReveal>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        {category.services.map((s, i) => (
-          <ServiceBox key={s.name} {...s} index={i} />
-        ))}
-      </div>
     </div>
   );
 }
@@ -178,7 +135,7 @@ function CategoryBlock({ category, index }) {
 export default function Pricing() {
   return (
     <section id="preise" className="bg-sand py-20 sm:py-28 px-5">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-3xl mx-auto">
         <ScrollReveal className="text-center mb-16">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">
             Behandlungen & Preise
@@ -192,9 +149,42 @@ export default function Pricing() {
           <div className="hairline w-24 mx-auto mt-6" />
         </ScrollReveal>
 
-        {PRICE_LIST.map((cat, i) => (
-          <CategoryBlock key={cat.id} category={cat} index={i} />
-        ))}
+        <ScrollReveal delay={0.1}>
+          <Accordion type="single" collapsible className="space-y-4">
+            {PRICE_LIST.map((cat) => (
+              <AccordionItem
+                key={cat.id}
+                value={cat.id}
+                className="bg-white border border-charcoal/10 rounded-2xl px-6 shadow-sm overflow-hidden"
+              >
+                <AccordionTrigger className="hover:no-underline py-6 group">
+                  <div className="flex items-center gap-3 text-left pr-4">
+                    {cat.tag && (
+                      <span className="text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-2.5 py-1 rounded-sm shrink-0">
+                        {cat.tag}
+                      </span>
+                    )}
+                    <div>
+                      <h3 className="font-heading text-xl sm:text-2xl font-semibold text-charcoal leading-tight">
+                        {cat.title}
+                      </h3>
+                      {cat.note && (
+                        <p className="text-charcoal/50 text-sm mt-0.5">{cat.note}</p>
+                      )}
+                    </div>
+                  </div>
+                </AccordionTrigger>
+                <AccordionContent className="pb-6 pt-1">
+                  <div className="mt-2">
+                    {cat.services.map((s) => (
+                      <ServiceRow key={s.name} {...s} />
+                    ))}
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </ScrollReveal>
 
         <ScrollReveal className="text-center mt-14" delay={0.1}>
           <p className="text-charcoal/50 text-sm mb-5 italic">
