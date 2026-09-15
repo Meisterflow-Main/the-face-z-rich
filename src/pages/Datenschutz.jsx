@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Phone, Mail, ArrowRight, ArrowLeft, ShieldCheck, Database, Cookie, Lock, UserCheck, FileText, MapPin, MessageCircle, Calendar, Globe, Instagram } from "lucide-react";
-import { BRAND, WEBHOOK } from "@/lib/brand";
+import { Phone, Mail, ArrowRight, ArrowLeft, ShieldCheck, Database, Cookie, Lock, UserCheck, FileText, MapPin, MessageCircle, Calendar, Globe, Instagram, Star } from "lucide-react";
+import { BRAND } from "@/lib/brand";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -181,7 +181,6 @@ export default function Datenschutz() {
                 zur Bearbeitung gespeichert. Ich benötige diese Angaben, um Deine Anfrage beantworten und
                 bearbeiten zu können. Mit dem Absenden erklärst Du Dich mit dieser Verarbeitung einverstanden.
               </p>
-              <p className="text-charcoal/50 text-xs">Webhook-Endpunkt: {WEBHOOK.replace("https://app.meisterflow.ch", "meisterflow.ch")} …</p>
             </Section>
 
             <Section id="bewertung" icon={Star} title="6. Bewertungs-Feedback">
@@ -212,7 +211,7 @@ export default function Datenschutz() {
                 öffentliches Google-Business-Profil. Eine Übermittlung Deiner Daten an Google erfolgt erst, wenn
                 Du die Karte oder den Link selbst aufrufst.
               </p>
-              <p className="text-charcoal/50 text-xs">Weitere Google-Dienste wie Analytics, Tag Manager, reCAPTCHA oder Fonts werden nicht eingesetzt.</p>
+              <p className="text-charcoal/50 text-xs">Ausser der Karten- und Profil-Verlinkung werden keine weiteren Google-Dienste eingesetzt.</p>
             </Section>
 
             <Section id="whatsapp" icon={MessageCircle} title="9. WhatsApp">
@@ -257,9 +256,8 @@ export default function Datenschutz() {
 
             <Section id="analyse" icon={ShieldCheck} title="13. Analyse & Tracking">
               <p>
-                Es werden keine Analyse- oder Tracking-Tools eingesetzt – insbesondere kein Google Analytics,
-                kein Meta Pixel, kein LinkedIn Insight Tag, kein TikTok Pixel und kein Google Tag Manager. Eine
-                Consent-Mode-Implementierung ist daher nicht erforderlich.
+                Es werden keine Analyse- oder Tracking-Tools eingesetzt. Eine Auswertung des Nutzungsverhaltens
+                findet nicht statt, und es wird kein Consent Mode verwendet.
               </p>
             </Section>
 
