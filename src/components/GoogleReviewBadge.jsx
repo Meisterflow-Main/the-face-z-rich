@@ -1,6 +1,7 @@
 import React from "react";
 import { Star, ExternalLink } from "lucide-react";
 import { BRAND } from "@/lib/brand";
+import GoogleLogo from "@/components/GoogleLogo";
 
 // Reale Werte aus dem öffentlichen Google-Business-Profil (Stand September 2026).
 // Periodisch prüfen oder durch ein Live-Widget ersetzen.
@@ -18,6 +19,7 @@ export default function GoogleReviewBadge({ variant = "inline", className = "" }
       aria-label={`${RATING} von 5 Sternen – ${COUNT} Google-Bewertungen`}
       className={`inline-flex items-center gap-2.5 ${className}`}
     >
+      <GoogleLogo size={star} className="shrink-0" />
       <span className="flex items-center gap-0.5">
         {Array.from({ length: 5 }).map((_, i) => (
           <Star key={i} size={star} className="fill-gold text-gold" />

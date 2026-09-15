@@ -9,6 +9,7 @@ import GoogleReviewBadge from "@/components/GoogleReviewBadge";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
 import { Calendar, Star, PenLine, ExternalLink } from "lucide-react";
+import GoogleLogo from "@/components/GoogleLogo";
 
 const RATING = "4.9";
 const COUNT = 16;
@@ -74,6 +75,10 @@ export default function Bewertungen() {
 
           <ScrollReveal delay={0.05}>
             <div className="glass rounded-2xl border border-gold/20 p-8 sm:p-10 mb-10 text-center">
+              <div className="flex items-center justify-center gap-2 mb-4">
+                <GoogleLogo size={22} />
+                <span className="text-charcoal/55 text-sm tracking-wide">Bewertungen von Google</span>
+              </div>
               <div className="flex items-center justify-center gap-1 mb-4">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <Star key={i} size={32} className="fill-gold text-gold" />

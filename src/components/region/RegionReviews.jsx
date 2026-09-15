@@ -2,6 +2,7 @@ import React from "react";
 import { Star, ExternalLink, PenLine } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
+import GoogleLogo from "@/components/GoogleLogo";
 
 export default function RegionReviews({ region }) {
   return (
@@ -17,6 +18,10 @@ export default function RegionReviews({ region }) {
 
         <ScrollReveal delay={0.1}>
           <div className="bg-card border border-gold/15 rounded-2xl p-8 inline-flex flex-col items-center">
+            <div className="flex items-center gap-2 mb-3">
+              <GoogleLogo size={20} />
+              <span className="text-charcoal/55 text-xs tracking-wide">Bewertungen von Google</span>
+            </div>
             <div className="flex gap-1 mb-3">
               {[0, 1, 2, 3, 4].map((i) => (
                 <Star key={i} size={26} className="fill-gold text-gold" />
