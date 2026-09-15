@@ -17,6 +17,10 @@ export default function Datenschutz() {
           <h1 className="font-heading text-4xl font-bold text-charcoal mb-2">Datenschutzerklärung</h1>
           <p className="text-sm text-charcoal/45 mb-8">Stand: September 2026</p>
           <div className="hairline w-16 mb-8" />
+          <p className="text-charcoal/60 text-sm mb-8">
+            Angaben zum Unternehmen findest Du im{" "}
+            <Link to="/impressum" className="text-gold hover:underline">Impressum</Link>.
+          </p>
 
           <div className="space-y-6 text-charcoal/70 leading-relaxed">
             <div>

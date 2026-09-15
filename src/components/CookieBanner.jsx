@@ -58,10 +58,9 @@ export default function CookieBanner() {
           <p className="text-sm text-charcoal/70 leading-relaxed">
             Ich verwende Cookies und lokale Speicherung für den Betrieb der Website. Du kannst
             selbst entscheiden, welche Du zulässt. Weitere Infos in der{" "}
-            <Link to="/datenschutz" className="text-gold underline">
-              Datenschutzerklärung
-            </Link>
-            .
+            <Link to="/datenschutz" className="text-gold underline">Datenschutzerklärung</Link>{" "}
+            und im{" "}
+            <Link to="/impressum" className="text-gold underline">Impressum</Link>.
           </p>
         </div>
 
