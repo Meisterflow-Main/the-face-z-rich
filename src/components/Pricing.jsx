@@ -125,8 +125,7 @@ function ServiceRow({ name, price, neu }) {
         <span className="text-charcoal/80 text-[15px] font-medium truncate">{name}</span>
       </div>
       <span className="font-heading text-xl font-semibold text-charcoal tabular-nums shrink-0">
-        {price}
-        <span className="text-charcoal/40 text-xs font-body font-normal ml-1">CHF</span>
+        <span className="text-charcoal/40 text-xs font-body font-normal mr-1">CHF</span>{price}.–
       </span>
     </div>
   );

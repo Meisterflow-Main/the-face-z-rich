@@ -145,8 +145,7 @@ export default function ServiceDetail({ service }) {
             >
               <span className="text-charcoal/80">{p.label}</span>
               <span className="font-heading text-xl font-semibold text-charcoal tabular-nums">
-                {p.price}
-                <span className="text-charcoal/40 text-xs font-body font-normal ml-1">CHF</span>
+                <span className="text-charcoal/40 text-xs font-body font-normal mr-1">CHF</span>{p.price}.–
               </span>
             </div>
           ))}

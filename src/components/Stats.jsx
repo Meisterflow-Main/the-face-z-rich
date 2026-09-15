@@ -11,7 +11,7 @@ export default function Stats() {
             Vertrauen & Expertise
           </p>
           <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-white">
-            The Face of Excellence
+            Vertrauen & Expertise
           </h2>
         </ScrollReveal>
 

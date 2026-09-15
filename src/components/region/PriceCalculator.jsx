@@ -57,7 +57,7 @@ export default function PriceCalculator({ region }) {
                 className="w-full rounded-xl border border-gold/30 bg-background px-4 py-3 text-charcoal focus:border-gold focus:outline-none"
               >
                 {PRICE_TREATMENTS.map((t) => (
-                  <option key={t.id} value={t.id}>{t.label} – {t.price} CHF</option>
+                  <option key={t.id} value={t.id}>{t.label} – CHF {t.price}.–</option>
                 ))}
               </select>
             </div>
@@ -79,7 +79,7 @@ export default function PriceCalculator({ region }) {
                       }`}
                     >
                       <span className="block">{a.label}</span>
-                      <span className="text-xs text-charcoal/50">+{a.price} CHF</span>
+                      <span className="text-xs text-charcoal/50">+ CHF {a.price}.–</span>
                     </button>
                   );
                 })}
@@ -90,7 +90,7 @@ export default function PriceCalculator({ region }) {
               <div>
                 <p className="text-xs uppercase tracking-wide text-charcoal/50">Preisvorschau (Richtpreis)</p>
                 <p className="font-heading text-3xl font-semibold text-charcoal">
-                  {total} <span className="text-charcoal/40 text-base font-body font-normal">CHF</span>
+                  <span className="text-charcoal/40 text-base font-body font-normal mr-1">CHF</span>{total}.–
                 </p>
               </div>
               <a
