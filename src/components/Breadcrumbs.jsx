@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const SITE = "https://theface-zuerich.ch";
 
 export default function Breadcrumbs({ items }) {
+  const currentPath = window.location.pathname === "/" ? "/" : window.location.pathname.replace(/\/$/, "");
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -11,7 +12,7 @@ export default function Breadcrumbs({ items }) {
       "@type": "ListItem",
       position: i + 1,
       name: it.label,
-      item: `${SITE}${it.to}`,
+      item: `${SITE}${it.to || currentPath}`,
     })),
   };
 

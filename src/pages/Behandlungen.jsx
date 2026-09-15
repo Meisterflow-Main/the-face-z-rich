@@ -11,11 +11,22 @@ import { BRAND } from "@/lib/brand";
 import { SERVICES } from "@/lib/services";
 
 export default function Behandlungen() {
+  const itemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: SERVICES.map((s, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: s.name,
+      url: `https://theface-zuerich.ch/behandlungen/${s.slug}`,
+    })),
+  };
   return (
     <div className="min-h-screen bg-background">
       <Seo
         title="Behandlungen in Zürich | THE FACE®"
         description="Alle Gesichtsbehandlungen von THE FACE® Zürich: Hautanalyse, Pro Skin Treatments, Targeted Skin Solutions, Medical Skin, Longevity Glow, Make-up, Lashlift und Quantum Angel Healing."
+        jsonLd={itemList}
       />
       <Navbar />
       <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Behandlungen" }]} />

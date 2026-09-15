@@ -10,11 +10,22 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { REGIONS } from "@/lib/regions";
 
 export default function Regionen() {
+  const itemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: REGIONS.map((r, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: r.name,
+      url: `https://theface-zuerich.ch/regionen/${r.slug}`,
+    })),
+  };
   return (
     <div className="min-h-screen bg-background">
       <Seo
         title="Regionen in Zürich | THE FACE®"
         description="THE FACE® Zürich bedient die ganze Stadt von der Rämistrasse: Altstetten, Oerlikon, Wiedikon, Seebach, Wollishofen, Höngg, Affoltern, Schwamendingen, Enge und Fluntern."
+        jsonLd={itemList}
       />
       <Navbar />
       <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Regionen" }]} />
@@ -52,7 +63,7 @@ export default function Regionen() {
                     {r.heroDesc}
                   </p>
                   <span className="inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                    Standort ansehen <ArrowRight size={15} />
+                    Region ansehen <ArrowRight size={15} />
                   </span>
                 </Link>
               </ScrollReveal>

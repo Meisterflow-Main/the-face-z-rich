@@ -16,10 +16,36 @@ import { getServiceBySlug } from "@/lib/services";
 
 export default function ServiceDetail({ service }) {
   const related = service.related.map(getServiceBySlug).filter(Boolean);
+  const prices = service.priceFactors.map((p) => Number(p.price));
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: service.name,
+    name: service.name,
+    description: service.intro,
+    provider: { "@id": "https://theface-zuerich.ch/" },
+    areaServed: { "@type": "City", name: "Zürich" },
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "CHF",
+      lowPrice: String(Math.min(...prices)),
+      highPrice: String(Math.max(...prices)),
+      offerCount: service.priceFactors.length,
+    },
+  };
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: service.faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
 
   return (
     <>
-      <Seo title={service.metaTitle} description={service.intro} />
+      <Seo title={service.metaTitle} description={service.intro} jsonLd={[serviceSchema, faqSchema]} />
       <Breadcrumbs
         items={[
           { label: "Home", to: "/" },

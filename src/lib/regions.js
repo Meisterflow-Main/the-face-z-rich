@@ -8,18 +8,18 @@ export const REGION_USPS = [
 ];
 
 export const REGION_SERVICES_ALL = [
-  { label: "Hautanalyse & Beratung", href: "/#preise" },
-  { label: "Pro Skin Treatments", href: "/#preise" },
-  { label: "Longevity Glow Treatment", href: "/#preise" },
-  { label: "Exoboost / Microneedling", href: "/#preise" },
-  { label: "Pro Clear: Akne", href: "/#preise" },
-  { label: "Pro Bright: Pigmente", href: "/#preise" },
-  { label: "Pro Calm: Sensibel", href: "/#preise" },
-  { label: "Lashlift", href: "/#preise" },
-  { label: "Make-up & Visagistik", href: "/#preise" },
-  { label: "Brautmake-up", href: "/#preise" },
-  { label: "Quantum Angel Healing", href: "/#preise" },
-  { label: "Add-on Treats", href: "/#preise" },
+  { label: "Hautanalyse & Beratung", href: "/behandlungen/hautanalyse" },
+  { label: "Pro Skin Treatments", href: "/behandlungen/pro-skin-treatments" },
+  { label: "Longevity Glow Treatment", href: "/behandlungen/longevity-glow-treatment" },
+  { label: "Exoboost / Microneedling", href: "/behandlungen/medical-skin-treatments" },
+  { label: "Pro Clear: Akne", href: "/behandlungen/targeted-skin-solutions" },
+  { label: "Pro Bright: Pigmente", href: "/behandlungen/targeted-skin-solutions" },
+  { label: "Pro Calm: Sensibel", href: "/behandlungen/targeted-skin-solutions" },
+  { label: "Lashlift", href: "/behandlungen/lashlift" },
+  { label: "Make-up & Visagistik", href: "/behandlungen/make-up" },
+  { label: "Brautmake-up", href: "/behandlungen/make-up" },
+  { label: "Quantum Angel Healing", href: "/behandlungen/quantum-angel-healing" },
+  { label: "Add-on Treats", href: "/behandlungen" },
 ];
 
 export const HAUTTYPEN = [

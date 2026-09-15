@@ -18,9 +18,18 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function RegionLandingPage({ region }) {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: region.faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
   return (
     <>
-      <Seo title={region.metaTitle} description={region.metaDescription} />
+      <Seo title={region.metaTitle} description={region.metaDescription} jsonLd={faqSchema} />
       <Navbar />
       <Breadcrumbs
         items={[
