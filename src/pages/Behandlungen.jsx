@@ -62,7 +62,7 @@ export default function Behandlungen() {
                     {s.intro}
                   </p>
                   <span className="inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                    Mehr erfahren <ArrowRight size={15} />
+                    Mehr erfahren <ArrowRight size={18} />
                   </span>
                 </Link>
               </ScrollReveal>

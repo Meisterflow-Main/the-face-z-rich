@@ -15,7 +15,7 @@ export default function TrustBar() {
             <ScrollReveal key={usp.title} delay={i * 0.1}>
               <div className="bg-card border border-gold/15 rounded-2xl p-5 h-full text-center">
                 <div className="mx-auto mb-3 w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center">
-                  <Icon size={22} className="text-gold" />
+                  <Icon size={24} className="text-gold" />
                 </div>
                 <h3 className="font-heading text-lg font-semibold text-charcoal mb-1">{usp.title}</h3>
                 <p className="text-charcoal/60 text-sm">{usp.desc}</p>

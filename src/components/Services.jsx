@@ -33,7 +33,7 @@ export default function Services() {
               to="/behandlungen"
               className="mt-2 inline-flex items-center gap-2 text-charcoal/60 hover:text-gold font-medium text-sm transition-colors"
             >
-              Alle Behandlungen ansehen <ArrowRight size={15} />
+              Alle Behandlungen ansehen <ArrowRight size={18} />
             </Link>
           </div>
         </ScrollReveal>

@@ -21,7 +21,7 @@ export default function RegionServices({ region }) {
                 <h3 className="font-heading text-xl font-semibold text-charcoal mb-3">{s.title}</h3>
                 <p className="text-charcoal/70 text-sm leading-relaxed flex-1">{s.desc}</p>
                 <a href="/#preise" className="mt-5 inline-flex items-center gap-1.5 text-gold font-semibold text-sm hover:gap-2.5 transition-all">
-                  Mehr erfahren <ArrowRight size={15} />
+                  Mehr erfahren <ArrowRight size={18} />
                 </a>
               </div>
             </ScrollReveal>

@@ -67,7 +67,7 @@ export default function BlogSidebar({ currentSlug }) {
       </div>
 
       <div className="bg-charcoal rounded-2xl p-6 text-white">
-        <Sparkles size={22} className="text-gold mb-3" />
+        <Sparkles size={24} className="text-gold mb-3" />
         <h3 className="font-heading text-lg font-semibold mb-2">Persönliche Beratung</h3>
         <p className="text-sm text-white/70 leading-relaxed mb-4">
           Unsicher, welches Treatment zu Dir passt? Vereinbare einen Termin und lass Dich persönlich beraten.
@@ -79,7 +79,7 @@ export default function BlogSidebar({ currentSlug }) {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-all"
           >
-            Termin buchen <ArrowRight size={15} />
+            Termin buchen <ArrowRight size={18} />
           </a>
           <Link
             to="/#kontakt"

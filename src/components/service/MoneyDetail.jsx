@@ -179,7 +179,7 @@ export default function MoneyDetail({ service, region }) {
               to={`/behandlungen/${service.slug}/${r.slug}`}
               className="flex items-center justify-center gap-1.5 rounded-lg border border-gold/15 bg-card px-3 py-3 text-sm text-charcoal/75 hover:border-gold hover:text-gold transition-colors"
             >
-              <MapPin size={14} className="text-gold shrink-0" /> {r.short}
+              <MapPin size={16} className="text-gold shrink-0" /> {r.short}
             </Link>
           ))}
         </div>
@@ -193,7 +193,7 @@ export default function MoneyDetail({ service, region }) {
           </Link>
           <span className="hidden sm:inline text-charcoal/30">·</span>
           <Link to="/behandlungen" className="text-gold font-semibold hover:underline">
-            Alle Behandlungen <ArrowRight size={14} className="inline" />
+            Alle Behandlungen <ArrowRight size={18} className="inline" />
           </Link>
         </div>
       </Section>

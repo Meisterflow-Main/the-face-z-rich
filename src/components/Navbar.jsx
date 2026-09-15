@@ -30,7 +30,7 @@ export default function Navbar() {
         onClick={() => setOpen((v) => !v)}
         className="inline-flex items-center gap-1 text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide"
       >
-        {label} <ChevronDown size={15} className={`transition-transform ${open ? "rotate-180" : ""}`} />
+        {label} <ChevronDown size={16} className={`transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
       {open && (
         <div className="absolute top-full left-0 pt-3 w-64">
@@ -73,7 +73,7 @@ export default function Navbar() {
             </Link>
             {REGIONS.map((r) => (
               <Link key={r.slug} to={`/regionen/${r.slug}`} className={linkCls}>
-                <MapPin size={13} className="text-gold shrink-0" /> {r.name}
+                <MapPin size={16} className="text-gold shrink-0" /> {r.name}
               </Link>
             ))}
           </Dropdown>
@@ -129,7 +129,7 @@ export default function Navbar() {
                 </Link>
                 {REGIONS.map((r) => (
                   <Link key={r.slug} to={`/regionen/${r.slug}`} onClick={() => { setOpen(false); setRegionsOpen(false); }} className="flex items-center gap-2 text-sm text-charcoal/75 hover:text-gold transition-colors">
-                    <MapPin size={13} className="text-gold" /> {r.name}
+                    <MapPin size={16} className="text-gold" /> {r.name}
                   </Link>
                 ))}
               </div>

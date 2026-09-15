@@ -30,7 +30,7 @@ export default function ServiceArea({ region }) {
                     : "border-gold/15 bg-card text-charcoal/75 hover:border-gold hover:text-gold"
                 }`}
               >
-                <MapPin size={14} className="text-gold shrink-0" />
+                <MapPin size={18} className="text-gold shrink-0" />
                 {r.short}
               </Link>
             ))}

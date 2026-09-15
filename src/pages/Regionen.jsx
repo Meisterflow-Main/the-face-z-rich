@@ -54,7 +54,7 @@ export default function Regionen() {
                   className="block h-full bg-card border border-gold/15 rounded-2xl p-6 hover:border-gold hover:shadow-lg hover:shadow-gold/10 transition-all"
                 >
                   <span className="inline-flex items-center gap-1.5 text-gold text-xs tracking-[0.2em] uppercase font-medium mb-3">
-                    <MapPin size={13} /> {r.region}
+                    <MapPin size={16} /> {r.region}
                   </span>
                   <h2 className="font-heading text-xl font-semibold text-charcoal mb-2">
                     Gesichtsbehandlung {r.short}
@@ -63,7 +63,7 @@ export default function Regionen() {
                     {r.heroDesc}
                   </p>
                   <span className="inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                    Region ansehen <ArrowRight size={15} />
+                    Region ansehen <ArrowRight size={18} />
                   </span>
                 </Link>
               </ScrollReveal>

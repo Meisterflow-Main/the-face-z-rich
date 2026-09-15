@@ -76,7 +76,7 @@ export default function Bewertungen() {
           <ScrollReveal delay={0.05}>
             <div className="glass rounded-2xl border border-gold/20 p-8 sm:p-10 mb-10 text-center">
               <div className="flex items-center justify-center gap-2 mb-4">
-                <GoogleLogo size={22} />
+                <GoogleLogo size={24} />
                 <span className="text-charcoal/55 text-sm tracking-wide">Bewertungen von Google</span>
               </div>
               <div className="flex items-center justify-center gap-1 mb-4">
@@ -113,7 +113,7 @@ export default function Bewertungen() {
                 rel="noopener noreferrer"
                 className="glass rounded-2xl border border-gold/20 p-6 hover:border-gold transition-colors"
               >
-                <ExternalLink size={22} className="text-gold mb-3" />
+                <ExternalLink size={24} className="text-gold mb-3" />
                 <p className="font-heading font-semibold text-charcoal mb-1">Alle Bewertungen auf Google</p>
                 <p className="text-charcoal/55 text-sm">Vollständige, tagesaktuelle Bewertungen direkt im Google-Profil ansehen.</p>
               </a>
@@ -121,7 +121,7 @@ export default function Bewertungen() {
                 to="/bewertung"
                 className="glass rounded-2xl border border-gold/20 p-6 hover:border-gold transition-colors"
               >
-                <PenLine size={22} className="text-gold mb-3" />
+                <PenLine size={24} className="text-gold mb-3" />
                 <p className="font-heading font-semibold text-charcoal mb-1">Bewertung abgeben</p>
                 <p className="text-charcoal/55 text-sm">Teile Deine Erfahrung und hilf anderen, THE FACE® zu finden.</p>
               </Link>

@@ -49,7 +49,7 @@ export default function WhatsAppButton() {
 
         {/* Icon */}
         <span className="relative w-14 h-14 flex items-center justify-center">
-          <MessageCircle size={26} className="relative" />
+          <MessageCircle size={28} className="relative" />
         </span>
 
         {/* Label – desktop only */}

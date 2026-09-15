@@ -30,7 +30,7 @@ export default function RegionMoneyLinks({ region }) {
               >
                 <h3 className="font-heading text-base font-semibold text-charcoal">{s.name}</h3>
                 <span className="mt-2 inline-flex items-center gap-1.5 text-gold text-sm font-medium">
-                  in {region.short} <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+                  in {region.short} <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
                 </span>
               </Link>
             ))}

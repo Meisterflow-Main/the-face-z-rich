@@ -104,7 +104,7 @@ export default function BlogArticle() {
               to="/blog"
               className="inline-flex items-center gap-1.5 text-sm text-charcoal/60 hover:text-gold transition-colors mb-5"
             >
-              <ArrowLeft size={15} /> Zurück zum Blog
+              <ArrowLeft size={18} /> Zurück zum Blog
             </Link>
             <span className="inline-block bg-gold text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">
               {article.category}
@@ -114,10 +114,10 @@ export default function BlogArticle() {
             </h1>
             <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-6">
               <span className="inline-flex items-center gap-1.5">
-                <User size={14} className="text-gold" /> {article.author}
+                <User size={16} className="text-gold" /> {article.author}
               </span>
               <span className="inline-flex items-center gap-1.5">
-                <Clock size={14} className="text-gold" /> {article.readTime} Min. Lesezeit
+                <Clock size={16} className="text-gold" /> {article.readTime} Min. Lesezeit
               </span>
               <time>{formatDate(article.date)}</time>
             </div>
@@ -259,7 +259,7 @@ function IntLink({ to, children }) {
       to={to}
       className="inline-flex items-center gap-1 text-sm font-medium text-charcoal/70 bg-card border border-gold/20 rounded-full px-3.5 py-1.5 hover:bg-gold hover:text-white hover:border-gold transition-colors"
     >
-      {children} <ArrowRight size={13} />
+      {children} <ArrowRight size={18} />
     </Link>
   );
 }

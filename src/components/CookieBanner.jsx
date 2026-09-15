@@ -54,7 +54,7 @@ export default function CookieBanner() {
           <X size={18} />
         </button>
         <div className="flex items-start gap-3 mb-4 pr-6">
-          <Cookie size={22} className="text-gold shrink-0 mt-0.5" />
+          <Cookie size={24} className="text-gold shrink-0 mt-0.5" />
           <p className="text-sm text-charcoal/70 leading-relaxed">
             Ich verwende Cookies und lokale Speicherung für den Betrieb der Website. Du kannst
             selbst entscheiden, welche Du zulässt. Weitere Infos in der{" "}

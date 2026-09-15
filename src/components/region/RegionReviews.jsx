@@ -24,7 +24,7 @@ export default function RegionReviews({ region }) {
             </div>
             <div className="flex gap-1 mb-3">
               {[0, 1, 2, 3, 4].map((i) => (
-                <Star key={i} size={26} className="fill-gold text-gold" />
+                <Star key={i} size={24} className="fill-gold text-gold" />
               ))}
             </div>
             <p className="text-charcoal/70 text-sm mb-6 max-w-md">

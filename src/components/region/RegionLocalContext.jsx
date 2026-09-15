@@ -29,7 +29,7 @@ export default function RegionLocalContext({ region }) {
               <div className="bg-card border border-gold/15 rounded-2xl p-6 h-full">
                 <div className="flex items-center gap-2.5 mb-3">
                   <span className="w-9 h-9 rounded-full bg-gold/10 flex items-center justify-center shrink-0">
-                    <it.icon size={17} className="text-gold" />
+                    <it.icon size={20} className="text-gold" />
                   </span>
                   <h3 className="font-heading text-base font-semibold text-charcoal">{it.label}</h3>
                 </div>

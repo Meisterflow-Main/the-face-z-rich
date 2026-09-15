@@ -28,12 +28,12 @@ export default function RegionNeighbors({ region }) {
                   className="block bg-card border border-gold/15 rounded-2xl p-5 hover:border-gold transition-colors"
                 >
                   <span className="inline-flex items-center gap-1.5 text-gold text-xs tracking-[0.2em] uppercase font-medium mb-2">
-                    <MapPin size={13} /> {n.region}
+                    <MapPin size={16} /> {n.region}
                   </span>
                   <h3 className="font-heading text-lg font-semibold text-charcoal mb-1">Gesichtsbehandlung {n.short}</h3>
                   <p className="text-charcoal/60 text-sm line-clamp-2 mb-3">{n.heroDesc}</p>
                   <span className="inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                    Region ansehen <ArrowRight size={14} />
+                    Region ansehen <ArrowRight size={18} />
                   </span>
                 </Link>
               </ScrollReveal>

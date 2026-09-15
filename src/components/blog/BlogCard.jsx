@@ -23,7 +23,7 @@ export default function BlogCard({ article }) {
           <time>{formatDate(article.date)}</time>
           <span className="w-1 h-1 rounded-full bg-gold/40" />
           <span className="inline-flex items-center gap-1">
-            <Clock size={12} /> {article.readTime} Min.
+            <Clock size={16} /> {article.readTime} Min.
           </span>
         </div>
         <h3 className="font-heading text-lg font-semibold text-charcoal mb-2 leading-snug">
@@ -36,7 +36,7 @@ export default function BlogCard({ article }) {
           to={`/blog/${article.slug}`}
           className="inline-flex items-center gap-1.5 text-sm font-semibold text-gold hover:gap-2.5 transition-all"
         >
-          Artikel lesen <ArrowRight size={15} />
+          Artikel lesen <ArrowRight size={18} />
         </Link>
       </div>
     </article>

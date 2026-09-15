@@ -107,7 +107,7 @@ export default function Bewertung() {
                     >
                       <div className="flex gap-0.5">
                         {Array.from({ length: v }).map((_, s) => (
-                          <Star key={s} size={14} className="text-gold fill-gold" />
+                          <Star key={s} size={16} className="text-gold fill-gold" />
                         ))}
                       </div>
                       <span className="text-xs text-charcoal/60">{v} Sterne</span>

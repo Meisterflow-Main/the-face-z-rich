@@ -187,7 +187,7 @@ export default function ServiceDetail({ service }) {
               to={`/behandlungen/${service.slug}/${r.slug}`}
               className="flex items-center justify-center gap-1.5 rounded-lg border border-gold/15 bg-card px-3 py-3 text-sm text-charcoal/75 hover:border-gold hover:text-gold transition-colors"
             >
-              <MapPin size={14} className="text-gold shrink-0" /> {r.short}
+              <MapPin size={16} className="text-gold shrink-0" /> {r.short}
             </Link>
           ))}
         </div>
@@ -212,7 +212,7 @@ export default function ServiceDetail({ service }) {
                 <h3 className="font-heading text-lg font-semibold text-charcoal mb-1">{r.name}</h3>
                 <p className="text-charcoal/60 text-sm line-clamp-2">{r.intro}</p>
                 <span className="mt-3 inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                  Mehr erfahren <ArrowRight size={15} />
+                  Mehr erfahren <ArrowRight size={18} />
                 </span>
               </Link>
             ))}
