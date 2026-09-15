@@ -12,6 +12,8 @@ import RegionFAQ from "@/components/region/RegionFAQ";
 import MoreServices from "@/components/region/MoreServices";
 import RegionMoneyLinks from "@/components/region/RegionMoneyLinks";
 import ServiceArea from "@/components/region/ServiceArea";
+import RegionLocalContext from "@/components/region/RegionLocalContext";
+import RegionNeighbors from "@/components/region/RegionNeighbors";
 import FinalCTA from "@/components/region/FinalCTA";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -43,6 +45,7 @@ export default function RegionLandingPage({ region }) {
         <TrustBar />
         <ContactBlock region={region} />
         <RegionServices region={region} />
+        <RegionLocalContext region={region} />
         <WhyUs region={region} />
         <PriceCalculator region={region} />
         <RegionReviews region={region} />
@@ -50,6 +53,7 @@ export default function RegionLandingPage({ region }) {
         <MoreServices />
         <RegionMoneyLinks region={region} />
         <ServiceArea region={region} />
+        <RegionNeighbors region={region} />
         <FinalCTA region={region} />
       </main>
       <Footer />

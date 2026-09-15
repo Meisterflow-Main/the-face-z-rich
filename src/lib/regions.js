@@ -92,6 +92,14 @@ export const REGIONS = [
     ],
     finalCtaTitle: "Bereit für strahlende Haut?",
     finalCtaText: "Sichere Dir Deinen Termin für die Gesichtsbehandlung in Zürich Altstetten: online buchen oder persönlich anfragen. Ich freue mich auf Dich.",
+    localContext: {
+      areaType: "Quartier im Zürcher Westen (Kreis 9)",
+      character: "Altstetten wuchs entlang der Badenerstrasse vom Arbeiter- zum beliebten Wohnquartier mit genossenschaftlichen Siedlungen und viel Grün am Rande der Stadt.",
+      commute: "Mit dem Tram 4 fährst Du direkt zum Hauptbahnhof und von dort in wenigen Minuten zur Rämistrasse – insgesamt rund 25 Minuten.",
+      customers: "Viele Kundinnen und Kunden aus Altstetten schätzen die ruhige, persönliche Atmosphäre einer Einzelpraxis nach einem vollen Arbeitstag.",
+      nearby: "Letzigraben, Albisrieden und der Förrlibuck-Park liegen in unmittelbarer Nähe.",
+    },
+    neighbors: ["zuerich-wiedikon", "zuerich-hoengg"],
   },
   {
     slug: "zuerich-oerlikon",
@@ -129,6 +137,14 @@ export const REGIONS = [
     ],
     finalCtaTitle: "Zeit für Deine Haut",
     finalCtaText: "Buche Deine Gesichtsbehandlung nahe Oerlikon jetzt online oder frage mich persönlich an. Ich berate Dich gerne und individuell.",
+    localContext: {
+      areaType: "Verkehrsknoten im Zürcher Norden (Kreis 11)",
+      character: "Oerlikon ist ein pulsierender Verkehrsknoten mit Bahnhof, Messe Zürich und Hallenstadion – viel Bewegung, viele Pendlerinnen.",
+      commute: "Vom Bahnhof Oerlikon fährst Du mit der S-Bahn in fünf Minuten zum Hauptbahnhof, dann ein kurzes Tram zur Rämistrasse.",
+      customers: "Berufstätige und Messebesucherinnen mit wenig Zeit buchen oft die schnellen 45-Minuten-Behandlungen in der Mittagspause.",
+      nearby: "Messe Zürich, Hallenstadion und der MFO-Park prägen das Bild des Quartiers.",
+    },
+    neighbors: ["zuerich-seebach", "zuerich-affoltern", "zuerich-schwamendingen"],
   },
   {
     slug: "zuerich-wiedikon",
@@ -166,6 +182,14 @@ export const REGIONS = [
     ],
     finalCtaTitle: "Gönn Dir Auszeit",
     finalCtaText: "Buche Deine Gesichtsbehandlung nahe Wiedikon jetzt online. Ich freue mich, Dich und Deine Haut bald zu verwöhnen.",
+    localContext: {
+      areaType: "Wohnquartier im Zürcher Süden (Kreis 3)",
+      character: "Wiedikon ist ein etabliertes Wohnquartier zwischen Sihl und Uetlibergbahn mit Altbau und lebendigem Quartierleben.",
+      commute: "Mit dem Tram bist Du in rund 15 Minuten am Hauptbahnhof und kurz darauf an der Rämistrasse.",
+      customers: "Kundinnen und Kunden aus Wiedikon schätzen die holistische Beratung und längere Treatments als bewusste Auszeit.",
+      nearby: "Sihl, Friesenberg und der Bahnhof Wiedikon liegen im Umfeld.",
+    },
+    neighbors: ["zuerich-enge", "zuerich-altstetten"],
   },
   {
     slug: "zuerich-seebach",
@@ -203,6 +227,14 @@ export const REGIONS = [
     ],
     finalCtaTitle: "Strahlend in 45 Minuten",
     finalCtaText: "Buche Deine Gesichtsbehandlung nahe Seebach jetzt online. Auch schnell machbar: für frische Haut an jedem Tag.",
+    localContext: {
+      areaType: "nördlichstes Zürcher Quartier (Kreis 11)",
+      character: "Seebach liegt weit im Norden, nah am Glatttal, mit dörflichem Charakter und viel Natur am Stadtrand.",
+      commute: "Mit der S-Bahn (S6/S16) fährst Du direkt zum Hauptbahnhof und von dort mit dem Tram zur Rämistrasse.",
+      customers: "Kundinnen und Kunden aus Seebach kombinieren den Stadtbesuch oft mit Einkäufen und schätzen effiziente Behandlungen.",
+      nearby: "Glatt, Katzensee und der Seebacher Dorfkern liegen im Quartier.",
+    },
+    neighbors: ["zuerich-oerlikon", "zuerich-affoltern"],
   },
   {
     slug: "zuerich-wollishofen",
@@ -240,6 +272,14 @@ export const REGIONS = [
     ],
     finalCtaTitle: "Zeit für Deinen Glow",
     finalCtaText: "Buche Deine Gesichtsbehandlung nahe Wollishofen jetzt online. Ich freue mich, Dich und Deine Haut bald zu verwöhnen.",
+    localContext: {
+      areaType: "Seequartier im Zürcher Süden (Kreis 2)",
+      character: "Wollishofen liegt direkt am linken Seeufer mit Seestrasse, Villen und ruhigem Wohncharakter.",
+      commute: "Mit der S-Bahn (S8/S24) fährst Du entlang des Seeufers zum Hauptbahnhof, dann ein kurzes Tram zur Rämistrasse.",
+      customers: "Kundinnen am See legen Wert auf hochwertige Anti-Aging-Pflege und ruhige, sorgfältige Behandlungen.",
+      nearby: "See, Landiwiese und der Hafen Enge liegen in der Nachbarschaft.",
+    },
+    neighbors: ["zuerich-enge"],
   },
   {
     slug: "zuerich-hoengg",
@@ -277,6 +317,14 @@ export const REGIONS = [
     ],
     finalCtaTitle: "Sichtbar erneuerte Haut",
     finalCtaText: "Buche Deine Gesichtsbehandlung nahe Höngg jetzt online. Ich berate Dich gerne und individuell zu Deiner Haut.",
+    localContext: {
+      areaType: "Quartier über der Limmat (Kreis 10)",
+      character: "Höngg liegt erhöht über der Limmat mit Käferberg, genossenschaftlichen Siedlungen und viel Grün.",
+      commute: "Mit Bus und Tram via Bahnhof Hard fährst Du zum Hauptbahnhof und weiter zur Rämistrasse.",
+      customers: "Kundinnen und Kunden aus Höngg schätzen die medizinischen Hautbehandlungen und die persönliche Beratung.",
+      nearby: "Käferberg, Limmat und das Wasserwerk liegen im Quartier.",
+    },
+    neighbors: ["zuerich-altstetten"],
   },
   {
     slug: "zuerich-affoltern",
@@ -314,6 +362,14 @@ export const REGIONS = [
     ],
     finalCtaTitle: "Pflege für jede Generation",
     finalCtaText: "Buche Deine Gesichtsbehandlung nahe Affoltern jetzt online. Ob Teenager oder Silverager: ich berate Dich individuell.",
+    localContext: {
+      areaType: "Wohnquartier im Zürcher Norden (Kreis 11)",
+      character: "Affoltern ist ein ruhiges, familiäres Wohnquartier im Glatttal mit viel Grün und genossenschaftlichen Bauten.",
+      commute: "Mit Bus und S-Bahn via Oerlikon oder Seebach erreichst Du die Rämistrasse in rund 30 Minuten.",
+      customers: "Familien aus Affoltern bringen auch Teenager zur ersten Hautberatung – sanft und aufklärend.",
+      nearby: "Glatt, Affolterngraben und der Katzensee liegen in der Nähe.",
+    },
+    neighbors: ["zuerich-seebach", "zuerich-oerlikon"],
   },
   {
     slug: "zuerich-schwamendingen",
@@ -351,6 +407,14 @@ export const REGIONS = [
     ],
     finalCtaTitle: "Mehr als Gesichtspflege",
     finalCtaText: "Buche Deine Gesichtsbehandlung nahe Schwamendingen jetzt online. Auch Rückenbehandlungen: für rundum gepflegte Haut.",
+    localContext: {
+      areaType: "Talquartier im Zürcher Osten (Kreis 12)",
+      character: "Schwamendingen liegt im Glatttal, umgeben von Hügeln, mit dörflichem Zentrum und viel Wohncharakter.",
+      commute: "Mit dem Tram fährst Du direkt zum Hauptbahnhof und von dort in wenigen Minuten zur Rämistrasse.",
+      customers: "Kundinnen und Kunden aus Schwamendingen schätzen auch die Rückenbehandlungen als Auszeit vom Alltag.",
+      nearby: "Glatttal, Stettbach und der Gubrist liegen im Umfeld.",
+    },
+    neighbors: ["zuerich-oerlikon"],
   },
   {
     slug: "zuerich-enge",
@@ -388,6 +452,14 @@ export const REGIONS = [
     ],
     finalCtaTitle: "Dein besonderer Tag",
     finalCtaText: "Buche Deine Gesichtsbehandlung nahe Enge jetzt online. Ob Pflege oder Brautmake-up: ich berate Dich individuell.",
+    localContext: {
+      areaType: "elegant gelegenes Seequartier im Zürcher Süden (Kreis 2)",
+      character: "Enge ist ein elegantes Seequartier mit Rieterpark, Villen und der alten Börse – ruhig und gehoben.",
+      commute: "Vom Bahnhof Enge fährst Du mit der S-Bahn in wenigen Minuten zum Hauptbahnhof, dann ein kurzes Tram zur Rämistrasse.",
+      customers: "Kundinnen aus Enge schätzen natürliche, elegante Looks und hochwertige Anti-Aging-Pflege.",
+      nearby: "Rieterpark, See und die Landiwiese liegen im Quartier.",
+    },
+    neighbors: ["zuerich-wiedikon", "zuerich-wollishofen"],
   },
   {
     slug: "zuerich-fluntern",
@@ -425,6 +497,14 @@ export const REGIONS = [
     ],
     finalCtaTitle: "Zeit für Dich",
     finalCtaText: "Buche Deine Gesichtsbehandlung nahe Fluntern jetzt online. Ich berate Dich gerne und individuell zu Deiner Haut.",
+    localContext: {
+      areaType: "Universitätsquartier auf dem Zürichberg (Kreis 7)",
+      character: "Fluntern liegt ruhig auf dem Zürichberg oberhalb der Universität und der ETH, mit Villen und viel Grün.",
+      commute: "Fluntern ist nah an der Rämistrasse – ein kurzes Tram oder ein Spaziergang durch die Universität.",
+      customers: "Kundinnen und Kunden aus Fluntern schätzen ausgiebige Premium-Treatments und holistische Angebote.",
+      nearby: "Universität, ETH, Zürichberg und der Botanische Garten liegen im Quartier.",
+    },
+    neighbors: [],
   },
 ];
 
