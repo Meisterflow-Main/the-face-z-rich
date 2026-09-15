@@ -143,6 +143,8 @@ export default function ContactForm() {
               <p className="text-xs text-charcoal/50 leading-relaxed">
                 Mit dem Absenden erklärst Du Dich mit der Verarbeitung Deiner Angaben gemäss meiner{" "}
                 <Link to="/datenschutz" className="text-gold underline">Datenschutzerklärung</Link> einverstanden.
+                Angaben zum Unternehmen findest Du im{" "}
+                <Link to="/impressum" className="text-gold underline">Impressum</Link>.
               </p>
 
               <button
