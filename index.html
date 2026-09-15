@@ -30,19 +30,23 @@
     <meta name="twitter:description" content="Über 30 Jahre spezialisiert in holistischer Gesichtspflege in Zürich. Invest in your skin." />
     <meta name="twitter:image" content="https://theface-zuerich.ch/wp-content/uploads/2026/02/banner.png" />
 
-    <!-- Schema.org LocalBusiness -->
+    <!-- Schema.org LocalBusiness / BeautySalon -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "HealthAndBeautyBusiness",
+      "@type": ["HealthAndBeautyBusiness", "BeautySalon"],
+      "@id": "https://theface-zuerich.ch/",
       "name": "THE FACE® Denise Claire Gadient",
+      "alternateName": "THE FACE® Zürich",
+      "description": "Über 30 Jahre spezialisiert auf holistische Gesichtspflege in Zürich: Hautanalyse, Pro Skin Treatments, Targeted Skin Solutions, Medical Skin Treatments, Longevity Glow, Make-up & Visagistik, Lashlift und Quantum Angel Healing.",
       "image": "https://theface-zuerich.ch/wp-content/uploads/2026/02/banner.png",
       "logo": "https://theface-zuerich.ch/wp-content/uploads/2026/02/logo.png",
-      "@id": "https://theface-zuerich.ch/",
       "url": "https://theface-zuerich.ch/",
       "telephone": "+41764260999",
       "email": "thefacezuerich@gmail.com",
       "priceRange": "$$$",
+      "currenciesAccepted": "CHF",
+      "founder": { "@id": "https://theface-zuerich.ch/#person" },
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Rämistrasse 27",
@@ -61,7 +65,41 @@
         "opens": "09:00",
         "closes": "18:00"
       }],
-      "sameAs": ["https://www.instagram.com/thefacezuerich/"],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+41764260999",
+        "email": "thefacezuerich@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "Zürich",
+        "availableLanguage": ["German"]
+      },
+      "sameAs": [
+        "https://www.instagram.com/thefacezuerich/",
+        "https://www.google.com/maps/place/THE+FACE+Denise+Claire+Gadient"
+      ],
+      "knowsAbout": [
+        "Gesichtspflege",
+        "Hautanalyse",
+        "Anti-Aging",
+        "Microneedling",
+        "Lashlift",
+        "Make-up",
+        "Clean-Produkte"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Gesichtsbehandlungen",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hautanalyse & Beratung" }, "price": "95", "priceCurrency": "CHF" },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pro Skin Treatments" }, "price": "180", "priceCurrency": "CHF" },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Targeted Skin Solutions" }, "price": "100", "priceCurrency": "CHF" },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Medical Skin Treatments" }, "price": "470", "priceCurrency": "CHF" },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Longevity Glow Treatment" }, "price": "225", "priceCurrency": "CHF" },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Make-up & Visagistik" }, "price": "65", "priceCurrency": "CHF" },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lashlift" }, "price": "150", "priceCurrency": "CHF" },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Quantum Angel Healing®" }, "price": "188", "priceCurrency": "CHF" }
+        ]
+      },
       "areaServed": [
         { "@type": "City", "name": "Zürich" },
         { "@type": "AdministrativeArea", "name": "Zürich Altstetten" },
@@ -75,6 +113,33 @@
         { "@type": "AdministrativeArea", "name": "Zürich Enge" },
         { "@type": "AdministrativeArea", "name": "Zürich Fluntern" }
       ]
+    }
+    </script>
+
+    <!-- Schema.org Person (Inhaberin) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://theface-zuerich.ch/#person",
+      "name": "Denise Claire Gadient",
+      "jobTitle": ["Kosmetikerin EFZ", "VNISSG-zertifizierte Fachperson für Haut und Pigmente", "Dermalogica Skin Expert", "Visagistin"],
+      "worksFor": { "@id": "https://theface-zuerich.ch/" },
+      "knowsAbout": ["Gesichtspflege", "Hautanalyse", "Anti-Aging", "Microneedling", "Lashlift", "Make-up"],
+      "sameAs": ["https://www.instagram.com/thefacezuerich/"]
+    }
+    </script>
+
+    <!-- Schema.org WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://theface-zuerich.ch/#website",
+      "url": "https://theface-zuerich.ch/",
+      "name": "THE FACE® Zürich",
+      "inLanguage": "de-CH",
+      "publisher": { "@id": "https://theface-zuerich.ch/" }
     }
     </script>
   </head>

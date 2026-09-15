@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Calendar, Star } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 import { Image } from "@/components/ui/image";
-import { SKIN_CONCERNS } from "@/lib/brand";
+import { BRAND, SKIN_CONCERNS } from "@/lib/brand";
 
 const ROOM_IMAGE =
   "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/daac4795b_WhatsAppImage2026-09-10at1700351.jpeg";
@@ -47,6 +49,22 @@ export default function AboutEditorial() {
                 {c}
               </span>
             ))}
+          </div>
+          <div className="flex flex-wrap gap-3 mt-8">
+            <a
+              href={BRAND.booking}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-6 py-3 rounded-lg transition-all"
+            >
+              <Calendar size={18} /> Termin buchen
+            </a>
+            <Link
+              to="/bewertung"
+              className="inline-flex items-center gap-2 glass border border-gold/40 text-charcoal font-semibold px-6 py-3 rounded-lg transition-all hover:border-gold"
+            >
+              <Star size={18} className="text-gold" /> Bewertung abgeben
+            </Link>
           </div>
         </ScrollReveal>
       </div>
