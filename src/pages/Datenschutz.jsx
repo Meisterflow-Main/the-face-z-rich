@@ -216,7 +216,8 @@ export default function Datenschutz() {
 
             <Section id="whatsapp" icon={MessageCircle} title="9. WhatsApp">
               <p>
-                Über die WhatsApp-Verlinkung kannst Du mich direkt kontaktieren. Wenn Du WhatsApp nutzt, werden
+                Über die WhatsApp-Verlinkung kannst Du mich direkt kontaktieren. Die Nutzung von WhatsApp erfolgt
+                freiwillig und setzt ein eigenes WhatsApp-Konto voraus. Wenn Du WhatsApp nutzt, werden
                 Deine Telefonnummer, Nachrichteninhalte und Metadaten an Meta bzw. WhatsApp LLC (USA) übermittelt.
                 Ich habe keinen Einfluss auf diese Datenverarbeitung durch Meta. Für eine datenschutzfreundliche
                 Alternative kannst Du mich per E-Mail oder Telefon kontaktieren.
