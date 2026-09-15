@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BRAND, ASSETS } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
+import { SERVICES } from "@/lib/services";
 import { Instagram, Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
@@ -18,6 +19,32 @@ export default function Footer() {
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               Über 30 Jahre spezialisiert in holistischer Gesichtspflege. Invest in your skin.
             </p>
+          </div>
+
+          <div>
+            <p className="text-gold font-semibold tracking-[0.12em] text-sm uppercase mb-5">Behandlungen</p>
+            <ul className="space-y-2.5 text-sm text-muted-foreground">
+              <li><Link to="/behandlungen" className="hover:text-gold transition-colors font-medium text-charcoal">Alle Behandlungen</Link></li>
+              {SERVICES.map((s) => (
+                <li key={s.slug}>
+                  <Link to={`/behandlungen/${s.slug}`} className="hover:text-gold transition-colors">{s.name}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <p className="text-gold font-semibold tracking-[0.12em] text-sm uppercase mb-5">Standorte</p>
+            <ul className="space-y-2.5 text-sm text-muted-foreground">
+              <li><Link to="/regionen" className="hover:text-gold transition-colors font-medium text-charcoal">Alle Standorte</Link></li>
+              {REGIONS.map((r) => (
+                <li key={r.slug}>
+                  <Link to={`/regionen/${r.slug}`} className="hover:text-gold transition-colors">
+                    Gesichtsbehandlung {r.short}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <div>
@@ -43,32 +70,13 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-
-          <div>
-            <p className="text-gold font-semibold tracking-[0.12em] text-sm uppercase mb-5">Navigation</p>
-            <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><a href="/#ueber" className="hover:text-gold transition-colors">Über uns</a></li>
-              <li><a href="/#behandlungen" className="hover:text-gold transition-colors">Behandlungen</a></li>
-              <li><a href="/#faq" className="hover:text-gold transition-colors">FAQ</a></li>
-              <li><a href="/#kontakt" className="hover:text-gold transition-colors">Kontakt</a></li>
-              <li><Link to="/bewertung" className="hover:text-gold transition-colors">Bewertung abgeben</Link></li>
-              <li><Link to="/impressum" className="hover:text-gold transition-colors">Impressum</Link></li>
-              <li><Link to="/datenschutz" className="hover:text-gold transition-colors">Datenschutz</Link></li>
-            </ul>
-          </div>
-
-          <div>
-            <p className="text-gold font-semibold tracking-[0.12em] text-sm uppercase mb-5">Regionen</p>
-            <ul className="space-y-2.5 text-sm text-muted-foreground grid grid-cols-1">
-              {REGIONS.map((r) => (
-                <li key={r.slug}>
-                  <Link to={`/regionen/${r.slug}`} className="hover:text-gold transition-colors">
-                    Gesichtsbehandlung {r.short}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <div className="mt-5 flex flex-wrap gap-x-4 gap-y-2 text-xs text-charcoal/55">
+              <a href="/#ueber" className="hover:text-gold transition-colors">Über uns</a>
+              <Link to="/bewertung" className="hover:text-gold transition-colors">Bewertung</Link>
+              <Link to="/impressum" className="hover:text-gold transition-colors">Impressum</Link>
+              <Link to="/datenschutz" className="hover:text-gold transition-colors">Datenschutz</Link>
+              <Link to="/sitemap" className="hover:text-gold transition-colors">Sitemap</Link>
+            </div>
           </div>
         </div>
 

@@ -12,6 +12,11 @@ import Bewertung from '@/pages/Bewertung';
 import Impressum from '@/pages/Impressum';
 import Datenschutz from '@/pages/Datenschutz';
 import Region from '@/pages/Region';
+import Behandlungen from '@/pages/Behandlungen';
+import Service from '@/pages/Service';
+import Money from '@/pages/Money';
+import Regionen from '@/pages/Regionen';
+import Sitemap from '@/pages/Sitemap';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -41,10 +46,15 @@ const AuthenticatedApp = () => {
     <Routes>
     {/* Add your page Route elements here */}
     <Route path="/" element={<Home />} />
+    <Route path="/behandlungen" element={<Behandlungen />} />
+    <Route path="/behandlungen/:service" element={<Service />} />
+    <Route path="/behandlungen/:service/:region" element={<Money />} />
+    <Route path="/regionen" element={<Regionen />} />
+    <Route path="/regionen/:slug" element={<Region />} />
     <Route path="/bewertung" element={<Bewertung />} />
     <Route path="/impressum" element={<Impressum />} />
     <Route path="/datenschutz" element={<Datenschutz />} />
-    <Route path="/regionen/:slug" element={<Region />} />
+    <Route path="/sitemap" element={<Sitemap />} />
     <Route path="*" element={<PageNotFound />} />
     </Routes>
   );

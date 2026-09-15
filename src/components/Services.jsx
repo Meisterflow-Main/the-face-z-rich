@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
 import { TREATMENTS, BRAND } from "@/lib/brand";
 import { ArrowRight } from "lucide-react";
@@ -28,6 +29,12 @@ export default function Services() {
             >
               Termin buchen <ArrowRight size={16} />
             </a>
+            <Link
+              to="/behandlungen"
+              className="mt-2 inline-flex items-center gap-2 text-charcoal/60 hover:text-gold font-medium text-sm transition-colors"
+            >
+              Alle Behandlungen ansehen <ArrowRight size={15} />
+            </Link>
           </div>
         </ScrollReveal>
 

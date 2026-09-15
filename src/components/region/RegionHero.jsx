@@ -5,7 +5,7 @@ import { BRAND } from "@/lib/brand";
 
 export default function RegionHero({ region }) {
   return (
-    <section className="relative min-h-[88vh] flex flex-col items-center justify-center pt-28 pb-16 px-5 overflow-hidden bg-sand">
+    <section className="relative min-h-[80vh] flex flex-col items-center justify-center pt-10 pb-16 px-5 overflow-hidden bg-sand">
       <div className="pointer-events-none absolute -top-32 -right-32 w-[40rem] h-[40rem] rounded-lg bg-gold/10 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-40 -left-40 w-[36rem] h-[36rem] rounded-lg bg-gold/5 blur-3xl" />
 

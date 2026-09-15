@@ -1,5 +1,6 @@
 import React from "react";
 import Seo from "@/components/region/Seo";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import RegionHero from "@/components/region/RegionHero";
 import TrustBar from "@/components/region/TrustBar";
 import ContactBlock from "@/components/region/ContactBlock";
@@ -9,6 +10,7 @@ import PriceCalculator from "@/components/region/PriceCalculator";
 import RegionReviews from "@/components/region/RegionReviews";
 import RegionFAQ from "@/components/region/RegionFAQ";
 import MoreServices from "@/components/region/MoreServices";
+import RegionMoneyLinks from "@/components/region/RegionMoneyLinks";
 import ServiceArea from "@/components/region/ServiceArea";
 import FinalCTA from "@/components/region/FinalCTA";
 import Navbar from "@/components/Navbar";
@@ -20,6 +22,13 @@ export default function RegionLandingPage({ region }) {
     <>
       <Seo title={region.metaTitle} description={region.metaDescription} />
       <Navbar />
+      <Breadcrumbs
+        items={[
+          { label: "Home", to: "/" },
+          { label: "Standorte", to: "/regionen" },
+          { label: region.short },
+        ]}
+      />
       <main>
         <RegionHero region={region} />
         <TrustBar />
@@ -30,6 +39,7 @@ export default function RegionLandingPage({ region }) {
         <RegionReviews region={region} />
         <RegionFAQ region={region} />
         <MoreServices />
+        <RegionMoneyLinks region={region} />
         <ServiceArea region={region} />
         <FinalCTA region={region} />
       </main>

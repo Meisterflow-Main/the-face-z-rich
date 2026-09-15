@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { Menu, X, ChevronDown, MapPin } from "lucide-react";
 import { BRAND, ASSETS } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
+import { SERVICES } from "@/lib/services";
 
 const LINKS = [
   { label: "Über uns", href: "/#ueber" },
-  { label: "Behandlungen", href: "/#behandlungen" },
   { label: "FAQ", href: "/#faq" },
   { label: "Kontakt", href: "/#kontakt" },
 ];
@@ -14,6 +14,7 @@ const LINKS = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
   const [regionsOpen, setRegionsOpen] = useState(false);
 
   useEffect(() => {
@@ -21,6 +22,26 @@ export default function Navbar() {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const Dropdown = ({ label, open, setOpen, children }) => (
+    <div className="relative" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
+      <button
+        onClick={() => setOpen((v) => !v)}
+        className="inline-flex items-center gap-1 text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide"
+      >
+        {label} <ChevronDown size={15} className={`transition-transform ${open ? "rotate-180" : ""}`} />
+      </button>
+      {open && (
+        <div className="absolute top-full left-0 pt-3 w-64">
+          <div className="glass border border-gold/20 rounded-2xl p-3 shadow-lg grid grid-cols-1 gap-0.5 max-h-[70vh] overflow-y-auto">
+            {children}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+
+  const linkCls = "flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-charcoal/75 hover:bg-gold/10 hover:text-gold transition-colors";
 
   return (
     <header
@@ -33,45 +54,34 @@ export default function Navbar() {
           <img src={ASSETS.logo} alt="THE FACE® Zürich Logo" className="h-10 sm:h-12 md:h-14 w-auto rounded-md" />
         </Link>
 
-        <div className="hidden md:flex items-center gap-6 lg:gap-8">
+        <div className="hidden md:flex items-center gap-5 lg:gap-6">
+          <Dropdown label="Behandlungen" open={servicesOpen} setOpen={setServicesOpen}>
+            <Link to="/behandlungen" className={`${linkCls} font-semibold text-charcoal`}>
+              Alle Behandlungen
+            </Link>
+            {SERVICES.map((s) => (
+              <Link key={s.slug} to={`/behandlungen/${s.slug}`} className={linkCls}>
+                {s.name}
+              </Link>
+            ))}
+          </Dropdown>
+
+          <Dropdown label="Regionen" open={regionsOpen} setOpen={setRegionsOpen}>
+            <Link to="/regionen" className={`${linkCls} font-semibold text-charcoal`}>
+              Alle Standorte
+            </Link>
+            {REGIONS.map((r) => (
+              <Link key={r.slug} to={`/regionen/${r.slug}`} className={linkCls}>
+                <MapPin size={13} className="text-gold shrink-0" /> {r.name}
+              </Link>
+            ))}
+          </Dropdown>
+
           {LINKS.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide"
-            >
+            <a key={l.href} href={l.href} className="text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide">
               {l.label}
             </a>
           ))}
-
-          <div
-            className="relative"
-            onMouseEnter={() => setRegionsOpen(true)}
-            onMouseLeave={() => setRegionsOpen(false)}
-          >
-            <button
-              onClick={() => setRegionsOpen((v) => !v)}
-              className="inline-flex items-center gap-1 text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide"
-            >
-              Regionen <ChevronDown size={15} className={`transition-transform ${regionsOpen ? "rotate-180" : ""}`} />
-            </button>
-            {regionsOpen && (
-              <div className="absolute top-full right-0 pt-3 w-64">
-                <div className="glass border border-gold/20 rounded-2xl p-3 shadow-lg grid grid-cols-1 gap-0.5 max-h-[70vh] overflow-y-auto">
-                  {REGIONS.map((r) => (
-                    <Link
-                      key={r.slug}
-                      to={`/regionen/${r.slug}`}
-                      onClick={() => setRegionsOpen(false)}
-                      className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-charcoal/75 hover:bg-gold/10 hover:text-gold transition-colors"
-                    >
-                      <MapPin size={13} className="text-gold shrink-0" /> {r.name}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
 
           <a
             href={BRAND.booking}
@@ -83,11 +93,7 @@ export default function Navbar() {
           </a>
         </div>
 
-        <button
-          className="md:hidden text-charcoal p-2"
-          onClick={() => setOpen((v) => !v)}
-          aria-label="Menü"
-        >
+        <button className="md:hidden text-charcoal p-2" onClick={() => setOpen((v) => !v)} aria-label="Menü">
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
       </nav>
@@ -95,42 +101,40 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden glass border-t border-gold/20">
           <div className="px-5 py-6 flex flex-col gap-4 max-h-[80vh] overflow-y-auto">
-            {LINKS.map((l) => (
-              <a
-                key={l.href}
-                href={l.href}
-                className="text-base font-medium text-charcoal/80 hover:text-gold transition-colors"
-                onClick={() => setOpen(false)}
-              >
-                {l.label}
-              </a>
-            ))}
-            <button
-              onClick={() => setRegionsOpen((v) => !v)}
-              className="flex items-center gap-1 text-base font-medium text-charcoal/80"
-            >
+            <Link to="/behandlungen" className="text-base font-semibold text-charcoal" onClick={() => setOpen(false)}>
+              Behandlungen
+            </Link>
+            <div className="pl-4 flex flex-col gap-2 border-l border-gold/20">
+              {SERVICES.map((s) => (
+                <Link key={s.slug} to={`/behandlungen/${s.slug}`} onClick={() => setOpen(false)} className="text-sm text-charcoal/75 hover:text-gold transition-colors">
+                  {s.name}
+                </Link>
+              ))}
+            </div>
+
+            <button onClick={() => setRegionsOpen((v) => !v)} className="flex items-center gap-1 text-base font-semibold text-charcoal/80">
               Regionen <ChevronDown size={16} className={`transition-transform ${regionsOpen ? "rotate-180" : ""}`} />
             </button>
             {regionsOpen && (
               <div className="pl-4 flex flex-col gap-2 border-l border-gold/20">
+                <Link to="/regionen" onClick={() => setOpen(false)} className="text-sm font-semibold text-charcoal">
+                  Alle Standorte
+                </Link>
                 {REGIONS.map((r) => (
-                  <Link
-                    key={r.slug}
-                    to={`/regionen/${r.slug}`}
-                    onClick={() => { setOpen(false); setRegionsOpen(false); }}
-                    className="flex items-center gap-2 text-sm text-charcoal/75 hover:text-gold transition-colors"
-                  >
+                  <Link key={r.slug} to={`/regionen/${r.slug}`} onClick={() => { setOpen(false); setRegionsOpen(false); }} className="flex items-center gap-2 text-sm text-charcoal/75 hover:text-gold transition-colors">
                     <MapPin size={13} className="text-gold" /> {r.name}
                   </Link>
                 ))}
               </div>
             )}
-            <a
-              href={BRAND.booking}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-center text-sm font-semibold text-white bg-gold px-5 py-3 rounded-lg"
-            >
+
+            {LINKS.map((l) => (
+              <a key={l.href} href={l.href} className="text-base font-medium text-charcoal/80 hover:text-gold transition-colors" onClick={() => setOpen(false)}>
+                {l.label}
+              </a>
+            ))}
+
+            <a href={BRAND.booking} target="_blank" rel="noopener noreferrer" className="text-center text-sm font-semibold text-white bg-gold px-5 py-3 rounded-lg">
               Termin buchen
             </a>
           </div>
