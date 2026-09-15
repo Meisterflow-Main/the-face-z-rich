@@ -25,7 +25,7 @@ export default function RegionLandingPage({ region }) {
       <Breadcrumbs
         items={[
           { label: "Home", to: "/" },
-          { label: "Standorte", to: "/regionen" },
+          { label: "Regionen", to: "/regionen" },
           { label: region.short },
         ]}
       />

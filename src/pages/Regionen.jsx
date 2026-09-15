@@ -13,23 +13,23 @@ export default function Regionen() {
   return (
     <div className="min-h-screen bg-background">
       <Seo
-        title="Standorte & Regionen in Zürich | THE FACE®"
+        title="Regionen in Zürich | THE FACE®"
         description="THE FACE® Zürich bedient die ganze Stadt von der Rämistrasse: Altstetten, Oerlikon, Wiedikon, Seebach, Wollishofen, Höngg, Affoltern, Schwamendingen, Enge und Fluntern."
       />
       <Navbar />
-      <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Standorte" }]} />
+      <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Regionen" }]} />
       <main>
         <section className="px-5 sm:px-8 pb-12">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">
-              Standorte & Regionen
+              Regionen
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl md:text-[52px] font-semibold text-charcoal leading-[1.1] mb-5">
               Gesichtsbehandlung in Zürich
             </h1>
             <div className="hairline w-16 mx-auto mb-6" />
             <p className="text-charcoal/70 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-              Meine Praxis an der Rämistrasse 27, 8001 Zürich erreicht Kundinnen und Kunden aus der ganzen Stadt. Wähle Dein Quartier für die passende Standortseite.
+              Meine Praxis an der Rämistrasse 27, 8001 Zürich erreicht Kundinnen und Kunden aus der ganzen Stadt. Wähle Dein Quartier für die passende Regionseite.
             </p>
           </div>
         </section>

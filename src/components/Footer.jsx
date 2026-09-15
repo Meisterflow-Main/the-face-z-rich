@@ -34,9 +34,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-gold font-semibold tracking-[0.12em] text-sm uppercase mb-5">Standorte</p>
+            <p className="text-gold font-semibold tracking-[0.12em] text-sm uppercase mb-5">Regionen</p>
             <ul className="space-y-2.5 text-sm text-muted-foreground">
-              <li><Link to="/regionen" className="hover:text-gold transition-colors font-medium text-charcoal">Alle Standorte</Link></li>
+              <li><Link to="/regionen" className="hover:text-gold transition-colors font-medium text-charcoal">Alle Regionen</Link></li>
               {REGIONS.map((r) => (
                 <li key={r.slug}>
                   <Link to={`/regionen/${r.slug}`} className="hover:text-gold transition-colors">

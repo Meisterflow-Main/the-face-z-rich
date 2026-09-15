@@ -150,7 +150,7 @@ export default function ServiceDetail({ service }) {
 
       {/* Verfügbar in Quartieren */}
       <Section bg="sand">
-        <Heading eyebrow="Standorte" title={`${service.name} in Deinem Quartier`} />
+        <Heading eyebrow="Regionen" title={`${service.name} in Deinem Quartier`} />
         <p className="text-charcoal/60 max-w-2xl mx-auto mb-6 text-center">
           Ich bediene die ganze Stadt Zürich von meiner Praxis an der Rämistrasse. Wähle Dein Quartier für die passende Seite zur {service.name}.
         </p>
@@ -167,7 +167,7 @@ export default function ServiceDetail({ service }) {
         </div>
         <div className="text-center mt-6">
           <Link to="/regionen" className="text-gold font-semibold text-sm hover:underline">
-            Alle Standorte ansehen
+            Alle Regionen ansehen
           </Link>
         </div>
       </Section>

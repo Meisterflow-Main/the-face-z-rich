@@ -68,7 +68,7 @@ export default function Navbar() {
 
           <Dropdown label="Regionen" open={regionsOpen} setOpen={setRegionsOpen}>
             <Link to="/regionen" className={`${linkCls} font-semibold text-charcoal`}>
-              Alle Standorte
+              Alle Regionen
             </Link>
             {REGIONS.map((r) => (
               <Link key={r.slug} to={`/regionen/${r.slug}`} className={linkCls}>
@@ -118,7 +118,7 @@ export default function Navbar() {
             {regionsOpen && (
               <div className="pl-4 flex flex-col gap-2 border-l border-gold/20">
                 <Link to="/regionen" onClick={() => setOpen(false)} className="text-sm font-semibold text-charcoal">
-                  Alle Standorte
+                  Alle Regionen
                 </Link>
                 {REGIONS.map((r) => (
                   <Link key={r.slug} to={`/regionen/${r.slug}`} onClick={() => { setOpen(false); setRegionsOpen(false); }} className="flex items-center gap-2 text-sm text-charcoal/75 hover:text-gold transition-colors">

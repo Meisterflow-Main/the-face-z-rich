@@ -63,7 +63,7 @@ export default function MoneyDetail({ service, region }) {
               to={`/regionen/${region.slug}`}
               className="inline-flex items-center justify-center gap-2 glass border border-gold/40 text-charcoal font-semibold px-7 py-3.5 rounded-lg transition-all hover:border-gold"
             >
-              <MapPin size={16} className="text-gold" /> Standort {region.short}
+              <MapPin size={16} className="text-gold" /> Region {region.short}
             </Link>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function MoneyDetail({ service, region }) {
 
       {/* Nachbarorte / Verlinkung */}
       <Section>
-        <Heading eyebrow="Standorte" title={`${service.name} in Nachbarquartieren`} />
+        <Heading eyebrow="Regionen" title={`${service.name} in Nachbarquartieren`} />
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {neighbors.map((r) => (
             <Link
@@ -163,7 +163,7 @@ export default function MoneyDetail({ service, region }) {
           </Link>
           <span className="hidden sm:inline text-charcoal/30">·</span>
           <Link to={`/regionen/${region.slug}`} className="text-gold font-semibold hover:underline">
-            Standortseite {region.short}
+            Regionseite {region.short}
           </Link>
           <span className="hidden sm:inline text-charcoal/30">·</span>
           <Link to="/behandlungen" className="text-gold font-semibold hover:underline">

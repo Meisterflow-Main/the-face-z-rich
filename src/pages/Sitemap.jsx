@@ -22,7 +22,7 @@ export default function Sitemap() {
             <Group title="Hauptseiten">
               <Item to="/">Home</Item>
               <Item to="/behandlungen">Behandlungen</Item>
-              <Item to="/regionen">Standorte & Regionen</Item>
+              <Item to="/regionen">Regionen</Item>
               <Item to="/bewertung">Bewertung</Item>
               <Item to="/impressum">Impressum</Item>
               <Item to="/datenschutz">Datenschutz</Item>
@@ -36,7 +36,7 @@ export default function Sitemap() {
               ))}
             </Group>
 
-            <Group title="Standorte">
+            <Group title="Regionen">
               {REGIONS.map((r) => (
                 <Item key={r.slug} to={`/regionen/${r.slug}`}>
                   Gesichtsbehandlung {r.short}
