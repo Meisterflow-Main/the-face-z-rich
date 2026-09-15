@@ -87,6 +87,19 @@ export default function Footer() {
           <p>© {new Date().getFullYear()} THE FACE® Denise Claire Gadient. Alle Rechte vorbehalten.</p>
           <p>{BRAND.website}</p>
         </div>
+        <div className="mt-4 text-center">
+          <p className="text-charcoal/40 text-xs">
+            Website erstellt von{" "}
+            <a
+              href="https://meisterflow.ch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gold transition-colors font-medium"
+            >
+              MeisterFlow
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
