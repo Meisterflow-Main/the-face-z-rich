@@ -19,7 +19,7 @@ export default function Impressum() {
 
           <div className="space-y-6 text-charcoal/70 leading-relaxed">
             <div>
-              <h2 className="font-heading text-lg font-semibold text-charcoal mb-2">Angaben gemäss Art. 51 Abs. 1 OR</h2>
+              <h2 className="font-heading text-lg font-semibold text-charcoal mb-2">Angaben zur Anbieterin</h2>
               <p>
                 THE FACE®<br />
                 Denise Claire Gadient<br />
@@ -48,6 +48,14 @@ export default function Impressum() {
                 Die Inhalte dieser Website werden mit grösstmöglicher Sorgfalt erstellt.
                 Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch
                 keine Gewähr übernommen werden.
+              </p>
+            </div>
+            <div>
+              <h2 className="font-heading text-lg font-semibold text-charcoal mb-2">Externe Links</h2>
+              <p>
+                Diese Website enthält Links zu externen Websites Dritter. Auf deren Inhalte habe ich
+                keinen Einfluss und kann ich keine Gewähr übernehmen. Für die Inhalte der verlinkten
+                Seiten ist stets der jeweilige Anbieter verantwortlich.
               </p>
             </div>
             <div>

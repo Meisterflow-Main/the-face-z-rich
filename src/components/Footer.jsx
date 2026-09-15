@@ -75,6 +75,7 @@ export default function Footer() {
               <Link to="/bewertung" className="hover:text-gold transition-colors">Bewertung</Link>
               <Link to="/impressum" className="hover:text-gold transition-colors">Impressum</Link>
               <Link to="/datenschutz" className="hover:text-gold transition-colors">Datenschutz</Link>
+              <button onClick={() => window.dispatchEvent(new Event("theface:open-cookie-settings"))} className="hover:text-gold transition-colors text-left">Cookie-Einstellungen</button>
               <Link to="/sitemap" className="hover:text-gold transition-colors">Sitemap</Link>
             </div>
           </div>

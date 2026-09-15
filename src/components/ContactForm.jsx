@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND, WEBHOOK } from "@/lib/brand";
 import { MapPin, Phone, Mail, Instagram, Send, CheckCircle2, Loader2, AlertCircle } from "lucide-react";
@@ -136,6 +137,11 @@ export default function ContactForm() {
               {field("email", "E-Mail", "email")}
               {field("phone", "Telefon", "tel")}
               {field("description", "Dein Anliegen", "text", true)}
+
+              <p className="text-xs text-charcoal/50 leading-relaxed">
+                Mit dem Absenden erklärst Du Dich mit der Verarbeitung Deiner Angaben gemäss meiner{" "}
+                <Link to="/datenschutz" className="text-gold underline">Datenschutzerklärung</Link> einverstanden.
+              </p>
 
               <button
                 type="submit"

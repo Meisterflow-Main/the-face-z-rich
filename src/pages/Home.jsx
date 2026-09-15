@@ -12,7 +12,6 @@ import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import MobileCTA from "@/components/MobileCTA";
-import CookieBanner from "@/components/CookieBanner";
 import Seo from "@/components/region/Seo";
 import { FAQS } from "@/lib/brand";
 
@@ -48,7 +47,6 @@ export default function Home() {
       <Footer />
       <WhatsAppButton />
       <MobileCTA />
-      <CookieBanner />
     </div>
   );
 }
