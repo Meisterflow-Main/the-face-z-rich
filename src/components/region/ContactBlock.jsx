@@ -15,7 +15,7 @@ export default function ContactBlock({ region }) {
             Deine Kosmetik-Praxis für {region.short}
           </h2>
           <p className="text-charcoal/60 max-w-xl mx-auto">
-            Mein Studio an der Rämistrasse ist von {region.short} schnell erreichbar. Termine nach Vereinbarung – bequem online buchbar.
+            Mein Studio an der Rämistrasse ist von {region.short} schnell erreichbar. Termine nach Vereinbarung, bequem online buchbar.
           </p>
         </ScrollReveal>
 

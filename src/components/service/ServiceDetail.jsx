@@ -178,7 +178,7 @@ export default function ServiceDetail({ service }) {
       <Section bg="sand">
         <Heading eyebrow="Regionen" title={`${service.name} in Deinem Quartier`} />
         <p className="text-charcoal/60 max-w-2xl mx-auto mb-6 text-center">
-          Ich bediene die ganze Stadt Zürich von meiner Praxis an der Rämistrasse. Wähle Dein Quartier für die passende Seite zur {service.name}.
+          Ich bediene die ganze Stadt Zürich von meiner Praxis an der Rämistrasse. Wähle Dein Quartier für die passende Seite mit Infos zu {service.name}.
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
           {REGIONS.map((r) => (
@@ -226,7 +226,7 @@ export default function ServiceDetail({ service }) {
           Bereit für {service.name}?
         </h2>
         <p className="text-white/70 max-w-xl mx-auto mb-7">
-          Sichere Dir Deinen Termin an der Rämistrasse – online buchen oder persönlich anfragen. Ich freue mich auf Dich.
+          Sichere Dir Deinen Termin an der Rämistrasse: online buchen oder persönlich anfragen. Ich freue mich auf Dich.
         </p>
         <a
           href={BRAND.booking}

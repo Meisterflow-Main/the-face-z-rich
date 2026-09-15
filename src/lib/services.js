@@ -49,7 +49,7 @@ export const SERVICES = [
     metaTitle: "Pro Skin Treatments in Zürich | THE FACE®",
     h1: "Pro Skin Treatments in Zürich",
     intro:
-      "Die Dermalogica Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmte Premium-Behandlungen mit sanfter Tiefenreinigung, Peeling und Maske – für spürbar revitalisierte Haut und einen frischen Glow.",
+      "Die Dermalogica Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmte Premium-Behandlungen mit sanfter Tiefenreinigung, Peeling und Maske, für spürbar revitalisierte Haut und einen frischen Glow.",
     what:
       "Je nach Zeit und Hautbedürfnis wähle ich die passende Dauer: von der kompakten 45-Minuten-Behandlung bis zur zweistündigen Ultra Skin 120. Jedes Treatment beginnt mit der FACE-MAP Analyse und wird auf Dich abgestimmt.",
     benefits: [
@@ -64,7 +64,7 @@ export const SERVICES = [
       "Maske, Pflege und Abschluss",
     ],
     priceFactors: [
-      { label: "Pro Skin 45 – Quick Clear", price: "180" },
+      { label: "Pro Skin 45: Quick Clear", price: "180" },
       { label: "Pro Skin 60", price: "225" },
       { label: "Pro Skin 90", price: "265" },
       { label: "Ultra Skin 120", price: "335" },
@@ -95,7 +95,7 @@ export const SERVICES = [
     intro:
       "Die Dermalogica Targeted Skin Solutions Treatments zielen auf konkrete Hautanliegen: Unreinheiten, Pigmentflecken, sensible Haut oder Rücken. Jede Behandlung ist auf Dein Hautbild abgestimmt.",
     what:
-      "Ob Pro Clear bei Akne (Erwachsene und Teenager), Pro Back Clear für den Rücken, Pro Bright bei Pigmentflecken oder Pro Calm Treat bei sensibler, gereizter Haut – ich wähle die passende Methode nach der FACE-MAP Analyse.",
+      "Ob Pro Clear bei Akne (Erwachsene und Teenager), Pro Back Clear für den Rücken, Pro Bright bei Pigmentflecken oder Pro Calm Treat bei sensibler, gereizter Haut. Ich wähle die passende Methode nach der FACE-MAP Analyse.",
     benefits: [
       "Gezielt bei Akne, Pigmenten, sensibler Haut",
       "Auch Pro Clear Young für Teenager",
@@ -108,12 +108,12 @@ export const SERVICES = [
       "Pflege und Abschluss",
     ],
     priceFactors: [
-      { label: "Pro Clear Young Big – Teenager", price: "160" },
-      { label: "Pro Clear Young Small – Teenager", price: "100" },
-      { label: "Pro Clear – Erwachsene", price: "225" },
-      { label: "Pro Back Clear – Rücken", price: "100" },
-      { label: "Pro Bright – Pigmentaufhellend", price: "210" },
-      { label: "Pro Calm Treat – Beruhigend", price: "180" },
+      { label: "Pro Clear Young Big: Teenager", price: "160" },
+      { label: "Pro Clear Young Small: Teenager", price: "100" },
+      { label: "Pro Clear: Erwachsene", price: "225" },
+      { label: "Pro Back Clear: Rücken", price: "100" },
+      { label: "Pro Bright: Pigmentaufhellend", price: "210" },
+      { label: "Pro Calm Treat: Beruhigend", price: "180" },
     ],
     faqs: [
       {
@@ -141,7 +141,7 @@ export const SERVICES = [
     intro:
       "Die Dermalogica Medical Skin Treatments verbinden medizinische Hautbehandlung mit der Pro Skin Philosophie: Exoboost mit Mikrodermabrasion oder Microneedling für sichtbar erneuerte Hautstruktur.",
     what:
-      "Mit dem Exoboost Treatment wende ich entweder Mikrodermabrasion oder Microneedling 0.5 an – je nach Hautbild und Ziel. So verfeinere ich die Hautstruktur, werte Narben auf und regen die Erneuerung an.",
+      "Mit dem Exoboost Treatment wende ich entweder Mikrodermabrasion oder Microneedling 0.5 an, je nach Hautbild und Ziel. So verfeinere ich die Hautstruktur, werte Narben auf und rege die Erneuerung an.",
     benefits: [
       "Mikrodermabrasion oder Microneedling 0.5",
       "Sichtbar erneuerte Hautstruktur",
@@ -165,7 +165,7 @@ export const SERVICES = [
       },
       {
         q: "Gibt es Nebenwirkungen?",
-        a: "Mit sanften Clean-Produkten sind Nebenwirkungen selten. Gelegentlich kurz Rötung, die rasch abklingt. Ich berate Dich umfassend.",
+        a: "Mit sanften Clean-Produkten sind Nebenwirkungen selten. Gelegentlich eine kurze Rötung, die rasch abklingt. Ich berate Dich umfassend.",
       },
     ],
     related: ["longevity-glow-treatment", "pro-skin-treatments", "targeted-skin-solutions"],
@@ -180,7 +180,7 @@ export const SERVICES = [
     intro:
       "Das Longevity Glow Treatment und die Lumin Fusion Nanoneedling-Infusion sind innovative Anti-Aging-Behandlungen für nachhaltigen Glow und strahlende, jugendliche Haut.",
     what:
-      "Mit der Lumin Fusion Nanoneedling-Infusion oder dem Longevity Glow Treat bringe ich tiefe Nährstoffe in die Haut und regen die Erneuerung an – für sichtbar frische, jugendliche Ausstrahlung.",
+      "Mit der Lumin Fusion Nanoneedling-Infusion oder dem Longevity Glow Treat bringe ich tiefe Nährstoffe in die Haut und rege die Erneuerung an, für sichtbar frische, jugendliche Ausstrahlung.",
     benefits: [
       "Lumin Fusion Nanoneedling-Infusion",
       "Nachhaltiger Glow und jugendliche Ausstrahlung",
@@ -222,12 +222,12 @@ export const SERVICES = [
     intro:
       "Als Visagistin schminke ich Dich für jeden Anlass – von der Beratung über das Tages- und Abend-Make-up bis zum Brautmake-up. Natürlich, individuell und auf Dich abgestimmt.",
     what:
-      "Mit Jane Iredale und Glowskinbeauty-Produkten schminke ich einen natürlichen Look, der zu Dir passt. Von der farblichen Beratung bis zum langlebigen Brautmake-up für Deinen besonderen Tag.",
+      "Mit Jane Iredale und Glowskinbeauty-Produkten schminke ich einen natürlichen Look, der zu Dir passt: von der farblichen Beratung bis zum langlebigen Brautmake-up für Deinen besonderen Tag.",
     benefits: [
       "Beratung, Tages-, Abend- und Brautmake-up",
       "Jane Iredale und Glowskinbeauty Produkte",
       "Natürliche, langlebige Looks",
-      "Visagistin aus einer Hand",
+      "Pflege und Make-up bei derselben Visagistin",
     ],
     process: [
       "Beratung und Farbabstimmung",
@@ -241,8 +241,8 @@ export const SERVICES = [
     ],
     faqs: [
       {
-        q: "Bietet Ihr Brautmake-up an?",
-        a: "Ja, als Visagistin schminke ich Dich für Deinen grossen Tag – natürlich, individuell und langlebig.",
+        q: "Bietetst Du Brautmake-up an?",
+        a: "Ja, als Visagistin schminke ich Dich für Deinen grossen Tag: natürlich, individuell und langlebig.",
       },
       {
         q: "Welche Produkte werden verwendet?",
@@ -263,7 +263,7 @@ export const SERVICES = [
     metaTitle: "Lashlift in Zürich | THE FACE®",
     h1: "Lashlift in Zürich",
     intro:
-      "Der Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung gibt Dir einen wachen, offenen Blick – sanft und langanhaltend.",
+      "Der Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung gibt Dir einen wachen, offenen Blick, sanft und langanhaltend.",
     what:
       "Mit dem Ellebaana Wimpernlift forme ich Deine Wimpern sanft nach oben und färbe sie blauschwarz. Für einen wachen, natürlichen Blick ohne tägliche Mascara.",
     benefits: [
@@ -302,7 +302,7 @@ export const SERVICES = [
     metaTitle: "Quantum Angel Healing® in Zürich | THE FACE®",
     h1: "Quantum Angel Healing® in Zürich",
     intro:
-      "Quantum Angel Healing® nach Eva-Maria Mora ist eine holistische Behandlung, die die Selbstheilung anregt – eine besondere Ergänzung zur klassischen Gesichtspflege.",
+      "Quantum Angel Healing® nach Eva-Maria Mora ist eine holistische Behandlung, die die Selbstheilung anregt. Eine besondere Ergänzung zur klassischen Gesichtspflege.",
     what:
       "Mit Quantum Angel Healing® nach Eva-Maria Mora arbeite ich energetisch und sanft, um Deinen Neustart der Selbstheilung mit Engeln zu unterstützen. Eine ruhige, achtsame Behandlung.",
     benefits: [

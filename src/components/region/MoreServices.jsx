@@ -14,7 +14,7 @@ export default function MoreServices() {
             Mein vollständiges Behandlungsangebot
           </h2>
           <p className="text-charcoal/60 max-w-xl mx-auto mb-8">
-            Entdecke alle Behandlungen – von der Hautanalyse bis zum Brautmake-up.
+            Entdecke alle Behandlungen, von der Hautanalyse bis zum Brautmake-up.
           </p>
         </ScrollReveal>
 

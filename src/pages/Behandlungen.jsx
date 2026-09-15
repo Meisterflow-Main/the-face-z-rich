@@ -73,7 +73,7 @@ export default function Behandlungen() {
         <section className="bg-charcoal py-16 px-5">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-white mb-4">
-              Unsicher welche Behandlung passt?
+              Unsicher, welche Behandlung passt?
             </h2>
             <p className="text-white/70 max-w-xl mx-auto mb-7">
               In der persönlichen Hautanalyse empfehle ich Dir die passende Behandlung. Buche direkt einen Termin.

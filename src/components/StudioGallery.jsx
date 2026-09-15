@@ -21,14 +21,14 @@ export default function StudioGallery() {
             Einblick
           </p>
           <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal leading-[1.05] mb-4">
-            Unsere <span className="gold-gradient-text">Räumlichkeiten</span>
+            Meine <span className="gold-gradient-text">Räumlichkeiten</span>
           </h2>
           <div className="hairline w-20 mb-4" />
           <p className="text-charcoal/70 text-sm sm:text-base leading-relaxed mb-3">
-            Entdecke unsere Räumlichkeiten und erhalte einen Einblick in die angenehme Atmosphäre unseres Studios.
+            Entdecke meine Räumlichkeiten und erhalte einen Einblick in die angenehme Atmosphäre meines Studios.
           </p>
           <p className="text-charcoal/60 text-sm sm:text-base leading-relaxed">
-            Lerne unsere Behandlungsräume und das besondere Ambiente bereits vor Deinem Besuch kennen.
+            Lerne meine Behandlungsräume und das besondere Ambiente bereits vor Deinem Besuch kennen.
           </p>
         </ScrollReveal>
 

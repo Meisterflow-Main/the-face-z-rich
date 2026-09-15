@@ -7,7 +7,7 @@ export default function WhyUs({ region }) {
     <section className="bg-background py-16 px-5">
       <div className="max-w-4xl mx-auto">
         <ScrollReveal className="text-center mb-10">
-          <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">Warum uns</p>
+          <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">Warum zu mir</p>
           <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal mb-4">
             Warum Kundinnen und Kunden aus {region.short} mich wählen
           </h2>

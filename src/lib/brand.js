@@ -45,11 +45,11 @@ export const TREATMENTS = [
   {
     title: "Longevity Glow Treatment",
     desc: "Innovatives Anti-Aging-Treatment für nachhaltigen Glow und strahlende, jugendliche Haut.",
-    benefit: "Jugendfrisch & Strahlend",
+    benefit: "Jugendlich & strahlend",
   },
   {
     title: "Revitalisierung",
-    desc: "Effektvolle Behandlungsgeräte für nachhaltige Regeneration und sichtbare Erneuerung der Haut.",
+    desc: "Wirkungsvolle Behandlungsgeräte für nachhaltige Regeneration und sichtbare Erneuerung der Haut.",
     benefit: "Regeneration & Elastizität",
   },
   {

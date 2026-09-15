@@ -23,7 +23,7 @@ export default function MoneyDetail({ service, region }) {
   ];
   const neighbors = REGIONS.filter((r) => r.slug !== region.slug).slice(0, 6);
   const metaTitle = `${service.name} in ${region.name} | THE FACE®`;
-  const intro = `Du wohnst in ${region.short} und interessierst Dich für die ${service.name}? In meiner Praxis an der Rämistrasse erhältst Du die ${service.name} individuell auf Deine Haut abgestimmt – mit über 30 Jahren Erfahrung und hochwertigen Clean-Produkten.`;
+  const intro = `Du wohnst in ${region.short} und interessierst Dich für die ${service.name}? In meiner Praxis an der Rämistrasse erhältst Du die ${service.name} individuell auf Deine Haut abgestimmt, mit über 30 Jahren Erfahrung und hochwertigen Clean-Produkten.`;
   const prices = service.priceFactors.map((p) => Number(p.price));
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -204,7 +204,7 @@ export default function MoneyDetail({ service, region }) {
           {service.name} in {region.short} buchen
         </h2>
         <p className="text-white/70 max-w-xl mx-auto mb-7">
-          Sichere Dir Deinen Termin an der Rämistrasse – online buchen oder persönlich anfragen.
+          Sichere Dir Deinen Termin an der Rämistrasse: online buchen oder persönlich anfragen.
         </p>
         <a
           href={BRAND.booking}
