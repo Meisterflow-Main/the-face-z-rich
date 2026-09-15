@@ -55,7 +55,7 @@ export default function ContactForm() {
           value={form[name]}
           onChange={(e) => setForm({ ...form, [name]: e.target.value })}
           className="w-full rounded-xl border border-gold/20 bg-card px-4 py-3.5 text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors resize-none"
-          placeholder="Wie können wir Dir helfen?"
+          placeholder="Wie kann ich Dir helfen?"
         />
       ) : (
         <input
@@ -78,7 +78,7 @@ export default function ContactForm() {
               Kontakt
             </p>
             <h2 className="font-heading text-3xl sm:text-4xl md:text-[42px] font-semibold text-foreground mb-6 leading-[1.12]">
-              Start Your Transformation
+              Beratung anfragen
             </h2>
             <div className="hairline w-16 mb-6" />
             <p className="text-charcoal/60 leading-relaxed mb-8">
@@ -146,7 +146,7 @@ export default function ContactForm() {
                 {status === STATUS.SUCCESS && <CheckCircle2 size={18} />}
                 {status === STATUS.ERROR && <AlertCircle size={18} />}
                 {status === STATUS.IDLE && <Send size={18} />}
-                {status === STATUS.LOADING ? "Wird gesendet…" : "Start Your Transformation"}
+                {status === STATUS.LOADING ? "Wird gesendet…" : "Anfrage senden"}
               </button>
 
               {status === STATUS.SUCCESS && (
