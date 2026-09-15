@@ -421,6 +421,422 @@ export const ARTICLES = [
     ],
     related: ["kosmetikerin-zuerich-finden", "hautanalyse-zuerich-erster-schritt", "welches-treatment-passt-zu-dir"],
   },
+  {
+    slug: "hauttypen-erklaert",
+    title: "Hauttypen erklärt: Welcher Hauttyp bist Du?",
+    category: "Ratgeber",
+    excerpt:
+      "Trocken, fettig, Mischhaut oder sensibel? Verstehe Deinen Hauttyp, lerne die Unterschiede zwischen Hauttyp und Hautzustand und finde die Pflege, die wirklich zu Dir passt.",
+    date: "2026-05-10",
+    author: "Denise Claire Gadient",
+    readTime: 6,
+    hero: IMG("1556228720-195a672e8a03"),
+    metaTitle: "Hauttypen erklärt: Welcher Hauttyp bist Du? | THE FACE® Blog",
+    metaDescription:
+      "Die fünf Hauttypen verständlich erklärt: trocken, fettig, Mischhaut, sensibel, reif. Lerne den Unterschied zwischen Hauttyp und Hautzustand kennen.",
+    sections: [
+      {
+        heading: "Hauttyp vs. Hautzustand: ein wichtiger Unterschied",
+        paragraphs: [
+          "Viele verwechseln Hauttyp und Hautzustand. Der Hauttyp ist genetisch gegeben und bleibt ein Leben lang weitgehend stabil: trocken, fettig, Mischhaut, sensibel oder normal. Der Hautzustand dagegen verändert sich – mit Jahreszeit, Stress, Hormonen, Alter und Pflege.",
+          "Du kannst beispielsweise vom Hauttyp her fettig sein, aber aktuell einen trockenen Hautzustand haben, weil die Hautbarriere gereizt ist. Genau deshalb analysiere ich bei der FACE-MAP nicht nur den Typ, sondern auch den aktuellen Zustand. Nur so wird Pflege zur Massarbeit.",
+        ],
+      },
+      {
+        heading: "Die fünf Hauttypen und ihre Merkmale",
+        paragraphs: [
+          "Trockene Haut spannt schnell, wirkt matt und neigt zu Fältchen. Sie braucht Feuchtigkeit und Lipide. Fettige Haut produziert viel Talg, glänzt und neigt zu Unreinheiten – hier klären und ausgleichen statt austrocknen. Mischhaut ist fettig in der T-Zone und trocken an den Wangen: unterschiedliche Zonen, unterschiedliche Pflege.",
+          "Sensible Haut reagiert schnell auf Reize – Rötungen, Brennen, Spannung. Sie braucht besonders sanfte, barrierefreundliche Produkte. Normale Haut ist ausgeglichen und unkompliziert, aber auch sie braucht Pflege und Schutz, um es zu bleiben.",
+        ],
+      },
+      {
+        heading: "Wie Du Deinen Hauttyp herausfindest",
+        paragraphs: [
+          "Eine ehrliche Einschätzung gibt Dir die professionelle Hautanalyse. Ich untersuche Deine Haut Zone für Zone mit der FACE-MAP und FACE-FIT und bestimme Typ und Zustand. So weisst Du, was Deine Haut wirklich braucht – und kaufst nicht mehr blind.",
+          "Auch zuhause kannst Du beobachten: Spannt Deine Haut nach dem Waschen? Glänzt sie am Mittag in der T-Zone? Reagiert sie auf neue Produkte mit Rötungen? Diese Beobachtungen sind wertvolle Hinweise, die Du zu Deiner Analyse mitbringst.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Kann sich mein Hauttyp ändern?",
+        a: "Der Hauttyp bleibt weitgehend stabil, aber der Hautzustand verändert sich mit Jahreszeit, Alter und Lebensstil. Eine regelmässige Analyse hält Deine Pflege aktuell.",
+      },
+      {
+        q: "Was ist Mischhaut?",
+        a: "Mischhaut ist fettig in der T-Zone (Stirn, Nase, Kinn) und trocken bis normal an den Wangen. Sie braucht Zonenpflege: klären in der T-Zone, feuchtigkeitsspendend an den Wangen.",
+      },
+      {
+        q: "Wie oft sollte ich meinen Hauttyp prüfen lassen?",
+        a: "Einmal pro Jahr empfehle ich eine Auffrisch-Analyse. Bei grossen Veränderungen wie Umstellung der Pflege, Hormonschwankungen oder Jahreszeitenwechsel früher.",
+      },
+    ],
+    related: ["pflegeroutine-zuhause", "hautbarriere-reparieren", "welches-treatment-passt-zu-dir"],
+  },
+  {
+    slug: "pflegeroutine-zuhause",
+    title: "Deine Pflegeroutine für zuhause: Morgens und abends",
+    category: "Anleitungen",
+    excerpt:
+      "Eine gute Pflegeroutine muss nicht kompliziert sein. Erfahre, welche Schritte morgens und abends wichtig sind, in welcher Reihenfolge Produkte wirken und wie Du Deine Haut nachhaltig pflegst.",
+    date: "2026-04-25",
+    author: "Denise Claire Gadient",
+    readTime: 5,
+    hero: IMG("1556228453-8512a474f3b4"),
+    metaTitle: "Pflegeroutine für zuhause: Morgens und abends | THE FACE® Blog",
+    metaDescription:
+      "Schritt-für-Schritt Anleitung für Deine tägliche Pflegeroutine: Reinigung, Toner, Serum, Feuchtigkeit, Schutz. Verständlich erklärt von Kosmetikerin Denise Claire Gadient.",
+    sections: [
+      {
+        heading: "Morgens: Schutz und Feuchtigkeit",
+        paragraphs: [
+          "Die morgendliche Routine bereitet Deine Haut auf den Tag vor. Reinigung entfernt Talg und Schlafreste – lauwarmes Wasser oder ein sanfter Reiniger genügt. Danach folgt ein Toner, der den pH-Wert der Haut ausgleicht und sie aufnahmebereit macht.",
+          "Anschließend trägst Du ein Serum auf, das zu Deinem Hautzustand passt – beispielsweise Vitamin C für einen frischen Teint. Danach kommt die Feuchtigkeitscreme, die die Hautbarriere unterstützt. Zuletzt und unverzichtbar: Sonnenschutz mit mindestens SPF 30, auch im Winter und bei bewölktem Himmel.",
+        ],
+      },
+      {
+        heading: "Abends: Regeneration und Pflege",
+        paragraphs: [
+          "Abends entfernt die Reinigung Schmutz, Make-up und Sonnenschutz gründlich. Ein sanfter Reiniger oder ein zweistufiges Reinigen mit Reinigungsöl und Wasserbasis sorgt für eine saubere Basis. Danach kann die Haut pflegende Wirkstoffe aufnehmen.",
+          "Ein Nachtserum mit Wirkstoffen wie Retinol oder Peptiden unterstützt die Regeneration, während Du schläfst. Eine reichhaltigere Nachtpflege versiegelt die Feuchtigkeit. Augenspezifische Pflege rundet die Routine ab. Weniger ist oft mehr: zu viele Produkte überfordern die Haut.",
+        ],
+      },
+      {
+        heading: "Häufige Fehler und wie Du sie vermeidest",
+        paragraphs: [
+          "Der häufigste Fehler ist, zu viele Produkte gleichzeitig zu verwenden. Die Haut braucht Zeit, sich an neue Wirkstoffe zu gewöhnen. Führe immer nur ein neues Produkt ein und beobachte, wie Deine Haut reagiert. Ein weiterer Klassiker: SPF wird vergessen oder zu sparsam aufgetragen.",
+          "Auch die Reihenfolge matters: von leichter zu reichhaltiger Textur, von wasserlöslich zu ölbasierend. Wer unsicher ist, bringt seine Produkte zur Hautanalyse mit – ich prüfe gerne, ob sie zu Deinem Hauttyp passen.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Brauche ich Toner?",
+        a: "Ein Toner kann helfen, den pH-Wert der Haut auszugleichen und sie aufnahmebereit für nachfolgende Pflege zu machen. Bei sensibler Haut empfehle ich alkoholfreie, sanfte Formulierungen.",
+      },
+      {
+        q: "Wie viel Produkt brauche ich?",
+        a: "Meist genügt eine erbsengrosse Menge Creme für das ganze Gesicht. Mehr Produkt bedeutet nicht mehr Wirkung, sondern kann die Haut belasten.",
+      },
+      {
+        q: "Kann ich morgens und abends dieselben Produkte verwenden?",
+        a: "Teilweise. SPF gehört nur morgens, Retinol nur abends. Einige Produkte wie Reiniger und Feuchtigkeitscreme kannst Du beide Male verwenden. Ich berate Dich individuell.",
+      },
+    ],
+    related: ["hauttypen-erklaert", "wirkstoffe-erklaert", "haeufige-pflegefehler"],
+  },
+  {
+    slug: "saisonale-hautpflege",
+    title: "Saisonale Hautpflege: Wie sich Deine Haut im Jahreslauf verändert",
+    category: "Tipps",
+    excerpt:
+      "Im Winter trocken, im Sommer fettig: Deine Haut hat zu jeder Jahreszeit andere Bedürfnisse. Erfahre, wie Du Deine Pflege anpassen kannst und welche Behandlungen zu welcher Jahreszeit passen.",
+    date: "2026-04-08",
+    author: "Denise Claire Gadient",
+    readTime: 5,
+    hero: IMG("1556228841-3e0c2c2b2a2a"),
+    metaTitle: "Saisonale Hautpflege: Pflege nach Jahreszeiten | THE FACE® Blog",
+    metaDescription:
+      "Wie Du Deine Hautpflege an Frühling, Sommer, Herbst und Winter anpasst. Saisonale Tipps von Kosmetikerin Denise Claire Gadient, THE FACE® Zürich.",
+    sections: [
+      {
+        heading: "Winter: Kälte und Heizungsluft",
+        paragraphs: [
+          "Im Winter fordern Kälte draussen und trockene Heizungsluft drinnen die Hautbarriere heraus. Die Haut verliert mehr Feuchtigkeit, spannt und kann rissig werden. Eine reichhaltigere Pflege mit mehr Lipiden hilft, die Barriere zu stärken und Feuchtigkeit zu speichern.",
+          "Auch die Reinigung sollte milder sein – keine aggressiven Schaumreiniger, die den Säureschutzmantel angreifen. Ein feuchtigkeitsspendendes Serum unter der Tagescreme gibt extra Schutz. Wer besonders trockene Haut hat, ergänzt nachts mit einer nährenden Maske.",
+        ],
+      },
+      {
+        heading: "Frühling und Sommer: Schutz und Klärung",
+        paragraphs: [
+          "Im Frühling weckt die Haut auf: Peeling und klärende Treatments helfen, die winterliche Mattigkeit abzubauen. Jetzt ist auch der Zeitpunkt, um die SPF-Routine aufzufrischen. Die Haut produziert bei wärmeren Temperaturen mehr Talg – eine leichtere Pflege verhindert verstopfte Poren.",
+          "Im Sommer steht der Sonnenschutz im Zentrum. SPF 30 bis 50 ist täglich Pflicht, auch bei bewölktem Himmel. Nach dem Sommer empfehle ich eine aufhellende Behandlung wie Pro Bright, falls Pigmentflecken entstanden sind.",
+        ],
+      },
+      {
+        heading: "Herbst: Regeneration und Vorbereitung",
+        paragraphs: [
+          "Der Herbst ist die Zeit der Regeneration. Die Haut erholt sich vom Sommer und bereitet sich auf den Winter vor. Feuchtigkeitsspendende Treatments wie Pro Skin 60 oder das Longevity Glow Treatment helfen, die Barriere zu stärken und den Teint zu verfeinern.",
+          "Auch eine Auffrisch-Hautanalyse lohnt sich jetzt: Mit ihr überprüfen wir, ob Deine aktuelle Pflege noch zum veränderten Hautzustand passt. So gehst Du gut vorbereitet in die kalte Jahreszeit.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Muss ich im Winter andere Produkte verwenden?",
+        a: "Oft ja. Eine reichhaltigere Pflege mit mehr Lipiden hilft, die Barriere in der Kälte zu stärken. Eine Hautanalyse zeigt, welche Anpassungen für Deine Haut sinnvoll sind.",
+      },
+      {
+        q: "Brauche ich im Winter trotzdem SPF?",
+        a: "Absolut. UV-Strahlung ist auch bei bewölktem Himmel und im Winter vorhanden. Täglicher Sonnenschutz ist die wichtigste Anti-Aging-Massnahme, ganzjährig.",
+      },
+      {
+        q: "Welche Behandlung passt zu welcher Jahreszeit?",
+        a: "Frühling für Klärung, Sommer für Schutz, Herbst für Regeneration, Winter für Feuchtigkeit. In der Beratung empfehle ich individuell, was zu Deiner Haut und der Saison passt.",
+      },
+    ],
+    related: ["pflegeroutine-zuhause", "sonnenschutz-anti-aging", "hautbarriere-reparieren"],
+  },
+  {
+    slug: "haeufige-pflegefehler",
+    title: "7 häufige Pflegefehler, die Deine Haut belasten",
+    category: "Ratgeber",
+    excerpt:
+      "Zu viel Peeling, falsche Produkte, kein Sonnenschutz: Diese sieben Fehler machen mehr Kundinnen, als Du denkst. Erfahre, wie Du sie erkennst und vermeidest.",
+    date: "2026-03-20",
+    author: "Denise Claire Gadient",
+    readTime: 5,
+    hero: IMG("1556228578-8c89cb6d8d6a"),
+    metaTitle: "7 häufige Pflegefehler vermeiden | THE FACE® Blog",
+    metaDescription:
+      "Die sieben häufigsten Fehler in der Hautpflege und wie Du sie vermeidest. Ein Ratgeber von Kosmetikerin Denise Claire Gadient, THE FACE® Zürich.",
+    sections: [
+      {
+        heading: "Fehler 1 bis 3: Zu viel, zu oft, zu aggressiv",
+        paragraphs: [
+          "Fehler 1: Zu viel Peeling. Wer täglich peelt, überfordert die Hautbarriere. Die Haut wird empfindlicher statt glatter. Zwei- bis dreimal pro Woche genügt, bei sensibler Haut seltener. Fehler 2: Aggressive Reiniger. Schaumreiniger mit starken Tensiden strippen die Haut und schwächen den Säureschutzmantel. Sanfte Reiniger reinigen genauso gründlich, ohne zu belasten.",
+          "Fehler 3: Zu viele Produkte gleichzeitig. Wer fünf neue Produkte auf einmal einführt, weiss nicht, welches wirkt und welches reagiert. Führe immer nur ein neues Produkt ein und beobachte Deine Haut zwei Wochen lang.",
+        ],
+      },
+      {
+        heading: "Fehler 4 und 5: Sonnenschutz und Make-up",
+        paragraphs: [
+          "Fehler 4: Kein oder zu wenig Sonnenschutz. UV-Strahlung ist der grösste Treiber von Hautalterung und Pigmentflecken. Täglicher SPF 30 bis 50 ist nicht optional, sondern die wichtigste Pflege überhaupt. Auch im Winter, auch bei bewölktem Himmel.",
+          "Fehler 5: Make-up entfernen ohne Reinigung. Make-up allein mit Wasser zu entfernen reicht nicht. Ein gründliches, zweistufiges Reinigen – zuerst ölbasierend, dann wasserbasierend – entfernt Make-up, Sonnenschutz und Schmutz restlos.",
+        ],
+      },
+      {
+        heading: "Fehler 6 und 7: Pflege und Ernährung",
+        paragraphs: [
+          "Fehler 6: Die falsche Reihenfolge. Produkte müssen von leichter zu reichhaltiger Textur aufgetragen werden. Ein Serum unter einer dicken Creme kann nicht richtig einziehen. Wasserlösliches zuerst, ölbasierendes zuletzt.",
+          "Fehler 7: Hautpflege nur von aussen. Ernährung, Schlaf und Stress beeinflussen die Haut massgeblich. Wer genug trinkt, ausgewogen isst und schläft, unterstützt seine Haut von innen. Pflege ist ganzheitlich, nicht nur eine Frage der Produkte.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Wie oft sollte ich meine Haut peelen?",
+        a: "Zwei- bis dreimal pro Woche bei normaler Haut, seltener bei sensibler Haut. Tägliches Peeling überfordert die Barriere und macht die Haut empfindlicher.",
+      },
+      {
+        q: "Was mache ich, wenn meine Haut auf ein neues Produkt reagiert?",
+        a: "Setze das Produkt ab und gib der Haut Zeit, sich zu beruhigen. Wenn die Reaktion anhält, berate ich Dich gerne in der Praxis, um die Ursache zu finden.",
+      },
+      {
+        q: "Reicht ein Make-up-Entferner oder brauche ich zusätzlich Reinigung?",
+        a: "Ein gründliches Reinigen in zwei Schritten – erst ölbasierend, dann wasserbasierend – ist sicherer als nur ein Produkt. So werden Make-up, SPF und Schmutz restlos entfernt.",
+      },
+    ],
+    related: ["pflegeroutine-zuhause", "hautbarriere-reparieren", "wirkstoffe-erklaert"],
+  },
+  {
+    slug: "wirkstoffe-erklaert",
+    title: "Wirkstoffe erklärt: Retinol, Vitamin C, Hyaluronsäure und Co.",
+    category: "Ratgeber",
+    excerpt:
+      "Retinol, Vitamin C, Hyaluronsäure, Niacinamid: Diese Wirkstoffe begegnen Dir überall. Erfahre, was sie bewirken, für wen sie passen und wie Du sie richtig anwendest.",
+    date: "2026-03-02",
+    author: "Denise Claire Gadient",
+    readTime: 6,
+    hero: IMG("1556228720-0d63b2c2b3a1"),
+    metaTitle: "Wirkstoffe erklärt: Retinol, Vitamin C & Hyaluronsäure | THE FACE® Blog",
+    metaDescription:
+      "Die wichtigsten Hautpflege-Wirkstoffe verständlich erklärt: Retinol, Vitamin C, Hyaluronsäure, Niacinamid und Peptide. Ein Ratgeber von THE FACE® Zürich.",
+    sections: [
+      {
+        heading: "Die Klassiker: Retinol und Vitamin C",
+        paragraphs: [
+          "Retinol (Vitamin A) ist der am besten erforschte Anti-Aging-Wirkstoff. Er regt die Zellerneuerung an, verfeinert das Hautbild und mildert Fältchen. Wichtig: langsam anfangen und nur abends verwenden, da Retinol lichtempfindlich macht. Bei sensibler Haut mit niedriger Konzentration beginnen.",
+          "Vitamin C ist ein Antioxidans, das die Haut vor freien Radikalen schützt und den Teint aufhellt. Es eignet sich für die morgendliche Routine, da es den Sonnenschutz ergänzt. Aufhellend wirkt es besonders bei Hyperpigmentation und ungleichmässigem Teint.",
+        ],
+      },
+      {
+        heading: "Feuchtigkeit und Barriere: Hyaluronsäure und Niacinamid",
+        paragraphs: [
+          "Hyaluronsäure ist ein Feuchtigkeitsmagnet, der Wasser in der Haut bindet. Sie ist für alle Hauttypen geeignet, gut verträglich und wirkt sofort glättend. Auf feuchte Haut aufgetragen, entfaltet sie ihre volle Wirkung.",
+          "Niacinamid (Vitamin B3) stärkt die Hautbarriere, reguliert die Talgproduktion und wirkt beruhigend. Es eignet sich besonders bei Mischhaut, unreiner und sensibler Haut. Ein echter Allrounder, der selten reagiert und gut mit anderen Wirkstoffen kombinierbar ist.",
+        ],
+      },
+      {
+        heading: "Peptide und wie Du Wirkstoffe kombinierst",
+        paragraphs: [
+          "Peptide sind kurze Aminosäureketten, die die Hautstruktur unterstützen und die Kollagenproduktion anregen. Sie sind sanft und gut verträglich, eignen sich für reifere Haut und als Alternative zu Retinol bei empfindlicher Haut.",
+          "Bei der Kombination gilt: nicht alle Wirkstoffe gleichzeitig. Retinol und Vitamin C besser zu unterschiedlichen Zeiten verwenden – Retinol abends, Vitamin C morgens. Wer unsicher ist, lässt sich in der Hautanalyse beraten, welche Wirkstoffe zu seiner Haut und seinen Zielen passen.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Kann ich Retinol und Vitamin C zusammen verwenden?",
+        a: "Besser nicht gleichzeitig. Vitamin C morgens, Retinol abends ist die bewährte Kombination. So vermeidest Du Reizungen und nutzt die Stärken beider Wirkstoffe.",
+      },
+      {
+        q: "Ab welchem Alter sollte ich mit Retinol beginnen?",
+        a: "Ab Mitte 20 bis Anfang 30 ist Retinol als Anti-Aging-Prävention sinnvoll. Beginne mit niedriger Konzentration und baue langsam auf. Eine Beratung hilft, den richtigen Einstieg zu finden.",
+      },
+      {
+        q: "Welcher Wirkstoff hilft gegen Pigmentflecken?",
+        a: "Vitamin C und Niacinamid wirken aufhellend. In der professionellen Behandlung ergänzt Pro Bright diese Wirkstoffe gezielt. Geduld ist entscheidend: Pigmentflecken blassen über Wochen.",
+      },
+    ],
+    related: ["pflegeroutine-zuhause", "hyperpigmentation-behandeln", "anti-aging-ohne-eingriff-longevity-glow"],
+  },
+  {
+    slug: "hautpflege-teenager",
+    title: "Hautpflege für Teenager: So lernen Jugendliche die richtige Pflege",
+    category: "Ratgeber",
+    excerpt:
+      "Jugendakne ist belastend, aber mit der richtigen Pflege gut in den Griff zu bekommen. Erfahre, welche Produkte Teenager brauchen, welche sie meiden sollten und wie eine professionelle Behandlung hilft.",
+    date: "2026-02-15",
+    author: "Denise Claire Gadient",
+    readTime: 5,
+    hero: IMG("1556228720-0a2c2b3a4b5c"),
+    metaTitle: "Hautpflege für Teenager: Tipps gegen Jugendakne | THE FACE® Blog",
+    metaDescription:
+      "Wie Teenager ihre Haut richtig pflegen und Jugendakne in den Griff bekommen. Sanfte Produkte, einfache Routinen und die Pro Clear Young Behandlung von THE FACE® Zürich.",
+    sections: [
+      {
+        heading: "Warum Jugendakne entsteht",
+        paragraphs: [
+          "In der Pubertät verändert sich der Hormonhaushalt, was die Talgproduktion anregt. Die Poren verstopfen, Bakterien vermehren sich und Entzündungen entstehen. Das ist völlig normal und hat nichts mit mangelnder Hygiene zu tun – ein wichtiges Wissen für betroffene Jugendliche.",
+          "Wichtig: Jugendliche nicht mit Schuldgefühlen belasten. Akne ist keine Frage von Sauberkeit. Vielmehr braucht die junge Haut die richtige, sanfte Pflege und Geduld, um sich zu regulieren.",
+        ],
+      },
+      {
+        heading: "Eine einfache Routine für jugendliche Haut",
+        paragraphs: [
+          "Weniger ist mehr. Eine einfache Routine aus sanfter Reinigung, einem leichten Feuchtigkeitsspender und bei Bedarf einem klärenden Produkt genügt. Aggressive Anti-Pickel-Produkte austrocknen die Haut und verschlimmern das Problem, weil die Haut mehr Talg nachproduziert.",
+          "Sonnenschutz ist auch für Teenager wichtig, besonders, wenn klärende Produkte verwendet werden, die die Haut lichtempfindlicher machen. Ein SPF 30 täglich gehört zur Grundpflege.",
+        ],
+      },
+      {
+        heading: "Wann eine professionelle Behandlung hilft",
+        paragraphs: [
+          "Wenn die häusliche Pflege nicht ausreicht, hilft die Pro Clear Young Behandlung, die ich speziell für jugendliche Haut anbiete. Sie ist sanft, aufklärend und lehrt Jugendliche, ihre Haut richtig zu pflegen. Vorab analysiere ich die Haut, um die Behandlung passgenau aufzustellen.",
+          "Ein wichtiger Nebeneffekt: Jugendliche, die früh lernen, ihre Haut zu verstehen, pflegen ein Leben lang bewusster. Das ist eine Investition in die Zukunft ihrer Haut.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Ab welchem Alter ist eine Hautanalyse sinnvoll?",
+        a: "Ab der Pubertät, wenn die erste Akne auftritt, ist eine Analyse wertvoll. So lernt der Jugendliche seine Haut kennen und erhält eine passende Pflegeroutine.",
+      },
+      {
+        q: "Sollten Teenager ihre Pickel selbst ausdrücken?",
+        a: "Nein. Ausdrücken kann Narben hinterlassen und Entzündungen verschlimmern. Eine professionelle Behandlung klärt die Haut sanft, ohne die Barriere zu schädigen.",
+      },
+      {
+        q: "Welche Produkte braucht ein Teenager?",
+        a: "Einen sanften Reiniger, eine leichte Feuchtigkeit und bei Bedarf ein klärendes Produkt. Mehr überfordert die junge Haut. In der Beratung stelle ich eine einfache Routine zusammen.",
+      },
+    ],
+    related: ["hauttypen-erklaert", "haeufige-pflegefehler", "welches-treatment-passt-zu-dir"],
+  },
+  {
+    slug: "sonnenschutz-anti-aging",
+    title: "Sonnenschutz: Warum SPF die wichtigste Anti-Aging-Massnahme ist",
+    category: "Tipps",
+    excerpt:
+      "Sonnenschutz ist nicht nur ein Sommersache. UV-Strahlung ist der grösste Treiber von Hautalterung. Erfahre, welchen SPF Du brauchst, wie viel Du auftragen solltest und warum täglicher Schutz unverzichtbar ist.",
+    date: "2026-02-01",
+    author: "Denise Claire Gadient",
+    readTime: 4,
+    hero: IMG("1556228720-0e3c2b4a5b6c"),
+    metaTitle: "Sonnenschutz: Warum SPF das wichtigste Anti-Aging ist | THE FACE® Blog",
+    metaDescription:
+      "Warum täglicher Sonnenschutz die wirksamste Anti-Aging-Massnahme ist. SPF-Werte, Anwendungsmenge und Tipps von Kosmetikerin Denise Claire Gadient, THE FACE® Zürich.",
+    sections: [
+      {
+        heading: "UV-Strahlung und Hautalterung",
+        paragraphs: [
+          "Bis zu 80 Prozent der sichtbaren Hautalterung sind auf UV-Strahlung zurückzuführen. UVA-Strahlung dringt tief in die Haut ein und schädigt Kollagen und Elastin. Das Ergebnis: Fältchen, Falten und ein verlust der Elastizität. UVB-Strahlung verursacht Sonnenbrand und kann die Hautbarriere schwächen.",
+          "Deshalb ist Sonnenschutz nicht nur ein Sommersache, sondern die wichtigste Anti-Aging-Massnahme, die Du täglich durchführen kannst. Kein Serum und keine Creme kann den Schaden ersetzen, den ungeschützte UV-Exposition anrichtet.",
+        ],
+      },
+      {
+        heading: "Welchen SPF brauche ich?",
+        paragraphs: [
+          "Für den Alltag empfehle ich SPF 30 bis 50. In den Bergen, am Wasser oder bei intensiver Sonnenextraction sollte es SPF 50 sein. Wichtig ist nicht nur der Faktor, sondern die Menge: die meisten tragen zu wenig auf. Für das Gesicht brauchst Du etwa zwei Fingerlängen – Zeige- und Mittelfinger komplett.",
+          "Auch nachcremen ist entscheidend: alle zwei bis drei Stunden, besonders im Freien. Wasserdichte Sonnencreme verliert trotzdem nach dem Baden an Wirkung. Ein bewölkter Himmel reduziert die UV-Last, beseitigt sie aber nicht.",
+        ],
+      },
+      {
+        heading: "Sonnenschutz in der professionellen Behandlung",
+        paragraphs: [
+          "Nach peelenden Behandlungen wie Mikrodermabrasion oder Microneedling ist die Haut besonders empfindlich für UV-Strahlung. Deshalb betone ich bei jeder Beratung die Wichtigkeit des täglichen Schutzes. Wer Pigmentflecken behandelt, muss konsequent SPF verwenden – sonst kehrt die Hyperpigmentation zurück.",
+          "Die beste Anti-Aging-Strategie kombiniert täglichen Sonnenschutz zuhause mit professionellen Behandlungen wie dem Longevity Glow Treatment, die die Regeneration von innen anregen. So schützt und erneuerst Du gleichzeitig.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Brauche ich im Winter Sonnenschutz?",
+        a: "Ja. UV-Strahlung ist auch im Winter und bei bewölktem Himmel vorhanden. Täglicher SPF ist die wichtigste Anti-Aging-Massnahme, ganzjährig und unabhängig vom Wetter.",
+      },
+      {
+        q: "Wie viel Sonnencreme brauche ich für das Gesicht?",
+        a: "Etwa zwei Fingerlängen (Zeige- und Mittelfinger komplett). Die meisten tragen zu wenig auf, was den tatsächlichen Schutz halbiert.",
+      },
+      {
+        q: "Kann ich Sonnenschutz und Make-up kombinieren?",
+        a: "Ja. Trage zuerst SPF auf, lass ihn einziehen, dann folgt das Make-up. Es gibt auch getönte Sonnencremes, die beides in einem Produkt kombinieren.",
+      },
+    ],
+    related: ["anti-aging-ohne-eingriff-longevity-glow", "saisonale-hautpflege", "hyperpigmentation-behandeln"],
+  },
+  {
+    slug: "hautbarriere-reparieren",
+    title: "Hautbarriere verstehen und reparieren: Wenn die Haut empfindlich reagiert",
+    category: "Ratgeber",
+    excerpt:
+      "Spannen, Rötungen, Brennen: Eine geschädigte Hautbarriere macht die Haut empfindlich. Erfahre, wie die Barriere funktioniert, was sie schwächt und wie Du sie wieder aufbaust.",
+    date: "2026-01-18",
+    author: "Denise Claire Gadient",
+    readTime: 5,
+    hero: IMG("1556228720-0f4c2b5a6b7c"),
+    metaTitle: "Hautbarriere reparieren: Ursachen und Lösungen | THE FACE® Blog",
+    metaDescription:
+      "Wie die Hautbarriere funktioniert, was sie schädigt und wie Du sie wieder aufbaust. Ein Ratgeber von Kosmetikerin Denise Claire Gadient, THE FACE® Zürich.",
+    sections: [
+      {
+        heading: "Was die Hautbarriere leistet",
+        paragraphs: [
+          "Die Hautbarriere ist die äusserste Schicht der Haut und hat eine zentrale Aufgabe: Sie hält Feuchtigkeit im Inneren und schützt vor Reizen von aussen – Bakterien, Umweltbelastungen, Allergenen. Eine intakte Barriere ist die Voraussetzung für gesunde, widerstandsfähige Haut.",
+          "Ist die Barriere geschädigt, dringen Reize ein und Feuchtigkeit entweicht. Die Folge: Spannen, Rötungen, Brennen und eine empfindlicher reagierende Haut. Auch Produkte, die vorher gut vertragen wurden, können plötzlich reagieren.",
+        ],
+      },
+      {
+        heading: "Was die Barriere schwächt",
+        paragraphs: [
+          "Die häufigsten Ursachen sind zu aggressives Peeling, übermässige Reinigung, zu viele Produkte gleichzeitig und extreme Wetterbedingungen. Auch Stress, Schlafmangel und eine unausgewogene Ernährung können die Barriere beeinträchtigen. Manchmal ist es eine Kombination mehrerer Faktoren.",
+          "Wer bemerkt, dass seine Haut plötzlich empfindlicher reagiert, sollte die Pflege vereinfachen: zurück auf ein sanftes Reinigungs- und Pflegeprogramm, keine neuen Produkte, kein Peeling für einige Wochen. Die Haut braucht Zeit, um sich zu regenerieren.",
+        ],
+      },
+      {
+        heading: "Wie Du die Barriere wieder aufbaust",
+        paragraphs: [
+          "Der Aufbau braucht Geduld und die richtigen Inhaltsstoffe. Ceramide, Hyaluronsäure und Niacinamid stärken die Barriere und helfen, Feuchtigkeit zu speichern. Sanfte, barrierefreundliche Clean-Produkte respektieren die Haut und unterstützen den Aufbau. Weniger ist hier mehr.",
+          "In der Praxis biete ich mit Pro Calm Treat eine Behandlung an, die gereizte, sensible Haut beruhigt und die Barriere unterstützt. Vorab analysiere ich Deine Haut, um die Ursache der Empfindlichkeit zu verstehen und eine passende Pflege zu empfehlen.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Wie lange dauert der Aufbau der Hautbarriere?",
+        a: "Je nach Ausprägung einige Wochen bis Monate. Wichtig ist, die Pflege in dieser Zeit konstant zu halten und keine neuen Produkte einzuführen. Geduld zahlt sich aus.",
+      },
+      {
+        q: "Kann ich während des Aufbaus peelen?",
+        a: "Besser nicht. Peeling kann die Barriere zusätzlich belasten. Warte, bis die Haut sich beruhigt hat, und beginne dann langsam mit einem sanften Peeling.",
+      },
+      {
+        q: "Welche Behandlung hilft bei sensibler Haut?",
+        a: "Pro Calm Treat ist speziell für gereizte, sensible Haut konzipiert. Es beruhigt und stärkt die Barriere. In der Hautanalyse prüfe ich, ob es für Deine Haut passend ist.",
+      },
+    ],
+    related: ["hauttypen-erklaert", "haeufige-pflegefehler", "clean-beauty-was-wirklich-dahinter-steckt"],
+  },
 ];
 
 export const CATEGORIES = [...new Set(ARTICLES.map((a) => a.category))];
