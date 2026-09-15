@@ -6,8 +6,8 @@ import { BRAND, ASSETS } from "@/lib/brand";
 export default function RegionHero({ region }) {
   return (
     <section className="relative min-h-[88vh] flex flex-col items-center justify-center pt-28 pb-16 px-5 overflow-hidden bg-sand">
-      <div className="pointer-events-none absolute -top-32 -right-32 w-[40rem] h-[40rem] rounded-full bg-gold/10 blur-3xl" />
-      <div className="pointer-events-none absolute -bottom-40 -left-40 w-[36rem] h-[36rem] rounded-full bg-gold/5 blur-3xl" />
+      <div className="pointer-events-none absolute -top-32 -right-32 w-[40rem] h-[40rem] rounded-lg bg-gold/10 blur-3xl" />
+      <div className="pointer-events-none absolute -bottom-40 -left-40 w-[36rem] h-[36rem] rounded-lg bg-gold/5 blur-3xl" />
 
       <motion.div
         initial={{ opacity: 0, y: 24 }}
@@ -34,13 +34,13 @@ export default function RegionHero({ region }) {
             href={BRAND.booking}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
+            className="inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-8 py-4 rounded-lg transition-all hover:shadow-lg hover:shadow-gold/30"
           >
             <Calendar size={18} /> Jetzt Termin buchen
           </a>
           <a
             href="#preisrechner"
-            className="inline-flex items-center justify-center gap-2 glass border border-gold/40 text-charcoal font-semibold px-8 py-4 rounded-full transition-all hover:border-gold"
+            className="inline-flex items-center justify-center gap-2 glass border border-gold/40 text-charcoal font-semibold px-8 py-4 rounded-lg transition-all hover:border-gold"
           >
             <Calculator size={18} className="text-gold" /> Preis berechnen
           </a>

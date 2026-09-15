@@ -59,7 +59,7 @@ export default function ContactBlock({ region }) {
             href={MAPS_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 glass border border-gold/40 text-charcoal font-semibold px-6 py-3 rounded-full transition-all hover:border-gold"
+            className="inline-flex items-center gap-2 glass border border-gold/40 text-charcoal font-semibold px-6 py-3 rounded-lg transition-all hover:border-gold"
           >
             <ExternalLink size={16} className="text-gold" /> Google Maps öffnen
           </a>

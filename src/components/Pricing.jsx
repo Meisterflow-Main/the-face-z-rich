@@ -135,12 +135,12 @@ function ServiceRow({ name, price, neu }) {
 export default function Pricing() {
   return (
     <section id="preise" className="bg-sand py-20 sm:py-28 px-5">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <ScrollReveal className="text-center mb-16">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">
             Behandlungen & Preise
           </p>
-          <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold text-charcoal leading-[1.05] mb-4">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-[42px] font-semibold text-foreground leading-[1.12] tracking-[-0.02em] mb-4">
             Invest in <span className="gold-gradient-text">your skin</span>
           </h2>
           <p className="text-charcoal/60 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
@@ -155,7 +155,7 @@ export default function Pricing() {
               <AccordionItem
                 key={cat.id}
                 value={cat.id}
-                className="bg-card border border-gold/15 rounded-2xl px-6 shadow-sm overflow-hidden"
+                className="bg-card border border-gold/15 rounded-lg px-6 shadow-sm overflow-hidden"
               >
                 <AccordionTrigger className="hover:no-underline py-6 group">
                   <div className="flex items-center gap-3 text-left pr-4">
@@ -194,7 +194,7 @@ export default function Pricing() {
             href={BRAND.booking}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
+            className="inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-8 py-4 rounded-lg transition-all hover:shadow-lg hover:shadow-gold/30"
           >
             <Calendar size={18} />
             Termin buchen

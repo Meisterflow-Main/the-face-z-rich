@@ -26,7 +26,7 @@ export default function FinalCTA({ region }) {
           href={BRAND.booking}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
+          className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-8 py-4 rounded-lg transition-all hover:shadow-lg hover:shadow-gold/30"
         >
           <Calendar size={18} /> Termin buchen
         </a>

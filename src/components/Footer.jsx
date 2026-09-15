@@ -6,18 +6,18 @@ import { Instagram, Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-charcoal text-white pt-16 pb-24 sm:pb-16 px-5 sm:px-8">
+    <footer className="bg-charcoal text-white pt-20 sm:pt-24 pb-10 px-5 sm:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div>
-            <img src={ASSETS.logo} alt="THE FACE® Zürich" className="h-10 w-auto mb-5" style={{ mixBlendMode: "screen" }} />
+            <img src={ASSETS.logo} alt="THE FACE® Zürich" className="h-12 sm:h-14 md:h-16 w-auto mb-6" style={{ mixBlendMode: "screen" }} />
             <p className="text-white/50 text-sm leading-relaxed max-w-xs">
               Über 30 Jahre spezialisiert in holistischer Gesichtspflege. Invest in your skin.
             </p>
           </div>
 
           <div>
-            <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-5">Kontakt</p>
+            <p className="text-gold font-semibold tracking-[0.12em] text-sm uppercase mb-5">Kontakt</p>
             <ul className="space-y-3 text-sm text-white/60">
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-gold mt-0.5 shrink-0" />
@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-5">Navigation</p>
+            <p className="text-gold font-semibold tracking-[0.12em] text-sm uppercase mb-5">Navigation</p>
             <ul className="space-y-3 text-sm text-white/60">
               <li><a href="/#ueber" className="hover:text-gold transition-colors">Über uns</a></li>
               <li><a href="/#behandlungen" className="hover:text-gold transition-colors">Behandlungen</a></li>
@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-5">Regionen</p>
+            <p className="text-gold font-semibold tracking-[0.12em] text-sm uppercase mb-5">Regionen</p>
             <ul className="space-y-2.5 text-sm text-white/60 grid grid-cols-1">
               {REGIONS.map((r) => (
                 <li key={r.slug}>

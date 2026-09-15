@@ -8,12 +8,12 @@ export default function FAQ() {
 
   return (
     <section id="faq" className="py-24 sm:py-32 px-5 sm:px-8 bg-background">
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-4xl">
         <ScrollReveal className="text-center mb-14">
           <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-4">
             Häufige Fragen
           </p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-charcoal mb-5">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-[42px] font-semibold text-foreground mb-5">
             Gut zu wissen
           </h2>
           <div className="hairline w-16 mx-auto" />

@@ -10,7 +10,7 @@ export default function Stats() {
           <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-3">
             Vertrauen & Expertise
           </p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white">
+          <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-white">
             Die Face of Excellence
           </h2>
         </ScrollReveal>
@@ -19,7 +19,7 @@ export default function Stats() {
           {STATS.map((s, i) => (
             <ScrollReveal key={s.label} delay={i * 0.08} className="text-center">
               <div className="glass-dark rounded-2xl p-6 border border-gold/20 h-full">
-                <p className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold gold-gradient-text mb-2">
+                <p className="font-heading text-3xl sm:text-4xl md:text-5xl font-semibold text-white mb-2">
                   {s.value}
                 </p>
                 <p className="text-white/60 text-sm tracking-wide">{s.label}</p>
@@ -38,7 +38,7 @@ export default function Stats() {
                 key={i}
                 src={p}
                 alt={`Partner ${i + 1}`}
-                className="h-14 sm:h-16 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
+                className="h-16 sm:h-20 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
               />
             ))}
           </div>

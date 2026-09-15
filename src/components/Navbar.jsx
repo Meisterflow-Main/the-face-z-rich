@@ -30,7 +30,7 @@ export default function Navbar() {
     >
       <nav className="mx-auto max-w-7xl px-5 sm:px-8 h-16 sm:h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <img src={ASSETS.logo} alt="THE FACE® Zürich Logo" className="h-8 sm:h-10 w-auto invert" />
+          <img src={ASSETS.logo} alt="THE FACE® Zürich Logo" className="h-10 sm:h-12 md:h-14 w-auto invert" />
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
@@ -77,7 +77,7 @@ export default function Navbar() {
             href={BRAND.booking}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-semibold text-white bg-gold hover:brightness-90 px-5 py-2.5 rounded-full transition-colors tracking-wide"
+            className="text-sm font-semibold text-white bg-gold hover:brightness-90 px-5 py-2.5 rounded-lg transition-colors tracking-wide"
           >
             Termin buchen
           </a>
@@ -129,7 +129,7 @@ export default function Navbar() {
               href={BRAND.booking}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-center text-sm font-semibold text-white bg-gold px-5 py-3 rounded-full"
+              className="text-center text-sm font-semibold text-white bg-gold px-5 py-3 rounded-lg"
             >
               Termin buchen
             </a>

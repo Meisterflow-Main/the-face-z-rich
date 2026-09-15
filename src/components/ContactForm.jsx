@@ -54,7 +54,7 @@ export default function ContactForm() {
           rows={4}
           value={form[name]}
           onChange={(e) => setForm({ ...form, [name]: e.target.value })}
-          className="w-full rounded-xl border border-gold/20 bg-card px-4 py-3 text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors resize-none"
+          className="w-full rounded-xl border border-gold/20 bg-card px-4 py-3.5 text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors resize-none"
           placeholder="Wie können wir Dir helfen?"
         />
       ) : (
@@ -62,7 +62,7 @@ export default function ContactForm() {
           type={type}
           value={form[name]}
           onChange={(e) => setForm({ ...form, [name]: e.target.value })}
-          className="w-full rounded-xl border border-gold/20 bg-card px-4 py-3 text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors"
+          className="w-full rounded-xl border border-gold/20 bg-card px-4 py-3.5 text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors"
         />
       )}
       {errors[name] && <p className="text-destructive text-xs mt-1.5">{errors[name]}</p>}
@@ -77,7 +77,7 @@ export default function ContactForm() {
             <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-4">
               Kontakt
             </p>
-            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight">
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-[42px] font-semibold text-foreground mb-6 leading-[1.12]">
               Start Your Transformation
             </h2>
             <div className="hairline w-16 mb-6" />
@@ -140,7 +140,7 @@ export default function ContactForm() {
               <button
                 type="submit"
                 disabled={status === STATUS.LOADING}
-                className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
+                className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-lg transition-all"
               >
                 {status === STATUS.LOADING && <Loader2 size={18} className="animate-spin" />}
                 {status === STATUS.SUCCESS && <CheckCircle2 size={18} />}

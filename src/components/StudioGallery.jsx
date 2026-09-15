@@ -20,7 +20,7 @@ export default function StudioGallery() {
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-2">
             Einblick
           </p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-charcoal leading-[1.05] mb-4">
+          <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal leading-[1.05] mb-4">
             Unsere <span className="gold-gradient-text">Räumlichkeiten</span>
           </h2>
           <div className="hairline w-20 mb-4" />
@@ -33,7 +33,7 @@ export default function StudioGallery() {
         </ScrollReveal>
 
         {/* Image grid on the right */}
-        <div className="lg:col-span-7 grid grid-cols-3 gap-3">
+        <div className="lg:col-span-7 grid grid-cols-3 gap-2.5">
           {STUDIO_IMAGES.map((src, i) => (
             <motion.div
               key={i}
@@ -41,7 +41,7 @@ export default function StudioGallery() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: Math.min(i * 0.06, 0.3), ease: [0.22, 1, 0.36, 1] }}
-              className={`relative overflow-hidden rounded-xl border border-charcoal/10 shadow-sm ${
+              className={`relative overflow-hidden rounded-lg border border-charcoal/10 shadow-sm ${
                 i === 0 ? "col-span-2 row-span-2 aspect-square" : "aspect-square"
               }`}
             >

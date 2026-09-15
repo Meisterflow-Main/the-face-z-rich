@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import TreatmentVideos from "@/components/TreatmentVideos";
 import AboutEditorial from "@/components/AboutEditorial";
 import Services from "@/components/Services";
-import TreatmentVideos from "@/components/TreatmentVideos";
 import Pricing from "@/components/Pricing";
 import StudioGallery from "@/components/StudioGallery";
 import Stats from "@/components/Stats";
@@ -20,9 +20,9 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <TreatmentVideos />
         <AboutEditorial />
         <Services />
-        <TreatmentVideos />
         <Pricing />
         <StudioGallery />
         <Stats />
