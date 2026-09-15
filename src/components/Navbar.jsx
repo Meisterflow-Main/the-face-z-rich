@@ -6,6 +6,7 @@ import { REGIONS } from "@/lib/regions";
 import { SERVICES } from "@/lib/services";
 
 const LINKS = [
+  { label: "Blog", href: "/blog", to: true },
   { label: "Über uns", href: "/#ueber" },
   { label: "FAQ", href: "/#faq" },
   { label: "Kontakt", href: "/#kontakt" },
@@ -77,11 +78,17 @@ export default function Navbar() {
             ))}
           </Dropdown>
 
-          {LINKS.map((l) => (
-            <a key={l.href} href={l.href} className="text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide">
-              {l.label}
-            </a>
-          ))}
+          {LINKS.map((l) =>
+            l.to ? (
+              <Link key={l.href} to={l.href} className="text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide">
+                {l.label}
+              </Link>
+            ) : (
+              <a key={l.href} href={l.href} className="text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide">
+                {l.label}
+              </a>
+            )
+          )}
 
           <a
             href={BRAND.booking}
@@ -128,11 +135,17 @@ export default function Navbar() {
               </div>
             )}
 
-            {LINKS.map((l) => (
-              <a key={l.href} href={l.href} className="text-base font-medium text-charcoal/80 hover:text-gold transition-colors" onClick={() => setOpen(false)}>
-                {l.label}
-              </a>
-            ))}
+            {LINKS.map((l) =>
+              l.to ? (
+                <Link key={l.href} to={l.href} className="text-base font-medium text-charcoal/80 hover:text-gold transition-colors" onClick={() => setOpen(false)}>
+                  {l.label}
+                </Link>
+              ) : (
+                <a key={l.href} href={l.href} className="text-base font-medium text-charcoal/80 hover:text-gold transition-colors" onClick={() => setOpen(false)}>
+                  {l.label}
+                </a>
+              )
+            )}
 
             <a href={BRAND.booking} target="_blank" rel="noopener noreferrer" className="text-center text-sm font-semibold text-white bg-gold px-5 py-3 rounded-lg">
               Termin buchen

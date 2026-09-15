@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { SERVICES } from "@/lib/services";
 import { REGIONS } from "@/lib/regions";
+import { ARTICLES } from "@/lib/blog";
 
 export default function Sitemap() {
   return (
@@ -21,12 +22,21 @@ export default function Sitemap() {
           <div className="grid sm:grid-cols-2 gap-10">
             <Group title="Hauptseiten">
               <Item to="/">Home</Item>
+              <Item to="/blog">Blog</Item>
               <Item to="/behandlungen">Behandlungen</Item>
               <Item to="/regionen">Regionen</Item>
               <Item to="/bewertung">Bewertung</Item>
               <Item to="/bewertungen">Bewertungen</Item>
               <Item to="/impressum">Impressum</Item>
               <Item to="/datenschutz">Datenschutz</Item>
+            </Group>
+
+            <Group title="Blog">
+              {ARTICLES.map((a) => (
+                <Item key={a.slug} to={`/blog/${a.slug}`}>
+                  {a.title}
+                </Item>
+              ))}
             </Group>
 
             <Group title="Behandlungen">

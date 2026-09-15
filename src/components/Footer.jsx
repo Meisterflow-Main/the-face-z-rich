@@ -72,6 +72,7 @@ export default function Footer() {
             </ul>
             <div className="mt-5 flex flex-wrap gap-x-4 gap-y-2 text-xs text-charcoal/55">
               <a href="/#ueber" className="hover:text-gold transition-colors">Über uns</a>
+              <Link to="/blog" className="hover:text-gold transition-colors">Blog</Link>
               <Link to="/bewertungen" className="hover:text-gold transition-colors">Bewertungen</Link>
               <Link to="/impressum" className="hover:text-gold transition-colors">Impressum</Link>
               <Link to="/datenschutz" className="hover:text-gold transition-colors">Datenschutz</Link>
