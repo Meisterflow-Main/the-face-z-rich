@@ -4,6 +4,7 @@ import { Calendar, Star } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 import { Image } from "@/components/ui/image";
 import { BRAND, SKIN_CONCERNS } from "@/lib/brand";
+import GoogleReviewBadge from "@/components/GoogleReviewBadge";
 
 const ROOM_IMAGE =
   "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/daac4795b_WhatsAppImage2026-09-10at1700351.jpeg";
@@ -29,6 +30,7 @@ export default function AboutEditorial() {
             Über 30 Jahre Hautvertrauen an der Rämistrasse
           </h2>
           <div className="hairline w-16 mb-6" />
+          <GoogleReviewBadge className="mb-5" />
           <p className="text-foreground/75 text-base sm:text-lg leading-[1.65] mb-5">
             Bei THE FACE® in Zürich steht Deine Haut im Mittelpunkt. Seit über 30 Jahren liegt
             der Fokus auf ganzheitlicher Gesichtspflege, individueller Beratung und nachhaltiger

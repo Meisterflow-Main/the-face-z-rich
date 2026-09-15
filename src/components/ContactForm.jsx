@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND, WEBHOOK } from "@/lib/brand";
+import GoogleReviewBadge from "@/components/GoogleReviewBadge";
 import { MapPin, Phone, Mail, Instagram, Send, CheckCircle2, Loader2, AlertCircle } from "lucide-react";
 
 const STATUS = { IDLE: "idle", LOADING: "loading", SUCCESS: "success", ERROR: "error" };
@@ -82,10 +83,11 @@ export default function ContactForm() {
               Beratung anfragen
             </h2>
             <div className="hairline w-16 mb-6" />
-            <p className="text-charcoal/60 leading-relaxed mb-8">
+            <p className="text-charcoal/60 leading-relaxed mb-6">
               Hast Du Fragen? Sende mir eine Nachricht – ich melde mich gerne persönlich
               bei Dir. Oder buche direkt Deinen Termin online.
             </p>
+            <GoogleReviewBadge className="mb-8" />
 
             <div className="space-y-4">
               <a href={`tel:${BRAND.phoneRaw}`} className="flex items-center gap-4 group">

@@ -24,6 +24,7 @@ export default function Sitemap() {
               <Item to="/behandlungen">Behandlungen</Item>
               <Item to="/regionen">Regionen</Item>
               <Item to="/bewertung">Bewertung</Item>
+              <Item to="/bewertungen">Bewertungen</Item>
               <Item to="/impressum">Impressum</Item>
               <Item to="/datenschutz">Datenschutz</Item>
             </Group>
