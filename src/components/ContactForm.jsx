@@ -140,7 +140,7 @@ export default function ContactForm() {
               <button
                 type="submit"
                 disabled={status === STATUS.LOADING}
-                className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#0EA5E9] disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
+                className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
               >
                 {status === STATUS.LOADING && <Loader2 size={18} className="animate-spin" />}
                 {status === STATUS.SUCCESS && <CheckCircle2 size={18} />}

@@ -33,7 +33,7 @@ export default function WhyUs({ region }) {
         <ScrollReveal className="text-center mt-10" delay={0.1}>
           <a
             href="#preisrechner"
-            className="inline-flex items-center gap-2 bg-gold hover:bg-[#0EA5E9] text-white font-semibold px-7 py-3.5 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
+            className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-7 py-3.5 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
           >
             <Calculator size={18} /> Jetzt Offerte berechnen
           </a>

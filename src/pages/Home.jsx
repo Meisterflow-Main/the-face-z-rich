@@ -1,10 +1,9 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import TreatmentVideos from "@/components/TreatmentVideos";
-import AboutIntro from "@/components/AboutIntro";
-import About from "@/components/About";
+import AboutEditorial from "@/components/AboutEditorial";
 import Services from "@/components/Services";
+import TreatmentVideos from "@/components/TreatmentVideos";
 import Pricing from "@/components/Pricing";
 import StudioGallery from "@/components/StudioGallery";
 import Stats from "@/components/Stats";
@@ -17,14 +16,13 @@ import CookieBanner from "@/components/CookieBanner";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <Navbar />
       <main>
         <Hero />
-        <TreatmentVideos />
-        <AboutIntro />
-        <About />
+        <AboutEditorial />
         <Services />
+        <TreatmentVideos />
         <Pricing />
         <StudioGallery />
         <Stats />

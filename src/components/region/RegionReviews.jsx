@@ -30,7 +30,7 @@ export default function RegionReviews({ region }) {
                 href={BRAND.googleReview}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-gold hover:bg-[#0EA5E9] text-white font-semibold px-6 py-3 rounded-full transition-all"
+                className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-6 py-3 rounded-full transition-all"
               >
                 <ExternalLink size={16} /> Alle Bewertungen ansehen
               </a>

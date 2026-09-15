@@ -77,7 +77,7 @@ export default function Navbar() {
             href={BRAND.booking}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-semibold text-white bg-gold hover:bg-[#0EA5E9] px-5 py-2.5 rounded-full transition-colors tracking-wide"
+            className="text-sm font-semibold text-white bg-gold hover:brightness-90 px-5 py-2.5 rounded-full transition-colors tracking-wide"
           >
             Termin buchen
           </a>

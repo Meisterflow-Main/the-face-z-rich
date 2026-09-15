@@ -6,28 +6,28 @@
 
 @layer base {
   :root {
-    --background: 40 30% 98%;
-    --foreground: 0 0% 15%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 15%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 15%;
-    --primary: 199 89% 60%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 40 20% 94%;
-    --secondary-foreground: 0 0% 15%;
-    --muted: 40 20% 94%;
-    --muted-foreground: 0 0% 40%;
-    --accent: 199 89% 60%;
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 40 15% 88%;
-    --input: 40 15% 88%;
-    --ring: 199 89% 60%;
-    --gold: 199 89% 60%;
-    --charcoal: 0 0% 15%;
-    --sand: 40 30% 96%;
+    --background: 38 30% 97%;
+    --foreground: 30 6% 18%;
+    --card: 40 34% 99%;
+    --card-foreground: 30 6% 18%;
+    --popover: 40 34% 99%;
+    --popover-foreground: 30 6% 18%;
+    --primary: 30 28% 48%;
+    --primary-foreground: 40 34% 99%;
+    --secondary: 36 26% 94%;
+    --secondary-foreground: 30 6% 18%;
+    --muted: 36 26% 94%;
+    --muted-foreground: 30 5% 38%;
+    --accent: 30 28% 48%;
+    --accent-foreground: 40 34% 99%;
+    --destructive: 0 60% 45%;
+    --destructive-foreground: 40 34% 99%;
+    --border: 34 16% 89%;
+    --input: 34 16% 89%;
+    --ring: 30 28% 48%;
+    --gold: 30 28% 48%;
+    --charcoal: 30 6% 16%;
+    --sand: 38 30% 95%;
     --radius: 0.5rem;
     --font-heading: 'Cormorant Garamond', ui-serif, Georgia, serif;
     --font-body: 'Jost', ui-sans-serif, system-ui, sans-serif;
@@ -104,7 +104,7 @@
   }
 
   .gold-gradient-text {
-    background: linear-gradient(135deg, #BAE6FD 0%, #38BDF8 50%, #0EA5E9 100%);
+    background: linear-gradient(135deg, #E3D5BF 0%, #C9A87C 50%, #8C6B47 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

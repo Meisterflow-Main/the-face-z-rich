@@ -97,7 +97,7 @@ export default function PriceCalculator({ region }) {
                 href={BRAND.booking}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-gold hover:bg-[#0EA5E9] text-white font-semibold px-7 py-3.5 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
+                className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-7 py-3.5 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
               >
                 <Calendar size={18} /> Jetzt Termin buchen
               </a>
