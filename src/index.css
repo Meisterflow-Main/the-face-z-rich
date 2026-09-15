@@ -6,28 +6,28 @@
 
 @layer base {
   :root {
-    --background: 38 30% 97%;
-    --foreground: 30 6% 18%;
-    --card: 40 34% 99%;
-    --card-foreground: 30 6% 18%;
-    --popover: 40 34% 99%;
-    --popover-foreground: 30 6% 18%;
-    --primary: 30 28% 48%;
-    --primary-foreground: 40 34% 99%;
-    --secondary: 36 26% 94%;
-    --secondary-foreground: 30 6% 18%;
-    --muted: 36 26% 94%;
-    --muted-foreground: 30 5% 38%;
-    --accent: 30 28% 48%;
-    --accent-foreground: 40 34% 99%;
-    --destructive: 0 60% 45%;
-    --destructive-foreground: 40 34% 99%;
-    --border: 34 16% 89%;
-    --input: 34 16% 89%;
-    --ring: 30 28% 48%;
-    --gold: 30 28% 48%;
-    --charcoal: 30 6% 16%;
-    --sand: 38 30% 95%;
+    --background: 220 23% 99%;
+    --foreground: 222 40% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 40% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 40% 16%;
+    --primary: 212 22% 44%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 32% 95%;
+    --secondary-foreground: 222 40% 18%;
+    --muted: 210 32% 95%;
+    --muted-foreground: 215 16% 42%;
+    --accent: 212 22% 44%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 50% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 20% 90%;
+    --input: 214 20% 90%;
+    --ring: 212 22% 44%;
+    --gold: 212 22% 44%;
+    --charcoal: 222 52% 13%;
+    --sand: 210 34% 96%;
     --radius: 0.5rem;
     --font-heading: 'Cormorant Garamond', ui-serif, Georgia, serif;
     --font-body: 'Jost', ui-sans-serif, system-ui, sans-serif;
@@ -98,13 +98,13 @@
   }
 
   .glass-dark {
-    background: rgba(245, 241, 234, 0.55);
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(16px) saturate(160%);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
   }
 
   .gold-gradient-text {
-    background: linear-gradient(135deg, #E3D5BF 0%, #C9A87C 50%, #8C6B47 100%);
+    background: linear-gradient(135deg, #9AABBC 0%, #6B7E92 50%, #41526A 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

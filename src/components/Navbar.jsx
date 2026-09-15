@@ -24,13 +24,13 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
-        scrolled ? "glass shadow-[0_1px_0_0_rgba(56,189,248,0.25)]" : "bg-transparent"
+      className={`fixed top-0 inset-x-0 z-50 glass transition-shadow duration-500 ${
+        scrolled ? "shadow-[0_1px_0_0_rgba(0,0,0,0.06)]" : "shadow-none"
       }`}
     >
       <nav className="mx-auto max-w-7xl px-5 sm:px-8 h-16 sm:h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <img src={ASSETS.logo} alt="THE FACE® Zürich Logo" className="h-8 sm:h-10 w-auto" />
+          <img src={ASSETS.logo} alt="THE FACE® Zürich Logo" className="h-8 sm:h-10 w-auto invert" />
         </Link>
 
         <div className="hidden md:flex items-center gap-8">

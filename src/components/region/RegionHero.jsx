@@ -15,7 +15,7 @@ export default function RegionHero({ region }) {
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         className="relative z-10 flex flex-col items-center text-center max-w-4xl"
       >
-        <img src={ASSETS.logo} alt="THE FACE® Zürich – Denise Claire Gadient" className="h-14 sm:h-16 w-auto mb-6" />
+        <img src={ASSETS.logo} alt="THE FACE® Zürich – Denise Claire Gadient" className="h-14 sm:h-16 w-auto mb-6 invert" />
 
         <p className="text-gold text-xs sm:text-sm tracking-[0.25em] uppercase font-medium mb-4">
           {region.eyebrow}

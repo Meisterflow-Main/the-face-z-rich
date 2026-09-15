@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl">
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div>
-            <img src={ASSETS.logo} alt="THE FACE® Zürich" className="h-10 w-auto mb-5 brightness-0 invert" />
+            <img src={ASSETS.logo} alt="THE FACE® Zürich" className="h-10 w-auto mb-5" style={{ mixBlendMode: "screen" }} />
             <p className="text-white/50 text-sm leading-relaxed max-w-xs">
               Über 30 Jahre spezialisiert in holistischer Gesichtspflege. Invest in your skin.
             </p>

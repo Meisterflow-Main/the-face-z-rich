@@ -7,9 +7,9 @@ export default function Hero() {
   return (
     <section className="relative h-[92vh] min-h-[620px] w-full overflow-hidden bg-charcoal">
       <img
-        src={ASSETS.banner}
+        src={ASSETS.hero}
         alt="THE FACE® Zürich – Kosmetikstudio an der Rämistrasse"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-center"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/35 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-t from-charcoal/45 via-transparent to-charcoal/20" />
