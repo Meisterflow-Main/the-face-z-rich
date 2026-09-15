@@ -64,7 +64,7 @@ export default function Impressum() {
               Dieses Impressum enthält die gesetzlich vorgeschriebenen Angaben zur Anbieterin dieser Website gemäss
               Schweizer Recht. Hier findest Du alle wesentlichen Unternehmensinformationen, Kontaktdaten sowie
               rechtliche Hinweise zu Haftung, Urheberrecht und Datenschutz. Sollten Fragen offen bleiben, erreiche
-              ich Dich über die unten stehenden Kontaktwege.
+              kannst Du mich über die unten stehenden Kontaktwege erreichen.
             </p>
           </ScrollReveal>
 
@@ -113,7 +113,7 @@ export default function Impressum() {
             <ScrollReveal delay={0.05}>
               <InfoCard icon={ShieldCheck} title="Berufsbezeichnung & Zertifizierungen">
                 <p>Kosmetikerin EFZ</p>
-                <p>Zertifiziert VNISSG Haut und Pigmente</p>
+                <p>VNISSG-zertifizierte Fachperson für Haut &amp; Pigmente</p>
                 <p>Dermalogica Skin Expert &amp; Visagistin</p>
                 <p className="text-charcoal/45 text-xs pt-2">Berufsbezeichnung verliehen in der Schweiz.</p>
               </InfoCard>

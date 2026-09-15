@@ -5,7 +5,7 @@ import { Star, CheckCircle2, Loader2, ArrowLeft, ExternalLink, Sparkles } from "
 import { BRAND, ASSETS, WEBHOOK } from "@/lib/brand";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import CookieBanner from "@/components/CookieBanner";
+
 import Seo from "@/components/region/Seo";
 import InternalLinks from "@/components/InternalLinks";
 
@@ -183,7 +183,7 @@ export default function Bewertung() {
                       rows={4}
                       value={critique}
                       onChange={(e) => setCritique(e.target.value)}
-                      placeholder="Was können wir verbessern?"
+                      placeholder="Was kann ich verbessern?"
                       className="w-full rounded-xl border border-gold/20 bg-white px-4 py-3 text-charcoal focus:outline-none focus:border-gold resize-none"
                     />
                     <p className="text-xs text-charcoal/40 mt-2">
@@ -197,7 +197,7 @@ export default function Bewertung() {
                     <button
                       onClick={isHigh ? () => setSubmitted(true) : submitLowRating}
                       disabled={status === "loading"}
-                      className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#0EA5E9] disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
+                      className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
                     >
                       {status === "loading" && <Loader2 size={18} className="animate-spin" />}
                       {isHigh ? "Bewertung abgeben" : status === "loading" ? "Wird gesendet…" : "Feedback senden"}
@@ -235,14 +235,14 @@ export default function Bewertung() {
                       Vielen Dank für Deine tolle Bewertung!
                     </h2>
                     <p className="text-charcoal/60 leading-relaxed mb-8 max-w-md mx-auto">
-                      Würdest Du uns auch auf Google weiterempfehlen? Das hilft anderen
+                      Würdest Du mich auch auf Google weiterempfehlen? Das hilft anderen
                       Kundinnen und Kunden, mich zu finden.
                     </p>
                     <a
                       href={BRAND.googleReview}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 bg-gold hover:bg-[#0EA5E9] text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
+                      className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-8 py-4 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
                     >
                       <Star size={18} /> Auf Google bewerten <ExternalLink size={16} />
                     </a>
@@ -284,7 +284,6 @@ export default function Bewertung() {
         />
       </main>
       <Footer />
-      <CookieBanner />
     </div>
   );
 }

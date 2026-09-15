@@ -84,9 +84,9 @@ export const REGIONS = [
     priceIntro: "Mit meinem Preisrechner erhältst Du eine erste Orientierung. Wähle Hauttyp, gewünschte Gesichtsbehandlung und Add-ons: und Du siehst sofort einen Richtpreis.",
     reviewsIntro: "Echte Erfahrungen zählen. Schau, was Kundinnen und Kunden aus Altstetten und Umgebung über ihre Gesichtsbehandlung bei THE FACE® sagen.",
     faqs: [
-      { q: "Wie komme ich von Altstetten zur Praxis an der Rämistrasse?", a: "Mit dem Tram 4 fährst Du direkt zum Hauptbahnhof und von dort in wenigen Minuten zur Rämistrasse. Gesamt Fahrzeit rund 25 Minuten. Die Praxis liegt vis-à-vis dem Parkhaus Hohe Promenade." },
+      { q: "Wie komme ich von Altstetten zur Praxis an der Rämistrasse?", a: "Mit dem Tram 4 fährst Du direkt zum Hauptbahnhof und von dort in wenigen Minuten zur Rämistrasse. Gesamtfahrzeit rund 25 Minuten. Die Praxis liegt vis-à-vis dem Parkhaus Hohe Promenade." },
       { q: "Welche Behandlung empfiehlst Du für gereizte Haut nach einem langen Arbeitstag?", a: "Pro Calm Treat ist ideal für gereizte, gestresste Haut: es beruhigt Rötungen und Spannungen mit milden Clean-Produkten. Vorab analysiere ich Deine Haut, um die passenden Wirkstoffe zu wählen." },
-      { q: "Was kostet die erste Hautanalyse?", a: "Die FACE-MAP Hautanalyse inklusive Quickboost kostet 95 CHF und dauert rund 30 Minuten. Sie ist die Basis jeder weiteren Behandlung und wird individuell auf Deine Haut abgestimmt." },
+      { q: "Was kostet die erste Hautanalyse?", a: "Die FACE-MAP Hautanalyse inklusive Quickboost kostet CHF 95.– und dauert rund 30 Minuten. Sie ist die Basis jeder weiteren Behandlung und wird individuell auf Deine Haut abgestimmt." },
       { q: "Kann ich auch längere Treatments nach der Arbeit einplanen?", a: "Ja, die Pro Skin 90 und Ultra Skin 120 dauern bis zu zwei Stunden. Mit dem Tram 4 bist Du von Altstetten schnell am Ziel und kannst entspannt in die Verwöhnzeit gehen." },
       { q: "Welche Produkte verwendest Du für meine sensible Haut?", a: "Ausschliesslich hochwertige, innovative Clean-Produkte ohne aggressive Zusätze. In der Hautanalyse prüfe ich, welche Wirkstoffe Deine Haut verträgt und empfehle die passende Pflegeroutine für zuhause." },
       { q: "Wie bleibt meine Haut zwischen den Terminen gepflegt?", a: "Nach jeder Behandlung erhältst Du einen individuellen Pflegeplan für zuhause. Ich empfehle alle vier bis sechs Wochen eine Auffrischung, damit der Glow aus Altstetten dauerhaft erhalten bleibt." },
@@ -131,13 +131,13 @@ export const REGIONS = [
     faqs: [
       { q: "Gibt es schnelle Behandlungen für die Mittagspause?", a: "Ja, Pro Skin 45: Quick Clear ist eine kompakte 45-Minuten-Behandlung für sichtbare Frische. Perfekt, wenn Du aus Oerlikon in der Pause schnell zu neuer Ausstrahlung kommen möchtest." },
       { q: "Wie weit ist die Praxis vom Bahnhof Oerlikon?", a: "Vom Bahnhof Oerlikon fährst Du mit der S-Bahn in fünf Minuten zum Hauptbahnhof, dann ein kurzes Tram zur Rämistrasse. Gesamt rund 15 Minuten." },
-      { q: "Was kostet die medizinische Exoboost-Behandlung?", a: "Die Exoboost Mikrodermabrasion oder Microneedling 0.5 kostet 470 CHF. In der FACE-MAP Beratung prüfe ich, welche Methode für Dein Hautziel die richtige ist." },
+      { q: "Was kostet die medizinische Exoboost-Behandlung?", a: "Die Exoboost Mikrodermabrasion oder Microneedling 0.5 kostet CHF 470.–. In der FACE-MAP Beratung prüfe ich, welche Methode für Dein Hautziel die richtige ist." },
       { q: "Kann ich einen Termin vor oder nach einem Messebesuch vereinbaren?", a: "Selbstverständlich. Da die Praxis nahe dem Hauptbahnhof liegt, kombinieren viele Messebesucherinnen den Termin mit einem Besuch der Messe Zürich oder des Hallenstadions." },
       { q: "Welche Behandlung hilft bei stressbedingter Haut?", a: "Pro Calm Treat beruhigt gestresste, gereizte Haut mit milden Clean-Produkten. Vorab analysiere ich Deine Haut, um die richtigen Wirkstoffe auszuwählen." },
       { q: "Wie oft sollte ich bei Akne in die Praxis kommen?", a: "Bei Akne empfehle ich eine Serie im Abstand von zwei bis vier Wochen, bis sich die Haut beruhigt. Die Häufigkeit hängt vom Hautbild ab und wird individuell beraten." },
     ],
     finalCtaTitle: "Gönn Dir eine Pause",
-    finalCtaText: "Buch Deinen Wunschtermin online: schnell, unkompliziert und auf Dich abgestimmt. Auch in der Mittagspause machbar.",
+    finalCtaText: "Buche Deinen Wunschtermin online: schnell, unkompliziert und auf Dich abgestimmt. Auch in der Mittagspause machbar.",
     localContext: {
       areaType: "Verkehrsknoten im Zürcher Norden (Kreis 11)",
       character: "Oerlikon ist ein pulsierender Verkehrsknoten mit Bahnhof, Messe Zürich und Hallenstadion – viel Bewegung, viele Pendlerinnen.",
@@ -176,7 +176,7 @@ export const REGIONS = [
     faqs: [
       { q: "Welche ganzheitliche Behandlung passt zu meiner sensiblen Haut?", a: "Pro Calm Treat ist auf sensible, gereizte Haut ausgerichtet: es beruhigt mit milden Clean-Produkten und reduziert Rötungen. In der FACE-MAP Analyse prüfe ich genau, was Deine Haut verträgt." },
       { q: "Wie lange brauche ich von Wiedikon an die Rämistrasse?", a: "Mit dem Tram bist Du in rund 15 Minuten am Hauptbahnhof und kurz darauf an der Rämistrasse. Die Praxis liegt vis-à-vis dem Parkhaus Hohe Promenade." },
-      { q: "Was kostet das ausgiebige Ultra Skin 120 Treatment?", a: "Das Ultra Skin 120 kostet 335 CHF und umfasst zwei Stunden Tiefenreinigung, Peeling, Maske und Massage. Eine bewusste Auszeit für Deine Haut." },
+      { q: "Was kostet das ausgiebige Ultra Skin 120 Treatment?", a: "Das Ultra Skin 120 kostet CHF 335.– und umfasst zwei Stunden Tiefenreinigung, Peeling, Maske und Massage. Eine bewusste Auszeit für Deine Haut." },
       { q: "Hilft Pro Calm bei meiner gereizten, sensiblen Haut?", a: "Ja. Pro Calm Treat reduziert Rötungen und Spannungen gezielt. Vorab analysiere ich Deine Haut, um die verträglichen Produkte auszuwählen." },
       { q: "Was bedeutet Clean Beauty für meine tägliche Pflege?", a: "Clean-Produkte verzichten auf aggressive Zusätze und respektieren die Hautbarriere. Ich empfehle Dir nach der Analyse eine Pflegeroutine, die Deine Haut sanft und nachhaltig pflegt." },
       { q: "Kann ich am Wochenende längere Treatments buchen?", a: "Ja, über den Phorest-Kalender buchst Du rund um die Uhr. Die längeren Treatments wie Pro Skin 90 oder Ultra Skin 120 lassen sich wunderbar in einen ruhigen Tag einplanen." },
@@ -220,8 +220,8 @@ export const REGIONS = [
     reviewsIntro: "Kundinnenstimmen aus Seebach auf Google: erfahre, wie sie ihre Behandlung bei THE FACE® erleben.",
     faqs: [
       { q: "Wie schnell ist die Pro Skin 45 Behandlung?", a: "Pro Skin 45: Quick Clear dauert exakt 45 Minuten und umfasst Tiefenreinigung, Peeling und einen Quickboost. Kompakt, gründlich und ideal für Deinen vollen Tag aus Seebach." },
-      { q: "Wie komme ich mit der S-Bahn von Seebach zur Rämistrasse?", a: "Mit der S6 oder S16 fährst Du direkt zum Hauptbahnhof, dann ein kurzes Tram zur Rämistrasse. Gesamt Fahrzeit rund 25 Minuten." },
-      { q: "Was kostet das Lumin Fusion Nanoneedling?", a: "Die Lumin Fusion Nanoneedling-Infusion kostet 245 CHF. Sie bringt feine Nährstoffe tief in die Haut und verbessert die Hautstruktur sanft – für spürbaren Glow." },
+      { q: "Wie komme ich mit der S-Bahn von Seebach zur Rämistrasse?", a: "Mit der S6 oder S16 fährst Du direkt zum Hauptbahnhof, dann ein kurzes Tram zur Rämistrasse. Gesamtfahrzeit rund 25 Minuten." },
+      { q: "Was kostet das Lumin Fusion Nanoneedling?", a: "Die Lumin Fusion Nanoneedling-Infusion kostet CHF 245.–. Sie bringt feine Nährstoffe tief in die Haut und verbessert die Hautstruktur sanft – für spürbaren Glow." },
       { q: "Schminkst Du auch für besondere Anlässe?", a: "Ja, als Visagistin schminke ich Dich von der farblichen Beratung bis zum fertigen Look. Von Tages- über Abend- bis Brautmake-up: auf Dich abgestimmt." },
       { q: "Kann ich Behandlung und Stadtbummel verbinden?", a: "Sehr gerne. Viele Seebacher Kundinnen kombinieren den Termin mit Einkäufen in der Innenstadt. Die Praxis liegt zentral an der Rämistrasse, nah am Hauptbahnhof." },
       { q: "Welche schnelle Behandlung passt in meinen vollen Tag?", a: "Pro Skin 45 ist dafür gemacht: 45 Minuten für sichtbare Frische. Wenn Du mehr Zeit hast, empfehle ich Pro Skin 60 für eine ausgiebigere Verwöhnzeit." },
@@ -266,8 +266,8 @@ export const REGIONS = [
     faqs: [
       { q: "Welche Anti-Aging-Behandlung empfiehlst Du für meine reifere Haut?", a: "Das Longevity Glow Treat bringt tiefe Nährstoffe in die Haut und regt die Regeneration an. Für feine Fältchen empfiehlt sich auch die Lumin Fusion Nanoneedling-Infusion. In der Beratung wähle ich die passende Methode." },
       { q: "Wie lange fahre ich von Wollishofen zur Rämistrasse?", a: "Mit der S8 oder S24 fährst Du entlang des Seeufers zum Hauptbahnhof, dann ein kurzes Tram zur Rämistrasse. Gesamt rund 20 Minuten." },
-      { q: "Was kostet das Longevity Glow Treatment?", a: "Das Longevity Glow Treat kostet 225 CHF. Es bringt tiefe Nährstoffe in die Haut und regt die Erneuerung an – für sichtbar frische, jugendliche Ausstrahlung." },
-      { q: "Gibt es auch Wimpernlifting?", a: "Ja, den Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung für 150 CHF. Ein sanftes, langanhaltendes Extra für einen wachen, offenen Blick." },
+      { q: "Was kostet das Longevity Glow Treatment?", a: "Das Longevity Glow Treat kostet CHF 225.–. Es bringt tiefe Nährstoffe in die Haut und regt die Erneuerung an – für sichtbar frische, jugendliche Ausstrahlung." },
+      { q: "Gibt es auch Wimpernlifting?", a: "Ja, den Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung für CHF 150.–. Ein sanftes, langanhaltendes Extra für einen wachen, offenen Blick." },
       { q: "Hilft Microneedling bei meinen Fältchen?", a: "Mit Longevity Glow und Nanoneedling behandle ich Fältchen gezielt und schonend. Vorab analysiere ich Deine Haut, um die passende Methode und Intensität zu wählen." },
       { q: "Kann ich die Behandlung mit einem See-Spaziergang verbinden?", a: "Sehr gerne. Die Praxis liegt nahe dem See und dem Hauptbahnhof. Viele Wollishofer Kundinnen kombinieren den Termin mit einem Spaziergang am Ufer." },
     ],
@@ -310,8 +310,8 @@ export const REGIONS = [
     reviewsIntro: "Höngger Kundinnen berichten auf Google: lies, wie sie ihre Behandlung bei THE FACE® erlebt haben.",
     faqs: [
       { q: "Was genau ist der Unterschied zwischen Mikrodermabrasion und Microneedling?", a: "Mikrodermabrasion trägt die oberste Hautschicht sanft ab und glättet die Oberfläche. Microneedling regt mit feinen Nadeln die Erneuerung in der Tiefe an. Nach der FACE-MAP Beratung wähle ich die passende Methode." },
-      { q: "Wie erreiche ich die Praxis von Höngg aus?", a: "Mit Bus und Tram via Bahnhof Hard fährst Du zum Hauptbahnhof und weiter zur Rämistrasse. Gesamt Fahrzeit rund 25 Minuten." },
-      { q: "Was kostet die medizinische Exoboost-Behandlung?", a: "Die Exoboost Mikrodermabrasion oder Microneedling 0.5 kostet 470 CHF. In der Beratung zeige ich Dir, welche Methode für Dein Hautziel die richtige ist." },
+      { q: "Wie erreiche ich die Praxis von Höngg aus?", a: "Mit Bus und Tram via Bahnhof Hard fährst Du zum Hauptbahnhof und weiter zur Rämistrasse. Gesamtfahrzeit rund 25 Minuten." },
+      { q: "Was kostet die medizinische Exoboost-Behandlung?", a: "Die Exoboost Mikrodermabrasion oder Microneedling 0.5 kostet CHF 470.–. In der Beratung zeige ich Dir, welche Methode für Dein Hautziel die richtige ist." },
       { q: "Kann Microneedling meine Narben verbessern?", a: "Ja, Microneedling verfeinert das Hautbild und kann Narben aufwerten. Vorab analysiere ich Deine Haut, um realistisch zu beraten, was erreichbar ist." },
       { q: "Welche Produkte helfen nach der medizinischen Behandlung?", a: "In den ersten 48 Stunden verwende ich beruhigende Clean-Produkte. Du erhältst einen individuellen Pflegeplan mit SPF und milden Produkten für die Erholungsphase." },
       { q: "Wie oft sollte ich die medizinische Hautbehandlung wiederholen?", a: "Für nachhaltige Ergebnisse empfehle ich eine Serie im Abstand von vier bis sechs Wochen. Die genaue Frequenz hängt von Deinem Hautbild und Ziel ab." },
@@ -356,7 +356,7 @@ export const REGIONS = [
     faqs: [
       { q: "Behandelst Du auch die Haut meiner Tochter?", a: "Ja, mit Pro Clear Young behandle ich jugendliche Haut sanft und aufklärend. So lernt sie früh, ihre Haut richtig zu pflegen. Ein Elternteil darf gerne begleiten." },
       { q: "Wie komme ich von Affoltern an die Rämistrasse?", a: "Mit Bus und S-Bahn via Oerlikon oder Seebach erreichst Du die Rämistrasse in rund 30 Minuten. Die Praxis liegt vis-à-vis dem Parkhaus Hohe Promenade." },
-      { q: "Was kostet die Pro Clear Young Behandlung für Teenager?", a: "Pro Clear Young Small kostet 100 CHF, Pro Clear Young Big 160 CHF. In der Beratung empfehle ich, welche Variante für das Hautbild Deines Kindes passt." },
+      { q: "Was kostet die Pro Clear Young Behandlung für Teenager?", a: "Pro Clear Young Small kostet CHF 100.–, Pro Clear Young Big CHF 160.–. In der Beratung empfehle ich, welche Variante für das Hautbild Deines Kindes passt." },
       { q: "Hilft Pro Calm bei sehr empfindlicher Haut?", a: "Ja. Pro Calm Treat beruhigt gereizte Haut mit milden Clean-Produkten und reduziert Rötungen. Vorab prüfe ich, welche Wirkstoffe die Haut verträgt." },
       { q: "Ab wann sollte mein Kind zur ersten Hautberatung kommen?", a: "Sobald die Pubertät beginnt und sich die Haut verändert. Die Untersuchung ist sanft und altersgerecht aufgebaut. Gerne berate ich Eltern und Kind gemeinsam und stelle eine einfache Routine für zuhause zusammen." },
       { q: "Darf ich mein Kind zur ersten Beratung begleiten?", a: "Selbstverständlich. Bei Teenagern ist ein Elternteil herzlich willkommen. So können wir gemeinsam besprechen, welche Pflege zuhause sinnvoll ist." },
@@ -400,8 +400,8 @@ export const REGIONS = [
     reviewsIntro: "Schwamendinger Kundinnen berichten: lies echte Google-Bewertungen über ihre Gesichtsbehandlung.",
     faqs: [
       { q: "Bietest Du auch Rückenbehandlungen an?", a: "Ja. Mit Pro Back Clear kläre ich Unreinheiten am Rücken, und die Phytomer Spa Rückenbehandlung verwöhnt mit wertvollen Meeresprodukten. Pflege also auch dort, wo Du sie selten siehst." },
-      { q: "Wie lange fahre ich von Schwamendingen zur Rämistrasse?", a: "Mit dem Tram fährst Du direkt zum Hauptbahnhof und von dort in wenigen Minuten zur Rämistrasse. Gesamt Fahrzeit rund 20 Minuten." },
-      { q: "Was kostet die Pro Back Clear Behandlung?", a: "Pro Back Clear für den Rücken kostet 100 CHF. Für ausgiebige Entspannung empfehle ich die Phytomer Spa Rückenbehandlung mit wertvollen Meeresprodukten." },
+      { q: "Wie lange fahre ich von Schwamendingen zur Rämistrasse?", a: "Mit dem Tram fährst Du direkt zum Hauptbahnhof und von dort in wenigen Minuten zur Rämistrasse. Gesamtfahrzeit rund 20 Minuten." },
+      { q: "Was kostet die Pro Back Clear Behandlung?", a: "Pro Back Clear für den Rücken kostet CHF 100.–. Für ausgiebige Entspannung empfehle ich die Phytomer Spa Rückenbehandlung mit wertvollen Meeresprodukten." },
       { q: "Welche Produkte verwendest Du für die Rückenbehandlung?", a: "Für Pro Back Clear arbeite ich mit klärenden Dermalogica-Produkten, für die Phytomer Spa Rückenbehandlung mit wertvollen Meeresprodukten. Beide pflegen sanft und gründlich." },
       { q: "Kann ich Gesichts- und Rückenbehandlung an einem Tag kombinieren?", a: "Ja, das ist eine wunderbare Kombination. Viele Schwamendinger Kundinnen buchen zuerst das Gesichtstreatment und danach die Rückenbehandlung als rundum Pflege." },
       { q: "Wie lange dauert die Phytomer Spa Rückenbehandlung?", a: "Die Phytomer Spa Rückenbehandlung dauert rund 60 Minuten. Sie entspannt die Haut mit wertvollen Meeresprodukten und Dich zugleich: eine wohltuende Auszeit." },
@@ -446,7 +446,7 @@ export const REGIONS = [
     faqs: [
       { q: "Bietest Du Brautmake-up für meinen Hochzeitstag an?", a: "Ja, als Visagistin schminke ich Dein Brautmake-up: natürlich, individuell und langlebig. Vorab vereinbaren wir einen Beratungstermin, um den Look abzustimmen." },
       { q: "Wie komme ich von Enge zur Rämistrasse?", a: "Vom Bahnhof Enge fährst Du mit der S-Bahn in wenigen Minuten zum Hauptbahnhof, dann ein kurzes Tram zur Rämistrasse. Gesamt rund 15 Minuten." },
-      { q: "Was kostet das Brautmake-up?", a: "Das Brautmake-up kostet 200 CHF und umfasst Beratung, Abstimmung und Anwendung. Für den perfekten Tag empfehle ich, den Termin früh zu sichern." },
+      { q: "Was kostet das Brautmake-up?", a: "Das Brautmake-up kostet CHF 200.– und umfasst Beratung, Abstimmung und Anwendung. Für den perfekten Tag empfehle ich, den Termin früh zu sichern." },
       { q: "Hilft Nanoneedling gegen meine feinen Fältchen?", a: "Ja. Die Lumin Fusion Nanoneedling-Infusion bringt feine Nährstoffe tief in die Haut und weicht Fältchen auf. Vorab analysiere ich Deine Haut, um die passende Intensität zu wählen." },
       { q: "Kann ich Gesichtsbehandlung und Make-up kombinieren?", a: "Wunderbar. Viele Enger Kundinnen buchen zuerst ein Pro Skin Treatment und lassen sich danach schminken. So ist die Haut frisch und aufnahmefähig für das Make-up." },
       { q: "Wie weit im Voraus sollte ich das Brautmake-up buchen?", a: "Für Hochzeiten empfehle ich, den Termin mindestens vier bis sechs Wochen im Voraus zu sichern. So haben wir Zeit für einen Vorab-Beratungstermin zur Abstimmung." },
@@ -491,7 +491,7 @@ export const REGIONS = [
     faqs: [
       { q: "Was ist Quantum Angel Healing und wie wirkt es?", a: "Quantum Angel Healing nach Eva-Maria Mora ist eine holistische, energetische Behandlung, die die Selbstheilung anregt. Sie ersetzt keine medizinische Diagnose, sondern begleitet sanft und achtsam." },
       { q: "Wie komme ich von Fluntern zur Rämistrasse?", a: "Fluntern liegt nah an der Rämistrasse: ein kurzes Tram oder ein Spaziergang durch die Universität. Die Praxis ist in wenigen Minuten erreichbar." },
-      { q: "Was kostet das ausgiebige Ultra Skin 120 Treatment?", a: "Das Ultra Skin 120 kostet 335 CHF und umfasst zwei Stunden Tiefenreinigung, Peeling, Maske und Massage. Eine bewusste Auszeit für Deine Haut, die sich lohnt." },
+      { q: "Was kostet das ausgiebige Ultra Skin 120 Treatment?", a: "Das Ultra Skin 120 kostet CHF 335.– und umfasst zwei Stunden Tiefenreinigung, Peeling, Maske und Massage. Eine bewusste Auszeit für Deine Haut, die sich lohnt." },
       { q: "Hilft Pro Bright bei meinen Pigmentflecken?", a: "Ja. Pro Bright hellt Hyperpigmentation gezielt auf und sorgt für einen ebenmässigeren Teint. Vorab analysiere ich Deine Haut, um realistisch zu beraten." },
       { q: "Welche holistischen Behandlungen bietest Du an?", a: "Neben der klassischen Gesichtspflege biete ich Quantum Angel Healing nach Eva-Maria Mora an: eine energetische, ganzheitliche Begleitung als Ergänzung zur Pflege." },
       { q: "Kann ich die Behandlung vor meiner Vorlesung einplanen?", a: "Ja, da Fluntern sehr nah an der Rämistrasse liegt. Mit dem Tram bist Du in wenigen Minuten da und zurück. Auch kürzere Behandlungen wie Pro Skin 45 lassen sich gut einplanen." },

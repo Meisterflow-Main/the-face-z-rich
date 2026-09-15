@@ -18,7 +18,7 @@ const PRICE_LIST = [
   },
   {
     id: "autumn-offer",
-    title: "Autumn Offer Face Glow",
+    title: "Herbstangebot: Face Glow",
     tag: "NEU",
     services: [
       { name: "Lumin Fusion Nanoneedling / Infusion", price: "245" },
@@ -56,7 +56,7 @@ const PRICE_LIST = [
   },
   {
     id: "personal-standalone",
-    title: "Personal Stand Alone Service",
+    title: "Individuelle Einzelbehandlung",
     tag: "NEU",
     services: [
       {
@@ -84,7 +84,7 @@ const PRICE_LIST = [
   },
   {
     id: "add-on-skin",
-    title: "Add-on Skin Treat",
+    title: "Zusatzbehandlungen",
     services: [
       { name: "Black Eyepads inkl. Smart Eye Density Serum", price: "20", neu: true },
       { name: "Lashtint", price: "40" },

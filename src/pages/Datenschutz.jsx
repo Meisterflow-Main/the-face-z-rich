@@ -271,7 +271,7 @@ export default function Datenschutz() {
                 Kontaktformular und dem Bewertungsbogen werden nach Abschluss der jeweiligen Anfrage gelöscht,
                 sofern keine gesetzliche Aufbewahrungspflicht besteht. Buchungsdaten unterliegen der
                 Aufbewahrungspraxis von Phorest. Konkrete starre Fristen werden nicht festgelegt; massgeblich
-                ist jeweils der Zweckbindung.
+                ist jeweils die Zweckbindung.
               </p>
             </Section>
 
@@ -307,7 +307,7 @@ export default function Datenschutz() {
             </Section>
 
             <Section id="kontakt" icon={Phone} title="18. Kontakt">
-              <p>Bei Fragen zum Datenschutz erreiche ich Dich gerne persönlich:</p>
+              <p>Bei Fragen zum Datenschutz kannst Du mich gerne persönlich erreichen:</p>
               <div className="flex flex-col sm:flex-row gap-3 pt-2">
                 <a href={`tel:${BRAND.phoneRaw}`} className="inline-flex items-center justify-center gap-2 glass border border-gold/40 text-charcoal font-semibold px-5 py-3 rounded-lg transition-all hover:border-gold whitespace-nowrap">
                   <Phone size={16} className="text-gold" /> {BRAND.phone}

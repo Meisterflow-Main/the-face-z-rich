@@ -135,7 +135,7 @@ export default function Blog() {
 
           {/* Results count */}
           <p className="text-sm text-muted-foreground mt-6 mb-4">
-            {filtered.length} {filtered.length === 1 ? "Artikel" : "Artikel"} gefunden
+            {filtered.length} Artikel gefunden
           </p>
 
           {/* Grid */}

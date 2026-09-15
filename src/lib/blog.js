@@ -505,7 +505,7 @@ export const ARTICLES = [
         heading: "Häufige Fehler und wie Du sie vermeidest",
         paragraphs: [
           "Der häufigste Fehler ist, zu viele Produkte gleichzeitig zu verwenden. Die Haut braucht Zeit, sich an neue Wirkstoffe zu gewöhnen. Führe immer nur ein neues Produkt ein und beobachte, wie Deine Haut reagiert. Ein weiterer Klassiker: SPF wird vergessen oder zu sparsam aufgetragen.",
-          "Auch die Reihenfolge matters: von leichter zu reichhaltiger Textur, von wasserlöslich zu ölbasierend. Wer unsicher ist, bringt seine Produkte zur Hautanalyse mit – ich prüfe gerne, ob sie zu Deinem Hauttyp passen.",
+          "Auch die Reihenfolge ist wichtig: von leichter zu reichhaltiger Textur, von wasserlöslich zu ölbasierend. Wer unsicher ist, bringt seine Produkte zur Hautanalyse mit – ich prüfe gerne, ob sie zu Deinem Hauttyp passen.",
         ],
       },
     ],
@@ -738,7 +738,7 @@ export const ARTICLES = [
     title: "Sonnenschutz: Warum SPF die wichtigste Anti-Aging-Massnahme ist",
     category: "Tipps",
     excerpt:
-      "Sonnenschutz ist nicht nur ein Sommersache. UV-Strahlung ist der grösste Treiber von Hautalterung. Erfahre, welchen SPF Du brauchst, wie viel Du auftragen solltest und warum täglicher Schutz unverzichtbar ist.",
+      "Sonnenschutz ist nicht nur eine Sommersache. UV-Strahlung ist der grösste Treiber von Hautalterung. Erfahre, welchen SPF Du brauchst, wie viel Du auftragen solltest und warum täglicher Schutz unverzichtbar ist.",
     date: "2026-02-01",
     author: "Denise Claire Gadient",
     readTime: 4,
@@ -750,14 +750,14 @@ export const ARTICLES = [
       {
         heading: "UV-Strahlung und Hautalterung",
         paragraphs: [
-          "Bis zu 80 Prozent der sichtbaren Hautalterung sind auf UV-Strahlung zurückzuführen. UVA-Strahlung dringt tief in die Haut ein und schädigt Kollagen und Elastin. Das Ergebnis: Fältchen, Falten und ein verlust der Elastizität. UVB-Strahlung verursacht Sonnenbrand und kann die Hautbarriere schwächen.",
-          "Deshalb ist Sonnenschutz nicht nur ein Sommersache, sondern die wichtigste Anti-Aging-Massnahme, die Du täglich durchführen kannst. Kein Serum und keine Creme kann den Schaden ersetzen, den ungeschützte UV-Exposition anrichtet.",
+          "Bis zu 80 Prozent der sichtbaren Hautalterung sind auf UV-Strahlung zurückzuführen. UVA-Strahlung dringt tief in die Haut ein und schädigt Kollagen und Elastin. Das Ergebnis: Fältchen, Falten und ein Verlust der Elastizität. UVB-Strahlung verursacht Sonnenbrand und kann die Hautbarriere schwächen.",
+          "Deshalb ist Sonnenschutz nicht nur eine Sommersache, sondern die wichtigste Anti-Aging-Massnahme, die Du täglich durchführen kannst. Kein Serum und keine Creme kann den Schaden ersetzen, den ungeschützte UV-Exposition anrichtet.",
         ],
       },
       {
         heading: "Welchen SPF brauche ich?",
         paragraphs: [
-          "Für den Alltag empfehle ich SPF 30 bis 50. In den Bergen, am Wasser oder bei intensiver Sonnenextraction sollte es SPF 50 sein. Wichtig ist nicht nur der Faktor, sondern die Menge: die meisten tragen zu wenig auf. Für das Gesicht brauchst Du etwa zwei Fingerlängen – Zeige- und Mittelfinger komplett.",
+          "Für den Alltag empfehle ich SPF 30 bis 50. In den Bergen, am Wasser oder bei intensiver Sonnenexposition sollte es SPF 50 sein. Wichtig ist nicht nur der Faktor, sondern die Menge: die meisten tragen zu wenig auf. Für das Gesicht brauchst Du etwa zwei Fingerlängen – Zeige- und Mittelfinger komplett.",
           "Auch nachcremen ist entscheidend: alle zwei bis drei Stunden, besonders im Freien. Wasserdichte Sonnencreme verliert trotzdem nach dem Baden an Wirkung. Ein bewölkter Himmel reduziert die UV-Last, beseitigt sie aber nicht.",
         ],
       },

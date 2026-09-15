@@ -77,7 +77,7 @@ export default function Sitemap() {
                 ))
               )}
               <li className="text-charcoal/45 text-sm italic pt-1">
-                …weitere Kombinationen über die jeweiligen Behandlungs- und Standortseiten erreichbar.
+                …weitere Kombinationen über die jeweiligen Behandlungs- und Regionenseiten erreichbar.
               </li>
             </Group>
           </div>

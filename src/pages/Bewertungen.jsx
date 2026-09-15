@@ -58,7 +58,7 @@ export default function Bewertungen() {
             </h1>
             <div className="hairline w-16 mb-6" />
             <p className="text-charcoal/65 leading-relaxed mb-10 max-w-2xl">
-              Transparenz ist mir wichtig. Hier siehst Du die aktuelle, echte Bewertung meines Studios
+              Transparenz ist mir wichtig. Hier siehst Du die aktuellen Bewertungen meines Studios
               direkt von Google. Alle Bewertungen werden von Google verwaltet und stammen von
               realen Kundinnen und Kunden.
             </p>

@@ -220,7 +220,7 @@ export default function BlogArticle() {
                         <h3 className="font-heading text-lg font-semibold text-charcoal mb-1">{s.name}</h3>
                         <p className="text-charcoal/60 text-sm line-clamp-2">{s.intro}</p>
                         <span className="mt-3 inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                          Mehr erfahren <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                          {s.name} entdecken <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                         </span>
                       </Link>
                     ))}
