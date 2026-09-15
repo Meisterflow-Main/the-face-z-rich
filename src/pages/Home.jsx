@@ -12,6 +12,7 @@ import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import MobileCTA from "@/components/MobileCTA";
+import InternalLinks from "@/components/InternalLinks";
 import Seo from "@/components/region/Seo";
 import { FAQS } from "@/lib/brand";
 import { homeSchemaGraph } from "@/lib/schema";
@@ -43,6 +44,16 @@ export default function Home() {
         <StudioGallery />
         <Stats />
         <FAQ />
+        <InternalLinks
+          eyebrow="Schnellnavigation"
+          title="Finde, was Du suchst"
+          links={[
+            { to: "/behandlungen", label: "Alle Behandlungen", description: "Hautanalyse, Pro Skin, Targeted und Medical Skin.", anchor: "Behandlungen entdecken" },
+            { to: "/regionen", label: "Regionen in Zürich", description: "Gesichtsbehandlung in Deinem Quartier.", anchor: "Regionen ansehen" },
+            { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
+            { to: "/blog", label: "Blog & Ratgeber", description: "Pflegetipps und Hautwissen von Denise.", anchor: "Blog lesen" },
+          ]}
+        />
         <ContactForm />
       </main>
       <Footer />

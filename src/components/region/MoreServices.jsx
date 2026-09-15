@@ -26,7 +26,7 @@ export default function MoreServices() {
                 to={s.href}
                 className="inline-flex items-center gap-1.5 bg-card border border-gold/15 rounded-full px-4 py-2 text-sm text-charcoal/80 hover:border-gold hover:text-gold transition-colors"
               >
-                {s.label} <ArrowRight size={18} />
+                {s.label} in Zürich <ArrowRight size={18} />
               </Link>
             ))}
           </div>

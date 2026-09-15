@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { BRAND } from "@/lib/brand";
 import { SERVICES } from "@/lib/services";
+import InternalLinks from "@/components/InternalLinks";
 
 export default function Behandlungen() {
   const itemList = {
@@ -73,7 +74,7 @@ export default function Behandlungen() {
                     {s.intro}
                   </p>
                   <span className="inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                    Mehr erfahren <ArrowRight size={18} />
+                    {s.name} ansehen <ArrowRight size={18} />
                   </span>
                 </Link>
               </ScrollReveal>
@@ -99,6 +100,17 @@ export default function Behandlungen() {
             </a>
           </div>
         </section>
+
+        <InternalLinks
+          eyebrow="Weiterführendes"
+          title="Mehr von THE FACE®"
+          links={[
+            { to: "/regionen", label: "Regionen in Zürich", description: "Gesichtsbehandlung in Deinem Quartier.", anchor: "Regionen ansehen" },
+            { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
+            { to: "/blog", label: "Blog & Ratgeber", description: "Pflegetipps und Hautwissen.", anchor: "Blog lesen" },
+            { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung anfragen.", anchor: "Kontakt aufnehmen" },
+          ]}
+        />
       </main>
       <Footer />
       <WhatsAppButton />

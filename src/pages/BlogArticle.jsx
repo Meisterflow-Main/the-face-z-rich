@@ -232,14 +232,15 @@ export default function BlogArticle() {
               <section className="mt-10 bg-sand border border-gold/15 rounded-2xl p-6">
                 <h2 className="font-heading text-lg font-semibold text-charcoal mb-4">Weiterlesen auf der Website</h2>
                 <div className="flex flex-wrap gap-2">
-                  <IntLink to="/behandlungen">Behandlungen</IntLink>
-                  <IntLink to="/regionen">Regionen</IntLink>
-                  <IntLink to="/behandlungen/hautanalyse">Hautanalyse</IntLink>
+                  <IntLink to="/behandlungen">Alle Behandlungen</IntLink>
+                  <IntLink to="/regionen">Regionen in Zürich</IntLink>
+                  <IntLink to="/behandlungen/hautanalyse">Hautanalyse in Zürich</IntLink>
                   <IntLink to="/behandlungen/pro-skin-treatments">Pro Skin Treatments</IntLink>
-                  <IntLink to="/blog">Blog</IntLink>
-                  <IntLink to="/#faq">FAQ</IntLink>
-                  <IntLink to="/#kontakt">Kontakt</IntLink>
-                  <IntLink to="/bewertungen">Bewertungen</IntLink>
+                  <IntLink to="/blog">Blog & Ratgeber</IntLink>
+                  <IntLink to="/#faq">Häufige Fragen</IntLink>
+                  <IntLink to="/#kontakt">Kontakt aufnehmen</IntLink>
+                  <IntLink to="/bewertungen">Google Bewertungen</IntLink>
+                  <IntLink to="/bewertung">Bewertung abgeben</IntLink>
                 </div>
               </section>
 

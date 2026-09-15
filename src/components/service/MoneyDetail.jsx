@@ -12,6 +12,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
+import { getServiceBySlug } from "@/lib/services";
+import { ARTICLES, ARTICLE_SERVICE_MAP } from "@/lib/blog";
+import InternalLinks from "@/components/InternalLinks";
 
 // Generates a unique intro paragraph for each service+region combination.
 // Varies sentence structure and angle based on service type and region character.
@@ -58,6 +61,11 @@ export default function MoneyDetail({ service, region }) {
   const metaTitle = `${service.name} in ${region.name} | THE FACE®`;
   const intro = generateIntro(service, region);
   const ctaText = generateCtaText(service);
+  const relatedServices = service.related.map(getServiceBySlug).filter(Boolean).slice(0, 3);
+  const relatedArticles = ARTICLES.filter((a) => {
+    const slugs = ARTICLE_SERVICE_MAP[a.slug] || [];
+    return slugs.includes(service.slug);
+  }).slice(0, 3);
   const prices = service.priceFactors.map((p) => Number(p.price));
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -232,6 +240,65 @@ export default function MoneyDetail({ service, region }) {
           </Link>
         </div>
       </Section>
+
+      {/* Related services */}
+      {relatedServices.length > 0 && (
+        <Section>
+          <Heading eyebrow="Weitere Behandlungen" title={`Das könnte auch passen`} />
+          <div className="grid sm:grid-cols-3 gap-4">
+            {relatedServices.map((r) => (
+              <Link
+                key={r.slug}
+                to={`/behandlungen/${r.slug}/${region.slug}`}
+                className="bg-card border border-gold/15 rounded-xl p-5 hover:border-gold transition-colors group"
+              >
+                <h3 className="font-heading text-lg font-semibold text-charcoal mb-1">{r.name}</h3>
+                <p className="text-charcoal/60 text-sm line-clamp-2">{r.intro}</p>
+                <span className="mt-3 inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
+                  {r.name} in {region.short} <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {/* Related articles */}
+      {relatedArticles.length > 0 && (
+        <Section bg="sand">
+          <Heading eyebrow="Wissen" title="Verwandte Artikel aus dem Blog" />
+          <div className="grid sm:grid-cols-3 gap-4">
+            {relatedArticles.map((a) => (
+              <Link
+                key={a.slug}
+                to={`/blog/${a.slug}`}
+                className="bg-card border border-gold/15 rounded-xl p-5 hover:border-gold transition-colors group"
+              >
+                <span className="inline-block bg-gold/10 text-gold text-xs font-semibold px-2.5 py-1 rounded-full mb-3">
+                  {a.category}
+                </span>
+                <h3 className="font-heading text-base font-semibold text-charcoal mb-1 line-clamp-2">{a.title}</h3>
+                <p className="text-charcoal/60 text-sm line-clamp-2">{a.excerpt}</p>
+                <span className="mt-3 inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
+                  Artikel lesen <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {/* Cross-navigation links */}
+      <InternalLinks
+        eyebrow="Weiterführendes"
+        title="Schnellnavigation"
+        links={[
+          { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
+          { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung in Zürich.", anchor: "Kontakt aufnehmen" },
+          { to: `/behandlungen/${service.slug}`, label: `${service.name} Übersicht`, description: "Alle Details zur Behandlung.", anchor: "Behandlung ansehen" },
+          { to: `/regionen/${region.slug}`, label: `Region ${region.short}`, description: "Mehr zur Gesichtsbehandlung in Deinem Quartier.", anchor: "Region ansehen" },
+        ]}
+      />
 
       {/* Final CTA */}
       <Section bg="charcoal" dark>

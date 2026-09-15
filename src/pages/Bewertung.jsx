@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
 import Seo from "@/components/region/Seo";
+import InternalLinks from "@/components/InternalLinks";
 
 const QUESTIONS = [
   "Wie zufrieden warst Du mit Deiner Behandlung?",
@@ -270,6 +271,17 @@ export default function Bewertung() {
             )}
           </AnimatePresence>
         </div>
+
+        <InternalLinks
+          eyebrow="Weiterführendes"
+          title="Mehr von THE FACE®"
+          links={[
+            { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
+            { to: "/behandlungen", label: "Alle Behandlungen", description: "Von der Hautanalyse bis zum Brautmake-up.", anchor: "Behandlungen entdecken" },
+            { to: "/regionen", label: "Regionen in Zürich", description: "Gesichtsbehandlung in Deinem Quartier.", anchor: "Regionen ansehen" },
+            { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung anfragen.", anchor: "Kontakt aufnehmen" },
+          ]}
+        />
       </main>
       <Footer />
       <CookieBanner />

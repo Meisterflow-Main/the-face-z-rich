@@ -8,6 +8,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { REGIONS } from "@/lib/regions";
+import InternalLinks from "@/components/InternalLinks";
 
 export default function Regionen() {
   const itemList = {
@@ -74,7 +75,7 @@ export default function Regionen() {
                     {r.heroDesc}
                   </p>
                   <span className="inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                    Region ansehen <ArrowRight size={18} />
+                    Gesichtsbehandlung {r.short} ansehen <ArrowRight size={18} />
                   </span>
                 </Link>
               </ScrollReveal>
@@ -98,6 +99,17 @@ export default function Regionen() {
             </Link>
           </div>
         </section>
+
+        <InternalLinks
+          eyebrow="Weiterführendes"
+          title="Mehr von THE FACE®"
+          links={[
+            { to: "/behandlungen", label: "Alle Behandlungen", description: "Von der Hautanalyse bis zum Brautmake-up.", anchor: "Behandlungen entdecken" },
+            { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
+            { to: "/blog", label: "Blog & Ratgeber", description: "Pflegetipps und Hautwissen.", anchor: "Blog lesen" },
+            { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung anfragen.", anchor: "Kontakt aufnehmen" },
+          ]}
+        />
       </main>
       <Footer />
       <WhatsAppButton />

@@ -33,7 +33,7 @@ export default function RegionNeighbors({ region }) {
                   <h3 className="font-heading text-lg font-semibold text-charcoal mb-1">Gesichtsbehandlung {n.short}</h3>
                   <p className="text-charcoal/60 text-sm line-clamp-2 mb-3">{n.heroDesc}</p>
                   <span className="inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                    Region ansehen <ArrowRight size={18} />
+                    Gesichtsbehandlung {n.short} ansehen <ArrowRight size={18} />
                   </span>
                 </Link>
               </ScrollReveal>

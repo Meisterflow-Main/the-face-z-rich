@@ -12,8 +12,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
-import { getServiceBySlug } from "@/lib/services";
+import { getServiceBySlug, SERVICES } from "@/lib/services";
 import { ARTICLES, ARTICLE_SERVICE_MAP } from "@/lib/blog";
+import InternalLinks from "@/components/InternalLinks";
 
 export default function ServiceDetail({ service }) {
   const related = service.related.map(getServiceBySlug).filter(Boolean);
@@ -251,7 +252,7 @@ export default function ServiceDetail({ service }) {
                 <h3 className="font-heading text-base font-semibold text-charcoal mb-1 line-clamp-2">{a.title}</h3>
                 <p className="text-charcoal/60 text-sm line-clamp-2">{a.excerpt}</p>
                 <span className="mt-3 inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                  Lesen <ArrowRight size={16} />
+                  Artikel lesen <ArrowRight size={16} />
                 </span>
               </Link>
             ))}
@@ -297,13 +298,25 @@ export default function ServiceDetail({ service }) {
                 <h3 className="font-heading text-lg font-semibold text-charcoal mb-1">{r.name}</h3>
                 <p className="text-charcoal/60 text-sm line-clamp-2">{r.intro}</p>
                 <span className="mt-3 inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                  Mehr erfahren <ArrowRight size={18} />
+                  {r.name} entdecken <ArrowRight size={18} />
                 </span>
               </Link>
             ))}
           </div>
         </Section>
       )}
+
+      {/* Cross-navigation links */}
+      <InternalLinks
+        eyebrow="Weiterführendes"
+        title="Das könnte Dich auch interessieren"
+        links={[
+          { to: "/bewertungen", label: "Google Bewertungen", description: "Echte 4,9-Sterne-Bewertungen zufriedener Kundinnen.", anchor: "Bewertungen ansehen" },
+          { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung an der Rämistrasse in Zürich.", anchor: "Kontakt aufnehmen" },
+          { to: "/#faq", label: "Häufige Fragen", description: "Antworten zu Behandlung, Produkten und Praxis.", anchor: "FAQ lesen" },
+          { to: "/bewertung", label: "Behandlung bewerten", description: "Teile Deine Erfahrung und hilf anderen.", anchor: "Bewertung abgeben" },
+        ]}
+      />
 
       {/* Final CTA */}
       <Section bg="charcoal" dark>

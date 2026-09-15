@@ -8,6 +8,7 @@ import Seo from "@/components/region/Seo";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ScrollReveal from "@/components/ScrollReveal";
 import BlogCard from "@/components/blog/BlogCard";
+import InternalLinks from "@/components/InternalLinks";
 import { ARTICLES, CATEGORIES, BLOG_INTRO, formatDate } from "@/lib/blog";
 
 const jsonLd = {
@@ -151,6 +152,16 @@ export default function Blog() {
             </div>
           )}
         </div>
+        <InternalLinks
+          eyebrow="Weiterführendes"
+          title="Mehr von THE FACE®"
+          links={[
+            { to: "/behandlungen", label: "Alle Behandlungen", description: "Hautanalyse, Pro Skin, Targeted und Medical Skin.", anchor: "Behandlungen entdecken" },
+            { to: "/regionen", label: "Regionen in Zürich", description: "Gesichtsbehandlung in Deinem Quartier.", anchor: "Regionen ansehen" },
+            { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
+            { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung anfragen.", anchor: "Kontakt aufnehmen" },
+          ]}
+        />
       </main>
       <Footer />
       <WhatsAppButton />

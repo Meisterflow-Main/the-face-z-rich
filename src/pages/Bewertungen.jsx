@@ -10,6 +10,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
 import { Calendar, Star, PenLine, ExternalLink } from "lucide-react";
 import GoogleLogo from "@/components/GoogleLogo";
+import InternalLinks from "@/components/InternalLinks";
 
 const RATING = "4.9";
 const COUNT = 16;
@@ -135,6 +136,17 @@ export default function Bewertungen() {
             </div>
           </ScrollReveal>
         </div>
+
+        <InternalLinks
+          eyebrow="Weiterführendes"
+          title="Das könnte Dich auch interessieren"
+          links={[
+            { to: "/behandlungen", label: "Alle Behandlungen", description: "Hautanalyse, Pro Skin, Targeted und Medical Skin Treatments.", anchor: "Behandlungen entdecken" },
+            { to: "/regionen", label: "Regionen in Zürich", description: "Gesichtsbehandlung in Deinem Quartier.", anchor: "Regionen ansehen" },
+            { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung an der Rämistrasse.", anchor: "Kontakt aufnehmen" },
+            { to: "/blog", label: "Blog & Ratgeber", description: "Pflegetipps und Hautwissen von Denise.", anchor: "Blog lesen" },
+          ]}
+        />
       </main>
 
       <Footer />

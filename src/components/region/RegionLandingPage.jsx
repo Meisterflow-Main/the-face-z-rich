@@ -18,6 +18,7 @@ import FinalCTA from "@/components/region/FinalCTA";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import InternalLinks from "@/components/InternalLinks";
 import { localBusinessSchema } from "@/lib/schema";
 
 export default function RegionLandingPage({ region }) {
@@ -64,6 +65,16 @@ export default function RegionLandingPage({ region }) {
         <RegionMoneyLinks region={region} />
         <ServiceArea region={region} />
         <RegionNeighbors region={region} />
+        <InternalLinks
+          eyebrow="Weiterführendes"
+          title="Schnellnavigation"
+          links={[
+            { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
+            { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung an der Rämistrasse.", anchor: "Kontakt aufnehmen" },
+            { to: "/blog", label: "Blog & Ratgeber", description: "Pflegetipps und Hautwissen.", anchor: "Blog lesen" },
+            { to: "/behandlungen", label: "Alle Behandlungen", description: "Von der Hautanalyse bis zum Brautmake-up.", anchor: "Behandlungen entdecken" },
+          ]}
+        />
         <FinalCTA region={region} />
       </main>
       <Footer />
