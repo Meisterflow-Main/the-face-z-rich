@@ -33,7 +33,7 @@ export default function Navbar() {
           <img src={ASSETS.logo} alt="THE FACE® Zürich Logo" className="h-10 sm:h-12 md:h-14 w-auto rounded-md" />
         </Link>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6 lg:gap-8">
           {LINKS.map((l) => (
             <a
               key={l.href}

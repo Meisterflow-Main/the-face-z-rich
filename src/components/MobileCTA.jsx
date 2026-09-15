@@ -22,7 +22,7 @@ export default function MobileCTA() {
           href={BRAND.whatsapp}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-1 text-center text-sm font-semibold text-charcoal border border-gold/40 rounded-full py-3"
+          className="flex-1 text-center text-sm font-semibold text-charcoal border border-gold/40 rounded-lg py-3"
         >
           WhatsApp
         </a>
@@ -30,7 +30,7 @@ export default function MobileCTA() {
           href={BRAND.booking}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-1 inline-flex items-center justify-center gap-2 text-sm font-semibold text-white bg-gold rounded-full py-3"
+          className="flex-1 inline-flex items-center justify-center gap-2 text-sm font-semibold text-white bg-gold rounded-lg py-3"
         >
           <Calendar size={16} /> Termin
         </a>

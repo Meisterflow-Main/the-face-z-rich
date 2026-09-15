@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Calendar, Calculator } from "lucide-react";
-import { BRAND, ASSETS } from "@/lib/brand";
+import { BRAND } from "@/lib/brand";
 
 export default function RegionHero({ region }) {
   return (
@@ -15,13 +15,11 @@ export default function RegionHero({ region }) {
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         className="relative z-10 flex flex-col items-center text-center max-w-4xl"
       >
-        <img src={ASSETS.logo} alt="THE FACE® Zürich – Denise Claire Gadient" className="h-14 sm:h-16 w-auto mb-6 invert" />
-
         <p className="text-gold text-xs sm:text-sm tracking-[0.25em] uppercase font-medium mb-4">
           {region.eyebrow}
         </p>
 
-        <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold text-charcoal leading-[1.08] mb-6 max-w-3xl">
+        <h1 className="font-heading text-4xl sm:text-5xl md:text-[52px] font-semibold text-charcoal leading-[1.1] mb-6 max-w-3xl">
           {region.h1}
         </h1>
 

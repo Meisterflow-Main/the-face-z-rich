@@ -33,7 +33,7 @@ export default function StudioGallery() {
         </ScrollReveal>
 
         {/* Image grid on the right */}
-        <div className="lg:col-span-7 grid grid-cols-3 gap-2.5">
+        <div className="lg:col-span-7 grid grid-cols-2 sm:grid-cols-4 gap-2.5">
           {STUDIO_IMAGES.map((src, i) => (
             <motion.div
               key={i}

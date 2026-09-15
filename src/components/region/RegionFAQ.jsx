@@ -10,7 +10,7 @@ export default function RegionFAQ({ region }) {
       <div className="max-w-3xl mx-auto">
         <ScrollReveal className="text-center mb-10">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">FAQ</p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-charcoal">
+          <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal">
             Häufige Fragen zur Gesichtsbehandlung
           </h2>
         </ScrollReveal>

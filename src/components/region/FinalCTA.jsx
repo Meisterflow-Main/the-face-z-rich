@@ -16,7 +16,7 @@ export default function FinalCTA({ region }) {
         <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-4">
           Gesichtsbehandlung {region.short}
         </p>
-        <h2 className="font-heading text-4xl sm:text-5xl font-bold text-white mb-5">
+        <h2 className="font-heading text-4xl sm:text-5xl font-semibold text-white mb-5">
           {region.finalCtaTitle}
         </h2>
         <p className="text-white/70 text-base sm:text-lg max-w-xl mx-auto mb-9 leading-relaxed">

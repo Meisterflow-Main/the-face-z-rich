@@ -10,7 +10,7 @@ export default function MoreServices() {
       <div className="max-w-4xl mx-auto text-center">
         <ScrollReveal>
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">Weitere Leistungen</p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-charcoal mb-4">
+          <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal mb-4">
             Mein vollständiges Behandlungsangebot
           </h2>
           <p className="text-charcoal/60 max-w-xl mx-auto mb-8">

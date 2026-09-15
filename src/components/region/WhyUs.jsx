@@ -8,7 +8,7 @@ export default function WhyUs({ region }) {
       <div className="max-w-4xl mx-auto">
         <ScrollReveal className="text-center mb-10">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">Warum uns</p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-charcoal mb-4">
+          <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal mb-4">
             Warum Kundinnen aus {region.short} uns wählen
           </h2>
           <p className="text-charcoal/60 max-w-2xl mx-auto">{region.whyIntro}</p>
@@ -33,7 +33,7 @@ export default function WhyUs({ region }) {
         <ScrollReveal className="text-center mt-10" delay={0.1}>
           <a
             href="#preisrechner"
-            className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-7 py-3.5 rounded-full transition-all hover:shadow-lg hover:shadow-gold/30"
+            className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-7 py-3.5 rounded-lg transition-all hover:shadow-lg hover:shadow-gold/30"
           >
             <Calculator size={18} /> Jetzt Offerte berechnen
           </a>

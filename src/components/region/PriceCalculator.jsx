@@ -30,7 +30,7 @@ export default function PriceCalculator({ region }) {
       <div className="max-w-3xl mx-auto">
         <ScrollReveal className="text-center mb-10">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">Preisrechner</p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-charcoal mb-4">
+          <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal mb-4">
             Preis für Deine Gesichtsbehandlung
           </h2>
           <p className="text-charcoal/60 max-w-2xl mx-auto">{region.priceIntro}</p>
@@ -89,7 +89,7 @@ export default function PriceCalculator({ region }) {
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2 border-t border-gold/15">
               <div>
                 <p className="text-xs uppercase tracking-wide text-charcoal/50">Preisvorschau (Richtpreis)</p>
-                <p className="font-heading text-3xl font-bold text-charcoal">
+                <p className="font-heading text-3xl font-semibold text-charcoal">
                   {total} <span className="text-charcoal/40 text-base font-body font-normal">CHF</span>
                 </p>
               </div>

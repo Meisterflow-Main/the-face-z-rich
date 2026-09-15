@@ -11,7 +11,7 @@ export default function ContactBlock({ region }) {
       <div className="max-w-4xl mx-auto">
         <ScrollReveal className="text-center mb-10">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">Kontakt</p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold text-charcoal mb-4">
+          <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal mb-4">
             Deine Kosmetik-Praxis für {region.short}
           </h2>
           <p className="text-charcoal/60 max-w-xl mx-auto">
