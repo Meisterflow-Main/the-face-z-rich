@@ -10,7 +10,7 @@ export default function RegionReviews({ region }) {
         <ScrollReveal>
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">Google Bewertungen</p>
           <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal mb-4">
-            Das sagen Kundinnen aus {region.short}
+            Das sagen Kundinnen und Kunden aus {region.short}
           </h2>
           <p className="text-charcoal/60 max-w-xl mx-auto mb-8">{region.reviewsIntro}</p>
         </ScrollReveal>
@@ -23,7 +23,7 @@ export default function RegionReviews({ region }) {
               ))}
             </div>
             <p className="text-charcoal/70 text-sm mb-6 max-w-md">
-              Echte Bewertungen echter Kundinnen und Kunden – direkt auf Google einsehbar.
+              Echte Bewertungen echter Kundinnen und Kunden, direkt auf Google einsehbar.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <a

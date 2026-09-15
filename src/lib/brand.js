@@ -34,7 +34,7 @@ export const ASSETS = {
 export const TREATMENTS = [
   {
     title: "Hautanalyse",
-    desc: "Persönliche, individuelle Beratung und gründliche Analyse Deiner Haut – die Basis jeder Behandlung.",
+    desc: "Persönliche, individuelle Beratung und gründliche Analyse Deiner Haut, die Basis jeder Behandlung.",
     benefit: "Erkenntnis & Massgeschneiderte Pflege",
   },
   {
@@ -54,7 +54,7 @@ export const TREATMENTS = [
   },
   {
     title: "Make-up & Visagistik",
-    desc: "Als Visagistin zaubere ich Dir ein natürliches, auf Dich abgestimmtes Make-up für jeden Anlass.",
+    desc: "Als Visagistin schminke ich Dir ein natürliches, auf Dich abgestimmtes Make-up für jeden Anlass.",
     benefit: "Natürliche Schönheit",
   },
   {
@@ -88,7 +88,7 @@ export const FAQS = [
   },
   {
     q: "Für wen sind die Behandlungen geeignet?",
-    a: "Für Teenager, Erwachsene und Silverager. Ob Jugend- und Altersakne, Fältchen und Falten, Hyperpigmentation oder sensible Haut – jede Behandlung ist individuell auf Dich abgestimmt.",
+    a: "Für Teenager, Erwachsene und Silverager. Ob Jugend- und Altersakne, Fältchen und Falten, Hyperpigmentation oder sensible Haut: jede Behandlung ist individuell auf Dich abgestimmt.",
   },
   {
     q: "Welche Produkte werden verwendet?",
@@ -100,6 +100,6 @@ export const FAQS = [
   },
   {
     q: "Wo befindet sich die Praxis?",
-    a: "Rämistrasse 27, 8001 Zürich – vis-à-vis Parkhaus Hohe Promenade.",
+    a: "Rämistrasse 27, 8001 Zürich, vis-à-vis Parkhaus Hohe Promenade.",
   },
 ];

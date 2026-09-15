@@ -25,10 +25,10 @@ export default function StudioGallery() {
           </h2>
           <div className="hairline w-20 mb-4" />
           <p className="text-charcoal/70 text-sm sm:text-base leading-relaxed mb-3">
-            Entdecken Sie unsere Räumlichkeiten und erhalten Sie einen Einblick in die angenehme Atmosphäre unseres Studios.
+            Entdecke unsere Räumlichkeiten und erhalte einen Einblick in die angenehme Atmosphäre unseres Studios.
           </p>
           <p className="text-charcoal/60 text-sm sm:text-base leading-relaxed">
-            Lernen Sie unsere Behandlungsräume und das besondere Ambiente bereits vor Ihrem Besuch kennen.
+            Lerne unsere Behandlungsräume und das besondere Ambiente bereits vor Deinem Besuch kennen.
           </p>
         </ScrollReveal>
 

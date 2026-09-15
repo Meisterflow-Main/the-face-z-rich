@@ -37,7 +37,7 @@ export default function Datenschutz() {
             <div>
               <h2 className="font-heading text-lg font-semibold text-charcoal mb-2">3. Bewertungs-Feedback</h2>
               <p>
-                Bewertungen mit 1–3 Sternen werden ausschliesslich intern erfasst und nicht
+                Bewertungen mit 1 bis 3 Sternen werden ausschliesslich intern erfasst und nicht
                 öffentlich geteilt oder in einer Datenbank gespeichert. Es erfolgt keine
                 CRM-Speicherung und keine externe Speicherung ausserhalb der internen
                 Bearbeitung.

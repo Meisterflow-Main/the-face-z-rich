@@ -18,7 +18,7 @@ const sendFeedback = async (rating, critique) => {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      name: "Auftragsbewertung (intern)",
+      name: "Behandlungsbewertung (intern)",
       email: "feedback@theface-zuerich.ch",
       phone: "-",
       description: `Bewertung: ${rating}/5 Sterne. Feedback: ${critique || "Kein Text"}`,
@@ -67,12 +67,12 @@ export default function Bewertung() {
           <div className="text-center mb-10">
             <img src={ASSETS.logo} alt="THE FACE®" className="h-12 w-auto mx-auto mb-5" />
             <h1 className="font-heading text-3xl sm:text-4xl font-bold text-charcoal mb-3">
-              Auftrag bewerten
+              Behandlung bewerten
             </h1>
             <div className="hairline w-16 mx-auto mb-4" />
             <p className="text-charcoal/60 leading-relaxed">
               Dein Feedback ist mir wichtig. Beantworte kurz drei Fragen und bewerte
-              Deinen Auftrag – es dauert nur eine Minute.
+              Deine Behandlung. Es dauert nur eine Minute.
             </p>
           </div>
 
@@ -160,7 +160,7 @@ export default function Bewertung() {
                     className="text-left mb-5"
                   >
                     <label className="block text-sm font-medium text-charcoal/70 mb-2">
-                      Wir bedauern, dass es nicht 5 Sterne waren. Dein Feedback hilft uns:
+                      Es tut mir leid, dass es nicht 5 Sterne waren. Dein Feedback hilft mir:
                     </label>
                     <textarea
                       rows={4}
@@ -211,8 +211,8 @@ export default function Bewertung() {
                       Vielen Dank für Deine tolle Bewertung!
                     </h2>
                     <p className="text-charcoal/60 leading-relaxed mb-8 max-w-md mx-auto">
-                      Würden Sie uns auch auf Google weiterempfehlen? Das hilft anderen
-                      Kunden, uns zu finden.
+                      Würdest Du uns auch auf Google weiterempfehlen? Das hilft anderen
+                      Kundinnen und Kunden, mich zu finden.
                     </p>
                     <a
                       href={BRAND.googleReview}
@@ -232,8 +232,8 @@ export default function Bewertung() {
                       Vielen Dank für Dein Feedback
                     </h2>
                     <p className="text-charcoal/60 leading-relaxed mb-8 max-w-md mx-auto">
-                      Wir schätzen Deine Ehrlichkeit sehr. Dein Feedback wurde intern
-                      erfasst und hilft uns, uns stetig zu verbessern.
+                      Ich schätze Deine Ehrlichkeit sehr. Dein Feedback wurde intern
+                      erfasst und hilft mir, mich stetig zu verbessern.
                     </p>
                     <Link
                       to="/"

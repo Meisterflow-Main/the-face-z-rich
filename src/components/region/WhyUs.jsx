@@ -9,7 +9,7 @@ export default function WhyUs({ region }) {
         <ScrollReveal className="text-center mb-10">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">Warum uns</p>
           <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal mb-4">
-            Warum Kundinnen aus {region.short} uns wählen
+            Warum Kundinnen und Kunden aus {region.short} mich wählen
           </h2>
           <p className="text-charcoal/60 max-w-2xl mx-auto">{region.whyIntro}</p>
         </ScrollReveal>

@@ -151,7 +151,7 @@ export default function ContactForm() {
 
               {status === STATUS.SUCCESS && (
                 <p className="text-center text-sm text-green-700 bg-green-50 rounded-lg py-3 px-4">
-                  Vielen Dank! Deine Anfrage ist eingegangen – ich melde mich bald bei Dir.
+                  Vielen Dank! Deine Anfrage ist eingegangen. Ich melde mich bald bei Dir.
                 </p>
               )}
               {status === STATUS.ERROR && (
