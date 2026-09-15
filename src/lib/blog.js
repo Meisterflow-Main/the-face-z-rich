@@ -430,7 +430,7 @@ export const ARTICLES = [
     date: "2026-05-10",
     author: "Denise Claire Gadient",
     readTime: 6,
-    hero: IMG("1556228720-195a672e8a03"),
+    hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/012575fd8_generated_image.png",
     metaTitle: "Hauttypen erklärt: Welcher Hauttyp bist Du? | THE FACE® Blog",
     metaDescription:
       "Die fünf Hauttypen verständlich erklärt: trocken, fettig, Mischhaut, sensibel, reif. Lerne den Unterschied zwischen Hauttyp und Hautzustand kennen.",
@@ -482,7 +482,7 @@ export const ARTICLES = [
     date: "2026-04-25",
     author: "Denise Claire Gadient",
     readTime: 5,
-    hero: IMG("1556228453-8512a474f3b4"),
+    hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/7aca98769_generated_image.png",
     metaTitle: "Pflegeroutine für zuhause: Morgens und abends | THE FACE® Blog",
     metaDescription:
       "Schritt-für-Schritt Anleitung für Deine tägliche Pflegeroutine: Reinigung, Toner, Serum, Feuchtigkeit, Schutz. Verständlich erklärt von Kosmetikerin Denise Claire Gadient.",
@@ -534,7 +534,7 @@ export const ARTICLES = [
     date: "2026-04-08",
     author: "Denise Claire Gadient",
     readTime: 5,
-    hero: IMG("1556228841-3e0c2c2b2a2a"),
+    hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/978187d2c_generated_image.png",
     metaTitle: "Saisonale Hautpflege: Pflege nach Jahreszeiten | THE FACE® Blog",
     metaDescription:
       "Wie Du Deine Hautpflege an Frühling, Sommer, Herbst und Winter anpasst. Saisonale Tipps von Kosmetikerin Denise Claire Gadient, THE FACE® Zürich.",
@@ -586,7 +586,7 @@ export const ARTICLES = [
     date: "2026-03-20",
     author: "Denise Claire Gadient",
     readTime: 5,
-    hero: IMG("1556228578-8c89cb6d8d6a"),
+    hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d2e2a89f4_generated_image.png",
     metaTitle: "7 häufige Pflegefehler vermeiden | THE FACE® Blog",
     metaDescription:
       "Die sieben häufigsten Fehler in der Hautpflege und wie Du sie vermeidest. Ein Ratgeber von Kosmetikerin Denise Claire Gadient, THE FACE® Zürich.",
@@ -638,7 +638,7 @@ export const ARTICLES = [
     date: "2026-03-02",
     author: "Denise Claire Gadient",
     readTime: 6,
-    hero: IMG("1556228720-0d63b2c2b3a1"),
+    hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/8c9a1a8e1_generated_image.png",
     metaTitle: "Wirkstoffe erklärt: Retinol, Vitamin C & Hyaluronsäure | THE FACE® Blog",
     metaDescription:
       "Die wichtigsten Hautpflege-Wirkstoffe verständlich erklärt: Retinol, Vitamin C, Hyaluronsäure, Niacinamid und Peptide. Ein Ratgeber von THE FACE® Zürich.",
@@ -690,7 +690,7 @@ export const ARTICLES = [
     date: "2026-02-15",
     author: "Denise Claire Gadient",
     readTime: 5,
-    hero: IMG("1556228720-0a2c2b3a4b5c"),
+    hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/9893660a1_generated_image.png",
     metaTitle: "Hautpflege für Teenager: Tipps gegen Jugendakne | THE FACE® Blog",
     metaDescription:
       "Wie Teenager ihre Haut richtig pflegen und Jugendakne in den Griff bekommen. Sanfte Produkte, einfache Routinen und die Pro Clear Young Behandlung von THE FACE® Zürich.",
@@ -742,7 +742,7 @@ export const ARTICLES = [
     date: "2026-02-01",
     author: "Denise Claire Gadient",
     readTime: 4,
-    hero: IMG("1556228720-0e3c2b4a5b6c"),
+    hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/794b2dcb4_generated_image.png",
     metaTitle: "Sonnenschutz: Warum SPF das wichtigste Anti-Aging ist | THE FACE® Blog",
     metaDescription:
       "Warum täglicher Sonnenschutz die wirksamste Anti-Aging-Massnahme ist. SPF-Werte, Anwendungsmenge und Tipps von Kosmetikerin Denise Claire Gadient, THE FACE® Zürich.",
@@ -794,7 +794,7 @@ export const ARTICLES = [
     date: "2026-01-18",
     author: "Denise Claire Gadient",
     readTime: 5,
-    hero: IMG("1556228720-0f4c2b5a6b7c"),
+    hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/acf0b8641_generated_image.png",
     metaTitle: "Hautbarriere reparieren: Ursachen und Lösungen | THE FACE® Blog",
     metaDescription:
       "Wie die Hautbarriere funktioniert, was sie schädigt und wie Du sie wieder aufbaust. Ein Ratgeber von Kosmetikerin Denise Claire Gadient, THE FACE® Zürich.",
