@@ -176,14 +176,21 @@ export default function Bewertung() {
                 )}
 
                 {rating > 0 && (
-                  <button
-                    onClick={isHigh ? () => setSubmitted(true) : submitLowRating}
-                    disabled={status === "loading"}
-                    className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#0EA5E9] disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
-                  >
-                    {status === "loading" && <Loader2 size={18} className="animate-spin" />}
-                    {isHigh ? "Bewertung abgeben" : status === "loading" ? "Wird gesendet…" : "Feedback senden"}
-                  </button>
+                  <>
+                    <button
+                      onClick={isHigh ? () => setSubmitted(true) : submitLowRating}
+                      disabled={status === "loading"}
+                      className="w-full inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#0EA5E9] disabled:opacity-60 text-white font-semibold px-6 py-4 rounded-full transition-all"
+                    >
+                      {status === "loading" && <Loader2 size={18} className="animate-spin" />}
+                      {isHigh ? "Bewertung abgeben" : status === "loading" ? "Wird gesendet…" : "Feedback senden"}
+                    </button>
+                    <p className="text-xs text-charcoal/45 mt-3 leading-relaxed">
+                      Dein Feedback wird über eine verschlüsselte Verbindung übermittelt und intern
+                      ausgewertet. Details in der{" "}
+                      <Link to="/datenschutz" className="text-gold underline">Datenschutzerklärung</Link>.
+                    </p>
+                  </>
                 )}
               </motion.div>
             )}
