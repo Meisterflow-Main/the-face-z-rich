@@ -23,7 +23,8 @@ export default function ServiceDetail({ service }) {
     serviceType: service.name,
     name: service.name,
     description: service.intro,
-    provider: { "@id": "https://theface-zuerich.ch/" },
+    url: `https://theface-zuerich.ch/behandlungen/${service.slug}`,
+    provider: { "@id": "https://theface-zuerich.ch/#localbusiness" },
     areaServed: { "@type": "City", name: "Zürich" },
     offers: {
       "@type": "AggregateOffer",

@@ -31,8 +31,9 @@ export default function MoneyDetail({ service, region }) {
     serviceType: service.name,
     name: `${service.name} in ${region.name}`,
     description: intro,
-    provider: { "@id": "https://theface-zuerich.ch/" },
-    areaServed: { "@type": "City", name: region.name },
+    url: `https://theface-zuerich.ch/behandlungen/${service.slug}/${region.slug}`,
+    provider: { "@id": "https://theface-zuerich.ch/#localbusiness" },
+    areaServed: { "@type": "AdministrativeArea", name: region.name },
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "CHF",

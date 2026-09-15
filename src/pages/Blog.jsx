@@ -16,13 +16,15 @@ const jsonLd = {
   name: "THE FACE® Zürich Blog",
   url: "https://theface-zuerich.ch/blog",
   inLanguage: "de-CH",
-  publisher: { "@type": "Organization", name: "THE FACE® Denise Claire Gadient" },
+  isPartOf: { "@id": "https://theface-zuerich.ch/#website" },
+  publisher: { "@id": "https://theface-zuerich.ch/#organization" },
   blogPost: ARTICLES.map((a) => ({
     "@type": "BlogPosting",
     headline: a.title,
     datePublished: a.date,
     author: { "@type": "Person", name: a.author },
     url: `https://theface-zuerich.ch/blog/${a.slug}`,
+    mainEntityOfPage: `https://theface-zuerich.ch/blog/${a.slug}`,
   })),
 };
 

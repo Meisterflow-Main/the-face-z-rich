@@ -16,36 +16,26 @@ const COUNT = 16;
 const MAPS_EMBED =
   "https://maps.google.com/maps?q=THE%20FACE%20Denise%20Claire%20Gadient%20R%C3%A4mistrasse%2027%208001%20Z%C3%BCrich&output=embed";
 
-const jsonLd = [
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://theface-zuerich.ch/" },
-      { "@type": "ListItem", position: 2, name: "Bewertungen", item: "https://theface-zuerich.ch/bewertungen" }
-    ]
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Bewertungen – THE FACE® Zürich",
+  url: "https://theface-zuerich.ch/bewertungen",
+  inLanguage: "de-CH",
+  description: "Echte Google-Bewertungen für THE FACE® Denise Claire Gadient in Zürich. Aktuelle Durchschnittsbewertung: 4.9 von 5 Sternen (16 Bewertungen).",
+  isPartOf: { "@id": "https://theface-zuerich.ch/#website" },
+  about: { "@id": "https://theface-zuerich.ch/#localbusiness" },
+  mainEntity: {
+    "@id": "https://theface-zuerich.ch/#localbusiness",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: RATING,
+      reviewCount: COUNT,
+      bestRating: "5",
+      worstRating: "1",
+    },
   },
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: "Bewertungen – THE FACE® Zürich",
-    url: "https://theface-zuerich.ch/bewertungen",
-    inLanguage: "de-CH",
-    isPartOf: { "@id": "https://theface-zuerich.ch/#website" },
-    about: { "@id": "https://theface-zuerich.ch/" },
-    mainEntity: {
-      "@type": "LocalBusiness",
-      "@id": "https://theface-zuerich.ch/",
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: RATING,
-        reviewCount: COUNT,
-        bestRating: "5",
-        worstRating: "1"
-      }
-    }
-  }
-];
+};
 
 export default function Bewertungen() {
   return (

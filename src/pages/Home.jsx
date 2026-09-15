@@ -14,6 +14,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import MobileCTA from "@/components/MobileCTA";
 import Seo from "@/components/region/Seo";
 import { FAQS } from "@/lib/brand";
+import { homeSchemaGraph } from "@/lib/schema";
 
 export default function Home() {
   const faqSchema = {
@@ -30,7 +31,7 @@ export default function Home() {
       <Seo
         title="THE FACE® Zürich – Denise Claire Gadient | Holistische Gesichtspflege & Kosmetik"
         description="THE FACE® Denise Claire Gadient in Zürich – Über 30 Jahre spezialisiert auf holistische Gesichtspflege. Kosmetikerin EFZ, Dermalogica Skin Expert. Hautanalyse, Pro Skin Treatment, Longevity Glow Treatment, Revitalisierung & Make-up. Termin online buchen."
-        jsonLd={faqSchema}
+        jsonLd={homeSchemaGraph(faqSchema)}
       />
       <Navbar />
       <main>

@@ -20,12 +20,23 @@ export default function Regionen() {
       url: `https://theface-zuerich.ch/regionen/${r.slug}`,
     })),
   };
+  const webPage = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Regionen in Zürich | THE FACE®",
+    url: "https://theface-zuerich.ch/regionen",
+    inLanguage: "de-CH",
+    description: "THE FACE® Zürich bedient die ganze Stadt von der Rämistrasse: Altstetten, Oerlikon, Wiedikon, Seebach, Wollishofen, Höngg, Affoltern, Schwamendingen, Enge und Fluntern.",
+    isPartOf: { "@id": "https://theface-zuerich.ch/#website" },
+    about: { "@id": "https://theface-zuerich.ch/#localbusiness" },
+    publisher: { "@id": "https://theface-zuerich.ch/#organization" },
+  };
   return (
     <div className="min-h-screen bg-background">
       <Seo
         title="Regionen in Zürich | THE FACE®"
         description="THE FACE® Zürich bedient die ganze Stadt von der Rämistrasse: Altstetten, Oerlikon, Wiedikon, Seebach, Wollishofen, Höngg, Affoltern, Schwamendingen, Enge und Fluntern."
-        jsonLd={itemList}
+        jsonLd={[itemList, webPage]}
       />
       <Navbar />
       <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Regionen" }]} />

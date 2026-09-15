@@ -11,7 +11,20 @@ import { ARTICLES } from "@/lib/blog";
 export default function Sitemap() {
   return (
     <div className="min-h-screen bg-background">
-      <Seo title="Sitemap | THE FACE® Zürich" description="Übersicht aller Seiten von THE FACE® Zürich." />
+      <Seo
+        title="Sitemap | THE FACE® Zürich"
+        description="Übersicht aller Seiten von THE FACE® Zürich."
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          name: "Sitemap – THE FACE® Zürich",
+          url: "https://theface-zuerich.ch/sitemap",
+          inLanguage: "de-CH",
+          description: "Übersicht aller Seiten von THE FACE® Zürich.",
+          isPartOf: { "@id": "https://theface-zuerich.ch/#website" },
+          publisher: { "@id": "https://theface-zuerich.ch/#organization" },
+        }}
+      />
       <Navbar />
       <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Sitemap" }]} />
       <main className="px-5 sm:px-8 pb-20">

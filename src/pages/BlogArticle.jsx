@@ -72,12 +72,29 @@ export default function BlogArticle() {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: article.title,
-    datePublished: article.date,
-    author: { "@type": "Person", name: article.author },
-    publisher: { "@type": "Organization", name: "THE FACE® Denise Claire Gadient" },
     description: article.metaDescription,
-    image: article.hero,
-    mainEntityOfPage: `https://theface-zuerich.ch/blog/${article.slug}`,
+    datePublished: article.date,
+    dateModified: article.date,
+    author: { "@type": "Person", name: article.author, url: "https://theface-zuerich.ch/" },
+    publisher: {
+      "@type": "Organization",
+      name: "THE FACE® Denise Claire Gadient",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/28e4391ff_Goldstein.png",
+      },
+    },
+    image: {
+      "@type": "ImageObject",
+      url: article.hero,
+      width: 1200,
+      height: 630,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://theface-zuerich.ch/blog/${article.slug}`,
+    },
+    inLanguage: "de-CH",
   };
 
   return (

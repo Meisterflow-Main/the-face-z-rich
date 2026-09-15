@@ -6,6 +6,7 @@ import { BRAND, ASSETS, WEBHOOK } from "@/lib/brand";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
+import Seo from "@/components/region/Seo";
 
 const QUESTIONS = [
   "Wie zufrieden warst Du mit Deiner Behandlung?",
@@ -57,6 +58,21 @@ export default function Bewertung() {
 
   return (
     <div className="min-h-screen bg-sand">
+      <Seo
+        title="Behandlung bewerten | THE FACE® Zürich"
+        description="Bewerte Deine Behandlung bei THE FACE® Denise Claire Gadient in Zürich. Dein Feedback hilft mir, mich kontinuierlich zu verbessern."
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          name: "Behandlung bewerten – THE FACE® Zürich",
+          url: "https://theface-zuerich.ch/bewertung",
+          inLanguage: "de-CH",
+          description: "Bewerte Deine Behandlung bei THE FACE® Denise Claire Gadient in Zürich.",
+          isPartOf: { "@id": "https://theface-zuerich.ch/#website" },
+          about: { "@id": "https://theface-zuerich.ch/#localbusiness" },
+          publisher: { "@id": "https://theface-zuerich.ch/#organization" },
+        }}
+      />
       <Navbar />
       <main className="pt-28 sm:pt-32 pb-20 px-5 sm:px-8">
         <div className="mx-auto max-w-2xl">

@@ -18,6 +18,7 @@ import FinalCTA from "@/components/region/FinalCTA";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { localBusinessSchema } from "@/lib/schema";
 
 export default function RegionLandingPage({ region }) {
   const faqSchema = {
@@ -29,9 +30,18 @@ export default function RegionLandingPage({ region }) {
       acceptedAnswer: { "@type": "Answer", text: f.a },
     })),
   };
+  const regionBusinessSchema = {
+    ...localBusinessSchema,
+    "@type": "HealthAndBeautyBusiness",
+    areaServed: {
+      "@type": "AdministrativeArea",
+      name: region.name,
+    },
+    url: `https://theface-zuerich.ch/regionen/${region.slug}`,
+  };
   return (
     <>
-      <Seo title={region.metaTitle} description={region.metaDescription} jsonLd={faqSchema} />
+      <Seo title={region.metaTitle} description={region.metaDescription} jsonLd={[regionBusinessSchema, faqSchema]} />
       <Navbar />
       <Breadcrumbs
         items={[

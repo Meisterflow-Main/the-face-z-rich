@@ -64,7 +64,9 @@ const jsonLd = {
   name: "Datenschutzerklärung – THE FACE® Zürich",
   url: "https://theface-zuerich.ch/datenschutz",
   inLanguage: "de-CH",
-  publisher: { "@type": "Organization", name: "THE FACE® Denise Claire Gadient" },
+  description: "Informationen zur Verarbeitung personenbezogener Daten und zum Datenschutz bei THE FACE® Denise Claire Gadient in Zürich.",
+  isPartOf: { "@id": "https://theface-zuerich.ch/#website" },
+  publisher: { "@id": "https://theface-zuerich.ch/#organization" },
 };
 
 export default function Datenschutz() {

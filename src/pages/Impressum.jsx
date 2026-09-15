@@ -15,17 +15,9 @@ const jsonLd = {
   name: "Impressum – THE FACE® Zürich",
   url: "https://theface-zuerich.ch/impressum",
   inLanguage: "de-CH",
-  publisher: {
-    "@type": "Organization",
-    name: "THE FACE® Denise Claire Gadient",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: BRAND.street,
-      postalCode: "8001",
-      addressLocality: "Zürich",
-      addressCountry: "CH",
-    },
-  },
+  description: "Impressum von THE FACE® Denise Claire Gadient, Rämistrasse 27, 8001 Zürich.",
+  isPartOf: { "@id": "https://theface-zuerich.ch/#website" },
+  publisher: { "@id": "https://theface-zuerich.ch/#organization" },
 };
 
 function InfoCard({ icon: Icon, title, children }) {
