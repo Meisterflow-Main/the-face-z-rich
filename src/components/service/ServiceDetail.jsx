@@ -13,9 +13,14 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
 import { getServiceBySlug } from "@/lib/services";
+import { ARTICLES, ARTICLE_SERVICE_MAP } from "@/lib/blog";
 
 export default function ServiceDetail({ service }) {
   const related = service.related.map(getServiceBySlug).filter(Boolean);
+  const relatedArticles = ARTICLES.filter((a) => {
+    const slugs = ARTICLE_SERVICE_MAP[a.slug] || [];
+    return slugs.includes(service.slug);
+  }).slice(0, 3);
   const prices = service.priceFactors.map((p) => Number(p.price));
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -174,6 +179,85 @@ export default function ServiceDetail({ service }) {
           </Accordion>
         </div>
       </Section>
+
+      {/* Vorbereitung */}
+      {service.preparation && (
+        <Section bg="sand">
+          <Heading eyebrow="Vorbereitung" title="So bereitest Du Dich vor" />
+          <div className="max-w-2xl mx-auto space-y-3">
+            {service.preparation.map((p) => (
+              <div key={p} className="flex items-start gap-3 bg-card border border-gold/15 rounded-xl p-4">
+                <span className="shrink-0 w-7 h-7 rounded-full bg-gold/10 flex items-center justify-center mt-0.5">
+                  <Check size={16} className="text-gold" />
+                </span>
+                <span className="text-charcoal/80 text-sm sm:text-base">{p}</span>
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {/* Nach der Behandlung */}
+      {service.aftercare && (
+        <Section>
+          <Heading eyebrow="Nachsorge" title="Nach der Behandlung" />
+          <div className="max-w-2xl mx-auto space-y-3">
+            {service.aftercare.map((a) => (
+              <div key={a} className="flex items-start gap-3 bg-card border border-gold/15 rounded-xl p-4">
+                <span className="shrink-0 w-7 h-7 rounded-full bg-gold/10 flex items-center justify-center mt-0.5">
+                  <Check size={16} className="text-gold" />
+                </span>
+                <span className="text-charcoal/80 text-sm sm:text-base">{a}</span>
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {/* Kontraindikationen */}
+      {service.contraindications && service.contraindications.length > 0 && (
+        <Section bg="sand">
+          <Heading eyebrow="Wann nicht" title="Wann diese Behandlung nicht geeignet ist" />
+          <div className="max-w-2xl mx-auto space-y-2.5">
+            {service.contraindications.map((c) => (
+              <div key={c} className="flex items-start gap-3 bg-card border border-gold/15 rounded-xl p-4">
+                <span className="shrink-0 w-7 h-7 rounded-full bg-charcoal/5 flex items-center justify-center mt-0.5">
+                  <span className="text-charcoal/50 text-lg leading-none">!</span>
+                </span>
+                <span className="text-charcoal/75 text-sm sm:text-base">{c}</span>
+              </div>
+            ))}
+            <p className="text-charcoal/50 text-xs mt-3 text-center">
+              Bei Fragen zur Eignung berate ich Dich gerne persönlich – in der Praxis oder per WhatsApp.
+            </p>
+          </div>
+        </Section>
+      )}
+
+      {/* Verwandte Artikel */}
+      {relatedArticles.length > 0 && (
+        <Section>
+          <Heading eyebrow="Wissen" title="Verwandte Artikel aus dem Blog" />
+          <div className="grid sm:grid-cols-3 gap-4">
+            {relatedArticles.map((a) => (
+              <Link
+                key={a.slug}
+                to={`/blog/${a.slug}`}
+                className="bg-card border border-gold/15 rounded-xl p-5 hover:border-gold transition-colors"
+              >
+                <span className="inline-block bg-gold/10 text-gold text-xs font-semibold px-2.5 py-1 rounded-full mb-3">
+                  {a.category}
+                </span>
+                <h3 className="font-heading text-base font-semibold text-charcoal mb-1 line-clamp-2">{a.title}</h3>
+                <p className="text-charcoal/60 text-sm line-clamp-2">{a.excerpt}</p>
+                <span className="mt-3 inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
+                  Lesen <ArrowRight size={16} />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </Section>
+      )}
 
       {/* Verfügbar in Quartieren */}
       <Section bg="sand">

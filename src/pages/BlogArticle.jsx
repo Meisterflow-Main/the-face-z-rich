@@ -11,7 +11,8 @@ import ScrollReveal from "@/components/ScrollReveal";
 import BlogCard from "@/components/blog/BlogCard";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 import BlogCta from "@/components/blog/BlogCta";
-import { getArticleBySlug, ARTICLES, formatDate } from "@/lib/blog";
+import { getArticleBySlug, ARTICLES, formatDate, getRelatedServices } from "@/lib/blog";
+import { getServiceBySlug } from "@/lib/services";
 
 export default function BlogArticle() {
   const { slug } = useParams();
@@ -41,6 +42,11 @@ export default function BlogArticle() {
     const rel = ARTICLES.filter((a) => article.related.includes(a.slug));
     return rel.length >= 2 ? rel : ARTICLES.filter((a) => a.slug !== slug).slice(0, 3);
   }, [article, slug]);
+
+  const relatedServices = useMemo(() => {
+    if (!article) return [];
+    return getRelatedServices(article.slug).map(getServiceBySlug).filter(Boolean);
+  }, [article]);
 
   if (!article) {
     return (
@@ -200,6 +206,28 @@ export default function BlogArticle() {
                 </div>
               </section>
 
+              {/* Related services */}
+              {relatedServices.length > 0 && (
+                <section className="mt-10">
+                  <h2 className="font-heading text-2xl font-semibold text-charcoal mb-5">Verwandte Behandlungen</h2>
+                  <div className="grid sm:grid-cols-2 gap-4">
+                    {relatedServices.map((s) => (
+                      <Link
+                        key={s.slug}
+                        to={`/behandlungen/${s.slug}`}
+                        className="bg-card border border-gold/15 rounded-xl p-5 hover:border-gold transition-colors group"
+                      >
+                        <h3 className="font-heading text-lg font-semibold text-charcoal mb-1">{s.name}</h3>
+                        <p className="text-charcoal/60 text-sm line-clamp-2">{s.intro}</p>
+                        <span className="mt-3 inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
+                          Mehr erfahren <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+              )}
+
               {/* Internal links */}
               <section className="mt-10 bg-sand border border-gold/15 rounded-2xl p-6">
                 <h2 className="font-heading text-lg font-semibold text-charcoal mb-4">Weiterlesen auf der Website</h2>
@@ -208,6 +236,7 @@ export default function BlogArticle() {
                   <IntLink to="/regionen">Regionen</IntLink>
                   <IntLink to="/behandlungen/hautanalyse">Hautanalyse</IntLink>
                   <IntLink to="/behandlungen/pro-skin-treatments">Pro Skin Treatments</IntLink>
+                  <IntLink to="/blog">Blog</IntLink>
                   <IntLink to="/#faq">FAQ</IntLink>
                   <IntLink to="/#kontakt">Kontakt</IntLink>
                   <IntLink to="/bewertungen">Bewertungen</IntLink>

@@ -38,6 +38,28 @@ export const SERVICES = [
         q: "Wie lange dauert die Hautanalyse?",
         a: "Die Analyse inklusive Quickboost dauert rund 30 Minuten.",
       },
+      {
+        q: "Wie oft sollte ich die Hautanalyse wiederholen?",
+        a: "Einmal pro Jahr empfehle ich eine Auffrisch-Analyse, da sich Haut mit Jahreszeit, Stress und Alter verändert. Bei grossen Veränderungen wie neuer Pflege oder Hormonschwankungen früher.",
+      },
+      {
+        q: "Ist die Hautanalyse auch für Teenager geeignet?",
+        a: "Absolut. Gerade für jugendliche Haut ist die Analyse wertvoll: Sie lernt früh, ihre Haut zu verstehen und richtig zu pflegen. Die Untersuchung ist sanft und altersgerecht.",
+      },
+    ],
+    preparation: [
+      "Komm idealerweise ungeschminkt oder mit nur leichter Pflege",
+      "Verzichte eine Woche vorher auf starke Peelings oder neue Produkte",
+      "Bringe gerne Deine aktuellen Pflegeprodukte zur Beratung mit",
+    ],
+    aftercare: [
+      "Verwende in den ersten 24 Stunden keine neuen Produkte",
+      "Schütze Deine Haut tagsüber mit SPF",
+      "Folge dem individuellen Pflegeplan, den ich Dir nach der Analyse mitgebe",
+    ],
+    contraindications: [
+      "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Frische Sonnenbrand – warte, bis die Haut sich beruhigt hat",
     ],
     related: ["pro-skin-treatments", "targeted-skin-solutions", "longevity-glow-treatment"],
   },
@@ -82,6 +104,29 @@ export const SERVICES = [
         q: "Sind die Produkte für sensible Haut geeignet?",
         a: "Ja. Ich arbeite mit sanften, hochwertigen Clean-Produkten und stimme die Auswahl auf Deine Haut ab.",
       },
+      {
+        q: "Wie oft sollte ich ein Pro Skin Treatment wiederholen?",
+        a: "Für nachhaltige Ergebnisse empfehle ich alle vier bis sechs Wochen. So bleibt die Haut frisch und gepflegt. In der Beratung passe ich den Rhythmus individuell an.",
+      },
+      {
+        q: "Was ist der Unterschied zwischen Pro Skin 60 und Pro Skin 90?",
+        a: "Pro Skin 60 ist die klassische Premium-Behandlung in einer Stunde. Pro Skin 90 bietet mehr Zeit für ausgiebige Maske, Massage und gezielte Zusätze – ideal, wenn Du Dir etwas Gutes tun willst.",
+      },
+    ],
+    preparation: [
+      "Komm ungeschminkt oder mit nur leichter Pflege",
+      "Verzichte eine Woche vorher auf starke Peelings oder neue Produkte",
+      "Vermeide intensive Sonneneinstrahlung vor dem Termin",
+    ],
+    aftercare: [
+      "Verzichte 24 Stunden auf Make-up, Sport und heisse Duschen",
+      "Schütze Deine Haut tagsüber mit SPF, besonders nach peelenden Schritten",
+      "Folge dem Pflegetipp, den ich Dir nach der Behandlung mitgebe",
+    ],
+    contraindications: [
+      "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Frische Sonnenbrand oder aktive Kortisonbehandlung",
+      "Schwangerschaft: ich berate Dich zu geeigneten Alternativen",
     ],
     related: ["longevity-glow-treatment", "medical-skin-treatments", "targeted-skin-solutions"],
   },
@@ -128,6 +173,29 @@ export const SERVICES = [
         q: "Was macht Pro Bright?",
         a: "Pro Bright hellt Hyperpigmentation und ungleichmässigen Teint auf. Ich arbeite gezielt und sanft für einen ebenmässigeren Teint.",
       },
+      {
+        q: "Ab welchem Alter ist Pro Clear Young sinnvoll?",
+        a: "Ab der Pubertät, wenn die erste Akne auftritt. Die Behandlung ist sanft, aufklärend und lehrt Jugendliche, ihre Haut richtig zu pflegen. Vorab analysiere ich die Haut, um sie passgenau aufzustellen.",
+      },
+      {
+        q: "Wie oft sollte Pro Clear wiederholt werden?",
+        a: "Bei Akne empfehle ich eine Serie im Abstand von zwei bis vier Wochen, bis sich die Haut beruhigt. Die Häufigkeit hängt vom Hautbild ab und wird individuell beraten.",
+      },
+    ],
+    preparation: [
+      "Verzichte vor der Behandlung auf selbst durchgeführte Peelings",
+      "Komm ungeschminkt, damit ich die Haut klar analysieren kann",
+      "Bei Teenagen: ein Elternteil darf gerne begleiten",
+    ],
+    aftercare: [
+      "Verwende 24 Stunden keine neuen oder klärenden Produkte zuhause",
+      "Schütze Deine Haut tagsüber mit SPF, besonders nach aufhellenden Treatments",
+      "Folge dem Pflegeplan, den ich für Deine Haut zusammenstelle",
+    ],
+    contraindications: [
+      "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Frische Sonnenbrand oder aktive Kortisonbehandlung",
+      "Bei Schwangerschaft berate ich zu geeigneten Alternativen",
     ],
     related: ["pro-skin-treatments", "hautanalyse", "medical-skin-treatments"],
   },
@@ -167,6 +235,30 @@ export const SERVICES = [
         q: "Gibt es Nebenwirkungen?",
         a: "Mit sanften Clean-Produkten sind Nebenwirkungen selten. Gelegentlich eine kurze Rötung, die rasch abklingt. Ich berate Dich umfassend.",
       },
+      {
+        q: "Wie lange dauert die Erholung nach dem Exoboost Treatment?",
+        a: "Die meisten Kundinnen haben keine Ausfallzeit. Die Haut kann kurz gerötet sein und erholt sich innerhalb eines Tages. Ich berate Dich individuell zur Pflege in den Tagen nach der Behandlung.",
+      },
+      {
+        q: "Wie oft sollte ich das Exoboost Treatment wiederholen?",
+        a: "Für nachhaltige Ergebnisse empfehle ich eine Serie im Abstand von vier bis sechs Wochen. Die genaue Frequenz hängt von Deinem Hautbild und Ziel ab.",
+      },
+    ],
+    preparation: [
+      "Verzichte zwei Wochen vorher auf starke Peelings und Retinol",
+      "Vermeide intensive Sonneneinstrahlung vor dem Termin",
+      "Komm ungeschminkt zur FACE-MAP Beratung",
+    ],
+    aftercare: [
+      "Verzichte 48 Stunden auf Make-up, Sport und heisse Duschen",
+      "Trage täglich SPF 30 bis 50 konsequent auf – die Haut ist nach der Behandlung lichtempfindlicher",
+      "Verwende keine klärenden oder peelenden Produkte für eine Woche",
+    ],
+    contraindications: [
+      "Aktive Akne oder Hautentzündungen im Behandlungsbereich",
+      "Frische Sonnenbrand oder offene Wunden",
+      "Schwangerschaft und Stillzeit: ich berate Dich zu sanften Alternativen",
+      "Einnahme von Isotretinoin in den letzten sechs Monaten",
     ],
     related: ["longevity-glow-treatment", "pro-skin-treatments", "targeted-skin-solutions"],
   },
@@ -209,6 +301,29 @@ export const SERVICES = [
         q: "Wie oft sollte ich kommen?",
         a: "Für nachhaltige Ergebnisse empfehle ich alle vier bis sechs Wochen.",
       },
+      {
+        q: "Was ist der Unterschied zwischen Nanoneedling und Microneedling?",
+        a: "Nanoneedling arbeitet mit feinsten Nanones an der Hautoberfläche und ist besonders sanft – ideal für die Infusion von Wirkstoffen. Microneedling geht tiefer und regt die Erneuerung stärker an. In der Beratung wähle ich die passende Methode.",
+      },
+      {
+        q: "Gibt es eine Ausfallzeit?",
+        a: "Kaum. Ein frischerer Teint ist oft direkt sichtbar. Gelegentlich eine kurze Rötung, die rasch abklingt. Die meisten Kundinnen gehen direkt danach ihren Alltag weiter.",
+      },
+    ],
+    preparation: [
+      "Verzichte eine Woche vorher auf Retinol und starke Peelings",
+      "Vermeide intensive Sonneneinstrahlung vor dem Termin",
+      "Komm ungeschminkt zur Hautanalyse",
+    ],
+    aftercare: [
+      "Verzichte 24 Stunden auf Make-up und Sport",
+      "Trage täglich SPF konsequent auf",
+      "Verwende für einige Tage keine klärenden Produkte",
+    ],
+    contraindications: [
+      "Aktive Akne oder Hautentzündungen im Behandlungsbereich",
+      "Frische Sonnenbrand oder offene Wunden",
+      "Schwangerschaft und Stillzeit: ich berate Dich zu Alternativen",
     ],
     related: ["medical-skin-treatments", "pro-skin-treatments", "hautanalyse"],
   },
@@ -252,6 +367,28 @@ export const SERVICES = [
         q: "Brauche ich eine Voranmeldung für das Brautmake-up?",
         a: "Ja, für das Brautmake-up vereinbaren wir vorab einen Beratungstermin.",
       },
+      {
+        q: "Kann ich Make-up und Gesichtsbehandlung an einem Tag kombinieren?",
+        a: "Ja, das ist eine wunderbare Kombination. Viele Kundinnen buchen zuerst ein Pro Skin Treatment und lassen sich danach schminken. So ist die Haut frisch und aufnahmefähig für das Make-up.",
+      },
+      {
+        q: "Ist das Make-up wasserfest?",
+        a: "Für besondere Anlässe wie Hochzeiten verwende ich langlebige, wasserresistente Produkte. Im Alltag reicht ein natürlicher Look, der sich sanft abputzen lässt.",
+      },
+    ],
+    preparation: [
+      "Komm mit sauberer, ungeschminkter Haut oder mit leichter Pflege",
+      "Bringe Inspirationen oder Fotos Deines gewünschten Looks mit",
+      "Für Brautmake-up: vereinbare vorab einen Beratungstermin",
+    ],
+    aftercare: [
+      "Entferne das Make-up abends gründlich mit einem sanften Reiniger",
+      "Pflege die Haut danach mit Feuchtigkeit",
+      "Vermeide starkes Reiben beim Abputzen",
+    ],
+    contraindications: [
+      "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Allergien gegen bestimmte Make-up-Inhaltsstoffe – vorab ansprechen",
     ],
     related: ["lashlift", "hautanalyse", "pro-skin-treatments"],
   },
@@ -291,6 +428,29 @@ export const SERVICES = [
         q: "Kann ich den Lashlift mit einer Gesichtsbehandlung kombinieren?",
         a: "Ja, der Lashlift lässt sich wunderbar als Ergänzung zu einem Pro Skin Treatment einplanen.",
       },
+      {
+        q: "Darf ich nach dem Lashlift duschen oder schwimmen?",
+        a: "In den ersten 24 Stunden vermeide ich Wasser, Dampf und Sauna, damit die Form optimal hält. Danach kannst Du Deine gewohnte Routine weiterführen.",
+      },
+      {
+        q: "Ist der Lashlift für alle Wimpern geeignet?",
+        a: "Für die meisten Wimpern ja. Bei sehr kurzen oder feinen Wimpern berate ich Dich individuell, ob der Lift die gewünschte Wirkung erzielt.",
+      },
+    ],
+    preparation: [
+      "Komm mit sauberen, ungeschminkten Wimpern",
+      "Entferne Mascara und Augen-Make-up vor dem Termin",
+      "Vermeide Wimpernserum in den 48 Stunden vor dem Termin",
+    ],
+    aftercare: [
+      "Vermeide 24 Stunden Wasser, Dampf und Sauna",
+      "Reibe nicht an den Wimpern",
+      "Verwende ölfreie Augen-Make-up-Entferner für langanhaltende Ergebnisse",
+    ],
+    contraindications: [
+      "Augenentzündungen oder -infektionen (Bindehautentzündung, Gerstenkorn)",
+      "Frische Augen-OP oder Wimpernwurzelbehandlung",
+      "Allergie gegen Wimpernfarbe – vorab ansprechen",
     ],
     related: ["make-up", "pro-skin-treatments", "hautanalyse"],
   },
@@ -330,6 +490,28 @@ export const SERVICES = [
         q: "Wie lange dauert eine Sitzung?",
         a: "Eine Sitzung dauert etwa 60 Minuten inklusive Vor- und Nachgespräch.",
       },
+      {
+        q: "Muss ich mich vorab vorbereiten?",
+        a: "Keine besondere Vorbereitung nötig. Komm offen und bereit für eine ruhige, achtsame Zeit. Im Vorgespräch klären wir, was Du mitbringst.",
+      },
+      {
+        q: "Wie oft ist eine Sitzung sinnvoll?",
+        a: "Das hängt von Deinem persönlichen Anliegen. Manche kommen einmalig, andere regelmässig als begleitende Unterstützung. Wir finden gemeinsam den passenden Rhythmus.",
+      },
+    ],
+    preparation: [
+      "Komm in ruhiger Atmosphäre – nimm Dir Zeit für das Vorgespräch",
+      "Keine spezielle körperliche Vorbereitung nötig",
+      "Offenheit und Bereitschaft für eine achtsame Sitzung",
+    ],
+    aftercare: [
+      "Nimm Dir nach der Sitzung etwas Zeit zur Nachruhe",
+      "Vermeide direkt danach intensive körperliche Belastung",
+      "Achte auf Deine Empfindungen und gib der Wirkung Raum",
+    ],
+    contraindications: [
+      "Quantum Angel Healing ersetzt keine medizinische oder psychotherapeutische Behandlung",
+      "Bei akuten psychischen Krisen berate ich Dich zu geeigneten Fachstellen",
     ],
     related: ["hautanalyse", "pro-skin-treatments"],
   },

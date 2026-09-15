@@ -852,3 +852,27 @@ export const getRelatedArticles = (slug, n = 3) => {
 
 export const formatDate = (iso) =>
   new Date(iso).toLocaleDateString("de-CH", { day: "2-digit", month: "long", year: "numeric" });
+
+export const ARTICLE_SERVICE_MAP = {
+  "hautanalyse-zuerich-erster-schritt": ["hautanalyse", "pro-skin-treatments"],
+  "clean-beauty-was-wirklich-dahinter-steckt": ["hautanalyse", "targeted-skin-solutions"],
+  "anti-aging-ohne-eingriff-longevity-glow": ["longevity-glow-treatment", "medical-skin-treatments"],
+  "vorbereitung-erste-gesichtsbehandlung": ["hautanalyse", "pro-skin-treatments"],
+  "welches-treatment-passt-zu-dir": ["pro-skin-treatments", "targeted-skin-solutions", "medical-skin-treatments"],
+  "hyperpigmentation-behandeln": ["targeted-skin-solutions", "longevity-glow-treatment"],
+  "kosmetikerin-zuerich-finden": ["hautanalyse", "pro-skin-treatments"],
+  "google-bewertungen-warum-echte-erfahrungen-zaehlen": ["hautanalyse"],
+  "hauttypen-erklaert": ["hautanalyse", "targeted-skin-solutions"],
+  "pflegeroutine-zuhause": ["hautanalyse", "pro-skin-treatments"],
+  "saisonale-hautpflege": ["pro-skin-treatments", "longevity-glow-treatment"],
+  "haeufige-pflegefehler": ["hautanalyse", "targeted-skin-solutions"],
+  "wirkstoffe-erklaert": ["longevity-glow-treatment", "medical-skin-treatments"],
+  "hautpflege-teenager": ["targeted-skin-solutions"],
+  "sonnenschutz-anti-aging": ["longevity-glow-treatment", "targeted-skin-solutions"],
+  "hautbarriere-reparieren": ["targeted-skin-solutions", "hautanalyse"],
+};
+
+export const getRelatedServices = (slug) => {
+  const slugs = ARTICLE_SERVICE_MAP[slug] || [];
+  return slugs;
+};
