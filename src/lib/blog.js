@@ -45,11 +45,11 @@ export const ARTICLES = [
     faqs: [
       {
         q: "Wie lange dauert die Hautanalyse?",
-        a: "Die Analyse inklusive Quickboost dauert rund 30 Minuten.",
+        a: "Plane rund 30 Minuten ein – inklusive eines Quickboosts, der Deiner Haut sofort etwas Gutes tut. Danach besprechen wir gemeinsam die nächsten Schritte.",
       },
       {
         q: "Brauche ich die Analyse vor der ersten Behandlung?",
-        a: "Ja. Jede Beratung beginnt mit der persönlichen Hautanalyse, damit die Behandlung optimal auf Deine Haut abgestimmt ist.",
+        a: "Ja, sie ist der Startpunkt jeder Beratung bei THE FACE®. Ohne sie wäre eine Empfehlung Raterei – mit ihr wird Pflege zur Massarbeit.",
       },
       {
         q: "Ist die Analyse auch für sensible Haut geeignet?",

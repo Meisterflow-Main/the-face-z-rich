@@ -13,17 +13,51 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
 
+// Generates a unique intro paragraph for each service+region combination.
+// Varies sentence structure and angle based on service type and region character.
+function generateIntro(service, region) {
+  const angles = [
+    `${region.short} liegt ${region.localContext.commute.toLowerCase().includes("wenigen minuten") ? "nah" : "eine kurze Fahrt entfernt"} von meiner Praxis an der Rämistrasse. Dort erhältst Du ${service.name} – ${service.intro.split(".")[0].toLowerCase()}.`,
+    `Suchst Du ${service.name} in der Nähe von ${region.short}? In meiner Praxis an der Rämistrasse verbinde ich über 30 Jahre Erfahrung mit ${service.eyebrow.toLowerCase()}, massgeschneidert auf Dein Hautbild.`,
+    `${service.name} nahe ${region.short}: An der Rämistrasse 27 arbeite ich mit hochwertigen Clean-Produkten und der Dermalogica FACE-MAP. ${service.intro.split(". ")[1] || ""}`,
+    `Von ${region.short} bist Du rasch bei mir an der Rämistrasse. ${service.name} ist eine meiner Spezialitäten: ${service.intro.split(".")[0].toLowerCase()}.`,
+    `In ${region.short} wohnen und ${service.name} suchen? Meine Praxis an der Rämistrasse bietet Dir ${service.name} mit individueller Hautanalyse und über 30 Jahren Erfahrung.`,
+  ];
+  const idx = (service.slug.length + region.slug.length) % angles.length;
+  return angles[idx];
+}
+
+// Generates a unique commute FAQ answer using the region's specific commute info.
+function generateCommuteFaq(region) {
+  const commute = region.localContext.commute;
+  const areaType = region.localContext.areaType;
+  return `Meine Praxis an der Rämistrasse 27, 8001 Zürich liegt vis-à-vis dem Parkhaus Hohe Promenade. ${commute} ${region.short} ist ein ${areaType.toLowerCase()}. Termine buchst Du rund um die Uhr online über meinen Phorest-Kalender.`;
+}
+
+// Generates a unique final CTA text based on the service.
+function generateCtaText(service) {
+  const ctas = [
+    `Sichere Dir Deinen Termin für ${service.name} an der Rämistrasse: online buchen oder per WhatsApp anfragen.`,
+    `Buche ${service.name} jetzt online: ich berate Dich individuell und nehme mir Zeit für Deine Haut.`,
+    `Reserviere Deinen Wunschtermin für ${service.name}: schnell, unkompliziert und auf Dich abgestimmt.`,
+    `Vereinbare Deinen Termin für ${service.name} online oder schreib mir per WhatsApp. Ich freue mich auf Dich.`,
+  ];
+  const idx = service.slug.length % ctas.length;
+  return ctas[idx];
+}
+
 export default function MoneyDetail({ service, region }) {
   const faqs = [
     ...service.faqs,
     {
       q: `Wie komme ich von ${region.short} zu Dir?`,
-      a: `Meine Praxis an der Rämistrasse 27, 8001 Zürich ist von ${region.short} mit Bus und Bahn schnell erreichbar, vis-à-vis dem Parkhaus Hohe Promenade. Termine buchst Du bequem online.`,
+      a: generateCommuteFaq(region),
     },
   ];
   const neighbors = REGIONS.filter((r) => r.slug !== region.slug).slice(0, 6);
   const metaTitle = `${service.name} in ${region.name} | THE FACE®`;
-  const intro = `Du wohnst in ${region.short} und interessierst Dich für die ${service.name}? In meiner Praxis an der Rämistrasse erhältst Du die ${service.name} individuell auf Deine Haut abgestimmt, mit über 30 Jahren Erfahrung und hochwertigen Clean-Produkten.`;
+  const intro = generateIntro(service, region);
+  const ctaText = generateCtaText(service);
   const prices = service.priceFactors.map((p) => Number(p.price));
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -205,7 +239,7 @@ export default function MoneyDetail({ service, region }) {
           {service.name} in {region.short} buchen
         </h2>
         <p className="text-white/70 max-w-xl mx-auto mb-7">
-          Sichere Dir Deinen Termin an der Rämistrasse: online buchen oder persönlich anfragen.
+          {ctaText}
         </p>
         <a
           href={BRAND.booking}

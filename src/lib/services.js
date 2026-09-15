@@ -48,14 +48,14 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Komm idealerweise ungeschminkt oder mit nur leichter Pflege",
-      "Verzichte eine Woche vorher auf starke Peelings oder neue Produkte",
-      "Bringe gerne Deine aktuellen Pflegeprodukte zur Beratung mit",
+      "Komm am besten ungeschminkt – so kann ich Deine Haut klar lesen",
+      "Verzichte sieben Tage vorher auf Peelings oder neue Wirkstoffe",
+      "Bringe Deine aktuellen Pflegeprodukte mit, damit wir sie gemeinsam prüfen",
     ],
     aftercare: [
-      "Verwende in den ersten 24 Stunden keine neuen Produkte",
-      "Schütze Deine Haut tagsüber mit SPF",
-      "Folge dem individuellen Pflegeplan, den ich Dir nach der Analyse mitgebe",
+      "Greife 24 Stunden lang auf keine neuen Produkte zurück",
+      "Trage tagsüber konsequent Lichtschutz auf – auch an bewölkten Tagen",
+      "Richte Dich nach dem Pflegeplan, den ich Dir nach der Analyse erstelle",
     ],
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
@@ -114,9 +114,9 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Komm ungeschminkt oder mit nur leichter Pflege",
-      "Verzichte eine Woche vorher auf starke Peelings oder neue Produkte",
-      "Vermeide intensive Sonneneinstrahlung vor dem Termin",
+      "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
+      "Setze eine Woche vorher keine neuen Produkte oder starken Peelings auf",
+      "Halte Dich vor dem Termin aus direkter Sonne fern",
     ],
     aftercare: [
       "Verzichte 24 Stunden auf Make-up, Sport und heisse Duschen",
@@ -245,9 +245,9 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Verzichte zwei Wochen vorher auf starke Peelings und Retinol",
-      "Vermeide intensive Sonneneinstrahlung vor dem Termin",
-      "Komm ungeschminkt zur FACE-MAP Beratung",
+      "Setze zwei Wochen vorher Retinol und starke Peelings aus",
+      "Schütze Deine Haut vor dem Termin konsequent vor direkter Sonne",
+      "Erscheine ungeschminkt, damit die FACE-MAP Beratung sauber gelingt",
     ],
     aftercare: [
       "Verzichte 48 Stunden auf Make-up, Sport und heisse Duschen",
@@ -299,7 +299,7 @@ export const SERVICES = [
       },
       {
         q: "Wie oft sollte ich kommen?",
-        a: "Für nachhaltige Ergebnisse empfehle ich alle vier bis sechs Wochen.",
+        a: "Einen Rhythmus von vier bis sechs Wochen begleitet den Erneuerungszyklus Deiner Haut optimal. In der Beratung passe ich die Frequenz auf Dein Hautbild an.",
       },
       {
         q: "Was ist der Unterschied zwischen Nanoneedling und Microneedling?",
@@ -311,9 +311,9 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Verzichte eine Woche vorher auf Retinol und starke Peelings",
-      "Vermeide intensive Sonneneinstrahlung vor dem Termin",
-      "Komm ungeschminkt zur Hautanalyse",
+      "Pausiere eine Woche vorher Retinol und peelende Produkte",
+      "Halte Deine Haut vor dem Termin aus direkter Sonne",
+      "Komm ungeschminkt, damit ich Deine Haut unverfälscht analysieren kann",
     ],
     aftercare: [
       "Verzichte 24 Stunden auf Make-up und Sport",
