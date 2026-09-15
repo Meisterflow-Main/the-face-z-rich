@@ -11,6 +11,7 @@ export default function Hero() {
         alt="THE FACE® Zürich – Kosmetikstudio an der Rämistrasse"
         className="absolute inset-0 w-full h-full object-cover object-center"
       />
+      <div className="absolute inset-0 bg-black/30" />
       <div className="absolute inset-0 bg-gradient-to-r from-charcoal/70 via-charcoal/25 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-t from-charcoal/30 via-transparent to-charcoal/15" />
 
