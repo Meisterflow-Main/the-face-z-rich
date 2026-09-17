@@ -46,6 +46,11 @@ export default function AboutEditorial() {
             Visagistin</strong> bietet Denise Claire Gadient persönlich abgestimmte Behandlungen
             für unterschiedliche Hautbedürfnisse.
           </p>
+          <p className="text-muted-foreground leading-[1.65] mb-6">
+            Denise besuchte den Dermalogica Longevity Retreat in Köln. Vor zwei Jahren absolvierte
+            sie den Sachkundenachweis V-NISSG für Haut und Pigmentierung an der Schweizerischen
+            Gemeinschaft für medizinische Kosmetik (SGMK).
+          </p>
           <div className="flex flex-wrap gap-2.5">
             {SKIN_CONCERNS.map((c) => (
               <span
