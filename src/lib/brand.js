@@ -78,7 +78,7 @@ export const STATS = [
   { value: "30+", label: "Jahre Erfahrung" },
   { value: "EFZ", label: "Zertifizierte Kosmetikerin" },
   { value: "VNISSG", label: "Haut & Pigmente Spezialistin" },
-  { value: "100%", label: "Individuelle Beratung" },
+  { value: "100%", label: "Persönliche Beratung" },
 ];
 
 export const FAQS = [
