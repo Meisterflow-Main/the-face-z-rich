@@ -36,6 +36,10 @@ export default function AboutEditorial() {
             der Fokus auf ganzheitlicher Gesichtspflege, persönlicher Beratung und nachhaltiger
             Hautgesundheit.
           </p>
+          <p className="text-foreground/75 text-base sm:text-lg leading-[1.65] mb-5">
+            Zusammen besprechen wir immer, was das Beste für Deinen aktuellen Hautzustand ist
+            und was Dein Wunsch ist.
+          </p>
           <p className="text-muted-foreground leading-[1.65] mb-6">
             Als <strong className="text-foreground font-medium">Kosmetikerin EFZ,
             VNISSG-zertifizierte Fachperson für Haut und Pigmente, Dermalogica Skin Expert und
