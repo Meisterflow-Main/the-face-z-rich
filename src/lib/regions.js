@@ -78,7 +78,7 @@ export const REGIONS = [
       { headline: "Über 30 Jahre Erfahrung", desc: "Spezialisiert auf holistische Gesichtspflege, die wirklich wirkt." },
       { headline: "EFZ-zertifizierte Kosmetikerin", desc: "VNISSG-zertifiziert für Haut und Pigmente: Fachwissen auf höchstem Niveau." },
       { headline: "Premium Clean-Produkte", desc: "Hochwertige, innovative Produkte, die Deine Haut nachhaltig pflegen." },
-      { headline: "Individuelle Beratung", desc: "Jede Behandlung beginnt mit einer persönlichen Hautanalyse: massgeschneidert." },
+      { headline: "Persönliche Beratung", desc: "Jede Behandlung beginnt mit einer persönlichen Hautanalyse: massgeschneidert." },
       { headline: "Zentral an der Rämistrasse", desc: "Von Altstetten in Minuten erreichbar, vis-à-vis Parkhaus Hohe Promenade." },
     ],
     priceIntro: "Mit meinem Preisrechner erhältst Du eine erste Orientierung. Wähle Hauttyp, gewünschte Gesichtsbehandlung und Add-ons: und Du siehst sofort einen Richtpreis.",
