@@ -3,7 +3,7 @@
 
 const IMG = (id) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=1200&q=80`;
 
-export const BLOG_INTRO = `Willkommen im Blog von THE FACE® Zürich. Hier teile ich mein Wissen aus über 30 Jahren Erfahrung in holistischer Gesichtspflege. Du findest Ratgeber zu Hautanalyse, Anti-Aging und Clean Beauty, praktische Tipps für Deine tägliche Pflegeroutine, Anleitungen zur Vorbereitung auf Deine erste Gesichtsbehandlung sowie Einblicke in meine Dienstleistungen und lokale Themen rund um Zürich. Der Blog richtet sich an Kundinnen und Kunden, die ihre Haut verstehen und bewusst pflegen möchten – ob Teenager mit Jugendakne, Erwachsene mit Hyperpigmentation oder Silverager mit Fältchen. Regelmässiges Lesen lohnt sich, weil ich aktuelle Erkenntnisse, neue Behandlungsmethoden und ehrliche Pflegetipps verständlich erkläre. So triffst Du informierte Entscheidungen für Deine Haut und verstehst, warum eine professionelle Hautanalyse der erste Schritt zu nachhaltig strahlender Haut ist. Stöbere in den Kategorien, entdecke passende Behandlungen und lass Dich inspirieren.`;
+export const BLOG_INTRO = `Willkommen im Blog von THE FACE® Zürich. Hier teile ich mein Wissen aus über 30 Jahren Erfahrung in holistischer Gesichtspflege. Du findest Ratgeber zu Hautanalyse, Skin Longevity und Clean Beauty, praktische Tipps für Deine tägliche Pflegeroutine, Anleitungen zur Vorbereitung auf Deine erste Gesichtsbehandlung sowie Einblicke in meine Dienstleistungen und lokale Themen rund um Zürich. Der Blog richtet sich an Kundinnen und Kunden, die ihre Haut verstehen und bewusst pflegen möchten – ob Teenager mit Jugendakne, Erwachsene mit Hyperpigmentation oder Silverager mit Fältchen. Regelmässiges Lesen lohnt sich, weil ich aktuelle Erkenntnisse, neue Behandlungsmethoden und ehrliche Pflegetipps verständlich erkläre. So triffst Du informierte Entscheidungen für Deine Haut und verstehst, warum eine professionelle Hautanalyse der erste Schritt zu nachhaltig strahlender Haut ist. Stöbere in den Kategorien, entdecke passende Behandlungen und lass Dich inspirieren.`;
 
 export const ARTICLES = [
   {
@@ -112,7 +112,7 @@ export const ARTICLES = [
   },
   {
     slug: "anti-aging-ohne-eingriff-longevity-glow",
-    title: "Anti-Aging ohne Eingriff: Der Longevity Glow Ansatz",
+    title: "Skin Longevity ohne Eingriff: Der Longevity Glow Ansatz",
     category: "Tipps",
     excerpt:
       "Falten müssen nicht immer Spritzen bedeuten. Erfahre, wie das Longevity Glow Treatment und die Lumin Fusion Nanoneedling-Infusion sanft für jugendliche Ausstrahlung sorgen – ganz ohne invasive Eingriffe.",
@@ -120,14 +120,14 @@ export const ARTICLES = [
     author: "Denise Claire Gadient",
     readTime: 5,
     hero: IMG("1552693673-1bf958298935"),
-    metaTitle: "Anti-Aging ohne Eingriff: Longevity Glow erklärt | THE FACE® Blog",
+    metaTitle: "Skin Longevity ohne Eingriff: Longevity Glow erklärt | THE FACE® Blog",
     metaDescription:
-      "Sanftes Anti-Aging mit Longevity Glow und Lumin Fusion Nanoneedling – jugendliche Ausstrahlung ohne invasive Eingriffe. Ein Beitrag von THE FACE® Zürich.",
+      "Sanftes Skin Longevity mit Longevity Glow und Lumin Fusion Nanoneedling – jugendliche Ausstrahlung ohne invasive Eingriffe. Ein Beitrag von THE FACE® Zürich.",
     sections: [
       {
         heading: "Warum sanft oft mehr bewirkt",
         paragraphs: [
-          "Viele denken bei Anti-Aging sofort an Spritzen. Doch die Haut lässt sich auch schonend zur Erneuerung anregen. Das Longevity Glow Treat bringt tiefe Nährstoffe in die Haut und regt die Regeneration an – für sichtbar frische, jugendliche Ausstrahlung.",
+          "Viele denken bei Skin Longevity sofort an Spritzen. Doch die Haut lässt sich auch schonend zur Erneuerung anregen. Das Longevity Glow Treat bringt tiefe Nährstoffe in die Haut und regt die Regeneration an – für sichtbar frische, jugendliche Ausstrahlung.",
           "Der Vorteil: kein Eingriff, kaum Erholungszeit, natürliche Ergebnisse. Wer es dezent mag, ist hier richtig.",
         ],
       },
@@ -568,7 +568,7 @@ export const ARTICLES = [
       },
       {
         q: "Brauche ich im Winter trotzdem SPF?",
-        a: "Absolut. UV-Strahlung ist auch bei bewölktem Himmel und im Winter vorhanden. Täglicher Sonnenschutz ist die wichtigste Anti-Aging-Massnahme, ganzjährig.",
+        a: "Absolut. UV-Strahlung ist auch bei bewölktem Himmel und im Winter vorhanden. Täglicher Sonnenschutz ist die wichtigste Skin Longevity-Massnahme, ganzjährig.",
       },
       {
         q: "Welche Behandlung passt zu welcher Jahreszeit?",
@@ -646,7 +646,7 @@ export const ARTICLES = [
       {
         heading: "Die Klassiker: Retinol und Vitamin C",
         paragraphs: [
-          "Retinol (Vitamin A) ist der am besten erforschte Anti-Aging-Wirkstoff. Er regt die Zellerneuerung an, verfeinert das Hautbild und mildert Fältchen. Wichtig: langsam anfangen und nur abends verwenden, da Retinol lichtempfindlich macht. Bei sensibler Haut mit niedriger Konzentration beginnen.",
+          "Retinol (Vitamin A) ist der am besten erforschte Skin Longevity-Wirkstoff. Er regt die Zellerneuerung an, verfeinert das Hautbild und mildert Fältchen. Wichtig: langsam anfangen und nur abends verwenden, da Retinol lichtempfindlich macht. Bei sensibler Haut mit niedriger Konzentration beginnen.",
           "Vitamin C ist ein Antioxidans, das die Haut vor freien Radikalen schützt und den Teint aufhellt. Es eignet sich für die morgendliche Routine, da es den Sonnenschutz ergänzt. Aufhellend wirkt es besonders bei Hyperpigmentation und ungleichmässigem Teint.",
         ],
       },
@@ -672,7 +672,7 @@ export const ARTICLES = [
       },
       {
         q: "Ab welchem Alter sollte ich mit Retinol beginnen?",
-        a: "Ab Mitte 20 bis Anfang 30 ist Retinol als Anti-Aging-Prävention sinnvoll. Beginne mit niedriger Konzentration und baue langsam auf. Eine Beratung hilft, den richtigen Einstieg zu finden.",
+        a: "Ab Mitte 20 bis Anfang 30 ist Retinol als Skin Longevity-Prävention sinnvoll. Beginne mit niedriger Konzentration und baue langsam auf. Eine Beratung hilft, den richtigen Einstieg zu finden.",
       },
       {
         q: "Welcher Wirkstoff hilft gegen Pigmentflecken?",
@@ -735,7 +735,7 @@ export const ARTICLES = [
   },
   {
     slug: "sonnenschutz-anti-aging",
-    title: "Sonnenschutz: Warum SPF die wichtigste Anti-Aging-Massnahme ist",
+    title: "Sonnenschutz: Warum SPF die wichtigste Skin Longevity-Massnahme ist",
     category: "Tipps",
     excerpt:
       "Sonnenschutz ist nicht nur eine Sommersache. UV-Strahlung ist der grösste Treiber von Hautalterung. Erfahre, welchen SPF Du brauchst, wie viel Du auftragen solltest und warum täglicher Schutz unverzichtbar ist.",
@@ -743,15 +743,15 @@ export const ARTICLES = [
     author: "Denise Claire Gadient",
     readTime: 4,
     hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/794b2dcb4_generated_image.png",
-    metaTitle: "Sonnenschutz: Warum SPF das wichtigste Anti-Aging ist | THE FACE® Blog",
+    metaTitle: "Sonnenschutz: Warum SPF das wichtigste Skin Longevity ist | THE FACE® Blog",
     metaDescription:
-      "Warum täglicher Sonnenschutz die wirksamste Anti-Aging-Massnahme ist. SPF-Werte, Anwendungsmenge und Tipps von Kosmetikerin Denise Claire Gadient, THE FACE® Zürich.",
+      "Warum täglicher Sonnenschutz die wirksamste Skin Longevity-Massnahme ist. SPF-Werte, Anwendungsmenge und Tipps von Kosmetikerin Denise Claire Gadient, THE FACE® Zürich.",
     sections: [
       {
         heading: "UV-Strahlung und Hautalterung",
         paragraphs: [
           "Bis zu 80 Prozent der sichtbaren Hautalterung sind auf UV-Strahlung zurückzuführen. UVA-Strahlung dringt tief in die Haut ein und schädigt Kollagen und Elastin. Das Ergebnis: Fältchen, Falten und ein Verlust der Elastizität. UVB-Strahlung verursacht Sonnenbrand und kann die Hautbarriere schwächen.",
-          "Deshalb ist Sonnenschutz nicht nur eine Sommersache, sondern die wichtigste Anti-Aging-Massnahme, die Du täglich durchführen kannst. Kein Serum und keine Creme kann den Schaden ersetzen, den ungeschützte UV-Exposition anrichtet.",
+          "Deshalb ist Sonnenschutz nicht nur eine Sommersache, sondern die wichtigste Skin Longevity-Massnahme, die Du täglich durchführen kannst. Kein Serum und keine Creme kann den Schaden ersetzen, den ungeschützte UV-Exposition anrichtet.",
         ],
       },
       {
@@ -765,14 +765,14 @@ export const ARTICLES = [
         heading: "Sonnenschutz in der professionellen Behandlung",
         paragraphs: [
           "Nach peelenden Behandlungen wie Mikrodermabrasion oder Microneedling ist die Haut besonders empfindlich für UV-Strahlung. Deshalb betone ich bei jeder Beratung die Wichtigkeit des täglichen Schutzes. Wer Pigmentflecken behandelt, muss konsequent SPF verwenden – sonst kehrt die Hyperpigmentation zurück.",
-          "Die beste Anti-Aging-Strategie kombiniert täglichen Sonnenschutz zuhause mit professionellen Behandlungen wie dem Longevity Glow Treatment, die die Regeneration von innen anregen. So schützt und erneuerst Du gleichzeitig.",
+          "Die beste Skin Longevity-Strategie kombiniert täglichen Sonnenschutz zuhause mit professionellen Behandlungen wie dem Longevity Glow Treatment, die die Regeneration von innen anregen. So schützt und erneuerst Du gleichzeitig.",
         ],
       },
     ],
     faqs: [
       {
         q: "Brauche ich im Winter Sonnenschutz?",
-        a: "Ja. UV-Strahlung ist auch im Winter und bei bewölktem Himmel vorhanden. Täglicher SPF ist die wichtigste Anti-Aging-Massnahme, ganzjährig und unabhängig vom Wetter.",
+        a: "Ja. UV-Strahlung ist auch im Winter und bei bewölktem Himmel vorhanden. Täglicher SPF ist die wichtigste Skin Longevity-Massnahme, ganzjährig und unabhängig vom Wetter.",
       },
       {
         q: "Wie viel Sonnencreme brauche ich für das Gesicht?",

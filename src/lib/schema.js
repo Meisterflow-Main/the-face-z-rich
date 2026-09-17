@@ -51,7 +51,7 @@ export const personSchema = {
   knowsAbout: [
     "Holistische Gesichtspflege",
     "Hautanalyse",
-    "Anti-Aging",
+    "Skin Longevity",
     "Clean Beauty",
     "Dermalogica Pro Skin Treatments",
     "Microneedling",

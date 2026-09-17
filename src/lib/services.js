@@ -270,7 +270,7 @@ export const SERVICES = [
     metaTitle: "Longevity Glow Treatment in Zürich | THE FACE®",
     h1: "Longevity Glow Treatment in Zürich",
     intro:
-      "Das Longevity Glow Treatment und die Lumin Fusion Nanoneedling-Infusion sind innovative Anti-Aging-Behandlungen für nachhaltigen Glow und strahlende, jugendliche Haut.",
+      "Das Longevity Glow Treatment und die Lumin Fusion Nanoneedling-Infusion sind innovative Skin Longevity-Behandlungen für nachhaltigen Glow und strahlende, jugendliche Haut.",
     what:
       "Mit der Lumin Fusion Nanoneedling-Infusion oder dem Longevity Glow Treat bringe ich tiefe Nährstoffe in die Haut und rege die Erneuerung an, für sichtbar frische, jugendliche Ausstrahlung.",
     benefits: [

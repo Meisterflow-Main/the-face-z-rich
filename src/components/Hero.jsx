@@ -30,7 +30,7 @@ export default function Hero() {
           </h1>
           <p className="text-white/85 text-base sm:text-lg leading-[1.6] max-w-[480px] mb-9">
             Über 30 Jahre spezialisiert auf individuelle Hautanalyse, Pro Skin Treatments und
-            Anti-Aging, mit sanften Händen und hochwertigen Clean-Produkten an der Rämistrasse.
+            Skin Longevity, mit sanften Händen und hochwertigen Clean-Produkten an der Rämistrasse.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
             <a
