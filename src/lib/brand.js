@@ -34,7 +34,7 @@ export const ASSETS = {
 export const TREATMENTS = [
   {
     title: "Hautanalyse",
-    desc: "Persönliche, individuelle Beratung und gründliche Analyse Deiner Haut inklusive chinesischer Hautlesung, die Basis jeder Behandlung.",
+    desc: "Persönliche Beratung und gründliche Analyse Deiner Haut inklusive chinesischer Hautlesung, die Basis jeder Behandlung.",
     benefit: "Erkenntnis & Massgeschneiderte Pflege",
   },
   {
