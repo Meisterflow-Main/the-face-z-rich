@@ -10,17 +10,18 @@ export const SERVICES = [
     metaTitle: "Hautanalyse & Beratung in Zürich | THE FACE®",
     h1: "Hautanalyse & Beratung in Zürich",
     intro:
-      "Mit der Dermalogica FACE-MAP und FACE-FIT analysiere ich Deine Haut gründlich und leite die passenden Pflegeschritte ab. Die persönliche Hautanalyse ist die Basis jeder Behandlung bei THE FACE®.",
+      "Mit der Dermalogica FACE-MAP und FACE-FIT sowie der chinesischen Hautlesung analysiere ich Deine Haut gründlich und leite die passenden Pflegeschritte ab. Die persönliche Hautanalyse ist die Basis jeder Behandlung bei THE FACE®.",
     what:
-      "Vor jeder Behandlung untersuche ich Deine Haut mit der FACE-MAP und FACE-FIT: Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten. So weiss ich genau, was Deine Haut braucht – inklusive Quickboost.",
+      "Vor jeder Behandlung untersuche ich Deine Haut mit der FACE-MAP und FACE-FIT sowie der chinesischen Hautlesung: Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten. So weiss ich genau, was Deine Haut braucht – inklusive Quickboost.",
     benefits: [
       "Persönliche FACE-MAP & FACE-FIT Analyse",
+      "Chinesische Hautlesung",
       "Massgeschneiderte Pflegeempfehlung",
       "Basis für jede weitere Behandlung",
       "Auch für Teenager und sensible Haut",
     ],
     process: [
-      "Hautanalyse mit FACE-MAP und FACE-FIT",
+      "Hautanalyse mit FACE-MAP, FACE-FIT und chinesischer Hautlesung",
       "Beratung und Pflegeziel definieren",
       "Pflegeplan für zuhause",
     ],
@@ -29,6 +30,10 @@ export const SERVICES = [
       {
         q: "Was ist die FACE-MAP Analyse?",
         a: "Mit der Dermalogica FACE-MAP untersuche ich Deine Haut Zone für Zone und erkenne Hauttyp, Hautzustand und aktuelle Bedürfnisse. Daraus leite ich die passende Behandlung und Pflege ab.",
+      },
+      {
+        q: "Was ist die chinesische Hautlesung?",
+        a: "Die chinesische Hautlesung betrachtet das Gesicht als Spiegel Deiner inneren Gesundheit. Zusätzlich zur FACE-MAP lese ich Hautspannung, Farbe und Merkmale, um Zusammenhänge zwischen Hautzustand und Wohlbefinden zu erkennen und die Pflege noch passgenauer auf Dich abzustimmen.",
       },
       {
         q: "Brauche ich die Hautanalyse vor der ersten Behandlung?",
