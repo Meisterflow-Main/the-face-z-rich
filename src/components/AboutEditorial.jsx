@@ -33,7 +33,7 @@ export default function AboutEditorial() {
           <GoogleReviewBadge className="mb-5" />
           <p className="text-foreground/75 text-base sm:text-lg leading-[1.65] mb-5">
             Bei THE FACE® in Zürich steht Deine Haut im Mittelpunkt. Seit über 30 Jahren liegt
-            der Fokus auf ganzheitlicher Gesichtspflege, individueller Beratung und nachhaltiger
+            der Fokus auf ganzheitlicher Gesichtspflege, persönlicher Beratung und nachhaltiger
             Hautgesundheit.
           </p>
           <p className="text-muted-foreground leading-[1.65] mb-6">
