@@ -39,7 +39,7 @@ export const TREATMENTS = [
   },
   {
     title: "Pro Skin Treatment",
-    desc: "Auf Deine Haut abgestimmte Premium-Behandlung mit hochwertigen Clean-Produkten und sanften Händen.",
+    desc: "Auf Deine Haut abgestimmte Premium-Behandlung mit hochwertigen Dermalogica-Produkten und sanften Händen.",
     benefit: "Tiefenwirksam & Revitalisierend",
   },
   {
@@ -92,7 +92,7 @@ export const FAQS = [
   },
   {
     q: "Welche Produkte werden verwendet?",
-    a: "Ich arbeite ausschliesslich mit hochwertigen und innovativen Clean-Produkten, die Deine Haut sanft und nachhaltig pflegen.",
+    a: "Für die professionellen Gesichtsbehandlungen verwende ich hochwertige Dermalogica-Produkte, die individuell auf die Bedürfnisse Deiner Haut abgestimmt werden. Ergänzt durch weitere innovative Clean-Produkte, die Deine Haut sanft und nachhaltig pflegen.",
   },
   {
     q: "Brauche ich eine Hautanalyse vor der ersten Behandlung?",

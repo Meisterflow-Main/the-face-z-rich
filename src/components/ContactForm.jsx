@@ -83,9 +83,12 @@ export default function ContactForm() {
               Beratung anfragen
             </h2>
             <div className="hairline w-16 mb-6" />
-            <p className="text-charcoal/60 leading-relaxed mb-6">
+            <p className="text-charcoal/60 leading-relaxed mb-4">
               Hast Du Fragen? Sende mir eine Nachricht – ich melde mich gerne persönlich
               bei Dir. Oder buche direkt Deinen Termin online.
+            </p>
+            <p className="text-charcoal/60 leading-relaxed mb-6">
+              Professionelle Hautpflege mit Dermalogica – individuell abgestimmt auf Deine Haut.
             </p>
             <GoogleReviewBadge className="mb-8" />
 

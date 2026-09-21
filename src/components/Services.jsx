@@ -21,8 +21,11 @@ export default function Services() {
               Jede Behandlung beginnt mit einer persönlichen Hautanalyse und wird massgeschneidert
               auf die individuellen Bedürfnisse Deiner Haut.
             </p>
-            <p className="text-charcoal/65 leading-relaxed mb-6">
+            <p className="text-charcoal/65 leading-relaxed mb-3">
               Auch Kids &amp; Teens sind bei uns herzlich willkommen – mit individuell abgestimmten Behandlungen für junge Haut.
+            </p>
+            <p className="text-sm text-gold font-medium tracking-wide mb-6">
+              Professionelle Hautpflege mit Dermalogica – individuell abgestimmt auf Deine Haut.
             </p>
             <a
               href={BRAND.booking}

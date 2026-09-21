@@ -143,7 +143,7 @@ export default function Pricing() {
             Invest in <span className="gold-gradient-text">your skin</span>
           </h2>
           <p className="text-charcoal/60 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            Mein vollständiges Behandlungsangebot mit transparenten Preisen. Jede Behandlung ist individuell auf die Bedürfnisse Deiner Haut abgestimmt.
+            Mein vollständiges Behandlungsangebot mit transparenten Preisen. Wir setzen bei unserer professionellen Hautpflege auf Dermalogica – jede Behandlung ist individuell auf die Bedürfnisse Deiner Haut abgestimmt.
           </p>
           <div className="hairline w-24 mx-auto mt-6" />
         </ScrollReveal>
