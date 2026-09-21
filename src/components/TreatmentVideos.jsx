@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const VIDEOS = [
   {
     title: "Hautanalyse",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/7e2b34f91_Hautanalyse_video.mp4",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/1ef105d90_Hautanalyse_Reel.mp4",
   },
   {
     title: "Pro Skin Treatment",
