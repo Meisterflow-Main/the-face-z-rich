@@ -17,9 +17,12 @@ export default function Services() {
               Von der Hautanalyse bis zum Glow
             </h2>
             <div className="hairline w-16 mb-6" />
-            <p className="text-charcoal/65 leading-relaxed mb-6">
+            <p className="text-charcoal/65 leading-relaxed mb-4">
               Jede Behandlung beginnt mit einer persönlichen Hautanalyse und wird massgeschneidert
               auf die individuellen Bedürfnisse Deiner Haut.
+            </p>
+            <p className="text-charcoal/65 leading-relaxed mb-6">
+              Auch Kids &amp; Teens sind bei uns herzlich willkommen – mit individuell abgestimmten Behandlungen für junge Haut.
             </p>
             <a
               href={BRAND.booking}
