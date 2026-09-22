@@ -14,7 +14,7 @@ export default function Footer() {
             <img
               src={ASSETS.logo}
               alt="THE FACE® Zürich"
-              className="h-12 sm:h-14 md:h-16 w-auto mb-6 rounded-md"
+              className="h-12 sm:h-14 md:h-16 w-auto mb-6 rounded-full"
             />
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               Über 30 Jahre spezialisiert in holistischer Gesichtspflege. Invest in your skin.
