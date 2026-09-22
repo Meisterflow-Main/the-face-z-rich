@@ -27,7 +27,7 @@ export default function PhilosophyBanner() {
           <div className="hairline w-20 mx-auto mt-4" />
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-3xl mx-auto items-start">
           {QUOTES.map((q, i) => (
             <motion.div
               key={i}
@@ -35,12 +35,12 @@ export default function PhilosophyBanner() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.7, delay: i * 0.15, ease: [0.22, 1, 0.36, 1] }}
-              className="relative overflow-hidden rounded-xl shadow-md border border-charcoal/10 aspect-square bg-secondary"
+              className="relative overflow-hidden rounded-xl shadow-md border border-charcoal/10"
             >
               <img
                 src={q.src}
                 alt={q.alt}
-                className="w-full h-full object-contain"
+                className="w-full h-auto block"
               />
             </motion.div>
           ))}
