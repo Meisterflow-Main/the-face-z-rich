@@ -133,6 +133,10 @@ export const SERVICES = [
       "Frische Sonnenbrand oder aktive Kortisonbehandlung",
       "Schwangerschaft: ich berate Dich zu geeigneten Alternativen",
     ],
+    gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/e6304c5a7_IMG_9272.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d8954c19b_IMG_0162.jpg",
+    ],
     related: ["longevity-glow-treatment", "medical-skin-treatments", "targeted-skin-solutions"],
   },
   {
@@ -202,6 +206,9 @@ export const SERVICES = [
       "Frische Sonnenbrand oder aktive Kortisonbehandlung",
       "Bei Schwangerschaft berate ich zu geeigneten Alternativen",
     ],
+    gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/903e30af8_IMG_4109.jpg",
+    ],
     related: ["pro-skin-treatments", "hautanalyse", "medical-skin-treatments"],
   },
   {
@@ -264,6 +271,11 @@ export const SERVICES = [
       "Frische Sonnenbrand oder offene Wunden",
       "Schwangerschaft und Stillzeit: ich berate Dich zu sanften Alternativen",
       "Einnahme von Isotretinoin in den letzten sechs Monaten",
+    ],
+    gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/7e9a029d8_IMG_9773.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/7e24ddf47_IMG_9755.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/f7f49d170_IMG_3970.jpg",
     ],
     related: ["longevity-glow-treatment", "pro-skin-treatments", "targeted-skin-solutions"],
   },
@@ -329,6 +341,10 @@ export const SERVICES = [
       "Aktive Akne oder Hautentzündungen im Behandlungsbereich",
       "Frische Sonnenbrand oder offene Wunden",
       "Schwangerschaft und Stillzeit: ich berate Dich zu Alternativen",
+    ],
+    gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2eff984d1_IMG_8894.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/e9bd4e3ff_IMG_9771.jpg",
     ],
     related: ["medical-skin-treatments", "pro-skin-treatments", "hautanalyse"],
   },

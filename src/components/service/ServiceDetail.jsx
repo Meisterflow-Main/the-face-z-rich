@@ -15,6 +15,7 @@ import { REGIONS } from "@/lib/regions";
 import { getServiceBySlug, SERVICES } from "@/lib/services";
 import { ARTICLES, ARTICLE_SERVICE_MAP } from "@/lib/blog";
 import InternalLinks from "@/components/InternalLinks";
+import ServiceGallery from "@/components/service/ServiceGallery";
 
 export default function ServiceDetail({ service }) {
   const related = service.related.map(getServiceBySlug).filter(Boolean);
@@ -100,6 +101,9 @@ export default function ServiceDetail({ service }) {
           {service.what}
         </p>
       </Section>
+
+      {/* Galerie */}
+      <ServiceGallery gallery={service.gallery} serviceName={service.name} />
 
       {/* Vorteile */}
       <Section bg="sand">

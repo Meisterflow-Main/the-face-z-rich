@@ -8,18 +8,28 @@ import GoogleReviewBadge from "@/components/GoogleReviewBadge";
 
 const ROOM_IMAGE =
   "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/daac4795b_WhatsAppImage2026-09-10at1700351.jpeg";
+const MASSAGE_IMAGE =
+  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/f06abc679_IMG_1731.jpeg";
 
 export default function AboutEditorial() {
   return (
     <section id="ueber" className="py-20 sm:py-28 lg:py-32 px-5 sm:px-8 bg-background">
       <div className="mx-auto max-w-[1280px] grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
         <ScrollReveal className="lg:col-span-5">
-          <Image
-            src={ROOM_IMAGE}
-            alt="Denise Claire Gadient – Kosmetikerin EFZ, THE FACE® Zürich"
-            fittingType="cover"
-            className="rounded-lg w-full aspect-[4/5] shadow-sm"
-          />
+          <div className="flex flex-col gap-4">
+            <Image
+              src={ROOM_IMAGE}
+              alt="Denise Claire Gadient – Kosmetikerin EFZ, THE FACE® Zürich"
+              fittingType="cover"
+              className="rounded-lg w-full aspect-[4/5] shadow-sm"
+            />
+            <Image
+              src={MASSAGE_IMAGE}
+              alt="Persönliche Gesichtsbehandlung und Massage bei THE FACE® Zürich"
+              fittingType="fill"
+              className="rounded-lg w-full aspect-[4/3] shadow-sm"
+            />
+          </div>
         </ScrollReveal>
 
         <ScrollReveal delay={0.1} className="lg:col-span-7">
