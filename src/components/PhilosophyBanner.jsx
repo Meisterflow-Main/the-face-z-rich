@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ScrollReveal from "@/components/ScrollReveal";
-import { Image } from "@/components/ui/image";
 
 const QUOTES = [
   {
@@ -36,13 +35,12 @@ export default function PhilosophyBanner() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.7, delay: i * 0.15, ease: [0.22, 1, 0.36, 1] }}
-              className="relative overflow-hidden rounded-xl shadow-md border border-charcoal/10 aspect-square"
+              className="relative overflow-hidden rounded-xl shadow-md border border-charcoal/10 aspect-square bg-secondary"
             >
-              <Image
+              <img
                 src={q.src}
                 alt={q.alt}
-                className="w-full h-full"
-                fittingType="fill"
+                className="w-full h-full object-contain"
               />
             </motion.div>
           ))}
