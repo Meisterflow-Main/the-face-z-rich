@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import TreatmentVideos from "@/components/TreatmentVideos";
 import AboutEditorial from "@/components/AboutEditorial";
+import PhilosophyBanner from "@/components/PhilosophyBanner";
 import Services from "@/components/Services";
 import Pricing from "@/components/Pricing";
 import StudioGallery from "@/components/StudioGallery";
@@ -39,6 +40,7 @@ export default function Home() {
         <Hero />
         <TreatmentVideos />
         <AboutEditorial />
+        <PhilosophyBanner />
         <Services />
         <Pricing />
         <StudioGallery />
