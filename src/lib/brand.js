@@ -21,7 +21,7 @@ export const WEBHOOK =
 
 export const ASSETS = {
   logo: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/28e4391ff_Goldstein.png",
-  hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/c8e42b42c_ChatGPTImageSep21202607_32_08PM.png",
+  hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/43c19ea60_ChatGPTImageSep22202601_16_00PM.png",
   banner: "https://theface-zuerich.ch/wp-content/uploads/2026/02/banner.png",
   partner1: "https://theface-zuerich.ch/wp-content/uploads/2026/02/partner1.png",
   partner2: "https://theface-zuerich.ch/wp-content/uploads/2026/02/partner2.png",
