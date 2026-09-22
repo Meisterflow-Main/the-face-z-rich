@@ -11,6 +11,10 @@ const QUOTES = [
     src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/799a88568_IMG_7514.jpg",
     alt: "Invest in your skin – it's going to represent you for a long time. THE FACE® Zürich",
   },
+  {
+    src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d315509f8_IMG_8292.jpg",
+    alt: "Ask me, I'm a professional skin therapist – Dermalogica Pro Skin Expert bei THE FACE® Zürich",
+  },
 ];
 
 export default function PhilosophyBanner() {
@@ -27,7 +31,7 @@ export default function PhilosophyBanner() {
           <div className="hairline w-20 mx-auto mt-4" />
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-3xl mx-auto items-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mx-auto items-start">
           {QUOTES.map((q, i) => (
             <motion.div
               key={i}

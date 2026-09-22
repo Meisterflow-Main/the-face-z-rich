@@ -22,6 +22,12 @@ export default function AboutEditorial() {
               fittingType="cover"
               className="rounded-lg w-full aspect-[4/5] shadow-sm"
             />
+            <Image
+              src="https://media.base44.com/images/public/6aa28dd575421cdcca35083c/00e7e409d_IMG_8026.jpg"
+              alt="Diverse Kundschaft von THE FACE® Zürich – Hautpflege für jede Generation"
+              fittingType="cover"
+              className="rounded-lg w-full aspect-[4/3] shadow-sm"
+            />
           </div>
         </ScrollReveal>
 

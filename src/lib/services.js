@@ -136,6 +136,9 @@ export const SERVICES = [
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/e6304c5a7_IMG_9272.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d8954c19b_IMG_0162.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/90d8a4bbe_IMG_0049.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/1d47474f5_IMG_9261.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0a90f4072_IMG_0156.jpg",
     ],
     related: ["longevity-glow-treatment", "medical-skin-treatments", "targeted-skin-solutions"],
   },
@@ -208,6 +211,7 @@ export const SERVICES = [
     ],
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/903e30af8_IMG_4109.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2d6398a6d_IMG_2973.jpg",
     ],
     related: ["pro-skin-treatments", "hautanalyse", "medical-skin-treatments"],
   },
@@ -276,6 +280,8 @@ export const SERVICES = [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/7e9a029d8_IMG_9773.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/7e24ddf47_IMG_9755.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/f7f49d170_IMG_3970.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ad62c4c7b_IMG_9989.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/099046fa9_IMG_0030.PNG",
     ],
     related: ["longevity-glow-treatment", "pro-skin-treatments", "targeted-skin-solutions"],
   },
@@ -345,6 +351,7 @@ export const SERVICES = [
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2eff984d1_IMG_8894.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/e9bd4e3ff_IMG_9771.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/cc8086fd3_IMG_8057.jpg",
     ],
     related: ["medical-skin-treatments", "pro-skin-treatments", "hautanalyse"],
   },
