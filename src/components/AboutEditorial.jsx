@@ -23,11 +23,11 @@ export default function AboutEditorial() {
               fittingType="cover"
               className="rounded-lg w-full aspect-[4/5] shadow-sm"
             />
-            <Image
+            <img
               src={MASSAGE_IMAGE}
               alt="Persönliche Gesichtsbehandlung und Massage bei THE FACE® Zürich"
-              fittingType="fill"
-              className="rounded-lg w-full aspect-[4/3] shadow-sm"
+              className="rounded-lg w-full h-auto block shadow-sm"
+              loading="lazy"
             />
           </div>
         </ScrollReveal>

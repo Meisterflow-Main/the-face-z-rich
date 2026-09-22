@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
 import { TREATMENTS, BRAND } from "@/lib/brand";
 import { ArrowRight } from "lucide-react";
-import { Image } from "@/components/ui/image";
 
 export default function Services() {
   return (
@@ -47,12 +46,12 @@ export default function Services() {
 
         <div className="lg:col-span-8">
           <ScrollReveal className="mb-8">
-            <div className="relative overflow-hidden rounded-lg border border-gold/15 shadow-sm aspect-[16/9]">
-              <Image
+            <div className="overflow-hidden rounded-lg border border-gold/15 shadow-sm">
+              <img
                 src="https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2312f53b5_IMG_9271.jpg"
                 alt="Professionelle Gesichtsbehandlung bei THE FACE® Zürich"
-                className="w-full h-full"
-                fittingType="fill"
+                className="w-full h-auto block"
+                loading="lazy"
               />
             </div>
           </ScrollReveal>
