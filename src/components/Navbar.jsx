@@ -52,7 +52,7 @@ export default function Navbar() {
     >
       <nav className="mx-auto max-w-7xl px-5 sm:px-8 h-16 sm:h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <img src={ASSETS.logo} alt="THE FACE® Zürich Logo" className="h-10 sm:h-12 md:h-14 w-auto rounded-full" />
+          <img src={ASSETS.logo} alt="THE FACE® Zürich Logo" className="h-12 sm:h-16 md:h-[5rem] w-auto rounded-full ring-2 ring-charcoal/20 shadow-md bg-white" />
         </Link>
 
         <div className="hidden md:flex items-center gap-5 lg:gap-6">
