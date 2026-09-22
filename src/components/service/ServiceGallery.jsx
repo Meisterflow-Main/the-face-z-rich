@@ -10,6 +10,7 @@ export default function ServiceGallery({ gallery, serviceName }) {
       : gallery.length === 2
       ? "grid-cols-1 sm:grid-cols-2"
       : "grid-cols-2 lg:grid-cols-3";
+  const singleWrap = gallery.length === 1 ? "max-w-sm mx-auto" : "";
 
   return (
     <section className="py-14 sm:py-16 px-5 bg-background">
@@ -25,7 +26,7 @@ export default function ServiceGallery({ gallery, serviceName }) {
         </ScrollReveal>
         <div className={`grid ${cols} gap-4`}>
           {gallery.map((src, i) => (
-            <ScrollReveal key={i} delay={i * 0.08}>
+            <ScrollReveal key={i} delay={i * 0.08} className={singleWrap}>
               <div className="overflow-hidden rounded-lg border border-gold/15 shadow-sm bg-secondary">
                 <img
                   src={src}
