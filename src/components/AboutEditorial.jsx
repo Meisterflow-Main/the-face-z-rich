@@ -8,8 +8,7 @@ import GoogleReviewBadge from "@/components/GoogleReviewBadge";
 
 const ROOM_IMAGE =
   "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/daac4795b_WhatsAppImage2026-09-10at1700351.jpeg";
-const MASSAGE_IMAGE =
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/f06abc679_IMG_1731.jpeg";
+
 
 export default function AboutEditorial() {
   return (
@@ -22,12 +21,6 @@ export default function AboutEditorial() {
               alt="Denise Claire Gadient – Kosmetikerin EFZ, THE FACE® Zürich"
               fittingType="cover"
               className="rounded-lg w-full aspect-[4/5] shadow-sm"
-            />
-            <img
-              src={MASSAGE_IMAGE}
-              alt="Persönliche Gesichtsbehandlung und Massage bei THE FACE® Zürich"
-              className="rounded-lg w-full h-auto block shadow-sm"
-              loading="lazy"
             />
           </div>
         </ScrollReveal>
