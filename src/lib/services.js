@@ -476,6 +476,71 @@ export const SERVICES = [
     related: ["make-up", "pro-skin-treatments", "hautanalyse"],
   },
   {
+    slug: "back-relax-revitalize",
+    name: "Back Relax & Revitalize",
+    short: "Back Relax & Revitalize",
+    eyebrow: "NEU – Back Relax & Revitalize",
+    metaTitle: "Back Relax & Revitalize in Zürich | THE FACE®",
+    h1: "Back Relax & Revitalize in Zürich",
+    intro:
+      "Die Back Relax & Revitalize Behandlung ist eine wohltuende Rückenbehandlung mit reinigender Maske und sanfter Pflege – für entspannte Haut und ein tiefes Gefühl der Erholung.",
+    what:
+      "Mit einer sanften Tiefenreinigung, einer pflegenden Maske und beruhigender Pflege verwöhne ich Deinen Rücken. Die Behandlung klärt die Haut, löst Verspannungen und schenkt Dir einen Moment tiefer Entspannung.",
+    benefits: [
+      "Sanfte Rückenreinigung und Klärung",
+      "Pflegende Maske für beruhigte Haut",
+      "Tiefe Entspannung und Revitalisierung",
+      "Auch bei unreinem Rücken geeignet",
+    ],
+    process: [
+      "Reinigung und Hautanalyse des Rückens",
+      "Sanftes Peeling und klärende Maske",
+      "Pflege, Massage und Abschluss",
+    ],
+    priceFactors: [{ label: "Back Relax & Revitalize", price: "180" }],
+    faqs: [
+      {
+        q: "Was ist die Back Relax & Revitalize Behandlung?",
+        a: "Eine wohltuende Rückenbehandlung, die Haut und Sinne verwöhnt: sanfte Reinigung, eine pflegende Maske und beruhigende Pflege für entspannte, revitalisierte Haut.",
+      },
+      {
+        q: "Für wen ist die Behandlung geeignet?",
+        a: "Für alle, die ihrem Rücken etwas Gutes tun möchten – ob bei unreiner Haut, Verspannungen oder einfach für einen Moment der Entspannung.",
+      },
+      {
+        q: "Wie lange dauert die Behandlung?",
+        a: "Die Behandlung dauert rund 60 Minuten.",
+      },
+      {
+        q: "Wie oft sollte ich die Behandlung wiederholen?",
+        a: "Für nachhaltige Hautergebnisse empfehle ich alle vier bis sechs Wochen. In der Beratung passe ich den Rhythmus individuell an.",
+      },
+      {
+        q: "Kann ich die Behandlung mit einer Gesichtsbehandlung kombinieren?",
+        a: "Ja, viele Kundinnen kombinieren Back Relax & Revitalize mit einem Pro Skin Treatment für ein rundum-Verwöhnerlebnis.",
+      },
+    ],
+    preparation: [
+      "Komm mit sauberer, ungeschminkter Haut",
+      "Verzichte eine Woche vorher auf Peelings oder neue Produkte",
+      "Entspanne Dich und nimm Dir Zeit für die Behandlung",
+    ],
+    aftercare: [
+      "Vermeide 24 Stunden Sport und heisse Duschen",
+      "Trage tagsüber SPF auf, falls der Rücken der Sonne ausgesetzt ist",
+      "Folge dem Pflegeplan, den ich Dir nach der Behandlung mitgebe",
+    ],
+    contraindications: [
+      "Akute Hautentzündungen oder offene Wunden am Rücken",
+      "Frische Sonnenbrand – warte, bis die Haut sich beruhigt hat",
+      "Schwangerschaft: ich berate Dich zu geeigneten Alternativen",
+    ],
+    gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a87d55892_ChatGPTImageSep22202605_56_02PM.png",
+    ],
+    related: ["pro-skin-treatments", "targeted-skin-solutions", "hautanalyse"],
+  },
+  {
     slug: "quantum-angel-healing",
     name: "Quantum Angel Healing®",
     short: "Quantum Angel Healing®",

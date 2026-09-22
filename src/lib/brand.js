@@ -62,6 +62,11 @@ export const TREATMENTS = [
     desc: "Individuelle Empfehlungen hochwertiger Clean-Produkte für Deine tägliche Pflegeroutine zuhause.",
     benefit: "Pflege für Zuhause",
   },
+  {
+    title: "Back Relax & Revitalize",
+    desc: "Wohltuende Rückenbehandlung mit sanfter Reinigung, pflegender Maske und tiefer Entspannung für revitalisierte Haut.",
+    benefit: "Entspannung & Revitalisierung",
+  },
 ];
 
 export const SKIN_CONCERNS = [
