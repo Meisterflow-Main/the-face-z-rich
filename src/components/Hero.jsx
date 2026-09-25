@@ -35,13 +35,6 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="max-w-[560px]"
           >
-            {/* Logo */}
-            <img
-              src={ASSETS.logo}
-              alt="THE FACE® Zürich – Logo"
-              className="w-[300px] md:w-[340px] lg:w-[360px] h-auto mb-5 opacity-90"
-              style={{ filter: "grayscale(1) brightness(0.55)" }}
-            />
             <p className="text-charcoal/60 text-[11px] md:text-xs tracking-[0.22em] uppercase font-medium mb-6">
               THE FACE® · Denise Claire Gadient · Zürich
             </p>
@@ -108,12 +101,6 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           >
-            <img
-              src={ASSETS.logo}
-              alt="THE FACE® Zürich – Logo"
-              className="w-[240px] h-auto mb-4 opacity-90"
-              style={{ filter: "grayscale(1) brightness(0.55)" }}
-            />
             <p className="text-charcoal/60 text-[10px] tracking-[0.22em] uppercase font-medium mb-5">
               THE FACE® · Denise Claire Gadient · Zürich
             </p>
