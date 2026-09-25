@@ -39,8 +39,8 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <BrandVideo />
         <TreatmentVideos />
+        <BrandVideo />
         <AboutEditorial />
         <PhilosophyBanner />
         <Services />
