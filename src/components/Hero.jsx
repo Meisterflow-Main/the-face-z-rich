@@ -76,26 +76,17 @@ export default function Hero() {
 
       {/* ===== Mobile layout (stacked) ===== */}
       <div className="relative z-10 sm:hidden">
-        {/* Image area */}
-        <div className="relative h-[60vh] min-h-[420px] w-full">
-          <img
-            src={ASSETS.hero}
-            alt="Eleganter Behandlungsraum von THE FACE in Zürich"
-            className="absolute inset-0 w-full h-full object-cover object-center"
-            loading="eager"
-            decoding="async"
-          />
-          <div
-            className="absolute inset-0 pointer-events-none"
-            style={{
-              background:
-                "linear-gradient(180deg, rgba(245,245,240,0) 55%, rgba(245,245,240,0.96) 100%)",
-            }}
-          />
-        </div>
+        {/* Image area — natural aspect ratio, no cropping */}
+        <img
+          src={ASSETS.hero}
+          alt="Eleganter Behandlungsraum von THE FACE in Zürich"
+          className="block w-full h-auto object-contain object-center"
+          loading="eager"
+          decoding="async"
+        />
 
         {/* Content block */}
-        <div className="bg-[#F5F5F0] px-6 pt-6 pb-12 -mt-10 relative">
+        <div className="bg-[#F5F5F0] px-6 pt-8 pb-12 relative">
           <motion.div
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
