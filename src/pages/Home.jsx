@@ -53,7 +53,6 @@ export default function Home() {
             { to: "/behandlungen", label: "Alle Behandlungen", description: "Hautanalyse, Pro Skin, Targeted und Medical Skin.", anchor: "Behandlungen entdecken" },
             { to: "/regionen", label: "Regionen in Zürich", description: "Gesichtsbehandlung in Deinem Quartier.", anchor: "Regionen ansehen" },
             { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
-            { to: "/blog", label: "Blog & Ratgeber", description: "Pflegetipps und Hautwissen von Denise.", anchor: "Blog lesen" },
           ]}
         />
         <ContactForm />

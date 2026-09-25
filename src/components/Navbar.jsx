@@ -6,8 +6,7 @@ import { REGIONS } from "@/lib/regions";
 import { SERVICES } from "@/lib/services";
 
 const LINKS = [
-  { label: "Blog", href: "/blog", to: true },
-  { label: "Über uns", href: "/#ueber" },
+  { label: "Über mich", href: "/#ueber" },
   { label: "FAQ", href: "/#faq" },
   { label: "Kontakt", href: "/#kontakt" },
 ];
