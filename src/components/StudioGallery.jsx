@@ -4,13 +4,8 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { Image } from "@/components/ui/image";
 
 const STUDIO_IMAGES = [
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/179ca7220_IMG_1733.jpg",
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/c8365710d_unnamed1.jpg",
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/42fdec5a8_ChatGPTImageSep10202605_25_13PM.png",
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/92a66b148_ChatGPTImageSep10202605_21_13PM.png",
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/e9a8658a5_ChatGPTImageSep10202605_19_40PM.png",
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/981a97725_WhatsAppImage2026-09-10at162208.jpeg",
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/94c17af95_ChatGPTImageSep10202605_28_11PM.png",
+  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/bd5dcd8e6_IMG_1733.jpg",
+  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/085d21425_unnamed1.jpg",
 ];
 
 export default function StudioGallery() {
@@ -35,7 +30,7 @@ export default function StudioGallery() {
         </ScrollReveal>
 
         {/* Image grid on the right */}
-        <div className="lg:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <div className="lg:col-span-7 grid grid-cols-2 gap-4">
           {STUDIO_IMAGES.map((src, i) => (
             <motion.div
               key={i}
@@ -43,9 +38,7 @@ export default function StudioGallery() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: Math.min(i * 0.07, 0.35), ease: [0.22, 1, 0.36, 1] }}
-              className={`relative overflow-hidden rounded-lg border border-charcoal/10 shadow-sm ${
-                i === 0 ? "col-span-2 row-span-2 aspect-square" : "aspect-square"
-              }`}
+              className="relative overflow-hidden rounded-lg border border-charcoal/10 shadow-sm aspect-[4/5]"
             >
               <Image
                 src={src}
