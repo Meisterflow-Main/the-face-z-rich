@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import BrandVideo from "@/components/BrandVideo";
 import TreatmentVideos from "@/components/TreatmentVideos";
 import AboutEditorial from "@/components/AboutEditorial";
 import PhilosophyBanner from "@/components/PhilosophyBanner";
@@ -38,6 +39,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <BrandVideo />
         <TreatmentVideos />
         <AboutEditorial />
         <PhilosophyBanner />
