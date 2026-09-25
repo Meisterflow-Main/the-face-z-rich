@@ -5,50 +5,149 @@ import { BRAND, ASSETS } from "@/lib/brand";
 
 export default function Hero() {
   return (
-    <section className="relative h-[82vh] min-h-[560px] sm:h-[92vh] w-full overflow-hidden bg-charcoal">
+    <section className="relative w-full overflow-hidden bg-[#F5F5F0]">
+      {/* Background photo — clean studio image only, no baked-in text */}
       <img
         src={ASSETS.hero}
-        alt="THE FACE® Zürich – Kosmetikstudio an der Rämistrasse"
+        alt="Eleganter Behandlungsraum von THE FACE in Zürich"
         className="absolute inset-0 w-full h-full object-cover object-center"
+        loading="eager"
+        decoding="async"
       />
-      <div className="absolute inset-0 bg-black/30" />
-      <div className="absolute inset-0 bg-gradient-to-r from-charcoal/70 via-charcoal/25 to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-charcoal/30 via-transparent to-charcoal/15" />
 
-      <div className="relative z-10 h-full flex flex-col justify-center max-w-[1360px] mx-auto px-5 sm:px-8 pt-20">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="max-w-[520px]"
-        >
-          <p className="text-white/80 text-xs sm:text-[13px] tracking-[0.12em] uppercase font-medium mb-5">
-            THE FACE® · Denise Claire Gadient · Zürich
-          </p>
-          <h1 className="font-heading text-white text-[38px] sm:text-5xl md:text-[60px] font-semibold leading-[1.08] tracking-[-0.025em] mb-6">
-            Holistische Gesichtspflege in Zürich
-          </h1>
-          <p className="text-white/85 text-base sm:text-lg leading-[1.6] max-w-[480px] mb-9">
-            Über 30 Jahre spezialisiert auf individuelle Hautanalyse, Pro Skin Treatments und
-            Skin Longevity, mit sanften Händen und hochwertigen Clean-Produkten an der Rämistrasse.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-            <a
-              href={BRAND.booking}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-6 py-3.5 rounded-lg transition-all"
+      {/* Subtle left-side warm cream/white tint for text readability */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "linear-gradient(90deg, rgba(245,245,240,0.92) 0%, rgba(245,245,240,0.78) 32%, rgba(245,245,240,0.42) 48%, rgba(245,245,240,0.12) 60%, rgba(245,245,240,0) 72%)",
+        }}
+      />
+      {/* Soft top & bottom fade for depth */}
+      <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-white/20 via-transparent to-white/10" />
+
+      {/* ===== Desktop / Tablet layout (≥ sm) ===== */}
+      <div className="relative z-10 hidden sm:flex h-[680px] md:h-[700px] lg:h-[720px] items-center">
+        <div className="w-[44%] pl-[6vw] pr-8">
+          <motion.div
+            initial={{ opacity: 0, y: 22 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            className="max-w-[560px]"
+          >
+            {/* Logo */}
+            <img
+              src={ASSETS.logo}
+              alt="THE FACE® Zürich – Logo"
+              className="w-[300px] md:w-[340px] lg:w-[360px] h-auto mb-5 opacity-90"
+              style={{ filter: "grayscale(1) brightness(0.55)" }}
+            />
+            <p className="text-charcoal/60 text-[11px] md:text-xs tracking-[0.22em] uppercase font-medium mb-6">
+              THE FACE® · Denise Claire Gadient · Zürich
+            </p>
+
+            <h1
+              className="font-heading text-charcoal font-medium leading-[1.08] tracking-[-0.02em] mb-7"
+              style={{ fontSize: "clamp(42px, 4.4vw, 60px)" }}
             >
-              <Calendar size={18} /> Termin buchen
-            </a>
-            <a
-              href="#behandlungen"
-              className="inline-flex items-center justify-center gap-2 border border-white/40 text-white hover:bg-white/10 font-semibold px-6 py-3.5 rounded-lg transition-all"
-            >
-              Behandlungen entdecken <ArrowRight size={18} />
-            </a>
-          </div>
-        </motion.div>
+              Holistische Gesichtspflege in Zürich
+            </h1>
+
+            <p className="text-charcoal/75 font-body leading-[1.5] max-w-[530px] mb-9"
+               style={{ fontSize: "clamp(16px, 1.2vw, 18px)" }}>
+              Über 30 Jahre spezialisiert auf individuelle Hautanalyse, Pro Skin Treatments und
+              Skin Longevity, mit sanften Händen und hochwertigen Clean-Produkten an der Rämistrasse.
+            </p>
+
+            <div className="flex flex-row gap-4">
+              <a
+                href={BRAND.booking}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Termin buchen"
+                className="inline-flex items-center justify-center gap-2 bg-[#4A657D] hover:bg-[#3C526A] text-white font-semibold px-7 py-3.5 rounded-lg transition-all duration-300 hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-[#4A657D]/60 focus-visible:ring-offset-2"
+              >
+                <Calendar size={18} /> Termin buchen
+              </a>
+              <a
+                href="#behandlungen"
+                aria-label="Behandlungen entdecken"
+                className="inline-flex items-center justify-center gap-2 bg-transparent border border-charcoal/30 text-charcoal hover:bg-charcoal/5 font-semibold px-7 py-3.5 rounded-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-charcoal/30 focus-visible:ring-offset-2"
+              >
+                Behandlungen entdecken <ArrowRight size={18} />
+              </a>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+
+      {/* ===== Mobile layout (stacked) ===== */}
+      <div className="relative z-10 sm:hidden">
+        {/* Image area */}
+        <div className="relative h-[60vh] min-h-[420px] w-full">
+          <img
+            src={ASSETS.hero}
+            alt="Eleganter Behandlungsraum von THE FACE in Zürich"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            loading="eager"
+            decoding="async"
+          />
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{
+              background:
+                "linear-gradient(180deg, rgba(245,245,240,0) 55%, rgba(245,245,240,0.96) 100%)",
+            }}
+          />
+        </div>
+
+        {/* Content block */}
+        <div className="bg-[#F5F5F0] px-6 pt-6 pb-12 -mt-10 relative">
+          <motion.div
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+          >
+            <img
+              src={ASSETS.logo}
+              alt="THE FACE® Zürich – Logo"
+              className="w-[240px] h-auto mb-4 opacity-90"
+              style={{ filter: "grayscale(1) brightness(0.55)" }}
+            />
+            <p className="text-charcoal/60 text-[10px] tracking-[0.22em] uppercase font-medium mb-5">
+              THE FACE® · Denise Claire Gadient · Zürich
+            </p>
+
+            <h1 className="font-heading text-charcoal font-medium leading-[1.1] tracking-[-0.02em] mb-5"
+                style={{ fontSize: "36px" }}>
+              Holistische Gesichtspflege in Zürich
+            </h1>
+
+            <p className="text-charcoal/75 font-body text-base leading-[1.5] mb-8">
+              Über 30 Jahre spezialisiert auf individuelle Hautanalyse, Pro Skin Treatments und
+              Skin Longevity, mit sanften Händen und hochwertigen Clean-Produkten an der Rämistrasse.
+            </p>
+
+            <div className="flex flex-col gap-3">
+              <a
+                href={BRAND.booking}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Termin buchen"
+                className="inline-flex items-center justify-center gap-2 bg-[#4A657D] hover:bg-[#3C526A] text-white font-semibold px-6 py-3.5 rounded-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#4A657D]/60"
+              >
+                <Calendar size={18} /> Termin buchen
+              </a>
+              <a
+                href="#behandlungen"
+                aria-label="Behandlungen entdecken"
+                className="inline-flex items-center justify-center gap-2 bg-transparent border border-charcoal/30 text-charcoal hover:bg-charcoal/5 font-semibold px-6 py-3.5 rounded-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-charcoal/30"
+              >
+                Behandlungen entdecken <ArrowRight size={18} />
+              </a>
+            </div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );
