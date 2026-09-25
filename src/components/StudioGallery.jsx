@@ -6,6 +6,7 @@ import { Image } from "@/components/ui/image";
 const STUDIO_IMAGES = [
   "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/bd5dcd8e6_IMG_1733.jpg",
   "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/085d21425_unnamed1.jpg",
+  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/fb7de92ec_unnamed.jpg",
 ];
 
 export default function StudioGallery() {
