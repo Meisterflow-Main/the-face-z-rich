@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import BrandVideo from "@/components/BrandVideo";
 import TreatmentVideos from "@/components/TreatmentVideos";
+import DermalogicaBanner from "@/components/DermalogicaBanner";
 import AboutEditorial from "@/components/AboutEditorial";
 import PhilosophyBanner from "@/components/PhilosophyBanner";
 import Services from "@/components/Services";
@@ -39,6 +40,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <DermalogicaBanner />
         <TreatmentVideos />
         <BrandVideo />
         <AboutEditorial />
