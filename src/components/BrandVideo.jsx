@@ -12,9 +12,12 @@ export default function BrandVideo() {
           <p className="text-white/60 text-xs tracking-[0.25em] uppercase font-medium mb-3">
             Brand Film
           </p>
-          <h2 className="font-heading text-2xl sm:text-3xl font-semibold text-white mb-3">
+          <h2 className="font-heading text-2xl sm:text-3xl font-semibold text-white mb-1">
             THE FACE® Zürich
           </h2>
+          <p className="text-white/60 text-sm font-medium tracking-[0.14em] uppercase mb-3">
+            Denise Claire Gadient
+          </p>
           <div className="hairline w-16 mx-auto" />
         </ScrollReveal>
 

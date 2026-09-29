@@ -13,10 +13,13 @@ export default function Footer() {
           <div>
             <img
               src={ASSETS.logo}
-              alt="THE FACE® Zürich"
-              className="h-12 sm:h-14 md:h-16 w-auto mb-6"
+              alt="THE FACE® Denise Claire Gadient Zürich"
+              className="h-12 sm:h-14 md:h-16 w-auto mb-3"
             />
-            <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
+            <p className="text-charcoal text-sm font-semibold tracking-wide mb-1">
+              Denise Claire Gadient
+            </p>
+            <p className="text-muted-foreground text-sm leading-relaxed max-w-xs mb-4">
               Über 30 Jahre spezialisiert in holistischer Gesichtspflege. Invest in your skin.
             </p>
           </div>

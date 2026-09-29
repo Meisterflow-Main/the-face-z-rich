@@ -51,7 +51,10 @@ export default function Navbar() {
     >
       <nav className="mx-auto max-w-7xl px-5 sm:px-8 h-16 sm:h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <img src={ASSETS.logo} alt="THE FACE® Zürich Logo" className="h-10 sm:h-12 md:h-14 w-auto" />
+          <img src={ASSETS.logo} alt="THE FACE® Denise Claire Gadient Zürich Logo" className="h-10 sm:h-12 md:h-14 w-auto" />
+          <span className="hidden sm:block text-charcoal/55 text-[11px] font-medium tracking-[0.14em] uppercase leading-tight">
+            Denise Claire Gadient
+          </span>
         </Link>
 
         <div className="hidden md:flex items-center gap-5 lg:gap-6">

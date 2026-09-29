@@ -82,7 +82,10 @@ export default function Bewertung() {
           </Link>
 
           <div className="text-center mb-10">
-            <img src={ASSETS.logo} alt="THE FACE®" className="h-12 w-auto mx-auto mb-5" />
+            <img src={ASSETS.logo} alt="THE FACE® Denise Claire Gadient" className="h-12 w-auto mx-auto mb-3" />
+            <p className="text-charcoal/55 text-sm font-medium tracking-[0.14em] uppercase mb-5">
+              Denise Claire Gadient
+            </p>
             <h1 className="font-heading text-3xl sm:text-4xl font-bold text-charcoal mb-3">
               Behandlung bewerten
             </h1>
