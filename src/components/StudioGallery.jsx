@@ -7,11 +7,11 @@ const STUDIO_IMAGES = [
   { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ee4a914b8_ChatGPTImageSep28202603_08_28PM.png", alt: "Dermalogica-Produktauslage und Empfangsbereich mit Kamin bei THE FACE® Zürich" },
   { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/65e89f0ad_ChatGPTImageSep28202603_07_09PM.png", alt: "Eingangsbereich mit grüner Tür und Zertifikate-Wand bei THE FACE® Zürich" },
   { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0e297d0d5_ChatGPTImageSep28202603_06_23PM.png", alt: "Übergang zwischen Behandlungsräumen mit Dermalogica-Poster bei THE FACE® Zürich" },
+  { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/28ce09bd4_WhatsAppImage2026-09-29at181619.jpeg", alt: "27 Jahre THE FACE® Denise Claire Gadient – Jubiläums-Emblem" },
   { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/9590aaa68_ChatGPTImageSep28202603_05_25PM.png", alt: "Flur mit grünem Türrahmen und Dermalogica-Experten-Poster bei THE FACE® Zürich" },
   { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2496d7fd0_IMG_5765.jpg", alt: "Behandlungsraum mit Luminfusion-Dermalogica-Poster und Behandlungsliege bei THE FACE® Zürich" },
   { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d6ecc78c6_IMG_2554.jpg", alt: "Ornate Stuckdecke mit Medaillon im Studio von THE FACE® Zürich" },
   { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/139284e4a_IMG_1627.jpeg", alt: "Informationstafel von THE FACE® Denise Claire Gadient – Expertise seit 1994" },
-  { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/28ce09bd4_WhatsAppImage2026-09-29at181619.jpeg", alt: "27 Jahre THE FACE® Denise Claire Gadient – Jubiläums-Emblem" },
 ];
 
 export default function StudioGallery() {
