@@ -352,6 +352,7 @@ export const SERVICES = [
       "Schwangerschaft und Stillzeit: ich berate Dich zu Alternativen",
     ],
     gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2594d61c3_WhatsAppImage2026-09-29at181708.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2eff984d1_IMG_8894.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/e9bd4e3ff_IMG_9771.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/cc8086fd3_IMG_8057.jpg",
