@@ -35,7 +35,7 @@ export default function StudioGallery() {
         </ScrollReveal>
 
         {/* Image grid on the right */}
-        <div className="lg:col-span-7 grid grid-cols-2 gap-4">
+        <div className="lg:col-span-7 grid grid-cols-2 gap-4 items-start">
           {STUDIO_IMAGES.map((img, i) => (
             <motion.div
               key={i}
@@ -43,14 +43,14 @@ export default function StudioGallery() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: Math.min(i * 0.07, 0.35), ease: [0.22, 1, 0.36, 1] }}
-              className="relative overflow-hidden rounded-lg border border-charcoal/10 shadow-sm aspect-[4/3]"
+              className="relative overflow-hidden rounded-lg border border-charcoal/10 shadow-sm"
             >
               <img
                 src={img.src}
                 alt={img.alt}
                 loading="lazy"
                 decoding="async"
-                className="w-full h-full object-cover"
+                className="w-full h-auto block"
               />
             </motion.div>
           ))}
