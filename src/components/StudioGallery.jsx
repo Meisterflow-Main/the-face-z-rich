@@ -30,7 +30,7 @@ export default function StudioGallery() {
             Entdecke meine Räumlichkeiten und erhalte einen Einblick in die angenehme Atmosphäre meines Studios.
           </p>
           <p className="text-charcoal/60 text-sm sm:text-base leading-relaxed">
-            Lerne meine Behandlungsräume und das besondere Ambiente bereits vor Deinem Besuch kennen.
+            Ein Ort der Ruhe, aufmerksamer Pflege und persönlicher Zuwendung – mitten in Zürich.
           </p>
         </ScrollReveal>
 
