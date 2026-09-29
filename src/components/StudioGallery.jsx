@@ -16,26 +16,26 @@ const STUDIO_IMAGES = [
 export default function StudioGallery() {
   return (
     <section className="bg-background py-14 sm:py-16 px-5">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
-        {/* Caption on the left */}
-        <ScrollReveal className="lg:col-span-5 lg:sticky lg:top-28">
+      <div className="max-w-5xl mx-auto">
+        {/* Caption on top */}
+        <ScrollReveal className="text-center mb-10 sm:mb-12">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-2">
             Einblick
           </p>
           <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal leading-[1.05] mb-4">
             Meine <span className="gold-gradient-text">Räumlichkeiten</span>
           </h2>
-          <div className="hairline w-20 mb-4" />
-          <p className="text-charcoal/70 text-sm sm:text-base leading-relaxed mb-3">
+          <div className="hairline w-20 mb-4 mx-auto" />
+          <p className="text-charcoal/70 text-sm sm:text-base leading-relaxed mb-3 max-w-2xl mx-auto">
             Entdecke meine Räumlichkeiten und erhalte einen Einblick in die angenehme Atmosphäre meines Studios.
           </p>
-          <p className="text-charcoal/60 text-sm sm:text-base leading-relaxed">
+          <p className="text-charcoal/60 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
             Ein Ort der Ruhe, aufmerksamer Pflege und persönlicher Zuwendung – mitten in Zürich.
           </p>
         </ScrollReveal>
 
-        {/* Masonry image column on the right */}
-        <div className="lg:col-span-7 columns-2 gap-4 [&>*]:mb-4 [&>*]:break-inside-avoid">
+        {/* Masonry image gallery */}
+        <div className="columns-2 sm:columns-3 gap-4 [&>*]:mb-4 [&>*]:break-inside-avoid">
           {STUDIO_IMAGES.map((img, i) => (
             <motion.div
               key={i}
