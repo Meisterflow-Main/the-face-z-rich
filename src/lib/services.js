@@ -7,7 +7,7 @@ export const SERVICES = [
     name: "Hautanalyse & Beratung",
     short: "Hautanalyse",
     eyebrow: "Hautanalyse & Beratung",
-    metaTitle: "Hautanalyse & Beratung in Zürich | THE FACE®",
+    metaTitle: "Hautanalyse & Beratung in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Hautanalyse & Beratung in Zürich",
     intro:
       "Mit der Dermalogica FACE-MAP und FACE-FIT sowie der chinesischen Hautlesung analysiere ich Deine Haut gründlich und leite die passenden Pflegeschritte ab. Die persönliche Hautanalyse ist die Basis jeder Behandlung bei THE FACE®.",
@@ -73,7 +73,7 @@ export const SERVICES = [
     name: "Pro Skin Treatments",
     short: "Pro Skin Treatments",
     eyebrow: "Dermalogica Signature Pro Skin",
-    metaTitle: "Pro Skin Treatments in Zürich | THE FACE®",
+    metaTitle: "Pro Skin Treatments in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Pro Skin Treatments in Zürich",
     intro:
       "Die Dermalogica Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmte Premium-Behandlungen mit sanfter Tiefenreinigung, Peeling und Maske, für spürbar revitalisierte Haut und einen frischen Glow.",
@@ -147,7 +147,7 @@ export const SERVICES = [
     name: "Targeted Skin Solutions",
     short: "Targeted Skin Solutions",
     eyebrow: "Dermalogica Targeted Skin Solutions",
-    metaTitle: "Targeted Skin Solutions in Zürich | THE FACE®",
+    metaTitle: "Targeted Skin Solutions in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Targeted Skin Solutions in Zürich",
     intro:
       "Die Dermalogica Targeted Skin Solutions Treatments zielen auf konkrete Hautanliegen: Unreinheiten, Pigmentflecken, sensible Haut oder Rücken. Jede Behandlung ist auf Dein Hautbild abgestimmt.",
@@ -220,7 +220,7 @@ export const SERVICES = [
     name: "Medical Skin Treatments",
     short: "Medical Skin Treatments",
     eyebrow: "Dermalogica Medical Skin",
-    metaTitle: "Medical Skin Treatments in Zürich | THE FACE®",
+    metaTitle: "Medical Skin Treatments in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Medical Skin Treatments in Zürich",
     intro:
       "Die Dermalogica Medical Skin Treatments verbinden medizinische Hautbehandlung mit der Pro Skin Philosophie: Exoboost mit Mikrodermabrasion oder Microneedling für sichtbar erneuerte Hautstruktur.",
@@ -290,7 +290,7 @@ export const SERVICES = [
     name: "Longevity Glow Treatment",
     short: "Longevity Glow",
     eyebrow: "Longevity Glow",
-    metaTitle: "Longevity Glow Treatment in Zürich | THE FACE®",
+    metaTitle: "Longevity Glow Treatment in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Longevity Glow Treatment in Zürich",
     intro:
       "Das Longevity Glow Treatment und die Lumin Fusion Nanoneedling-Infusion sind innovative Skin Longevity-Behandlungen für nachhaltigen Glow und strahlende, jugendliche Haut.",
@@ -360,7 +360,7 @@ export const SERVICES = [
     name: "Make-up & Visagistik",
     short: "Make-up & Visagistik",
     eyebrow: "Make-up & Visagistik",
-    metaTitle: "Make-up & Visagistik in Zürich | THE FACE®",
+    metaTitle: "Make-up & Visagistik in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Make-up & Visagistik in Zürich",
     intro:
       "Als Visagistin schminke ich Dich für jeden Anlass – von der Beratung über das Tages- und Abend-Make-up bis zum Brautmake-up. Natürlich, individuell und auf Dich abgestimmt.",
@@ -425,7 +425,7 @@ export const SERVICES = [
     name: "Lashlift",
     short: "Lashlift",
     eyebrow: "Ellebaana Lashlift",
-    metaTitle: "Lashlift in Zürich | THE FACE®",
+    metaTitle: "Lashlift in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Lashlift in Zürich",
     intro:
       "Der Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung gibt Dir einen wachen, offenen Blick, sanft und langanhaltend.",
@@ -487,7 +487,7 @@ export const SERVICES = [
     name: "Back Relax & Revitalize",
     short: "Back Relax & Revitalize",
     eyebrow: "NEU – Back Relax & Revitalize",
-    metaTitle: "Back Relax & Revitalize in Zürich | THE FACE®",
+    metaTitle: "Back Relax & Revitalize in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Back Relax & Revitalize in Zürich",
     intro:
       "Die Back Relax & Revitalize Behandlung ist eine wohltuende Rückenbehandlung mit reinigender Maske und sanfter Pflege – für entspannte Haut und ein tiefes Gefühl der Erholung.",
@@ -552,7 +552,7 @@ export const SERVICES = [
     name: "Quantum Angel Healing®",
     short: "Quantum Angel Healing®",
     eyebrow: "Quantum Angel Healing®",
-    metaTitle: "Quantum Angel Healing® in Zürich | THE FACE®",
+    metaTitle: "Quantum Angel Healing® in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Quantum Angel Healing® in Zürich",
     intro:
       "Quantum Angel Healing® nach Eva-Maria Mora ist eine holistische Behandlung, die die Selbstheilung anregt. Eine besondere Ergänzung zur klassischen Gesichtspflege.",

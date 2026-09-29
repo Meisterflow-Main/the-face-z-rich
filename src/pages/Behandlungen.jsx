@@ -25,7 +25,7 @@ export default function Behandlungen() {
   const webPage = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Behandlungen in Zürich | THE FACE®",
+    name: "Behandlungen in Zürich | THE FACE® Denise Claire Gadient",
     url: "https://theface-zuerich.ch/behandlungen",
     inLanguage: "de-CH",
     description: "Alle Gesichtsbehandlungen von THE FACE® Zürich: Hautanalyse, Pro Skin Treatments, Targeted Skin Solutions, Medical Skin, Longevity Glow, Make-up, Lashlift und Quantum Angel Healing.",
@@ -36,7 +36,7 @@ export default function Behandlungen() {
   return (
     <div className="min-h-screen bg-background">
       <Seo
-        title="Behandlungen in Zürich | THE FACE®"
+        title="Behandlungen in Zürich | THE FACE® Denise Claire Gadient"
         description="Alle Gesichtsbehandlungen von THE FACE® Zürich: Hautanalyse, Pro Skin Treatments, Targeted Skin Solutions, Medical Skin, Longevity Glow, Make-up, Lashlift und Quantum Angel Healing."
         jsonLd={[itemList, webPage]}
       />
