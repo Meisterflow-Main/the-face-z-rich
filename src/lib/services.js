@@ -210,6 +210,7 @@ export const SERVICES = [
       "Bei Schwangerschaft berate ich zu geeigneten Alternativen",
     ],
     gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0c1d54256_WhatsAppImage2026-09-29at181222.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/903e30af8_IMG_4109.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2d6398a6d_IMG_2973.jpg",
     ],
