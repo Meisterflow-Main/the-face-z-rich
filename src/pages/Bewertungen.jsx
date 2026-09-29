@@ -54,7 +54,7 @@ export default function Bewertungen() {
           <ScrollReveal>
             <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-4">Kundenstimmen</p>
             <h1 className="font-heading text-4xl sm:text-5xl font-semibold text-charcoal mb-4 leading-tight">
-              Bewertungen für THE FACE® Zürich
+              Bewertungen für THE FACE® Denise Claire Gadient
             </h1>
             <div className="hairline w-16 mb-6" />
             <p className="text-charcoal/65 leading-relaxed mb-10 max-w-2xl">

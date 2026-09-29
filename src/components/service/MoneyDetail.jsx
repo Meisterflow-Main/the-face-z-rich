@@ -148,7 +148,7 @@ export default function MoneyDetail({ service, region }) {
 
       {/* Warum in region */}
       <Section bg="sand">
-        <Heading eyebrow={`${region.short}`} title={`Warum ${service.name} bei THE FACE®`} />
+        <Heading eyebrow={`${region.short}`} title={`Warum ${service.name} bei THE FACE® Denise Claire Gadient`} />
         <div className="grid sm:grid-cols-2 gap-4">
           {region.benefits.map((b) => (
             <div
