@@ -66,6 +66,14 @@ const PRICE_LIST = [
       { name: "MINLEN GESICHTSBEHANDLUNG (ab 4-11 Jahren)", price: "65" },
     ],
   },
+  {
+    id: "makeup-glowskin-janeiredale",
+    title: "MAKE-UP mit GLOWSKINBEAUTY und JANE IREDALE",
+    services: [
+      { name: "MAKE-UP BERATUNG", price: "65" },
+      { name: "BRAUTMAKE-UP", price: "200" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
