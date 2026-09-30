@@ -74,6 +74,14 @@ const PRICE_LIST = [
       { name: "BRAUTMAKE-UP", price: "200" },
     ],
   },
+  {
+    id: "kleiner-service",
+    title: "NEU ! KLEINER SERVICE",
+    tag: "NEU",
+    services: [
+      { name: "FACE QUICK FIX", price: "90" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
