@@ -33,7 +33,7 @@ export default function Stats() {
             Partner & zertifizierte Marken
           </p>
           <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12">
-            {[ASSETS.partner1, ASSETS.partner2, ASSETS.janeIredale, ASSETS.partner4].map((p, i) => (
+            {[ASSETS.partner1, ASSETS.partner2, ASSETS.janeIredale, ASSETS.partner4, ASSETS.madeleineWeleda].map((p, i) => (
               <div
                 key={i}
                 className="bg-white/95 rounded-xl px-6 py-3 flex items-center justify-center h-20 sm:h-24 w-40 sm:w-48 transition-transform hover:scale-105"
