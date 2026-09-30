@@ -115,6 +115,13 @@ const PRICE_LIST = [
       { name: "WAX NOSE", price: "10" },
     ],
   },
+  {
+    id: "quantum-angel-healing",
+    title: "SELBSTHEILUNG / NEUANFANG QUANTUM-ANGEL-HEALING® (QEH) nach EVA-MARIA MORA",
+    services: [
+      { name: "NEUSTART SELBSTHEILUNG MIT ENGELN", price: "188" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
