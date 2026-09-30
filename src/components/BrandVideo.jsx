@@ -9,11 +9,8 @@ export default function BrandVideo() {
     <section className="bg-charcoal py-14 sm:py-20 px-5">
       <div className="max-w-5xl mx-auto">
         <ScrollReveal className="text-center mb-8">
-          <p className="text-white/60 text-xs tracking-[0.25em] uppercase font-medium mb-3">
-            Brand Film
-          </p>
           <h2 className="font-heading text-2xl sm:text-3xl font-semibold text-white mb-1">
-            THE FACE® Zürich
+            THE FACE®
           </h2>
           <p className="text-white/60 text-sm font-medium tracking-[0.14em] uppercase mb-3">
             Denise Claire Gadient
