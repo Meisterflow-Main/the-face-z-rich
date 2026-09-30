@@ -58,6 +58,14 @@ const PRICE_LIST = [
       { name: "ULTRA SKIN 120", price: "315" },
     ],
   },
+  {
+    id: "minlen-kids",
+    title: "NEU & EXCLUSIV! MINLEN KIDS UND TWEENS SKIN TREAT",
+    tag: "NEU",
+    services: [
+      { name: "MINLEN GESICHTSBEHANDLUNG (ab 4-11 Jahren)", price: "65" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
