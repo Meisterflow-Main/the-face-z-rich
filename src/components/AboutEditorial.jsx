@@ -35,7 +35,7 @@ export default function AboutEditorial() {
           <div className="hairline w-16 mb-6" />
           <GoogleReviewBadge className="mb-5" />
           <p className="text-foreground/75 text-base sm:text-lg leading-[1.65] mb-5">
-            Bei THE FACE® in Zürich steht Deine Haut im Mittelpunkt. Seit über 30 Jahren liegt
+            Bei THE FACE® Denise Claire Gadient in Zürich steht Deine Haut im Mittelpunkt. Seit über 30 Jahren liegt
             der Fokus auf ganzheitlicher Gesichtspflege, persönlicher Beratung und nachhaltiger
             Hautgesundheit.
           </p>
