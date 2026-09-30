@@ -28,6 +28,13 @@ const PRICE_LIST = [
       { name: "TAGES-ABEND bis GALA MAKE-UP", price: "99" },
     ],
   },
+  {
+    id: "hautanalyse-beratung",
+    title: "HAUTANALYSE BERATUNG inkl. QUICKBOOST",
+    services: [
+      { name: "FACE-MAP und FACE-FIT", price: "95" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
