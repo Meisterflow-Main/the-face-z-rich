@@ -33,13 +33,17 @@ export default function Stats() {
             Partner & zertifizierte Marken
           </p>
           <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12">
-            {[ASSETS.partner1, ASSETS.partner2, ASSETS.partner3, ASSETS.partner4].map((p, i) => (
-              <img
+            {[ASSETS.partner1, ASSETS.partner2, ASSETS.janeIredale, ASSETS.partner4].map((p, i) => (
+              <div
                 key={i}
-                src={p}
-                alt={`Partner ${i + 1}`}
-                className="h-16 sm:h-20 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
-              />
+                className="bg-white/95 rounded-xl px-6 py-3 flex items-center justify-center h-20 sm:h-24 w-40 sm:w-48 transition-transform hover:scale-105"
+              >
+                <img
+                  src={p}
+                  alt={`Partner ${i + 1}`}
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
             ))}
           </div>
         </ScrollReveal>

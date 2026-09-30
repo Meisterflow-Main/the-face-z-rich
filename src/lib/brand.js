@@ -27,6 +27,7 @@ export const ASSETS = {
   partner2: "https://theface-zuerich.ch/wp-content/uploads/2026/02/partner2.png",
   partner3: "https://theface-zuerich.ch/wp-content/uploads/2026/02/partner3.png",
   partner4: "https://theface-zuerich.ch/wp-content/uploads/2026/02/partner4.png",
+  janeIredale: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/bb753e413_ChatGPTImageSep30202607_25_17PM.png",
   instagram:
     "https://theface-zuerich.ch/wp-content/uploads/2026/08/Instagram_Glyph_Black-150x150.png",
 };
