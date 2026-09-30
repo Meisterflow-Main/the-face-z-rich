@@ -126,19 +126,24 @@ const PRICE_LIST = [
 
 function ServiceRow({ name, price, neu }) {
   return (
-    <div className="flex items-center justify-between gap-4 py-3 border-b border-gold/10 last:border-0">
+    <a
+      href={BRAND.booking}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-between gap-4 py-3 border-b border-gold/10 last:border-0 group/service rounded-sm px-2 -mx-2 hover:bg-gold/5 transition-colors"
+    >
       <div className="flex items-center gap-2 min-w-0">
         {neu && (
           <span className="text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-2 py-0.5 rounded-sm shrink-0">
             Neu
           </span>
         )}
-        <span className="text-charcoal/80 text-[15px] font-medium truncate">{name}</span>
+        <span className="text-charcoal/80 group-hover/service:text-charcoal text-[15px] font-medium truncate transition-colors">{name}</span>
       </div>
       <span className="font-heading text-xl font-semibold text-charcoal tabular-nums shrink-0">
         <span className="text-charcoal/40 text-xs font-body font-normal mr-1">CHF</span>{price}.–
       </span>
-    </div>
+    </a>
   );
 }
 
