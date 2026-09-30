@@ -1,7 +1,6 @@
 export const BRAND = {
   name: "THE FACE®",
   owner: "Denise Claire Gadient",
-  tagline: "Invest in your skin",
   street: "Rämistrasse 27",
   city: "8001 Zürich",
   locationNote: "vis-à-vis Parkhaus Hohe Promenade",

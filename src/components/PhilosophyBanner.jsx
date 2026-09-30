@@ -9,7 +9,7 @@ const QUOTES = [
   },
   {
     src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/799a88568_IMG_7514.jpg",
-    alt: "Invest in your skin – it's going to represent you for a long time. THE FACE® Zürich",
+    alt: "Skin Longevity – Deine Haut begleitet Dich ein Leben lang. THE FACE® Zürich",
   },
   {
     src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d315509f8_IMG_8292.jpg",

@@ -20,7 +20,7 @@ export default function Footer() {
               Denise Claire Gadient
             </p>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs mb-4">
-              Über 30 Jahre spezialisiert in holistischer Gesichtspflege. Invest in your skin.
+              Über 30 Jahre spezialisiert in holistischer Gesichtspflege.
             </p>
           </div>
 

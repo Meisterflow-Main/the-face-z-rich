@@ -18,7 +18,6 @@ import ServiceGallery from "@/components/service/ServiceGallery";
 
 export default function ServiceDetail({ service }) {
   const related = service.related.map(getServiceBySlug).filter(Boolean);
-  const prices = service.priceFactors.map((p) => Number(p.price));
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -28,13 +27,6 @@ export default function ServiceDetail({ service }) {
     url: `https://theface-zuerich.ch/behandlungen/${service.slug}`,
     provider: { "@id": "https://theface-zuerich.ch/#localbusiness" },
     areaServed: { "@type": "City", name: "Zürich" },
-    offers: {
-      "@type": "AggregateOffer",
-      priceCurrency: "CHF",
-      lowPrice: String(Math.min(...prices)),
-      highPrice: String(Math.max(...prices)),
-      offerCount: service.priceFactors.length,
-    },
   };
   const faqSchema = {
     "@context": "https://schema.org",
@@ -130,27 +122,6 @@ export default function ServiceDetail({ service }) {
               <p className="text-charcoal/80 mt-2">{step}</p>
             </div>
           ))}
-        </div>
-      </Section>
-
-      {/* Preise */}
-      <Section bg="sand" id="preise">
-        <Heading eyebrow="Preise" title="Preisfaktoren" />
-        <div className="max-w-2xl mx-auto">
-          {service.priceFactors.map((p) => (
-            <div
-              key={p.label}
-              className="flex items-center justify-between gap-4 py-3 border-b border-gold/10 last:border-0"
-            >
-              <span className="text-charcoal/80">{p.label}</span>
-              <span className="font-heading text-xl font-semibold text-charcoal tabular-nums">
-                <span className="text-charcoal/40 text-xs font-body font-normal mr-1">CHF</span>{p.price}.–
-              </span>
-            </div>
-          ))}
-          <p className="text-charcoal/50 text-xs mt-4">
-            Preise in CHF, inkl. MWST. Behandlungsdauer auf Anfrage. Der verbindliche Preis wird in der persönlichen Hautanalyse festgelegt.
-          </p>
         </div>
       </Section>
 

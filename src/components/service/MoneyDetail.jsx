@@ -66,7 +66,6 @@ export default function MoneyDetail({ service, region }) {
     const slugs = ARTICLE_SERVICE_MAP[a.slug] || [];
     return slugs.includes(service.slug);
   }).slice(0, 3);
-  const prices = service.priceFactors.map((p) => Number(p.price));
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -76,13 +75,6 @@ export default function MoneyDetail({ service, region }) {
     url: `https://theface-zuerich.ch/behandlungen/${service.slug}/${region.slug}`,
     provider: { "@id": "https://theface-zuerich.ch/#localbusiness" },
     areaServed: { "@type": "AdministrativeArea", name: region.name },
-    offers: {
-      "@type": "AggregateOffer",
-      priceCurrency: "CHF",
-      lowPrice: String(Math.min(...prices)),
-      highPrice: String(Math.max(...prices)),
-      offerCount: service.priceFactors.length,
-    },
   };
   const faqSchema = {
     "@context": "https://schema.org",
