@@ -35,6 +35,19 @@ const PRICE_LIST = [
       { name: "FACE-MAP und FACE-FIT", price: "95" },
     ],
   },
+  {
+    id: "targeted-skin-solutions",
+    title: "DERMALOGICA TARGETET SKIN SOLUTIONS TREATMENTS",
+    services: [
+      { name: "PRO CLEAR YOUNG BIG Teenager (ab 10-20 Jahre)", price: "160" },
+      { name: "PRO CLEAR YOUNG SMALL Teenager (10-20 Jahren)", price: "100" },
+      { name: "PRO BACK CLEAR Rückenreinigung", price: "100" },
+      { name: "PRO CLEAR Erwachsene", price: "225" },
+      { name: "PRO BRIGHT Pigmentaufhellend", price: "210" },
+      { name: "PRO CALM TREAT Beruhigend", price: "180" },
+      { name: "PRO FIRM Straffend", price: "225" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
