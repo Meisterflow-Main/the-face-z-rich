@@ -90,6 +90,13 @@ const PRICE_LIST = [
       { name: "EXCLUSIVE HOME SKIN TREAT", price: "100" },
     ],
   },
+  {
+    id: "phytomer-spa-ruecken",
+    title: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG",
+    services: [
+      { name: "PHYTOMER SPA RÜCKENBEHANDLUNG", price: "60" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
