@@ -11,105 +11,12 @@ import { BRAND } from "@/lib/brand";
 
 const PRICE_LIST = [
   {
-    id: "hautanalyse",
-    title: "Hautanalyse & Beratung",
-    note: "inkl. Quickboost",
-    services: [{ name: "FACE-MAP und FACE-FIT", price: "95" }],
-  },
-  {
-    id: "autumn-offer",
-    title: "Herbstangebot: Face Glow",
-    tag: "NEU",
+    id: "medical-skin-offer",
+    title: "10% OFFER DERMALOGICA MEDICAL SKIN TREATMENT bis FEBRUAR 2027",
+    tag: "10% OFFER",
     services: [
-      { name: "Lumin Fusion Nanoneedling / Infusion", price: "245" },
-      { name: "Longevity Glow Treat", price: "225" },
+      { name: "EXOBOOSTER MICRONEEDLING 0.5 INKL. HOMESERUM", price: "470" },
     ],
-  },
-  {
-    id: "targeted-solutions",
-    title: "Dermalogica Targeted Skin Solutions Treatments",
-    services: [
-      { name: "Pro Clear Young Big: Teenager", price: "160" },
-      { name: "Pro Clear Young Small: Teenager", price: "100" },
-      { name: "Pro Clear: Erwachsene", price: "225" },
-      { name: "Pro Back Clear: Rücken", price: "100" },
-      { name: "Pro Bright: Pigmentaufhellend", price: "210" },
-      { name: "Pro Calm Treat: Beruhigend", price: "180" },
-    ],
-  },
-  {
-    id: "signature-pro-skin",
-    title: "Dermalogica Signature Pro Skin Treatments",
-    services: [
-      { name: "Pro Skin 45: Quick Clear", price: "180" },
-      { name: "Pro Skin 60", price: "225" },
-      { name: "Pro Skin 90", price: "265" },
-      { name: "Ultra Skin 120", price: "335" },
-    ],
-  },
-  {
-    id: "medical-skin",
-    title: "Dermalogica Medical Skin Treatments",
-    services: [
-      { name: "Exoboost Mikrodermabrasion oder Microneedling 0.5", price: "470" },
-    ],
-  },
-  {
-    id: "personal-standalone",
-    title: "Individuelle Einzelbehandlung",
-    tag: "NEU",
-    services: [
-      {
-        name: "Personal Combi (z.B. Lashtint & Eyebrowtint / Upper Lip Wax & Eyeshape)",
-        price: "80",
-      },
-    ],
-  },
-  {
-    id: "glowskin-makeup",
-    title: "Glowskinbeauty / Jane Iredale / Make-up",
-    services: [
-      { name: "Make-up Beratung", price: "65" },
-      { name: "Tages- & Abend-Make-up", price: "80" },
-      { name: "Brautmake-up", price: "200" },
-    ],
-  },
-  {
-    id: "ellebaana-lashlift",
-    title: "Ellebaana Lashlift",
-    tag: "NEU",
-    services: [
-      { name: "Ellebaana Wimpernlift inkl. blauschwarzer Wimpernfärbung", price: "150" },
-    ],
-  },
-  {
-    id: "add-on-skin",
-    title: "Zusatzbehandlungen",
-    services: [
-      { name: "Black Eyepads inkl. Smart Eye Density Serum", price: "20", neu: true },
-      { name: "Lashtint", price: "40" },
-      { name: "Plump Peel & Phyto E2", price: "20", neu: true },
-      { name: "Wax Upperlip", price: "25" },
-      { name: "Phytomer Spa Rückenbehandlung", price: "60" },
-      { name: "Brow Tint", price: "35" },
-      { name: "Brow Shape", price: "20" },
-      { name: "Blue Repair Mask", price: "15" },
-      { name: "BT-Cocktail Mask", price: "15" },
-      { name: "Wax Cheeks", price: "40" },
-      { name: "Wax Chin", price: "10" },
-      { name: "Wax Ear", price: "10" },
-      { name: "Wax Nose", price: "10" },
-    ],
-  },
-  {
-    id: "the-face-qeh",
-    title: "The Face® & QEH® Treat",
-    services: [{ name: "Holistic Skin Treat", price: "325" }],
-  },
-  {
-    id: "quantum-angel-healing",
-    title: "Quantum Angel Healing® (QEH) nach Eva-Maria Mora",
-    services: [{ name: "Neustart Selbstheilung mit Engeln", price: "188" }],
   },
 ];
 

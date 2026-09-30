@@ -7,6 +7,7 @@ import DermalogicaBanner from "@/components/DermalogicaBanner";
 import AboutEditorial from "@/components/AboutEditorial";
 import PhilosophyBanner from "@/components/PhilosophyBanner";
 import Services from "@/components/Services";
+import Pricing from "@/components/Pricing";
 import StudioGallery from "@/components/StudioGallery";
 import Stats from "@/components/Stats";
 import FAQ from "@/components/FAQ";
@@ -45,6 +46,7 @@ export default function Home() {
         <AboutEditorial />
         <PhilosophyBanner />
         <Services />
+        <Pricing />
         <StudioGallery />
         <Stats />
         <FAQ />
