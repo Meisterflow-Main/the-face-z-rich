@@ -48,6 +48,16 @@ const PRICE_LIST = [
       { name: "PRO FIRM Straffend", price: "225" },
     ],
   },
+  {
+    id: "signature-pro-skin",
+    title: "DERMALOGICA SIGNATURE PRO SKIN TREATMENTS",
+    services: [
+      { name: "PRO SKIN 45 QUICK CLEAR", price: "180" },
+      { name: "PRO SKIN 60", price: "225" },
+      { name: "PRO SKIN 90", price: "270" },
+      { name: "ULTRA SKIN 120", price: "315" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
