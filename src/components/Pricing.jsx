@@ -82,6 +82,14 @@ const PRICE_LIST = [
       { name: "FACE QUICK FIX", price: "90" },
     ],
   },
+  {
+    id: "homeservice",
+    title: "NEU ! HOMESERVICE EXCLUSIV",
+    tag: "NEU",
+    services: [
+      { name: "EXCLUSIVE HOME SKIN TREAT", price: "100" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
