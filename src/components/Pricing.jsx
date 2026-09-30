@@ -18,6 +18,16 @@ const PRICE_LIST = [
       { name: "EXOBOOSTER MICRONEEDLING 0.5 INKL. HOMESERUM", price: "470" },
     ],
   },
+  {
+    id: "red-carpet-offer",
+    title: "10% OFFER ZFF RED CARPET LOOK bis 31. Oktober (nicht bei Abo)",
+    tag: "10% OFFER",
+    services: [
+      { name: "LUMIN FUSION NANOINFUSION", price: "245" },
+      { name: "NEU ! LONGEVITY GLOW TREAT", price: "225" },
+      { name: "TAGES-ABEND bis GALA MAKE-UP", price: "99" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
