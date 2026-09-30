@@ -97,6 +97,24 @@ const PRICE_LIST = [
       { name: "PHYTOMER SPA RÜCKENBEHANDLUNG", price: "60" },
     ],
   },
+  {
+    id: "adds-on-skin-treat",
+    title: "ADDS ON SKIN TREAT",
+    services: [
+      { name: "NEU! BLACK EYEPADS inkl. SMART EYE DENSITY SERUM", price: "20", neu: true },
+      { name: "LASHTINT", price: "40" },
+      { name: "NEU ! PLUMP PEEL & PHYTO E2", price: "20", neu: true },
+      { name: "WAX UPPERLIP", price: "25" },
+      { name: "BROW TINT", price: "35" },
+      { name: "BROWN SHAPE", price: "20" },
+      { name: "BLUE REPAIR MASK", price: "15" },
+      { name: "BT-COCKTAIL MASK", price: "15" },
+      { name: "WAX CHEEKS", price: "40" },
+      { name: "WAX CHIN", price: "10" },
+      { name: "WAX EAR", price: "10" },
+      { name: "WAX NOSE", price: "10" },
+    ],
+  },
 ];
 
 function ServiceRow({ name, price, neu }) {
