@@ -352,10 +352,9 @@ export const SERVICES = [
       "Schwangerschaft und Stillzeit: ich berate Dich zu Alternativen",
     ],
     gallery: [
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2594d61c3_WhatsAppImage2026-09-29at181708.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/3fce56a8e_WhatsAppImage2026-09-29at181943.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/e9bd4e3ff_IMG_9771.jpg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/cc8086fd3_IMG_8057.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2ab523187_WhatsAppImage2026-10-01at102627.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ca841a742_WhatsAppImage2026-10-01at1026271.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/76eb050f8_WhatsAppImage2026-10-01at1026272.jpeg",
     ],
     related: ["medical-skin-treatments", "pro-skin-treatments", "hautanalyse"],
   },
