@@ -280,11 +280,8 @@ export const SERVICES = [
       "Einnahme von Isotretinoin in den letzten sechs Monaten",
     ],
     gallery: [
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/7e9a029d8_IMG_9773.jpg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/7e24ddf47_IMG_9755.jpg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/f7f49d170_IMG_3970.jpg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ad62c4c7b_IMG_9989.jpg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/099046fa9_IMG_0030.PNG",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/c5dd7e993_WhatsAppImage2026-10-01at1032051.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/1048719d9_WhatsAppImage2026-10-01at103205.jpeg",
     ],
     related: ["longevity-glow-treatment", "pro-skin-treatments", "targeted-skin-solutions"],
   },
