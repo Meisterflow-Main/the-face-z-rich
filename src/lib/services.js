@@ -210,6 +210,10 @@ export const SERVICES = [
       "Frische Sonnenbrand oder aktive Kortisonbehandlung",
       "Bei Schwangerschaft berate ich zu geeigneten Alternativen",
     ],
+    video: {
+      src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/aa59233d3_ExtractionsstartwiththerightprepFirstCleansewiththebt-sonicGEN2microsoniccleansing.mp4",
+      title: "Targeted Skin Solutions",
+    },
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0c1d54256_WhatsAppImage2026-09-29at181222.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/b534510cc_WhatsAppImage2026-09-29at181335.jpeg",

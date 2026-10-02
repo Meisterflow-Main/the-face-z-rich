@@ -15,6 +15,7 @@ import { REGIONS } from "@/lib/regions";
 import { getServiceBySlug, SERVICES } from "@/lib/services";
 import InternalLinks from "@/components/InternalLinks";
 import ServiceGallery from "@/components/service/ServiceGallery";
+import ServiceVideo from "@/components/service/ServiceVideo";
 
 export default function ServiceDetail({ service }) {
   const related = service.related.map(getServiceBySlug).filter(Boolean);
@@ -91,6 +92,28 @@ export default function ServiceDetail({ service }) {
 
       {/* Galerie */}
       <ServiceGallery gallery={service.gallery} serviceName={service.name} />
+
+      {/* Video */}
+      {service.video && (
+        <section className="px-5 py-12 sm:py-16 bg-background">
+          <div className="max-w-3xl mx-auto">
+            <ScrollReveal className="text-center mb-8">
+              <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-2">
+                Einblick
+              </p>
+              <h2 className="font-heading text-2xl sm:text-3xl font-semibold text-charcoal leading-tight">
+                {service.video.title} <span className="gold-gradient-text">in Bewegung</span>
+              </h2>
+              <div className="hairline w-20 mx-auto mt-4" />
+            </ScrollReveal>
+            <ScrollReveal delay={0.1}>
+              <div className="relative w-full max-w-sm mx-auto rounded-xl overflow-hidden border border-gold/15 shadow-md bg-charcoal">
+                <ServiceVideo src={service.video.src} />
+              </div>
+            </ScrollReveal>
+          </div>
+        </section>
+      )}
 
       {/* Vorteile */}
       <Section bg="sand">
