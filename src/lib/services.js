@@ -211,7 +211,7 @@ export const SERVICES = [
       "Bei Schwangerschaft berate ich zu geeigneten Alternativen",
     ],
     video: {
-      src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/aa59233d3_ExtractionsstartwiththerightprepFirstCleansewiththebt-sonicGEN2microsoniccleansing.mp4",
+      src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/5408b56f9_ExtractionsstartwiththerightprepFirstcleansewiththebt-sonicGEN2microsoniccleansing.mp4",
       title: "Targeted Skin Solutions",
     },
     gallery: [
