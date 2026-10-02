@@ -27,7 +27,7 @@ export default function PhilosophyVideo() {
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
-          <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-gold/15 shadow-md bg-charcoal">
+          <div className="relative w-full rounded-xl overflow-hidden border border-gold/15 shadow-md bg-charcoal">
             <video
               ref={ref}
               src={VIDEO_SRC}
@@ -37,7 +37,7 @@ export default function PhilosophyVideo() {
               playsInline
               preload="metadata"
               controls
-              className="absolute inset-0 w-full h-full object-cover"
+              className="block w-full h-auto object-contain"
             />
           </div>
         </ScrollReveal>
