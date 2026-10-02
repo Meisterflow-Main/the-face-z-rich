@@ -1,8 +1,16 @@
 import React from "react";
 import ScrollReveal from "@/components/ScrollReveal";
 
-const VIDEO_SRC =
-  "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/f0221bccc_BRANDCAMPAIGN_15s_4x5_DE.mp4";
+const VIDEOS = [
+  {
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/f0221bccc_BRANDCAMPAIGN_15s_4x5_DE.mp4",
+    alt: "THE FACE® Brand Campaign",
+  },
+  {
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/88efdc764_Personalizedskintreatmentsdesignedtodelivermorethanjustresultstheyhelpyoutrulyund.mp4",
+    alt: "Personalized Skin Treatments – THE FACE®",
+  },
+];
 
 export default function BrandVideo() {
   return (
@@ -19,17 +27,25 @@ export default function BrandVideo() {
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
-          <div className="relative mx-auto rounded-xl overflow-hidden shadow-2xl border border-white/10 max-w-[460px]">
-            <div className="aspect-[4/5]">
-              <video
-                src={VIDEO_SRC}
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="w-full h-full object-cover"
-              />
-            </div>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8">
+            {VIDEOS.map((v) => (
+              <div
+                key={v.src}
+                className="relative rounded-xl overflow-hidden shadow-2xl border border-white/10 w-full max-w-[460px]"
+              >
+                <div className="aspect-[4/5]">
+                  <video
+                    src={v.src}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    aria-label={v.alt}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            ))}
           </div>
         </ScrollReveal>
       </div>
