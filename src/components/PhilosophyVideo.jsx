@@ -27,7 +27,7 @@ export default function PhilosophyVideo() {
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
-          <div className="relative w-full rounded-xl overflow-hidden border border-gold/15 shadow-md bg-charcoal">
+          <div className="relative w-full max-w-sm mx-auto rounded-xl overflow-hidden border border-gold/15 shadow-md bg-charcoal">
             <video
               ref={ref}
               src={VIDEO_SRC}
