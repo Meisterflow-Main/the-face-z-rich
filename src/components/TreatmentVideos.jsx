@@ -18,6 +18,10 @@ const VIDEOS = [
     title: "Revitalisierung",
     src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/91c941b5a_Revitalisierung_video.mp4",
   },
+  {
+    title: "Targeted Skin Solutions",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/aa59233d3_ExtractionsstartwiththerightprepFirstCleansewiththebt-sonicGEN2microsoniccleansing.mp4",
+  },
 ];
 
 function VideoCard({ video, index }) {
