@@ -22,7 +22,7 @@ export default function Services() {
               auf die individuellen Bedürfnisse Deiner Haut.
             </p>
             <p className="text-charcoal/65 leading-relaxed mb-3">
-              Auch Kids &amp; Teens sind bei Amir herzlich willkommen – mit individuell abgestimmten Behandlungen für junge Haut.
+              Auch Kids &amp; Teens sind bei mir herzlich willkommen – mit individuell abgestimmten Behandlungen für junge Haut.
             </p>
             <p className="text-sm text-gold font-medium tracking-wide mb-6">
               Professionelle Hautpflege mit Dermalogica – individuell abgestimmt auf Deine Haut.
