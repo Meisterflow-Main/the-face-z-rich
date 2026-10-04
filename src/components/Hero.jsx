@@ -46,6 +46,10 @@ export default function Hero() {
               Holistische Gesichtspflege in Zürich
             </h1>
 
+            <p className="text-gold text-xs tracking-[0.22em] uppercase font-semibold mb-5">
+              Für Frauen · Männer · Teenager
+            </p>
+
             <p className="text-charcoal/75 font-body leading-[1.5] max-w-[530px] mb-9"
                style={{ fontSize: "clamp(16px, 1.2vw, 18px)" }}>
               Über 30 Jahre spezialisiert auf individuelle Hautanalyse, Pro Skin Treatments und
@@ -100,6 +104,10 @@ export default function Hero() {
                 style={{ fontSize: "36px" }}>
               Holistische Gesichtspflege in Zürich
             </h1>
+
+            <p className="text-gold text-[11px] tracking-[0.22em] uppercase font-semibold mb-4">
+              Für Frauen · Männer · Teenager
+            </p>
 
             <p className="text-charcoal/75 font-body text-base leading-[1.5] mb-8">
               Über 30 Jahre spezialisiert auf individuelle Hautanalyse, Pro Skin Treatments und
