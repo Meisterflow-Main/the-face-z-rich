@@ -23,6 +23,9 @@ export default function PhilosophyVideo() {
           <h2 className="font-heading text-2xl sm:text-3xl font-semibold text-charcoal leading-tight">
             Human <span className="gold-gradient-text">Touch</span>
           </h2>
+          <p className="text-charcoal/65 text-sm sm:text-base leading-relaxed mt-4 max-w-xl mx-auto">
+            Clean Skin Care seit 1986 – Dermalogica's Gründerin Jane Wurwand
+          </p>
           <div className="hairline w-20 mx-auto mt-4" />
         </ScrollReveal>
 
