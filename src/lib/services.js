@@ -287,6 +287,7 @@ export const SERVICES = [
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/c5dd7e993_WhatsAppImage2026-10-01at1032051.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/1048719d9_WhatsAppImage2026-10-01at103205.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/aa57b4fc0_WhatsAppImage2026-10-05at111624.jpeg",
     ],
     related: ["longevity-glow-treatment", "pro-skin-treatments", "targeted-skin-solutions"],
   },
