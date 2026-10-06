@@ -13,45 +13,28 @@ const SECTIONS = [
   {
     heading: null,
     paragraphs: [
-      "Ich bin Denise Claire Gadient, Hautpflege-Expertin und Inhaberin von THE FACE im Zürcher Kreis 1. Seit vielen Jahren widme ich mich mit Leidenschaft der professionellen Haut- und Gesichtspflege – mit dem Ziel, die natürliche Schönheit und Gesundheit der Haut nachhaltig zu unterstützen.",
-      "Meine Ausbildung zur Kosmetikerin EFZ und Visagistin bildet die Basis meiner Arbeit. Vor 22 Jahren habe ich mich zum DERMALOGICA Skin Therapist und 2014 zum DERMALOGICA EXPERT weitergebildet. Mein Schwerpunkt liegt auf professioneller Haut- und Gesichtspflege sowie individueller Make-up-Beratung. Damit ich auch meine englischsprachige Kundschaft kompetent beraten kann, habe ich zudem einen Sprachkurs am International House in London absolviert.",
-    ],
-  },
-  {
-    heading: "Erfahrung, die man spürt",
-    paragraphs: [
-      "2018 durfte ich eine ganz besondere Auszeichnung entgegennehmen: den DERMALOGICA AWARD als Hauttherapeutin des Jahres im Bereich «Bekenntnis zur Marke». Zuvor war ich bereits zweimal nominiert und erreichte den 2. Platz.",
-      "Selbstständig seit 1994 verbinde ich diese langjährige Erfahrung mit viel Einfühlungsvermögen, Engagement und Freude an meinem Beruf. Seit 27 Jahren empfange ich meine Kundschaft an der Rämistrasse 27, 8001 Zürich, vis-à-vis Parkhaus Hohe Promenade. Mir ist wichtig, dass jede Behandlung nicht nur sichtbare Resultate erzielt sondern auch zu einem persönlichen Schönheitserlebnis wird – ganz nach meiner Devise: gesünder – jünger – frischer.",
+      "Ich bin Denise Claire Gadient, Hautpflege-Expertin und Inhaberin von THE FACE im Zürcher Kreis 1. Mit Leidenschaft widme ich mich der professionellen Haut- und Gesichtspflege – mit dem Ziel, die natürliche Schönheit und Gesundheit Deiner Haut nachhaltig zu unterstützen.",
+      "Als Kosmetikerin EFZ und Visagistin mit der Weiterbildung zur DERMALOGICA EXPERT liegt mein Schwerpunkt auf professioneller Hautpflege und individueller Make-up-Beratung. Selbstständig seit 1994, empfange ich Dich seit 27 Jahren an der Rämistrasse 27, vis-à-vis Parkhaus Hohe Promenade.",
     ],
   },
   {
     heading: "Die Liebe zur Schönheit wurde mir in die Wiege gelegt",
     paragraphs: [
-      "Als Bündnerin bin ich in Vaduz im Fürstentum Liechtenstein aufgewachsen. Die Liebe zu «Cosmea» – zur Pflege von Ordnung, Harmonie und Schönheit – hat mir meine Mutter, die Coiffeuse war, gewissermassen in die Wiege gelegt.",
-      "Den entscheidenden Anstoss für meine Berufswahl gab mir schliesslich ein Geschenk meiner Eltern: ein Buch über Schönheit und Hautpflege. Danach wusste ich, welchen Weg ich einschlagen wollte.",
-      "Meine eigenen Erfahrungen mit Akne als Teenager und später mit Allergien und atopischem Ekzem (Neurodermitis) haben meinen beruflichen Weg zusätzlich geprägt. Sie haben mich darin bestärkt, auf professionelle, wirksame Pflegeprodukte und Cosmeceuticals zu setzen. Ebenso wichtig ist für mich eine Heimpflege, die sorgfältig und individuell auf die jeweilige Haut und ihre Bedürfnisse abgestimmt ist.",
+      "Als Bündnerin in Vaduz aufgewachsen, hat mir meine Mutter, Coiffeuse von Beruf, die Liebe zu «Cosmea» – zur Pflege von Ordnung, Harmonie und Schönheit – in die Wiege gelegt. Ein Buch über Schönheit und Hautpflege gab mir den entscheidenden Anstoss für meinen Weg.",
+      "Meine eigenen Erfahrungen mit Akne als Teenager und später mit Allergien und atopischem Ekzem (Neurodermitis) haben mich geprägt. Sie haben mich darin bestärkt, auf professionelle, wirksame Pflegeprodukte und Cosmeceuticals zu setzen – und auf eine Heimpflege, die sorgfältig auf Deine Haut abgestimmt ist.",
     ],
   },
   {
     heading: "High Touch & High Tech",
     paragraphs: [
-      "Ich bin überzeugt von der wirkungsvollen Verbindung aus dem Besten der Pflanzenwelt und moderner Biotechnologie: HIGH TOUCH & HIGH TECH.",
-      "Dazu gehört für mich auch der gezielte und sichere Einsatz moderner Geräte. Meine Behandlungen sollen die Haut nicht verletzen, sondern sie unterstützen: aufbauen, klären, straffen, regenerieren und ihre natürlichen Prozesse fördern. Sanft, wirkungsvoll und ohne Downtime.",
-    ],
-  },
-  {
-    heading: "Wissen hört nie auf",
-    paragraphs: [
-      "Auch nach all den Jahren bilde ich mich regelmässig weiter – denn Hautpflege entwickelt sich ständig weiter und genau das begeistert mich an meinem Beruf.",
-      "Als Dermalogica Expertin durfte ich kürzlich als einzige Schweizer Kosmetikerin das Dermalogica Longevity Retreat absolvieren. Diese Weiterbildung hat mir exklusive Einblicke in die neuesten Erkenntnisse und Behandlungskonzepte rund um das Thema «Healthy Aging» ermöglicht.",
+      "Ich bin überzeugt von der Verbindung aus dem Besten der Pflanzenwelt und moderner Biotechnologie: HIGH TOUCH & HIGH TECH. Meine Behandlungen sollen die Haut nicht verletzen, sondern sie unterstützen – sanft, wirkungsvoll und ohne Downtime. Ganz nach meiner Devise: gesünder – jünger – frischer.",
     ],
   },
   {
     heading: "Schönheit bedeutet für mich auch Ganzheitlichkeit",
     paragraphs: [
-      "Neben meinen kosmetischen und kosmetisch-medizinischen Weiterbildungen habe ich mich über die Jahre auch intensiv mit Spiritualität und medialer Wahrnehmung beschäftigt. 2014 absolvierte ich die Ausbildung in QEH (Quantum-Engel-Heilung®) inklusive Coaching und nahm an CRC (Cosmic Recoding®) sowie CRC Ultra teil. Zudem habe ich die Online-Ausbildung zum 3M-Medium™ (Moderne-Mora-Medium für Medialität und Heilung) abgeschlossen.",
-      "Diese Erfahrungen ergänzen meine persönliche Entwicklung und ermöglichen es mir, meine ausgeprägte Intuition und meine medialen Fähigkeiten bewusst in meine Arbeit und die Begegnung mit Menschen einfliessen zu lassen.",
-      "Für mich steht dabei immer der Mensch als Ganzes im Mittelpunkt – mit seiner Haut, seiner Persönlichkeit und seinen individuellen Bedürfnissen.",
+      "Neben meiner kosmetischen Weiterbildung beschäftige ich mich intensiv mit Spiritualität und medialer Wahrnehmung – unter anderem in QEH (Quantum-Engel-Heilung®). Diese Erfahrungen erlauben es mir, meine Intuition bewusst in meine Arbeit einfliessen zu lassen.",
+      "Für mich steht immer der Mensch als Ganzes im Mittelpunkt – mit seiner Haut, seiner Persönlichkeit und seinen individuellen Bedürfnissen.",
     ],
   },
 ];
