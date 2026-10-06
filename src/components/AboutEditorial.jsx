@@ -21,7 +21,7 @@ const SECTIONS = [
     heading: "Erfahrung, die man spürt",
     paragraphs: [
       "2018 durfte ich eine ganz besondere Auszeichnung entgegennehmen: den DERMALOGICA AWARD als Hauttherapeutin des Jahres im Bereich «Bekenntnis zur Marke». Zuvor war ich bereits zweimal nominiert und erreichte den 2. Platz.",
-      "Selbstständig seit 1994 verbinde ich diese langjährige Erfahrung mit viel Einfühlungsvermögen, Engagement und Freude an meinem Beruf. Mir ist wichtig, dass jede Behandlung nicht nur sichtbare Resultate erzielt sondern auch zu einem persönlichen Schönheitserlebnis wird – ganz nach meiner Devise: gesünder – jünger – frischer.",
+      "Selbstständig seit 1994 verbinde ich diese langjährige Erfahrung mit viel Einfühlungsvermögen, Engagement und Freude an meinem Beruf. Seit 27 Jahren empfange ich meine Kundschaft an der Rämistrasse 27, 8001 Zürich, vis-à-vis Parkhaus Hohe Promenade. Mir ist wichtig, dass jede Behandlung nicht nur sichtbare Resultate erzielt sondern auch zu einem persönlichen Schönheitserlebnis wird – ganz nach meiner Devise: gesünder – jünger – frischer.",
     ],
   },
   {
