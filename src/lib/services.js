@@ -567,13 +567,14 @@ export const SERVICES = [
     metaTitle: "Quantum Angel Healing® in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Quantum Angel Healing® in Zürich",
     intro:
-      "Quantum Angel Healing® nach Eva-Maria Mora ist eine holistische Behandlung, die die Selbstheilung anregt. Eine besondere Ergänzung zur klassischen Gesichtspflege.",
+      "Quantum Angel Healing® nach Eva-Maria Mora ist eine holistische, energetische Behandlung, die die Selbstheilung anregt, den Kontakt zu Engeln öffnet und blockierte Energien sanft löst. Eine besondere Ergänzung zur klassischen Gesichtspflege.",
     what:
-      "Mit Quantum Angel Healing® nach Eva-Maria Mora arbeite ich energetisch und sanft, um Deinen Neustart der Selbstheilung mit Engeln zu unterstützen. Eine ruhige, achtsame Behandlung.",
+      "Mit Quantum Angel Healing® nach Eva-Maria Mora arbeite ich energetisch und sanft: ich öffne den Raum für die Kommunikation mit Engeln, löse blockierte Energien und unterstütze Deinen Neustart der Selbstheilung. Eine ruhige, achtsame Behandlung.",
     benefits: [
       "Nach Eva-Maria Mora",
       "Regt die Selbstheilung an",
-      "Holistische Ergänzung",
+      "Öffnet den Kontakt zu Engeln",
+      "Löst blockierte Energien sanft",
       "Ruhig und achtsam",
     ],
     process: [
@@ -605,9 +606,7 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Komm in ruhiger Atmosphäre – nimm Dir Zeit für das Vorgespräch",
-      "Keine spezielle körperliche Vorbereitung nötig",
-      "Offenheit und Bereitschaft für eine achtsame Sitzung",
+      "Komm offen und in ruhiger Atmosphäre – eine spezielle Vorbereitung ist nicht nötig.",
     ],
     aftercare: [
       "Nimm Dir nach der Sitzung etwas Zeit zur Nachruhe",
