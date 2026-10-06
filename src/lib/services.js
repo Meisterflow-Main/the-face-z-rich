@@ -79,17 +79,20 @@ export const SERVICES = [
     intro:
       "Die Dermalogica Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmte Premium-Behandlungen mit sanfter Tiefenreinigung, Peeling und Maske, für spürbar revitalisierte Haut und einen frischen Glow.",
     what:
-      "Je nach Zeit und Hautbedürfnis wähle ich die passende Dauer: von der kompakten 45-Minuten-Behandlung bis zur zweistündigen Ultra Skin 120. Jedes Treatment beginnt mit der FACE-MAP Analyse und wird auf Dich abgestimmt.",
+      "Du wählst die gebuchte Dauer und Option – von der kompakten 45-Minuten-Behandlung bis zur zweistündigen Ultra Skin 120. Jedes Treatment beginnt mit einer Konsultationsbesprechung und einer Dermalogica® Face Mapping™ Analyse und wird auf Dich persönlich abgestimmt. Ich passe die Behandlung an die Bedürfnisse Deiner Haut an.",
     benefits: [
       "Auf Deinen Hautzustand abgestimmt",
-      "Sanfte Tiefenreinigung, Peeling und Maske",
-      "Inkl. FACE-MAP Analyse",
+      "Sanfte Tiefenreinigung / Extraktion, Peeling und Maske",
+      "Inkl. Dermalogica® Face Mapping™ Analyse",
+      "Individuelle Massage je nach Behandlung",
       "Von 45 bis 120 Minuten",
     ],
     process: [
-      "Hautanalyse mit FACE-MAP",
-      "Tiefenreinigung und Peeling",
-      "Maske, Pflege und Abschluss",
+      "Konsultationsbesprechung und Dermalogica® Face Mapping™ Analyse",
+      "Tiefenreinigung / Extraktion – auch Mitesser und Milien, je nach Hautbedarf",
+      "Peeling und Maske",
+      "Individuelle Massage – beispielsweise Nackenmassage, Akupressur oder Lymphdrainage",
+      "Pflege und Abschluss mit Lichtschutz (SPF)",
     ],
     priceFactors: [
       { label: "Pro Skin 45: Quick Clear", price: "180" },
@@ -108,11 +111,11 @@ export const SERVICES = [
       },
       {
         q: "Sind die Produkte für sensible Haut geeignet?",
-        a: "Ja. Ich arbeite mit sanften, hochwertigen Clean-Produkten und stimme die Auswahl auf Deine Haut ab.",
+        a: "Ja. Ich arbeite mit Dermalogica, sanften und hochwertigen Produkten, und stimme die Auswahl auf Deine Haut ab.",
       },
       {
         q: "Wie oft sollte ich ein Pro Skin Treatment wiederholen?",
-        a: "Für nachhaltige Ergebnisse empfehle ich alle vier bis sechs Wochen. So bleibt die Haut frisch und gepflegt. In der Beratung passe ich den Rhythmus individuell an.",
+        a: "Ein Rhythmus von etwa vier bis sechs Wochen unterstützt die Haut ideal – das entspricht rund vier Besuchen pro Jahr. Doch Du entscheidest, was für Dich stimmig ist. Ich berate Dich gerne zum passenden Behandlungsrhythmus.",
       },
       {
         q: "Was ist der Unterschied zwischen Pro Skin 60 und Pro Skin 90?",
@@ -121,13 +124,13 @@ export const SERVICES = [
     ],
     preparation: [
       "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
-      "Setze eine Woche vorher keine neuen Produkte oder starken Peelings auf",
-      "Halte Dich vor dem Termin aus direkter Sonne fern",
+      "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
       "Verzichte 24 Stunden auf Make-up, Sport und heisse Duschen",
       "Schütze Deine Haut tagsüber mit SPF, besonders nach peelenden Schritten",
-      "Folge dem Pflegetipp, den ich Dir nach der Behandlung mitgebe",
+      "Halte Deine Haut in den ersten Tagen aus direkter Sonne und Hitze fern",
+      "Folge den Pflegetipps, die ich Dir nach der Behandlung mitgebe. Bei Fragen melde Dich per WhatsApp",
     ],
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
