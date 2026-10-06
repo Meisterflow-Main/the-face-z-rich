@@ -11,8 +11,19 @@ export const BRAND = {
   instagram: "https://www.instagram.com/thefacezuerich/",
   booking: "https://phorest.com/book/salons/thefacedeniseclairegadient",
   whatsapp: "https://wa.me/41764260999",
+  // Verified Google Business listing (Rämistrasse 27, 8001 Zürich) – pins the practice, not just the street.
+  maps: "https://www.google.com/maps?cid=15883321555023348624",
   googleReview:
     "https://www.google.com/maps/place/THE+FACE+Denise+Claire+Gadient/data=!4m2!3m1!1s0x0:0xdc6ce4cd0478c390?sa=X&ved=1t:2428&ictx=111",
+};
+
+// Single source for availability wording. Add client-approved opening hours to `hours`
+// (e.g. { days: "Di – Fr", time: "09:00 – 18:00" }) – they then appear everywhere automatically.
+export const AVAILABILITY = {
+  hours: [],
+  summary: "Termine nach Vereinbarung",
+  booking: "Online-Buchung rund um die Uhr",
+  onRequest: ["Auf Anfrage auch sonntags möglich", "Home Service auf Anfrage möglich"],
 };
 
 export const WEBHOOK =
@@ -106,6 +117,10 @@ export const FAQS = [
   },
   {
     q: "Wo befindet sich die Praxis?",
-    a: "Rämistrasse 27, 8001 Zürich, vis-à-vis Parkhaus Hohe Promenade.",
+    a: "Meine Praxis befindet sich an der Rämistrasse 27, 8001 Zürich, vis-à-vis Parkhaus Hohe Promenade. Alle Behandlungen finden an dieser Adresse statt.",
+  },
+  {
+    q: "Wann sind Termine möglich?",
+    a: "Termine vergebe ich nach Vereinbarung, bequem online buchbar. Auf Anfrage sind auch Termine am Sonntag möglich, ebenso Home Service auf Anfrage.",
   },
 ];

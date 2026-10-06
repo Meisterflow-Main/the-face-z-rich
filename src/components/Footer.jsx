@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BRAND, ASSETS } from "@/lib/brand";
+import { BRAND, ASSETS, AVAILABILITY } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
 import { SERVICES } from "@/lib/services";
-import { Instagram, Phone, Mail, MapPin } from "lucide-react";
+import { Instagram, Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -53,9 +53,22 @@ export default function Footer() {
           <div>
             <p className="text-gold font-semibold tracking-[0.12em] text-sm uppercase mb-5">Kontakt</p>
             <ul className="space-y-3 text-sm text-muted-foreground">
+              <li>
+                <a href={BRAND.maps} target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 hover:text-gold transition-colors">
+                  <MapPin size={16} className="text-gold mt-0.5 shrink-0" />
+                  <span>{BRAND.street}, {BRAND.city}<br />{BRAND.locationNote}</span>
+                </a>
+              </li>
               <li className="flex items-start gap-3">
-                <MapPin size={16} className="text-gold mt-0.5 shrink-0" />
-                <span>{BRAND.street}, {BRAND.city}<br />{BRAND.locationNote}</span>
+                <Clock size={16} className="text-gold mt-0.5 shrink-0" />
+                <span>
+                  {AVAILABILITY.hours.length > 0
+                    ? AVAILABILITY.hours.map((h) => <span key={h.days} className="block">{h.days}: {h.time}</span>)
+                    : AVAILABILITY.summary}
+                  {AVAILABILITY.onRequest.map((n) => (
+                    <span key={n} className="block text-xs text-charcoal/55 mt-1">{n}</span>
+                  ))}
+                </span>
               </li>
               <li>
                 <a href={`tel:${BRAND.phoneRaw}`} className="flex items-center gap-3 hover:text-gold transition-colors">

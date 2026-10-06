@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND, WEBHOOK } from "@/lib/brand";
 import GoogleReviewBadge from "@/components/GoogleReviewBadge";
+import AvailabilityCard from "@/components/AvailabilityCard";
 import { MapPin, Phone, Mail, Instagram, Send, CheckCircle2, Loader2, AlertCircle } from "lucide-react";
 
 const STATUS = { IDLE: "idle", LOADING: "loading", SUCCESS: "success", ERROR: "error" };
@@ -105,16 +106,16 @@ export default function ContactForm() {
                 </span>
                 <span className="text-charcoal/70 group-hover:text-gold transition-colors">{BRAND.email}</span>
               </a>
-              <div className="flex items-center gap-4">
-                <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center">
-                  <MapPin size={18} className="text-gold" />
+              <a href={BRAND.maps} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+                <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
+                  <MapPin size={18} className="text-gold group-hover:text-white transition-colors" />
                 </span>
-                <span className="text-charcoal/70">
+                <span className="text-charcoal/70 group-hover:text-gold transition-colors">
                   {BRAND.street}, {BRAND.city}
                   <br />
                   <span className="text-charcoal/50 text-sm">{BRAND.locationNote}</span>
                 </span>
-              </div>
+              </a>
               <a href={BRAND.instagram} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                 <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
                   <Instagram size={18} className="text-gold group-hover:text-white transition-colors" />
@@ -122,6 +123,7 @@ export default function ContactForm() {
                 <span className="text-charcoal/70 group-hover:text-gold transition-colors">@thefacezuerich</span>
               </a>
             </div>
+            <AvailabilityCard className="mt-8" />
           </ScrollReveal>
 
           <ScrollReveal delay={0.1}>
