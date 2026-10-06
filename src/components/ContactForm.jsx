@@ -4,7 +4,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND, WEBHOOK } from "@/lib/brand";
 import GoogleReviewBadge from "@/components/GoogleReviewBadge";
 import AvailabilityCard from "@/components/AvailabilityCard";
-import { MapPin, Phone, Mail, Instagram, Send, CheckCircle2, Loader2, AlertCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram, Send, CheckCircle2, Loader2, AlertCircle, MessageCircle } from "lucide-react";
 
 const STATUS = { IDLE: "idle", LOADING: "loading", SUCCESS: "success", ERROR: "error" };
 
@@ -99,6 +99,12 @@ export default function ContactForm() {
                   <Phone size={18} className="text-gold group-hover:text-white transition-colors" />
                 </span>
                 <span className="text-charcoal/70 group-hover:text-gold transition-colors">{BRAND.phone}</span>
+              </a>
+              <a href={BRAND.whatsapp} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+                <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
+                  <MessageCircle size={18} className="text-gold group-hover:text-white transition-colors" />
+                </span>
+                <span className="text-charcoal/70 group-hover:text-gold transition-colors">WhatsApp – bevorzugt für Fragen</span>
               </a>
               <a href={`mailto:${BRAND.email}`} className="flex items-center gap-4 group">
                 <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">

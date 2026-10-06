@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Background photo — clean studio image only, no baked-in text */}
       <img
         src={ASSETS.hero}
-        alt="Eleganter Behandlungsraum von THE FACE in Zürich"
+        alt="Eleganter Behandlungsraum von THE FACE® Denise Claire Gadient in Zürich"
         className="absolute inset-0 w-full h-full object-cover object-center"
         loading="eager"
         decoding="async"
@@ -83,7 +83,7 @@ export default function Hero() {
         {/* Image area — natural aspect ratio, no cropping */}
         <img
           src={ASSETS.hero}
-          alt="Eleganter Behandlungsraum von THE FACE in Zürich"
+          alt="Eleganter Behandlungsraum von THE FACE® Denise Claire Gadient in Zürich"
           className="block w-full h-auto object-contain object-center"
           loading="eager"
           decoding="async"

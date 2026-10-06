@@ -13,7 +13,7 @@ const SECTIONS = [
   {
     heading: null,
     paragraphs: [
-      "Ich bin Denise Claire Gadient, Hautpflege-Expertin und Inhaberin von THE FACE im Zürcher Kreis 1. Mit Leidenschaft widme ich mich der professionellen Haut- und Gesichtspflege – mit dem Ziel, die natürliche Schönheit und Gesundheit Deiner Haut nachhaltig zu unterstützen.",
+      "Ich bin Denise Claire Gadient, Hautpflege-Expertin und Inhaberin von THE FACE® im Zürcher Kreis 1. Mit Leidenschaft widme ich mich der professionellen Haut- und Gesichtspflege – mit dem Ziel, die natürliche Schönheit und Gesundheit Deiner Haut nachhaltig zu unterstützen.",
       "Als Kosmetikerin EFZ und Visagistin mit der Weiterbildung zur DERMALOGICA EXPERT liegt mein Schwerpunkt auf professioneller Hautpflege und individueller Make-up-Beratung. Selbstständig seit 1994, empfange ich Dich seit 27 Jahren an der Rämistrasse 27, vis-à-vis Parkhaus Hohe Promenade.",
     ],
   },
@@ -86,7 +86,7 @@ export default function AboutEditorial() {
 
           <div className="mt-10 pt-6 border-t border-gold/15">
             <p className="text-foreground/75 text-base sm:text-[17px] leading-[1.7] mb-2">
-              Ich freue mich darauf, dich persönlich kennenzulernen und für dich und deine Haut da zu sein.
+              Ich freue mich darauf, Dich persönlich kennenzulernen und für Dich und Deine Haut da zu sein.
             </p>
             <p className="text-foreground/80 text-base sm:text-[17px] leading-[1.7] mb-1">
               Herzlich

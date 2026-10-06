@@ -45,7 +45,7 @@ export const ARTICLES = [
     faqs: [
       {
         q: "Wie lange dauert die Hautanalyse?",
-        a: "Plane rund 30 Minuten ein – inklusive eines Quickboosts, der Deiner Haut sofort etwas Gutes tut. Danach besprechen wir gemeinsam die nächsten Schritte.",
+        a: "Plane rund 30 Minuten ein – inklusive eines Quickboosts, der Deiner Haut sofort etwas Gutes tut. Danach bespreche ich mit Dir die nächsten Schritte.",
       },
       {
         q: "Brauche ich die Analyse vor der ersten Behandlung?",
@@ -90,7 +90,7 @@ export const ARTICLES = [
         heading: "Worauf Du beim Kauf achten solltest",
         paragraphs: [
           "Kurze Inhaltsstoffe, transparente Herkunft und ein Hauttyp, der zu Dir passt. Lass Dich nicht von Marketingbegriffen blenden – massgeblich ist, wie Dein Hautbild reagiert. Eine Hautanalyse gibt Dir die Sicherheit, die richtigen Produkte zu erkennen.",
-          "Wer unsicher ist, bringt seine Produkte gerne zur Beratung mit. Gemeinsam prüfen wir, ob sie zu Deiner Haut passen.",
+          "Wer unsicher ist, bringt seine Produkte gerne zur Beratung mit. Ich prüfe mit Dir, ob sie zu Deiner Haut passen.",
         ],
       },
     ],
@@ -186,7 +186,7 @@ export const ARTICLES = [
         heading: "Am Tag selbst: ungeschminkt kommen",
         paragraphs: [
           "Komm idealerweise ungeschminkt oder mit nur leichter Pflege. So spare ich Reinigungszeit und Deine Haut hat mehr von der Behandlung. Wenn das nicht klappt, kein Problem – die Reinigung ist Teil jedes Treatments.",
-          "Verzichte auf Cremes mit hohem Lichtschutzfaktor direkt vor der Behandlung, falls wir peelend arbeiten. Ich berate Dich individuell.",
+          "Verzichte auf Cremes mit hohem Lichtschutzfaktor direkt vor der Behandlung, falls ich peelend arbeite. Ich berate Dich individuell.",
         ],
       },
       {
@@ -283,7 +283,7 @@ export const ARTICLES = [
         heading: "Wie Hyperpigmentation entsteht",
         paragraphs: [
           "Pigmentflecken entstehen, wenn Melanin ungleichmässig produziert wird – oft durch UV-Strahlung, Hormone oder Entzündungen. Die Haut reagiert mit dunkleren Stellen, die das Bild unruhig wirken lassen.",
-          "Wichtig: Pigmentflecken sind meist harmlos. Dennoch empfehle ich, auffällige Veränderungen dermatologisch abklären zu lassen, bevor wir pflegend arbeiten.",
+          "Wichtig: Pigmentflecken sind meist harmlos. Dennoch empfehle ich, auffällige Veränderungen dermatologisch abklären zu lassen, bevor ich pflegend arbeite.",
         ],
       },
       {
@@ -557,7 +557,7 @@ export const ARTICLES = [
         heading: "Herbst: Regeneration und Vorbereitung",
         paragraphs: [
           "Der Herbst ist die Zeit der Regeneration. Die Haut erholt sich vom Sommer und bereitet sich auf den Winter vor. Feuchtigkeitsspendende Treatments wie Pro Skin 60 oder das Longevity Glow Treatment helfen, die Barriere zu stärken und den Teint zu verfeinern.",
-          "Auch eine Auffrisch-Hautanalyse lohnt sich jetzt: Mit ihr überprüfen wir, ob Deine aktuelle Pflege noch zum veränderten Hautzustand passt. So gehst Du gut vorbereitet in die kalte Jahreszeit.",
+          "Auch eine Auffrisch-Hautanalyse lohnt sich jetzt: Mit ihr überprüfe ich, ob Deine aktuelle Pflege noch zum veränderten Hautzustand passt. So gehst Du gut vorbereitet in die kalte Jahreszeit.",
         ],
       },
     ],

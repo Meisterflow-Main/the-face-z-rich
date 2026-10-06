@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 import { BRAND } from "@/lib/brand";
 
 const PREFILLED =
-  "Hallo, ich interessiere mich für Ihre Gesichtsbehandlung und möchte gerne mehr Informationen erhalten oder einen Termin vereinbaren.";
+  "Hallo, ich interessiere mich für Deine Gesichtsbehandlung und möchte gerne mehr Informationen erhalten oder einen Termin vereinbaren.";
 
 const WA_LINK = `https://wa.me/${BRAND.phoneRaw}?text=${encodeURIComponent(PREFILLED)}`;
 

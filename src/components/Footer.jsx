@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { BRAND, ASSETS, AVAILABILITY } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
 import { SERVICES } from "@/lib/services";
-import { Instagram, Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Instagram, Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -73,6 +73,11 @@ export default function Footer() {
               <li>
                 <a href={`tel:${BRAND.phoneRaw}`} className="flex items-center gap-3 hover:text-gold transition-colors">
                   <Phone size={16} className="text-gold shrink-0" /> {BRAND.phone}
+                </a>
+              </li>
+              <li>
+                <a href={BRAND.whatsapp} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-gold transition-colors">
+                  <MessageCircle size={16} className="text-gold shrink-0" /> WhatsApp
                 </a>
               </li>
               <li>

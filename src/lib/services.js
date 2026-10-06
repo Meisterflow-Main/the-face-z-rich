@@ -43,7 +43,7 @@ export const SERVICES = [
       },
       {
         q: "Wie lange dauert die chinesische Hautlesung?",
-        a: "Die chinesische Hautlesung selbst dauert etwa 10 Minuten. Die gesamte Sitzung inklusive Quick Boost passe ich an Dein Hautbedürfnis an – die genaue Dauer besprechen wir vorab.",
+        a: "Die chinesische Hautlesung selbst dauert etwa 10 Minuten. Die gesamte Sitzung inklusive Quick Boost passe ich an Dein Hautbedürfnis an – die genaue Dauer bespreche ich vorab mit Dir.",
       },
       {
         q: "Wie oft sollte ich die Hautanalyse wiederholen?",
@@ -418,7 +418,7 @@ export const SERVICES = [
       },
       {
         q: "Brauche ich eine Voranmeldung für das Brautmake-up?",
-        a: "Ja, für das Brautmake-up vereinbaren wir vorab einen Beratungstermin.",
+        a: "Ja, für das Brautmake-up vereinbare ich vorab einen Beratungstermin mit Dir.",
       },
       {
         q: "Kann ich Make-up und Gesichtsbehandlung an einem Tag kombinieren?",
@@ -611,11 +611,11 @@ export const SERVICES = [
       },
       {
         q: "Muss ich mich vorab vorbereiten?",
-        a: "Keine besondere Vorbereitung nötig. Komm offen und bereit für eine ruhige, achtsame Zeit. Im Vorgespräch klären wir, was Du mitbringst.",
+        a: "Keine besondere Vorbereitung nötig. Komm offen und bereit für eine ruhige, achtsame Zeit. Im Vorgespräch kläre ich mit Dir, was Du mitbringst.",
       },
       {
         q: "Wie oft ist eine Sitzung sinnvoll?",
-        a: "Das hängt von Deinem persönlichen Anliegen. Manche kommen einmalig, andere regelmässig als begleitende Unterstützung. Wir finden gemeinsam den passenden Rhythmus.",
+        a: "Das hängt von Deinem persönlichen Anliegen. Manche kommen einmalig, andere regelmässig als begleitende Unterstützung. Ich finde mit Dir gemeinsam den passenden Rhythmus.",
       },
     ],
     preparation: [

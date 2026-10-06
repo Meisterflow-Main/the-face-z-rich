@@ -4,7 +4,7 @@ import { Phone, Calendar, FileText, MessageCircle, ArrowRight } from "lucide-rea
 import { BRAND } from "@/lib/brand";
 
 const WA_LINK = `https://wa.me/${BRAND.phoneRaw}?text=${encodeURIComponent(
-  "Hallo, ich interessiere mich für Ihre Gesichtsbehandlung und möchte gerne mehr Informationen erhalten oder einen Termin vereinbaren."
+  "Hallo, ich interessiere mich für Deine Gesichtsbehandlung und möchte gerne mehr Informationen erhalten oder einen Termin vereinbaren."
 )}`;
 
 export default function BlogCta() {
@@ -18,7 +18,7 @@ export default function BlogCta() {
   return (
     <section className="mt-12 bg-sand border border-gold/15 rounded-2xl p-6 sm:p-8">
       <p className="text-gold font-semibold tracking-[0.18em] text-xs uppercase mb-2">Bereit für Deine Haut?</p>
-      <h2 className="font-heading text-2xl font-semibold text-charcoal mb-5">Lass uns gemeinsam starten</h2>
+      <h2 className="font-heading text-2xl font-semibold text-charcoal mb-5">Ich freue mich auf Dich</h2>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         {items.map((it) => {
           const Icon = it.icon;
