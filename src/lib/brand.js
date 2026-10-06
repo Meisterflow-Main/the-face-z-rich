@@ -43,6 +43,16 @@ export const ASSETS = {
     "https://theface-zuerich.ch/wp-content/uploads/2026/08/Instagram_Glyph_Black-150x150.png",
 };
 
+// Partner brands with their role in the practice. Descriptions appear beneath
+// each logo in the Stats section. Names marked CONFIRM need client verification.
+export const PARTNER_BRANDS = [
+  { logo: ASSETS.partner1, name: "Dermalogica", desc: "Meine Hauptmarke für professionelle Gesichtspflege – Clean Skincare, auf jeden Hautzustand abgestimmt." },
+  { logo: ASSETS.partner2, name: "glo Skin Beauty", desc: "Clean Cosmetics für langlebige Make-up-Looks." },
+  { logo: ASSETS.janeIredale, name: "Jane Iredale", desc: "Mineral Make-up & Clean Cosmetics für einen natürlichen Look." },
+  { logo: ASSETS.partner4, name: "Phytomer", desc: "Spa- und Körperpflege mit marinen Wirkstoffen." },
+  { logo: ASSETS.madeleineWeleda, name: "Minlen", desc: "Naturkosmetik für Kinder, Teenager und Erwachsene." },
+];
+
 export const TREATMENTS = [
   {
     title: "Hautanalyse",
@@ -109,7 +119,7 @@ export const FAQS = [
   },
   {
     q: "Welche Produkte werden verwendet?",
-    a: "Für die professionellen Gesichtsbehandlungen verwende ich hochwertige Dermalogica-Produkte, die individuell auf die Bedürfnisse Deiner Haut abgestimmt werden. Ergänzt durch weitere innovative Clean-Produkte, die Deine Haut sanft und nachhaltig pflegen.",
+    a: "Für die professionellen Gesichtsbehandlungen verwende ich Dermalogica – meine Hauptmarke für Clean Skincare, individuell auf Deinen Hautzustand abgestimmt. Für Spa- und Körperbehandlungen setze ich auf Phytomer mit marinen Wirkstoffen. Beim Make-up arbeite ich mit Mineral Make-up und Clean Cosmetics. Ergänzt durch Naturkosmetik für die ganze Familie – Kinder, Teenager und Erwachsene.",
   },
   {
     q: "Brauche ich eine Hautanalyse vor der ersten Behandlung?",

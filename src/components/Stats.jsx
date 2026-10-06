@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import ScrollReveal from "@/components/ScrollReveal";
-import { ASSETS, STATS } from "@/lib/brand";
+import { STATS, PARTNER_BRANDS } from "@/lib/brand";
+import { Plus, Minus } from "lucide-react";
 
 export default function Stats() {
+  const [expanded, setExpanded] = useState(null);
+
   return (
     <section className="py-20 sm:py-24 px-5 sm:px-8 bg-charcoal">
       <div className="mx-auto max-w-7xl">
@@ -29,22 +32,49 @@ export default function Stats() {
         </div>
 
         <ScrollReveal delay={0.3} className="mt-16">
-          <p className="text-center text-white/40 text-sm tracking-[0.2em] uppercase mb-6">
+          <p className="text-center text-white/40 text-sm tracking-[0.2em] uppercase mb-2">
             Partner & zertifizierte Marken
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12">
-            {[ASSETS.partner1, ASSETS.partner2, ASSETS.janeIredale, ASSETS.partner4, ASSETS.madeleineWeleda].map((p, i) => (
-              <div
-                key={i}
-                className="bg-white/95 rounded-xl px-6 py-3 flex items-center justify-center h-20 sm:h-24 w-40 sm:w-48 transition-transform hover:scale-105"
-              >
-                <img
-                  src={p}
-                  alt={`Partner ${i + 1}`}
-                  className="max-h-full max-w-full object-contain"
-                />
-              </div>
-            ))}
+          <p className="text-center text-white/60 text-sm mb-8">
+            Clean Skincare & Clean Cosmetics
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
+            {PARTNER_BRANDS.map((b, i) => {
+              const isOpen = expanded === i;
+              return (
+                <div key={i} className="flex flex-col">
+                  <div className="bg-white/95 rounded-xl px-5 py-3 flex items-center justify-center h-20 sm:h-24 transition-transform hover:scale-105">
+                    <img
+                      src={b.logo}
+                      alt={b.name}
+                      className="max-h-full max-w-full object-contain"
+                    />
+                  </div>
+                  <button
+                    onClick={() => setExpanded(isOpen ? null : i)}
+                    className="mt-2.5 flex items-center justify-center gap-1.5 text-white/70 hover:text-white transition-colors text-xs font-medium"
+                    aria-expanded={isOpen}
+                    aria-label={`${b.name} – Info ${isOpen ? "ausblenden" : "einblenden"}`}
+                  >
+                    {b.name}
+                    <span className="shrink-0 w-5 h-5 rounded-full bg-white/10 flex items-center justify-center">
+                      {isOpen ? <Minus size={11} /> : <Plus size={11} />}
+                    </span>
+                  </button>
+                  <div
+                    className={`grid transition-all duration-300 ${
+                      isOpen ? "grid-rows-[1fr] opacity-100 mt-2" : "grid-rows-[0fr] opacity-0"
+                    }`}
+                  >
+                    <div className="overflow-hidden">
+                      <p className="text-white/55 text-xs leading-relaxed text-center px-1">
+                        {b.desc}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </ScrollReveal>
       </div>

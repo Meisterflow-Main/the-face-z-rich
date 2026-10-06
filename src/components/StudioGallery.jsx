@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import ScrollReveal from "@/components/ScrollReveal";
+import ImageLightbox from "@/components/ImageLightbox";
 
 const STUDIO_IMAGES = [
   { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a68872878_ChatGPTImageSep28202603_09_45PM.png", alt: "Helles Behandlungszimmer mit ghost chairs, Poster und Französischem Fenster bei THE FACE® Zürich" },
@@ -15,6 +16,8 @@ const STUDIO_IMAGES = [
 ];
 
 export default function StudioGallery() {
+  const [active, setActive] = useState(null);
+
   return (
     <section className="bg-background py-14 sm:py-16 px-5">
       <div className="max-w-5xl mx-auto">
@@ -31,32 +34,38 @@ export default function StudioGallery() {
             Entdecke meine Räumlichkeiten und erhalte einen Einblick in die angenehme Atmosphäre meines Studios.
           </p>
           <p className="text-charcoal/60 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
-            Ein Ort der Ruhe, aufmerksamer Pflege und persönlicher Zuwendung – mitten in Zürich.
+            Ein Ort der Ruhe, aufmerksamer Pflege und persönlicher Zuwendung – mitten in Zürich. Tippe auf ein Bild, um es zu vergrössern.
           </p>
         </ScrollReveal>
 
         {/* Masonry image gallery */}
         <div className="columns-2 sm:columns-3 gap-4 [&>*]:mb-4 [&>*]:break-inside-avoid">
           {STUDIO_IMAGES.map((img, i) => (
-            <motion.div
+            <motion.button
               key={i}
+              type="button"
+              onClick={() => setActive(img)}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: Math.min(i * 0.07, 0.35), ease: [0.22, 1, 0.36, 1] }}
-              className="relative overflow-hidden rounded-lg border border-charcoal/10 shadow-sm"
+              className="relative overflow-hidden rounded-lg border border-charcoal/10 shadow-sm group cursor-zoom-in w-full block"
+              aria-label={`Bild vergrössern: ${img.alt}`}
             >
               <img
                 src={img.src}
                 alt={img.alt}
                 loading="lazy"
                 decoding="async"
-                className="w-full h-auto block"
+                className="w-full h-auto block transition-transform duration-300 group-hover:scale-[1.03]"
               />
-            </motion.div>
+              <span className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/10 transition-colors duration-300" />
+            </motion.button>
           ))}
         </div>
       </div>
+
+      <ImageLightbox image={active} onClose={() => setActive(null)} />
     </section>
   );
 }
