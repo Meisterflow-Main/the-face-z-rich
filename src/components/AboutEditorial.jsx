@@ -29,7 +29,7 @@ const SECTIONS = [
     paragraphs: [
       "Als Bündnerin bin ich in Vaduz im Fürstentum Liechtenstein aufgewachsen. Die Liebe zu «Cosmea» – zur Pflege von Ordnung, Harmonie und Schönheit – hat mir meine Mutter, die Coiffeuse war, gewissermassen in die Wiege gelegt.",
       "Den entscheidenden Anstoss für meine Berufswahl gab mir schliesslich ein Geschenk meiner Eltern: ein Buch über Schönheit und Hautpflege. Danach wusste ich, welchen Weg ich einschlagen wollte.",
-      "Meine eigenen Erfahrungen mit Akne als Teenager und später mit Allergien haben meinen beruflichen Weg zusätzlich geprägt. Sie haben mich darin bestärkt, auf professionelle, wirksame Pflegeprodukte und Cosmeceuticals zu setzen. Ebenso wichtig ist für mich eine Heimpflege, die sorgfältig und individuell auf die jeweilige Haut und ihre Bedürfnisse abgestimmt ist.",
+      "Meine eigenen Erfahrungen mit Akne als Teenager und später mit Allergien und atopischem Ekzem (Neurodermitis) haben meinen beruflichen Weg zusätzlich geprägt. Sie haben mich darin bestärkt, auf professionelle, wirksame Pflegeprodukte und Cosmeceuticals zu setzen. Ebenso wichtig ist für mich eine Heimpflege, die sorgfältig und individuell auf die jeweilige Haut und ihre Bedürfnisse abgestimmt ist.",
     ],
   },
   {
