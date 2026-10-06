@@ -58,7 +58,7 @@ export default function MoneyDetail({ service, region }) {
     },
   ];
   const neighbors = REGIONS.filter((r) => r.slug !== region.slug).slice(0, 6);
-  const metaTitle = `${service.name} in ${region.name} | THE FACE®`;
+  const metaTitle = `${service.name} für ${region.name} | THE FACE®`;
   const intro = generateIntro(service, region);
   const ctaText = generateCtaText(service);
   const relatedServices = service.related.map(getServiceBySlug).filter(Boolean).slice(0, 3);
@@ -70,7 +70,7 @@ export default function MoneyDetail({ service, region }) {
     "@context": "https://schema.org",
     "@type": "Service",
     serviceType: service.name,
-    name: `${service.name} in ${region.name}`,
+    name: `${service.name} für ${region.name}`,
     description: intro,
     url: `https://theface-zuerich.ch/behandlungen/${service.slug}/${region.slug}`,
     provider: { "@id": "https://theface-zuerich.ch/#localbusiness" },
@@ -105,7 +105,7 @@ export default function MoneyDetail({ service, region }) {
             {service.eyebrow} · {region.short}
           </p>
           <h1 className="font-heading text-4xl sm:text-5xl md:text-[52px] font-semibold text-charcoal leading-[1.1] mb-5">
-            {service.name} in {region.name}
+            {service.name} für {region.name}
           </h1>
           <div className="hairline w-16 mx-auto mb-6" />
           <p className="text-charcoal/70 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto mb-8">
@@ -246,7 +246,7 @@ export default function MoneyDetail({ service, region }) {
                 <h3 className="font-heading text-lg font-semibold text-charcoal mb-1">{r.name}</h3>
                 <p className="text-charcoal/60 text-sm line-clamp-2">{r.intro}</p>
                 <span className="mt-3 inline-flex items-center gap-1.5 text-gold text-sm font-semibold">
-                  {r.name} in {region.short} <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                  {r.name} ansehen <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </span>
               </Link>
             ))}
@@ -287,14 +287,14 @@ export default function MoneyDetail({ service, region }) {
           { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
           { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung in Zürich.", anchor: "Kontakt aufnehmen" },
           { to: `/behandlungen/${service.slug}`, label: `${service.name} Übersicht`, description: "Alle Details zur Behandlung.", anchor: "Behandlung ansehen" },
-          { to: `/regionen/${region.slug}`, label: `Region ${region.short}`, description: "Mehr zur Gesichtsbehandlung in Deinem Quartier.", anchor: "Region ansehen" },
+          { to: `/regionen/${region.slug}`, label: `Region ${region.short}`, description: "Anfahrt und Tipps für Dein Quartier.", anchor: "Region ansehen" },
         ]}
       />
 
       {/* Final CTA */}
       <Section bg="charcoal" dark>
         <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-white mb-4">
-          {service.name} in {region.short} buchen
+          {service.name} an der Rämistrasse buchen
         </h2>
         <p className="text-white/70 max-w-xl mx-auto mb-7">
           {ctaText}

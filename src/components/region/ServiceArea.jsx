@@ -14,7 +14,7 @@ export default function ServiceArea({ region }) {
             Gesichtsbehandlung im Raum {region.region}
           </h2>
           <p className="text-charcoal/60 max-w-2xl mx-auto mb-8">
-            Meine Praxis an der Rämistrasse erreicht Kundinnen und Kunden aus der ganzen Stadt. Hier findest Du alle Regionen, für die ich eigene Seiten erstellt habe.
+            Ich behandle ausschliesslich in meiner Praxis an der Rämistrasse 27, 8001 Zürich. Diese Seiten richten sich an Kundinnen und Kunden aus den folgenden Regionen, die den Weg zu mir finden.
           </p>
         </ScrollReveal>
 

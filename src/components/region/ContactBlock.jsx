@@ -1,9 +1,7 @@
 import React from "react";
 import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
-import { BRAND } from "@/lib/brand";
-
-const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Rämistrasse+27+8001+Zürich";
+import { BRAND, AVAILABILITY } from "@/lib/brand";
 
 export default function ContactBlock({ region }) {
   return (
@@ -15,7 +13,7 @@ export default function ContactBlock({ region }) {
             Deine Kosmetik-Praxis für {region.short}
           </h2>
           <p className="text-charcoal/60 max-w-xl mx-auto">
-            Mein Studio an der Rämistrasse ist von {region.short} schnell erreichbar. Termine nach Vereinbarung, bequem online buchbar.
+            Alle Behandlungen finden in meiner Praxis an der Rämistrasse 27 in Zürich statt, von {region.short} aus gut erreichbar. {AVAILABILITY.summary}, bequem online buchbar.
           </p>
         </ScrollReveal>
 
@@ -33,8 +31,17 @@ export default function ContactBlock({ region }) {
               <Clock size={20} className="text-gold mt-0.5 shrink-0" />
               <div>
                 <p className="text-xs uppercase tracking-wide text-charcoal/50 mb-1">Öffnungszeiten</p>
-                <p className="text-charcoal font-medium">Termine nach Vereinbarung</p>
-                <p className="text-charcoal/60 text-sm">Online-Buchung rund um die Uhr</p>
+                {AVAILABILITY.hours.length > 0 ? (
+                  AVAILABILITY.hours.map((h) => (
+                    <p key={h.days} className="text-charcoal font-medium">{h.days}: {h.time}</p>
+                  ))
+                ) : (
+                  <p className="text-charcoal font-medium">{AVAILABILITY.summary}</p>
+                )}
+                <p className="text-charcoal/60 text-sm">{AVAILABILITY.booking}</p>
+                {AVAILABILITY.onRequest.map((n) => (
+                  <p key={n} className="text-charcoal/60 text-sm">{n}</p>
+                ))}
               </div>
             </div>
             <a href={`tel:${BRAND.phoneRaw}`} className="bg-card border border-gold/15 rounded-2xl p-6 flex items-start gap-3 hover:border-gold transition-colors">
@@ -56,12 +63,12 @@ export default function ContactBlock({ region }) {
 
         <ScrollReveal className="text-center mt-8" delay={0.15}>
           <a
-            href={MAPS_URL}
+            href={BRAND.maps}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 glass border border-gold/40 text-charcoal font-semibold px-6 py-3 rounded-lg transition-all hover:border-gold"
           >
-            <ExternalLink size={16} className="text-gold" /> Google Maps öffnen
+            <ExternalLink size={16} className="text-gold" /> Route zur Praxis in Google Maps
           </a>
         </ScrollReveal>
       </div>

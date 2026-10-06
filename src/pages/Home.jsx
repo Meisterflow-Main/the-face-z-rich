@@ -59,7 +59,7 @@ export default function Home() {
           title="Finde, was Du suchst"
           links={[
             { to: "/behandlungen", label: "Alle Behandlungen", description: "Hautanalyse, Pro Skin, Targeted und Medical Skin.", anchor: "Behandlungen entdecken" },
-            { to: "/regionen", label: "Regionen in Zürich", description: "Gesichtsbehandlung in Deinem Quartier.", anchor: "Regionen ansehen" },
+            { to: "/regionen", label: "Regionen in Zürich", description: "Anfahrt aus Deinem Quartier zur Praxis.", anchor: "Regionen ansehen" },
             { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
           ]}
         />
