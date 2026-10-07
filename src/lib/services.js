@@ -530,7 +530,7 @@ export const SERVICES = [
       "Pflegende Algenpackung mit Phytomer",
       "Entspannende Massage und Abschluss",
     ],
-    priceFactors: [{ label: "Phytomer Spa Rückenbehandlung", price: "180" }],
+    priceFactors: [{ label: "Phytomer Spa Rückenbehandlung", price: "60" }],
     faqs: [
       {
         q: "Was ist die Phytomer Spa Rückenbehandlung?",
