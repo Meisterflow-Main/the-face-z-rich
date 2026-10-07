@@ -126,7 +126,7 @@ export const FAQS = [
   },
   {
     q: "Welche Produkte werden verwendet?",
-    a: "Für die professionellen Gesichtsbehandlungen verwende ich Dermalogica – meine Hauptmarke für Clean Skincare, individuell auf Deinen Hautzustand abgestimmt. Für Spa- und Körperbehandlungen setze ich auf Phytomer mit marinen Wirkstoffen. Beim Make-up arbeite ich mit Mineral Make-up und Clean Cosmetics. Ergänzt durch Naturkosmetik für die ganze Familie – Kinder, Teenager und Erwachsene.",
+    a: "Ich arbeite ausschliesslich mit sorgfältig ausgewählten, zertifizierten Partnermarken – Clean Skincare & Clean Cosmetics. Dermalogica ist meine Hauptmarke für professionelle Gesichtspflege, individuell auf Deinen Hautzustand abgestimmt. glo Skin Beauty verwende ich für langlebige Make-up-Looks. Jane Iredale setze ich als Mineral Make-up für einen natürlichen Look ein. Phytomer nutze ich für Spa- und Körperbehandlungen mit marinen Wirkstoffen. Minlen ergänzt als Naturkosmetik für die ganze Familie – Kinder, Teenager und Erwachsene.",
   },
   {
     q: "Brauche ich eine Hautanalyse vor der ersten Behandlung?",
