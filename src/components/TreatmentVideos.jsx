@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 const VIDEOS = [
   {
     title: "Hautanalyse für Sie",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/0f12bce72_Woman_reel_black_hair.mp4",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/f3d4b2a53_Hautanalyse_Frau_40s_Black.mp4",
   },
   {
     title: "Pro Skin Treatment für Sie",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/1c0fc2e50_Reel_Woman_Pro_Skin_v2.mp4",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/2a927dd3e_Pro_Skin_Frau_40s_Black.mp4",
   },
   {
     title: "Pro Clear für Ihn",
