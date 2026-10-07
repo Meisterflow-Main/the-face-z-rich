@@ -15,8 +15,8 @@ const VIDEOS = [
     src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/f16e64833_Reel_Man_Pro_Clear_v2.mp4",
   },
   {
-    title: "Revitalisierung für Ihn",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/b831f4ef4_Reel_Man_Revitalisierung_v2.mp4",
+    title: "Skin Longevity",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/8722dc421_Reel_Skin_Longevity.mp4",
   },
 ];
 
