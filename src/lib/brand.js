@@ -85,7 +85,7 @@ export const TREATMENTS = [
     benefit: "Pflege für Zuhause",
   },
   {
-    title: "Phytomer Spa Rückenbehandlung",
+    title: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG",
     desc: "Wohltuende Rückenbehandlung mit Phytomer, entspannender Massage und pflegender Algenpackung für revitalisierte Haut.",
     benefit: "Entspannung & Revitalisierung",
   },

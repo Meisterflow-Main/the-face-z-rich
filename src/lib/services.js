@@ -513,22 +513,23 @@ export const SERVICES = [
     name: "Phytomer Spa Rückenbehandlung",
     short: "Phytomer Spa Rücken",
     eyebrow: "Phytomer Spa Rückenbehandlung",
-    metaTitle: "Phytomer Spa Rückenbehandlung in Zürich | THE FACE® Denise Claire Gadient",
-    h1: "Phytomer Spa Rückenbehandlung in Zürich",
+    metaTitle: "Phytomer Spa Rückenbehandlung mit Massage und Algenpackung | THE FACE® Denise Claire Gadient",
+    h1: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG",
     intro:
-      "Die Phytomer Spa Rückenbehandlung ist eine wohltuende Spa-Anwendung für den Rücken mit einer kurzen, entspannenden Massage und einer pflegenden Algenpackung mit Phytomer – für entspannte Haut und ein tiefes Gefühl der Erholung. Sanft und revitalisierend, ganz ohne Klär-Extraktion.",
+      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» ist eine wohltuende Rückenbehandlung mit Massage und Packung für Entspannung und Revitalisierung – keine Rückenreinigung. Sie ist nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar, nicht als Stand-alone-Behandlung.",
     what:
-      "Mit Phytomer, marinen Wirkstoffen aus der Bretagne, verwöhne ich Deinen Rücken: sanfte Reinigung, eine pflegende Algenpackung und eine kurze, entspannende Massage. Die Behandlung löst Verspannungen und schenkt Dir einen Moment tiefer Entspannung. Für die reine Hautklärung bei Rückenakne oder Unreinheiten empfehle ich stattdessen Pro Back Clear aus den Targeted Skin Solutions.",
+      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» verwöhnt Deinen Rücken mit einer Relaxmassage mit maritimem Öl und einer wärmenden, blubbernden Meeresalgenmoorpackung zur Entgiftung und Revitalisierung. Anschliessend wasche ich alles sanft mit einem Handschuh ab und trage Oléocreme Bodylotion auf – ganz ohne Dusche möglich. Diese Behandlung ist Entspannung und Revitalisierung, keine Rückenreinigung. Für eine reine Hautklärung bei Rückenakne oder Unreinheiten buche bitte Dermalogica Pro Back Clear unter den Targeted Skin Solutions. Die Phytomer Spa Rückenbehandlung ist nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar – nur zum Skin Treat, nicht als Stand-alone-Behandlung.",
     benefits: [
-      "Phytomer marine Wirkstoffe",
-      "Entspannende Rückenmassage",
-      "Pflegende Algenpackung",
-      "Tiefe Entspannung und Revitalisierung",
+      "«le Champagne de la Mer» mit Phytomer",
+      "Relaxmassage mit maritimem Öl",
+      "Wärmende, blubbernde Meeresalgenmoorpackung",
+      "Entgiftung und Revitalisierung",
+      "Ohne Dusche möglich",
     ],
     process: [
-      "Reinigung und Hautanalyse des Rückens",
-      "Pflegende Algenpackung mit Phytomer",
-      "Entspannende Massage und Abschluss",
+      "Relaxmassage mit maritimem Öl",
+      "Wärmende, blubbernde Meeresalgenmoorpackung zur Entgiftung und Revitalisierung",
+      "Abwaschen mit Handschuh und Oléocreme Bodylotion (ohne Dusche möglich)",
     ],
     priceFactors: [{ label: "Phytomer Spa Rückenbehandlung", price: "60" }],
     faqs: [
@@ -550,7 +551,7 @@ export const SERVICES = [
       },
       {
         q: "Kann ich die Behandlung mit einer Gesichtsbehandlung kombinieren?",
-        a: "Ja, die Phytomer Spa Rückenbehandlung ist eine beliebte Ergänzung zu einem Pro Skin Treatment – viele Kundinnen geniessen sie als Add-on für ein rundum-Verwöhnerlebnis.",
+        a: "Die Phytomer Spa Rückenbehandlung ist nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar – nur zum Skin Treat, nicht als Stand-alone-Behandlung. So geniesst Du ein rundum-Verwöhnerlebnis.",
       },
     ],
     preparation: [
@@ -564,9 +565,10 @@ export const SERVICES = [
       "Folge dem Pflegeplan, den ich Dir nach der Behandlung mitgebe",
     ],
     contraindications: [
+      "Jodallergie",
+      "Schwangerschaft: ich berate Dich zu geeigneten Alternativen",
       "Akute Hautentzündungen oder offene Wunden am Rücken",
       "Frische Sonnenbrand – warte, bis die Haut sich beruhigt hat",
-      "Schwangerschaft: ich berate Dich zu geeigneten Alternativen",
     ],
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a87d55892_ChatGPTImageSep22202605_56_02PM.png",
