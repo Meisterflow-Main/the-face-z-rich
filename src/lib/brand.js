@@ -23,7 +23,7 @@ export const AVAILABILITY = {
   hours: [],
   summary: "Termine nach Vereinbarung",
   booking: "Online-Buchung rund um die Uhr",
-  onRequest: ["Auf Anfrage auch sonntags möglich", "Home Service auf Anfrage möglich", "Exklusiv in Schaan, Fürstentum Liechtenstein: ca. alle 6 Wochen für einen Tag"],
+  onRequest: ["Auf Anfrage auch sonntags möglich", "Home Service auf Anfrage möglich", "Exklusiv in Schaan, Fürstentum Liechtenstein: ca. alle 6 Wochen für einen Tag", "Auf Anfrage in Schaan und Vaduz"],
 };
 
 export const WEBHOOK =
