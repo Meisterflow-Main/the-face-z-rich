@@ -1234,6 +1234,13 @@ export const REGIONS = [
     name: "Schaan",
     short: "Schaan",
     region: "Liechtenstein",
+    address: {
+      name: "THE FACE® Denise Claire Gadient",
+      careOf: "c/o Erika Oehri",
+      company: "Cosmetics & Aesthetics AG",
+      street: "Country road 152",
+      city: "LI-9494 Schaan",
+    },
     metaTitle: "Gesichtsbehandlung Schaan FL | THE FACE® Zürich",
     metaDescription: "Gesichtsbehandlung für Schaan: holistische Gesichtspflege, Dermalogica Treatments und Premium-Clean-Produkte in Zürich. Über 30 Jahre Erfahrung. Termine nach Vereinbarung. Jetzt buchen.",
     eyebrow: "Gesichtsbehandlung Schaan",

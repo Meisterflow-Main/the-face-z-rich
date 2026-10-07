@@ -13,7 +13,9 @@ export default function ContactBlock({ region }) {
             Deine Kosmetik-Praxis für {region.short}
           </h2>
           <p className="text-charcoal/60 max-w-xl mx-auto">
-            Alle Behandlungen finden in meiner Praxis an der Rämistrasse 27 in Zürich statt, von {region.short} aus gut erreichbar. {AVAILABILITY.summary}, bequem online buchbar.
+            {region.address
+              ? `Regelmässig empfange ich Dich auch in ${region.short}: ${region.address.street}, ${region.address.city}. ${AVAILABILITY.summary}, bequem online buchbar.`
+              : `Alle Behandlungen finden in meiner Praxis an der Rämistrasse 27 in Zürich statt, von ${region.short} aus gut erreichbar. ${AVAILABILITY.summary}, bequem online buchbar.`}
           </p>
         </ScrollReveal>
 
@@ -23,8 +25,20 @@ export default function ContactBlock({ region }) {
               <MapPin size={20} className="text-gold mt-0.5 shrink-0" />
               <div>
                 <p className="text-xs uppercase tracking-wide text-charcoal/50 mb-1">Adresse</p>
-                <p className="text-charcoal font-medium">{BRAND.street}, {BRAND.city}</p>
-                <p className="text-charcoal/60 text-sm">{BRAND.locationNote}</p>
+                {region.address ? (
+                  <>
+                    <p className="text-charcoal font-medium">{region.address.name}</p>
+                    {region.address.careOf && <p className="text-charcoal/70 text-sm">{region.address.careOf}</p>}
+                    {region.address.company && <p className="text-charcoal/70 text-sm">{region.address.company}</p>}
+                    <p className="text-charcoal font-medium">{region.address.street}</p>
+                    <p className="text-charcoal font-medium">{region.address.city}</p>
+                  </>
+                ) : (
+                  <>
+                    <p className="text-charcoal font-medium">{BRAND.street}, {BRAND.city}</p>
+                    <p className="text-charcoal/60 text-sm">{BRAND.locationNote}</p>
+                  </>
+                )}
               </div>
             </div>
             <div className="bg-card border border-gold/15 rounded-2xl p-6 flex items-start gap-3">
