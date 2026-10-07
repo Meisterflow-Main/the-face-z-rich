@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const VIDEOS = [
   {
     title: "Hautanalyse für Sie",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/733e23a7d_Reel_Woman_Hautanalyse_v2.mp4",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/0f12bce72_Woman_reel_black_hair.mp4",
   },
   {
     title: "Pro Skin Treatment für Sie",
@@ -12,7 +12,7 @@ const VIDEOS = [
   },
   {
     title: "Pro Clear für Ihn",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/f16e64833_Reel_Man_Pro_Clear_v2.mp4",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/566f9d9ab_Man_reel_light_beard.mp4",
   },
   {
     title: "Skin Longevity",
