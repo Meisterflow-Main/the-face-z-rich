@@ -1245,7 +1245,7 @@ export const REGIONS = [
     metaDescription: "Gesichtsbehandlung für Schaan: holistische Gesichtspflege, Dermalogica Treatments und Premium-Clean-Produkte in Zürich. Über 30 Jahre Erfahrung. Termine nach Vereinbarung. Jetzt buchen.",
     eyebrow: "Gesichtsbehandlung Schaan",
     h1: "Gesichtsbehandlung für Schaan: Hautpflege mit Expertise in Zürich",
-    heroDesc: "In Schaan lebend, hochwertig pflegen: An der Rämistrasse in Zürich erwartet Dich eine Gesichtsbehandlung, die Deine Haut mit über 30 Jahren Erfahrung und Sorgfalt nachhaltig verwöhnt.",
+    heroDesc: "In Schaan lebend, hochwertig pflegen: An der Rämistrasse in Zürich erwartet Dich eine Gesichtsbehandlung, die Deine Haut mit über 30 Jahren Erfahrung und Sorgfalt nachhaltig verwöhnt. Exklusiv ca. alle 6 Wochen für einen Tag in Schaan verfügbar.",
     servicesIntro: "Beliebt aus Schaan: diese drei Behandlungen stimme ich auf jedes Hautalter ab.",
     services: [
       { title: "Pro Skin 60", desc: "Auf Deinen Hautzustand abgestimmtes Premium-Treatment mit Tiefenreinigung, Peeling und Maske. Für spürbar revitalisierte Haut und einen frischen, ebenmässigen Glow." },
