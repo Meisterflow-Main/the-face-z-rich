@@ -539,6 +539,14 @@ export const SERVICES = [
       "Der Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung gibt Dir einen wachen, offenen Blick, sanft und langanhaltend.",
     what:
       "Mit dem Ellebaana Wimpernlift forme ich Deine Wimpern sanft nach oben und färbe sie blauschwarz. Für einen wachen, natürlichen Blick ohne tägliche Mascara.",
+    variants: [
+      {
+        name: "Ellebaana Lash Lift incl. Blue-Black Lash Tinting",
+        subtitle: "Ellebaana Lashlift",
+        price: "150",
+        desc: "Der beste Lash Lift von Ellebaana mit neuen Flexrods. Sehr sanft zur Haut – kein Kleber auf der Haut. Schön mit blauschwarzer Wimpernfärbung. Inklusive neuer Lash-Tint-Schutzmaske, hält bis zu 6 Wochen. Als Finishing Touch Dermalogica® Eye Serum inklusive Eye Cream (Concealer auf Wunsch). Super in Kombi mit Dermalogica® Face Mapping & Face Fit – radiant skin, perfectly curled lashes.",
+      },
+    ],
     benefits: [
       "Ellebaana Wimpernlift",
       "Inkl. blauschwarzer Wimpernfärbung",
