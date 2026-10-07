@@ -122,7 +122,7 @@ export const FAQS = [
   },
   {
     q: "Für wen sind die Behandlungen geeignet?",
-    a: "Für Teenager, Erwachsene und Silverager. Ob Jugend- und Altersakne, Fältchen und Falten, Hyperpigmentation oder sensible Haut: jede Behandlung ist individuell auf Dich abgestimmt.",
+    a: "Für Kids, Teenager, Frauen, Männer und Senioren – jede Behandlung ist individuell auf Dich und Deinen Hautzustand abgestimmt. Ob Jugend- und Altersakne, Fältchen und Falten, Hyperpigmentation oder sensible Haut: ich passe jede Sitzung an Deine Bedürfnisse an.",
   },
   {
     q: "Welche Produkte werden verwendet?",
