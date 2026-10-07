@@ -81,6 +81,32 @@ export const SERVICES = [
       "Die Dermalogica® Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmte Premium-Behandlungen mit sanfter Tiefenreinigung, Peeling und Maske, für spürbar revitalisierte Haut und einen frischen Glow.",
     what:
       "Du wählst die gebuchte Dauer und Option – von der kompakten 45-Minuten-Behandlung bis zur zweistündigen Ultra Skin 120. Jedes Treatment beginnt mit einer Konsultationsbesprechung und einer Dermalogica® Face Mapping™ Analyse und wird auf Dich persönlich abgestimmt. Ich passe die Behandlung an die Bedürfnisse Deiner Haut an.",
+    variants: [
+      {
+        name: "Pro Skin 45 Quick Clear",
+        subtitle: "Das kleinste & preisgünstigste Treat",
+        price: "180",
+        desc: "Personalisierte Dermalogica® Gesichtsbehandlung für alle Hautzustände. Insbesondere zum Tiefenreinigen, Klären und Desinfizieren. Mit kleinen Geräteanwendungen schnell und effizient. Für Deine gesunde, strahlende Haut.",
+      },
+      {
+        name: "Pro Skin 60",
+        subtitle: "Das klassische Treat",
+        price: "225",
+        desc: "Personalisierte Dermalogica® Gesichtsbehandlung für alle Hautzustände. Individuelle Geräteanwendungen schnell und effizient. Auf Wunsch kleine Massage (kleines Make-up). Für Deine gesunde, strahlende Haut.",
+      },
+      {
+        name: "Pro Skin 90",
+        subtitle: "Das beliebteste Treat",
+        price: "270",
+        desc: "Personalisierte Dermalogica® Gesichtsbehandlung für alle Hautzustände. Individuelle Geräteanwendungen schnell und effizient. Auf Wunsch grosse Massage (Make-up). Für Deine gesunde, strahlende Haut.",
+      },
+      {
+        name: "Ultra Skin 120",
+        subtitle: "Das Luxus-Treat",
+        price: "315",
+        desc: "Personalisierte Dermalogica® Gesichtsbehandlung für alle Hautzustände. Individuelle Geräteanwendungen schnell und effizient. Auf Wunsch grössere Massage und Spezialmaske (grosses Make-up). Für Deine gesunde, strahlende Haut.",
+      },
+    ],
     benefits: [
       "Auf Deinen Hautzustand abgestimmt",
       "Sanfte Tiefenreinigung / Extraktion, Peeling und Maske",
@@ -98,8 +124,8 @@ export const SERVICES = [
     priceFactors: [
       { label: "Pro Skin 45: Quick Clear", price: "180" },
       { label: "Pro Skin 60", price: "225" },
-      { label: "Pro Skin 90", price: "265" },
-      { label: "Ultra Skin 120", price: "335" },
+      { label: "Pro Skin 90", price: "270" },
+      { label: "Ultra Skin 120", price: "315" },
     ],
     faqs: [
       {
