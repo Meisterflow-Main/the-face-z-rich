@@ -90,6 +90,28 @@ export default function ServiceDetail({ service }) {
         </p>
       </Section>
 
+      {/* Varianten */}
+      {service.variants && service.variants.length > 0 && (
+        <Section bg="sand">
+          <Heading eyebrow="Varianten" title="Die Behandlungen im Detail" />
+          <div className="max-w-3xl mx-auto space-y-4">
+            {service.variants.map((v) => (
+              <div key={v.name} className="bg-card border border-gold/15 rounded-xl p-6">
+                <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-2">
+                  <h3 className="font-heading text-lg font-semibold text-charcoal">{v.name}</h3>
+                  <span className="font-heading text-xl font-semibold text-gold tabular-nums">
+                    <span className="text-charcoal/40 text-xs font-body font-normal mr-1">CHF</span>
+                    {v.price}.–
+                  </span>
+                </div>
+                {v.subtitle && <p className="text-charcoal/55 text-sm mb-3">{v.subtitle}</p>}
+                <p className="text-charcoal/75 leading-relaxed text-sm sm:text-base">{v.desc}</p>
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
+
       {/* Galerie */}
       <ServiceGallery gallery={service.gallery} serviceName={service.name} />
 

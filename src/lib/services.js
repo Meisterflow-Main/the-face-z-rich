@@ -160,6 +160,50 @@ export const SERVICES = [
       "Die Dermalogica® Targeted Skin Solutions Treatments zielen auf konkrete Hautanliegen: Unreinheiten und Akne, Pigmentflecken, sensible und gereizte Haut, Feuchtigkeitsmangel, den Rücken sowie straffende Pflege. Jede Behandlung ist auf Deinen Hautzustand abgestimmt.",
     what:
       "Pro Clear und Pro Clear Young klären unreine Haut bei Erwachsenen und Teenagern – bei Unreinheiten, Rötungen (PIH), Milien und Pickeln. Pro Back Clear reinigt den Rücken, Pro Bright hellt Pigmentflecken auf, Pro Calm Treat beruhigt sensible, gereizte Haut und Pro Firm strafft. Nach der Dermalogica® Face Mapping™ Analyse wähle ich die passende Methode für Deinen Hautzustand.",
+    variants: [
+      {
+        name: "Pro Clear Young Big",
+        subtitle: "Teenager (10–20 J.) – ab 20 J. bitte Pro Clear buchen",
+        price: "160",
+        desc: "Tiefenreinigende und desinfizierende Gesichtspflege bei Jugendakne. Für Unreinheiten, Rötungen (PIH), Milien, Komedonen bis Pickel. Mit sanften Clear Start Wirkstoffen: entzündungshemmend, heilungsfördernd, pigmentaufhellend, stärkt die Lipidbarriere und intensiv feuchtigkeitsspendend. O2, LED Blau und/oder Hochfrequenz. Jede weitere 15 Min. +CHF 30.–. Auch in Kombination mit Hautärzten als Aknetherapie alle 4 Wochen.",
+      },
+      {
+        name: "Pro Clear Young Small",
+        subtitle: "Teenager (10–20 J.) – ab 20 J. bitte Pro Clear buchen",
+        price: "100",
+        desc: "Tiefenreinigende und desinfizierende Gesichtspflege bei Jugendakne. Für Unreinheiten, Rötungen (PIH), Milien, Komedonen bis Pickel. Mit sanften Clear Start Wirkstoffen: entzündungshemmend, heilungsfördernd, stärkt die Lipidbarriere und intensiv feuchtigkeitsspendend. Jede weitere 15 Min. +CHF 30.–. Auch in Kombination mit Hautärzten als Aknetherapie alle 4 Wochen.",
+      },
+      {
+        name: "Pro Back Clear",
+        subtitle: "Rückenreinigung",
+        price: "100",
+        desc: "Rückenreinigungsbehandlung bei Teenager- oder Erwachsenenakne: Tiefenreinigung, Extraktion und Desinfektion mit sanftem bis stärkerem Peeling, Serum und Maske. Mit Sauerstoff, Hochfrequenz und LED Blaulicht. Auch in Kombination mit Hautärzten als Aknetherapie alle 4 Wochen.",
+      },
+      {
+        name: "Pro Clear",
+        subtitle: "Erwachsene (ab 20 J.)",
+        price: "225",
+        desc: "Tiefenreinigende und desinfizierende Gesichtspflege bei Erwachsenenakne. Für Unreinheiten, Rötungen (PIH), Milien, Komedonen bis Pickel. Der Age Bright Clearing Wirkstoffkomplex klärt unreine Haut und wirkt vorzeitiger Hautalterung entgegen. O2, LED Blau/Rot und/oder Hochfrequenz. Auch in Kombination mit Hautärzten als Aknetherapie alle 4 Wochen.",
+      },
+      {
+        name: "Pro Bright",
+        subtitle: "Pigmentaufhellend",
+        price: "210",
+        desc: "Effektive aufhellende Gesichtspflege für alle mit Hyperpigmentation und dunklen Pigmentflecken. Der PowerBright Wirkstoffkomplex liefert sichtbare Resultate, mit ausgleichendem Fruchtsäurepeeling, Serum und Maske für einen erfrischten Glow. Auch als Kur zu empfehlen.",
+      },
+      {
+        name: "Pro Calm Treat",
+        subtitle: "Beruhigend",
+        price: "180",
+        desc: "Soforthilfe für empfindliche Haut bei Allergien (inkl. Heuschnupfen), Neurodermitis, Rosacea und Schuppenflechte. Haut- und nervenberuhigende Gesichtspflege mit dem ultracalming Wirkstoffkomplex: sofort beruhigend, juckreizlindernd, entzündungshemmend, stärkt die Lipidbarriere und intensiv feuchtigkeitsspendend.",
+      },
+      {
+        name: "Pro Firm",
+        subtitle: "Straffend",
+        price: "225",
+        desc: "Beschreibung folgt.",
+      },
+    ],
     benefits: [
       "Gezielt bei Akne, Pigmenten, sensibler Haut und Rücken",
       "Pro Clear Young für Teenager (10–20 J.)",
