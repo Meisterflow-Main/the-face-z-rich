@@ -49,6 +49,27 @@ export default function PhilosophyBanner() {
             </motion.div>
           ))}
         </div>
+
+        <ScrollReveal delay={0.1} className="mt-10 sm:mt-12">
+          <div className="grid sm:grid-cols-2 gap-5 sm:gap-6 max-w-3xl mx-auto">
+            <div className="rounded-xl overflow-hidden border border-gold/15 shadow-sm bg-charcoal">
+              <img
+                src="https://media.base44.com/images/public/6aa28dd575421cdcca35083c/df004ae55_SkincareProTipMinimalistPoster.png"
+                alt="Pro Tip: alle 4–6 Wochen zu einem Professional Skin Therapist"
+                loading="lazy"
+                className="block w-full h-auto object-contain"
+              />
+            </div>
+            <div className="rounded-xl overflow-hidden border border-gold/15 shadow-sm bg-charcoal">
+              <img
+                src="https://media.base44.com/images/public/6aa28dd575421cdcca35083c/fbe0c4834_HumanTouchLastingConnection.png"
+                alt="Human Touch – Danke für Deine Treue, Deine Hauttherapeutin"
+                loading="lazy"
+                className="block w-full h-auto object-contain"
+              />
+            </div>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );

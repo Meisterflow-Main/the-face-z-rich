@@ -4,11 +4,6 @@ import ScrollReveal from "@/components/ScrollReveal";
 const VIDEO_SRC =
   "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/89f2c16e0_InaworldbecomingmoredigitaleverydayJaneWurwandremindsusthathumantouchisstillat.mp4";
 
-const PRO_TIP_IMG =
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/df004ae55_SkincareProTipMinimalistPoster.png";
-const HUMAN_TOUCH_IMG =
-  "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/fbe0c4834_HumanTouchLastingConnection.png";
-
 export default function PhilosophyVideo() {
   const ref = useRef(null);
 
@@ -50,26 +45,6 @@ export default function PhilosophyVideo() {
           </div>
         </ScrollReveal>
 
-        <ScrollReveal delay={0.15} className="mt-10">
-          <div className="grid sm:grid-cols-2 gap-5 sm:gap-6 max-w-3xl mx-auto">
-            <div className="rounded-xl overflow-hidden border border-gold/15 shadow-sm bg-charcoal">
-              <img
-                src={PRO_TIP_IMG}
-                alt="Pro Tip: alle 4–6 Wochen zu einem Professional Skin Therapist"
-                loading="lazy"
-                className="block w-full h-auto object-contain"
-              />
-            </div>
-            <div className="rounded-xl overflow-hidden border border-gold/15 shadow-sm bg-charcoal">
-              <img
-                src={HUMAN_TOUCH_IMG}
-                alt="Human Touch – Danke für Deine Treue, Deine Hauttherapeutin"
-                loading="lazy"
-                className="block w-full h-auto object-contain"
-              />
-            </div>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );
