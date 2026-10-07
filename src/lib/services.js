@@ -56,8 +56,8 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Verzichte sieben Tage vorher auf Peelings oder neue Wirkstoffe",
-      "Wenn Du möchtest, bringe Infos zu Deinen aktuellen Pflegeprodukten mit – eine kleine Auswahl genügt",
+      "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
+      "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
       "Folge dem persönlichen Pflegeplan, den ich für Dich erstelle",
@@ -211,9 +211,8 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Verzichte vor der Behandlung auf selbst durchgeführte Peelings",
-      "Komm ungeschminkt, damit ich die Haut klar analysieren kann",
-      "Bei Teenagen: ein Elternteil darf gerne begleiten",
+      "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
+      "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
       "Verwende 24 Stunden keine neuen oder klärenden Produkte zuhause",
@@ -289,9 +288,8 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Setze zwei Wochen vorher Retinol und starke Peelings aus",
-      "Schütze Deine Haut vor dem Termin konsequent vor direkter Sonne",
-      "Erscheine ungeschminkt, damit die FACE-MAP Beratung sauber gelingt",
+      "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
+      "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
       "Verzichte 48 Stunden auf Make-up, Sport und heisse Duschen",
@@ -360,9 +358,8 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Pausiere eine Woche vorher Retinol und peelende Produkte",
-      "Halte Deine Haut vor dem Termin aus direkter Sonne",
-      "Komm ungeschminkt, damit ich Deine Haut unverfälscht analysieren kann",
+      "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
+      "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
       "Verzichte 24 Stunden auf Make-up und Sport",
