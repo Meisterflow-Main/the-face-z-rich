@@ -14,7 +14,7 @@ const SECTIONS = [
     heading: null,
     paragraphs: [
       "Ich bin Denise Claire Gadient, Hautpflege-Expertin und Inhaberin von THE FACE® im Zürcher Kreis 1. Mit Leidenschaft widme ich mich der professionellen Haut- und Gesichtspflege – mit dem Ziel, die natürliche Schönheit und Gesundheit Deiner Haut nachhaltig zu unterstützen.",
-      "Als Kosmetikerin EFZ und Visagistin mit der Weiterbildung zur DERMALOGICA EXPERT liegt mein Schwerpunkt auf professioneller Hautpflege und individueller Make-up-Beratung. Selbstständig seit 1994, empfange ich Dich seit 27 Jahren an der Rämistrasse 27, vis-à-vis Parkhaus Hohe Promenade.",
+      "Als Kosmetikerin EFZ und Visagistin mit der Weiterbildung zur DERMALOGICA EXPERT liegt mein Schwerpunkt auf professioneller Hautpflege und individueller Make-up-Beratung. Ich bin seit 1994 selbstständig tätig und empfange Dich seit über 25 Jahren an der Rämistrasse 27, vis-à-vis dem Parkhaus Hohe Promenade.",
     ],
   },
   {
