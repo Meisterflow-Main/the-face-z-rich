@@ -1189,6 +1189,13 @@ export const REGIONS = [
     name: "Vaduz",
     short: "Vaduz",
     region: "Liechtenstein",
+    address: {
+      name: "THE FACE® Denise Claire Gadient",
+      careOf: "c/o Erika Oehri",
+      company: "Cosmetics & Aesthetics AG",
+      street: "Country road 152",
+      city: "LI-9494 Schaan",
+    },
     metaTitle: "Gesichtsbehandlung Vaduz FL | THE FACE® Zürich",
     metaDescription: "Gesichtsbehandlung für Vaduz: Skin Longevity-Treatments, Dermalogica® und Premium-Clean-Produkte in Zürich. Über 30 Jahre Erfahrung. Termine nach Vereinbarung. Jetzt buchen.",
     eyebrow: "Gesichtsbehandlung Vaduz",
