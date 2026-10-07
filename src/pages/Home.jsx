@@ -36,7 +36,7 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <Seo
         title="THE FACE® Zürich – Denise Claire Gadient | Holistische Gesichtspflege & Kosmetik"
-        description="THE FACE® Denise Claire Gadient in Zürich – Über 30 Jahre spezialisiert auf holistische Gesichtspflege. Kosmetikerin EFZ, Dermalogica Skin Expert. Hautanalyse, Pro Skin Treatment, Longevity Glow Treatment, Revitalisierung & Make-up. Termin online buchen."
+        description="THE FACE® Denise Claire Gadient in Zürich – Über 30 Jahre spezialisiert auf holistische Gesichtspflege. Kosmetikerin EFZ, Dermalogica® Skin Expert. Hautanalyse, Pro Skin Treatment, Longevity Glow Treatment, Revitalisierung & Make-up. Termin online buchen."
         jsonLd={homeSchemaGraph(faqSchema)}
       />
       <Navbar />

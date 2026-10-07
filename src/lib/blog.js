@@ -23,7 +23,7 @@ export const ARTICLES = [
       {
         heading: "Warum die Hautanalyse der Anfang von allem ist",
         paragraphs: [
-          "Jede Haut ist anders. Bevor ich eine Behandlung empfehle, analysiere ich Deine Haut mit der Dermalogica FACE-MAP und FACE-FIT – Zone für Zone. So erkenne ich Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten. Erst aus diesem Bild leite ich ab, was Deine Haut wirklich braucht.",
+          "Jede Haut ist anders. Bevor ich eine Behandlung empfehle, analysiere ich Deine Haut mit der Dermalogica® FACE-MAP und FACE-FIT – Zone für Zone. So erkenne ich Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten. Erst aus diesem Bild leite ich ab, was Deine Haut wirklich braucht.",
           "Ohne Analyse wäre eine Behandlung Raterei. Mit ihr wird Pflege zur Massarbeit. Deshalb beginnt jede Beratung bei THE FACE® mit dieser gründlichen Untersuchung, inklusive eines Quickboosts, der Deiner Haut sofort etwas Gutes tut.",
         ],
       },
@@ -230,7 +230,7 @@ export const ARTICLES = [
       {
         heading: "Pro Skin Treatments: die Premium-Klassiker",
         paragraphs: [
-          "Die Dermalogica Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmt – mit Tiefenreinigung, Peeling und Maske. Von der kompakten 45-Minuten-Klärbehandlung bis zur zweistündigen Ultra Skin 120 wählst Du die Dauer, die zu Dir passt.",
+          "Die Dermalogica® Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmt – mit Tiefenreinigung, Peeling und Maske. Von der kompakten 45-Minuten-Klärbehandlung bis zur zweistündigen Ultra Skin 120 wählst Du die Dauer, die zu Dir passt.",
           "Pro Skin 45 eignet sich, wenn Du schnell Klärung willst. Pro Skin 60 ist die klassische Premium-Behandlung, Pro Skin 90 ausgiebiger und Ultra Skin 120 das rundum-Verwöhn-Treatment.",
         ],
       },

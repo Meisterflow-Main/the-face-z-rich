@@ -5,11 +5,11 @@ import ScrollReveal from "@/components/ScrollReveal";
 const IMAGES = [
   {
     src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/b8de58044_IMG_0078.jpg",
-    alt: "Longevity Glow Treatment mit Dermalogica – Serum wird auf die Stirn aufgetragen",
+    alt: "Longevity Glow Treatment mit Dermalogica® – Serum wird auf die Stirn aufgetragen",
   },
   {
     src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/83a4777f3_IMG_0067.jpg",
-    alt: "Professionelle Dermalogica Gesichtsbehandlung mit verschiedenen Werkzeugen",
+    alt: "Professionelle Dermalogica® Gesichtsbehandlung mit verschiedenen Werkzeugen",
   },
 ];
 

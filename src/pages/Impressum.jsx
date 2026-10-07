@@ -114,7 +114,7 @@ export default function Impressum() {
               <InfoCard icon={ShieldCheck} title="Berufsbezeichnung & Zertifizierungen">
                 <p>Kosmetikerin EFZ</p>
                 <p>VNISSG-zertifizierte Fachperson für Haut &amp; Pigmente</p>
-                <p>Dermalogica Skin Expert &amp; Visagistin</p>
+                <p>Dermalogica® Skin Expert &amp; Visagistin</p>
                 <p className="text-charcoal/45 text-xs pt-2">Berufsbezeichnung verliehen in der Schweiz.</p>
               </InfoCard>
             </ScrollReveal>

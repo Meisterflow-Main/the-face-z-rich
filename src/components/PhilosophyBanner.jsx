@@ -13,7 +13,7 @@ const QUOTES = [
   },
   {
     src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d315509f8_IMG_8292.jpg",
-    alt: "Ask me, I'm a professional skin therapist – Dermalogica Pro Skin Expert bei THE FACE® Zürich",
+    alt: "Ask me, I'm a professional skin therapist – Dermalogica® Pro Skin Expert bei THE FACE® Zürich",
   },
 ];
 

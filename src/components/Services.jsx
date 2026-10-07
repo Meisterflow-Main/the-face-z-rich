@@ -25,7 +25,7 @@ export default function Services() {
               Auch Kids &amp; Teens sind bei mir herzlich willkommen – mit individuell abgestimmten Behandlungen für junge Haut.
             </p>
             <p className="text-sm text-gold font-medium tracking-wide mb-6">
-              Professionelle Hautpflege mit Dermalogica – individuell abgestimmt auf Deine Haut.
+              Professionelle Hautpflege mit Dermalogica® – individuell abgestimmt auf Deine Haut.
             </p>
             <a
               href={BRAND.booking}

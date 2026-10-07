@@ -74,11 +74,11 @@ export const SERVICES = [
     slug: "pro-skin-treatments",
     name: "Pro Skin Treatments",
     short: "Pro Skin Treatments",
-    eyebrow: "Dermalogica Signature Pro Skin",
+    eyebrow: "Dermalogica® Signature Pro Skin",
     metaTitle: "Pro Skin Treatments in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Pro Skin Treatments in Zürich",
     intro:
-      "Die Dermalogica Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmte Premium-Behandlungen mit sanfter Tiefenreinigung, Peeling und Maske, für spürbar revitalisierte Haut und einen frischen Glow.",
+      "Die Dermalogica® Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmte Premium-Behandlungen mit sanfter Tiefenreinigung, Peeling und Maske, für spürbar revitalisierte Haut und einen frischen Glow.",
     what:
       "Du wählst die gebuchte Dauer und Option – von der kompakten 45-Minuten-Behandlung bis zur zweistündigen Ultra Skin 120. Jedes Treatment beginnt mit einer Konsultationsbesprechung und einer Dermalogica® Face Mapping™ Analyse und wird auf Dich persönlich abgestimmt. Ich passe die Behandlung an die Bedürfnisse Deiner Haut an.",
     benefits: [
@@ -112,7 +112,7 @@ export const SERVICES = [
       },
       {
         q: "Sind die Produkte für sensible Haut geeignet?",
-        a: "Ja. Ich arbeite mit Dermalogica, sanften und hochwertigen Produkten, und stimme die Auswahl auf Deine Haut ab.",
+        a: "Ja. Ich arbeite mit Dermalogica®, sanften und hochwertigen Produkten, und stimme die Auswahl auf Deine Haut ab.",
       },
       {
         q: "Wie oft sollte ich ein Pro Skin Treatment wiederholen?",
@@ -153,11 +153,11 @@ export const SERVICES = [
     slug: "targeted-skin-solutions",
     name: "Targeted Skin Solutions",
     short: "Targeted Skin Solutions",
-    eyebrow: "Dermalogica Targeted Skin Solutions",
+    eyebrow: "Dermalogica® Targeted Skin Solutions",
     metaTitle: "Targeted Skin Solutions in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Targeted Skin Solutions in Zürich",
     intro:
-      "Die Dermalogica Targeted Skin Solutions Treatments zielen auf konkrete Hautanliegen: Unreinheiten und Akne, Pigmentflecken, sensible und gereizte Haut, Feuchtigkeitsmangel, den Rücken sowie straffende Pflege. Jede Behandlung ist auf Deinen Hautzustand abgestimmt.",
+      "Die Dermalogica® Targeted Skin Solutions Treatments zielen auf konkrete Hautanliegen: Unreinheiten und Akne, Pigmentflecken, sensible und gereizte Haut, Feuchtigkeitsmangel, den Rücken sowie straffende Pflege. Jede Behandlung ist auf Deinen Hautzustand abgestimmt.",
     what:
       "Pro Clear und Pro Clear Young klären unreine Haut bei Erwachsenen und Teenagern – bei Unreinheiten, Rötungen (PIH), Milien und Pickeln. Pro Back Clear reinigt den Rücken, Pro Bright hellt Pigmentflecken auf, Pro Calm Treat beruhigt sensible, gereizte Haut und Pro Firm strafft. Nach der Dermalogica® Face Mapping™ Analyse wähle ich die passende Methode für Deinen Hautzustand.",
     benefits: [
@@ -246,11 +246,11 @@ export const SERVICES = [
     slug: "medical-skin-treatments",
     name: "Medical Skin Treatments",
     short: "Medical Skin Treatments",
-    eyebrow: "Dermalogica Medical Skin",
+    eyebrow: "Dermalogica® Medical Skin",
     metaTitle: "Medical Skin Treatments in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Medical Skin Treatments in Zürich",
     intro:
-      "Die Dermalogica Medical Skin Treatments verbinden medizinische Hautbehandlung mit der Pro Skin Philosophie: Exoboost mit Mikrodermabrasion oder Microneedling für sichtbar erneuerte Hautstruktur.",
+      "Die Dermalogica® Medical Skin Treatments verbinden medizinische Hautbehandlung mit der Pro Skin Philosophie: Exoboost mit Mikrodermabrasion oder Microneedling für sichtbar erneuerte Hautstruktur.",
     what:
       "Mit dem Exoboost Treatment wende ich entweder Mikrodermabrasion oder Microneedling 0.5 an, je nach Hautbild und Ziel. So verfeinere ich die Hautstruktur, werte Narben auf und rege die Erneuerung an.",
     benefits: [
@@ -338,7 +338,7 @@ export const SERVICES = [
     faqs: [
       {
         q: "Was ist LuminFusion?",
-        a: "LuminFusion ist ein fortschrittlicher Dermalogica Skin Service, der ein gezieltes Peeling, Nanoinfusion und rotes LED-Licht vereint – für spürbaren Glow und verbesserte Hautstruktur.",
+        a: "LuminFusion ist ein fortschrittlicher Dermalogica® Skin Service, der ein gezieltes Peeling, Nanoinfusion und rotes LED-Licht vereint – für spürbaren Glow und verbesserte Hautstruktur.",
       },
       {
         q: "Hilft das gegen Fältchen?",
@@ -514,9 +514,9 @@ export const SERVICES = [
     metaTitle: "Phytomer Spa Rückenbehandlung mit Massage und Algenpackung | THE FACE® Denise Claire Gadient",
     h1: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG",
     intro:
-      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» ist Entspannung und Revitalisierung – keine Rückenreinigung. Für eine reine Hautklärung bei Rückenakne oder Unreinheiten buche bitte Dermalogica Pro Back Clear unter den Targeted Skin Solutions Treatments. Als 1. Schritt vor Deiner Gesichtsbehandlung – nur buchbar zum Skin Treat, nicht als Stand-alone-Treatment. Die Rückenbehandlung mit Massage und Packung: Relaxmassage mit maritimem Öl, wärmende und blubbernde Meeresalgenmoorpackung zur Entgiftung und Revitalisierung. Anschliessend wasche ich alles sanft mit einem Handschuh ab und trage Oléocreme Bodylotion auf – ganz ohne Dusche möglich. Kontraindikation: Jodallergie, Schwangerschaft.",
+      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» ist Entspannung und Revitalisierung – keine Rückenreinigung. Für eine reine Hautklärung bei Rückenakne oder Unreinheiten buche bitte Dermalogica® Pro Back Clear unter den Targeted Skin Solutions Treatments. Als 1. Schritt vor Deiner Gesichtsbehandlung – nur buchbar zum Skin Treat, nicht als Stand-alone-Treatment. Die Rückenbehandlung mit Massage und Packung: Relaxmassage mit maritimem Öl, wärmende und blubbernde Meeresalgenmoorpackung zur Entgiftung und Revitalisierung. Anschliessend wasche ich alles sanft mit einem Handschuh ab und trage Oléocreme Bodylotion auf – ganz ohne Dusche möglich. Kontraindikation: Jodallergie, Schwangerschaft.",
     what:
-      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» verwöhnt Deinen Rücken mit einer Relaxmassage mit maritimem Öl und einer wärmenden, blubbernden Meeresalgenmoorpackung zur Entgiftung und Revitalisierung. Anschliessend wasche ich alles sanft mit einem Handschuh ab und trage Oléocreme Bodylotion auf – ganz ohne Dusche möglich. Diese Behandlung ist Entspannung und Revitalisierung, keine Rückenreinigung. Für eine reine Hautklärung bei Rückenakne oder Unreinheiten buche bitte Dermalogica Pro Back Clear unter den Targeted Skin Solutions. Die Phytomer Spa Rückenbehandlung ist nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar – nur zum Skin Treat, nicht als Stand-alone-Behandlung.",
+      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» verwöhnt Deinen Rücken mit einer Relaxmassage mit maritimem Öl und einer wärmenden, blubbernden Meeresalgenmoorpackung zur Entgiftung und Revitalisierung. Anschliessend wasche ich alles sanft mit einem Handschuh ab und trage Oléocreme Bodylotion auf – ganz ohne Dusche möglich. Diese Behandlung ist Entspannung und Revitalisierung, keine Rückenreinigung. Für eine reine Hautklärung bei Rückenakne oder Unreinheiten buche bitte Dermalogica® Pro Back Clear unter den Targeted Skin Solutions. Die Phytomer Spa Rückenbehandlung ist nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar – nur zum Skin Treat, nicht als Stand-alone-Behandlung.",
     benefits: [
       "«le Champagne de la Mer» mit Phytomer",
       "Relaxmassage mit maritimem Öl",

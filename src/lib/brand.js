@@ -46,7 +46,7 @@ export const ASSETS = {
 // Partner brands with their role in the practice. Descriptions appear beneath
 // each logo in the Stats section. Names marked CONFIRM need client verification.
 export const PARTNER_BRANDS = [
-  { logo: ASSETS.partner1, name: "Dermalogica", desc: "Meine Haupt Clean Skin Care: Pioniergeist & Innovation seit 1986, mit klinischen Studien." },
+  { logo: ASSETS.partner1, name: "Dermalogica®", desc: "Meine Haupt Clean Skin Care: Pioniergeist & Innovation seit 1986, mit klinischen Studien." },
   { logo: ASSETS.partner2, name: "glo Skin Beauty", desc: "Meine Clean Cosmetics: mineralische, vegane Make-up-Linie aus Amerika (seit 1997)." },
   { logo: ASSETS.janeIredale, name: "Jane Iredale", desc: "Meine Clean Cosmetics: mineralische, vegane Make-up-Linie aus Amerika (seit 1994)." },
   { logo: ASSETS.partner4, name: "Phytomer", desc: "Meine SPA-Körperpflegelinie mit Algen und Mineralien direkt von der Bretagne." },
@@ -62,7 +62,7 @@ export const TREATMENTS = [
   },
   {
     title: "Pro Skin Treatment",
-    desc: "Auf Deine Haut abgestimmte Premium-Behandlung mit hochwertigen Dermalogica-Produkten und sanften Händen.",
+    desc: "Auf Deine Haut abgestimmte Premium-Behandlung mit hochwertigen Dermalogica®-Produkten und sanften Händen.",
     benefit: "Tiefenwirksam & Revitalisierend",
     to: "/behandlungen/pro-skin-treatments",
   },
@@ -126,7 +126,7 @@ export const FAQS = [
   },
   {
     q: "Welche Produkte werden verwendet?",
-    a: "Ich arbeite ausschliesslich mit sorgfältig ausgewählten, zertifizierten Partnermarken – Clean Skincare & Clean Cosmetics. Dermalogica ist meine Hauptmarke für professionelle Gesichtspflege, individuell auf Deinen Hautzustand abgestimmt. glo Skin Beauty verwende ich für langlebige Make-up-Looks. Jane Iredale setze ich als Mineral Make-up für einen natürlichen Look ein. Phytomer nutze ich für Spa- und Körperbehandlungen mit marinen Wirkstoffen. Minlen ergänzt als Naturkosmetik für die ganze Familie – Kinder, Teenager und Erwachsene.",
+    a: "Ich arbeite ausschliesslich mit sorgfältig ausgewählten, zertifizierten Partnermarken – Clean Skincare & Clean Cosmetics. Dermalogica® ist meine Hauptmarke für professionelle Gesichtspflege, individuell auf Deinen Hautzustand abgestimmt. glo Skin Beauty verwende ich für langlebige Make-up-Looks. Jane Iredale setze ich als Mineral Make-up für einen natürlichen Look ein. Phytomer nutze ich für Spa- und Körperbehandlungen mit marinen Wirkstoffen. Minlen ergänzt als Naturkosmetik für die ganze Familie – Kinder, Teenager und Erwachsene.",
   },
   {
     q: "Brauche ich eine Hautanalyse vor der ersten Behandlung?",

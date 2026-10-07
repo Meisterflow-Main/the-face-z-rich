@@ -53,7 +53,7 @@ export const personSchema = {
     "Hautanalyse",
     "Skin Longevity",
     "Clean Beauty",
-    "Dermalogica Pro Skin Treatments",
+    "Dermalogica® Pro Skin Treatments",
     "Microneedling",
     "Nanoneedling",
     "Make-up & Visagistik",

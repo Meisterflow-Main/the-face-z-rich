@@ -22,7 +22,7 @@ function generateIntro(service, region) {
   const angles = [
     `${region.short} liegt ${region.localContext.commute.toLowerCase().includes("wenigen minuten") ? "nah" : "eine kurze Fahrt entfernt"} von meiner Praxis an der Rämistrasse. Dort erhältst Du ${service.name} – ${service.intro.split(".")[0].toLowerCase()}.`,
     `Suchst Du ${service.name} in der Nähe von ${region.short}? In meiner Praxis an der Rämistrasse verbinde ich über 30 Jahre Erfahrung mit ${service.eyebrow.toLowerCase()}, massgeschneidert auf Dein Hautbild.`,
-    `${service.name} nahe ${region.short}: An der Rämistrasse 27 arbeite ich mit hochwertigen Clean-Produkten und der Dermalogica FACE-MAP. ${service.intro.split(". ")[1] || ""}`,
+    `${service.name} nahe ${region.short}: An der Rämistrasse 27 arbeite ich mit hochwertigen Clean-Produkten und der Dermalogica® FACE-MAP. ${service.intro.split(". ")[1] || ""}`,
     `Von ${region.short} bist Du rasch bei mir an der Rämistrasse. ${service.name} ist eine meiner Spezialitäten: ${service.intro.split(".")[0].toLowerCase()}.`,
     `In ${region.short} wohnen und ${service.name} suchen? Meine Praxis an der Rämistrasse bietet Dir ${service.name} mit individueller Hautanalyse und über 30 Jahren Erfahrung.`,
   ];

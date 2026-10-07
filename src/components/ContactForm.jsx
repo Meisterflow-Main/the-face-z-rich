@@ -89,7 +89,7 @@ export default function ContactForm() {
               bei Dir. Oder buche direkt Deinen Termin online.
             </p>
             <p className="text-charcoal/60 leading-relaxed mb-6">
-              Professionelle Hautpflege mit Dermalogica – individuell abgestimmt auf Deine Haut.
+              Professionelle Hautpflege mit Dermalogica® – individuell abgestimmt auf Deine Haut.
             </p>
             <GoogleReviewBadge className="mb-8" />
 
