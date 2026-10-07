@@ -532,12 +532,12 @@ export const SERVICES = [
     priceFactors: [{ label: "Phytomer Spa Rückenbehandlung", price: "180" }],
     faqs: [
       {
-        q: "Was ist die Back Relax & Revitalize Behandlung?",
-        a: "Eine wohltuende Rückenbehandlung, die Haut und Sinne verwöhnt: sanfte Reinigung, eine pflegende Maske und beruhigende Pflege für entspannte, revitalisierte Haut.",
+        q: "Was ist die Phytomer Spa Rückenbehandlung?",
+        a: "Eine wohltuende Rückenbehandlung mit Phytomer, die Haut und Sinne verwöhnt: sanfte Reinigung, eine pflegende Algenpackung und entspannende Massage für revitalisierte Haut.",
       },
       {
         q: "Für wen ist die Behandlung geeignet?",
-        a: "Für alle, die ihrem Rücken etwas Gutes tun möchten – ob bei unreiner Haut, Verspannungen oder einfach für einen Moment der Entspannung.",
+        a: "Für alle, die ihrem Rücken etwas Gutes tun möchten – bei Verspannungen oder einfach für einen Moment der Entspannung. Für unreine Rückenhaut empfehle ich Pro Back Clear.",
       },
       {
         q: "Wie lange dauert die Behandlung?",
@@ -549,7 +549,7 @@ export const SERVICES = [
       },
       {
         q: "Kann ich die Behandlung mit einer Gesichtsbehandlung kombinieren?",
-        a: "Ja, viele Kundinnen kombinieren Back Relax & Revitalize mit einem Pro Skin Treatment für ein rundum-Verwöhnerlebnis.",
+        a: "Ja, viele Kundinnen kombinieren die Phytomer Spa Rückenbehandlung mit einem Pro Skin Treatment für ein rundum-Verwöhnerlebnis.",
       },
     ],
     preparation: [
