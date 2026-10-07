@@ -66,7 +66,7 @@ export const SERVICES = [
     ],
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
-      "Frische Sonnenbrand – warte, bis die Haut sich beruhigt hat",
+      "Herpes oder Fieberblasen im Gesicht",
     ],
     related: ["pro-skin-treatments", "targeted-skin-solutions", "longevity-glow-treatment"],
   },
