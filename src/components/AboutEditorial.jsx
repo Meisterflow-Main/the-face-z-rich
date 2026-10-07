@@ -56,11 +56,8 @@ export default function AboutEditorial() {
         </ScrollReveal>
 
         <ScrollReveal delay={0.1} className="lg:col-span-7">
-          <p className="text-gold text-[13px] tracking-[0.12em] uppercase font-semibold mb-4">
-            Über THE FACE®
-          </p>
           <h2 className="font-heading text-[30px] sm:text-4xl md:text-[42px] font-semibold text-foreground leading-[1.12] tracking-[-0.02em] mb-6">
-            Denise Claire Gadient
+            Über THE FACE® Denise Claire Gadient
           </h2>
           <div className="hairline w-16 mb-8" />
 
