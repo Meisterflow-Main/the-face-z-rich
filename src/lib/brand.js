@@ -23,7 +23,7 @@ export const AVAILABILITY = {
   hours: [],
   summary: "Termine nach Vereinbarung",
   booking: "Online-Buchung rund um die Uhr",
-  onRequest: ["Auf Anfrage auch sonntags möglich", "Home Service auf Anfrage möglich"],
+  onRequest: ["Auf Anfrage auch sonntags möglich", "Home Service auf Anfrage möglich", "Schaan & Vaduz (FL): ca. alle 6 Wochen für einen Tag – oder auf Anfrage"],
 };
 
 export const WEBHOOK =

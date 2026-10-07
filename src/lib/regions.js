@@ -1202,7 +1202,7 @@ export const REGIONS = [
     ],
     whyIntro: "Warum sich die Fahrt von Vaduz nach Zürich für Deine Haut lohnt: fünf Gründe.",
     benefits: [
-      { headline: "Flexible Termine nach Vereinbarung", desc: "Für die Anreise aus Liechtenstein plane ich Deinen Termin mit Dir. Auf Anfrage auch sonntags möglich." },
+      { headline: "Flexible Termine nach Vereinbarung", desc: "Etwa alle 6 Wochen für einen Tag in Schaan und Vaduz – oder auf Anfrage. Auf Anfrage auch sonntags möglich." },
       { headline: "Spezialistin für Skin Longevity", desc: "Longevity Glow und Nanoinfusion für jugendliche Frische." },
       { headline: "Ausgiebige Premium-Treatments", desc: "Ultra Skin 120: zwei Stunden pure Verwöhnzeit für Deine Haut." },
       { headline: "EFZ-zertifizierte Kosmetikerin", desc: "VNISSG für Haut und Pigmente: Fachwissen mit Tiefe." },
@@ -1212,7 +1212,7 @@ export const REGIONS = [
     reviewsIntro: "Kundinnen auf Google: lies, wie sie ihre Gesichtsbehandlung bei THE FACE® erleben.",
     faqs: [
       { q: "Wie komme ich von Vaduz zur Rämistrasse?", a: "Mit dem Auto fährst Du via Sargans und die A3 in rund 80 Minuten nach Zürich. Alternativ mit dem Bus zum Bahnhof Sargans, dann S-Bahn zum Hauptbahnhof und ein kurzes Tram zur Rämistrasse." },
-      { q: "Wann sind Termine möglich?", a: "Termine vergebe ich nach Vereinbarung, bequem online buchbar. Für die Anreise aus Liechtenstein plane ich den Termin mit Dir. Auf Anfrage ist auch ein Termin am Sonntag möglich." },
+      { q: "Wann sind Termine möglich?",         a: "Termine vergebe ich nach Vereinbarung. Ich bin etwa alle 6 Wochen für einen Tag in Schaan und Vaduz – oder auf Anfrage. Bequem online buchbar; auf Anfrage ist auch ein Termin am Sonntag möglich." },
       { q: "Welche Skin Longevity-Behandlung empfiehlst Du für meine reifere Haut?", a: "Das Longevity Glow Treat bringt tiefe Nährstoffe in die Haut und regt die Regeneration an. In der FACE-MAP Beratung wähle ich die passende Methode für Dein Hautziel." },
       { q: "Was kostet das Ultra Skin 120 Treatment?", a: "Das Ultra Skin 120 kostet CHF 335.– und umfasst zwei Stunden Tiefenreinigung, Peeling, Maske und Massage. Eine bewusste Auszeit, die sich für die Fahrt aus Vaduz lohnt." },
       { q: "Kann ich die Behandlung mit einem Stadttag in Zürich verbinden?", a: "Sehr gerne. Die Praxis liegt zentral an der Rämistrasse, nah am Hauptbahnhof und der Altstadt. Viele Kundinnen aus Liechtenstein kombinieren den Termin mit Einkäufen und einem See-Spaziergang." },
@@ -1247,7 +1247,7 @@ export const REGIONS = [
     ],
     whyIntro: "Warum sich die Fahrt von Schaan nach Zürich für Deine Haut lohnt: fünf Gründe.",
     benefits: [
-      { headline: "Flexible Termine nach Vereinbarung", desc: "Für die Anreise aus Liechtenstein plane ich Deinen Termin mit Dir. Auf Anfrage auch sonntags möglich." },
+      { headline: "Flexible Termine nach Vereinbarung", desc: "Etwa alle 6 Wochen für einen Tag in Schaan und Vaduz – oder auf Anfrage. Auf Anfrage auch sonntags möglich." },
       { headline: "Spezialistin für sensible Haut", desc: "Pro Calm Treat beruhigt gereizte Haut zuverlässig." },
       { headline: "Persönliche Hautanalyse", desc: "FACE-MAP als Basis jeder Behandlung: massgeschneidert." },
       { headline: "EFZ-zertifizierte Kosmetikerin", desc: "VNISSG für Haut und Pigmente: Fachwissen mit Tiefe." },
@@ -1257,7 +1257,7 @@ export const REGIONS = [
     reviewsIntro: "Kundinnen auf Google: lies, wie sie ihre Gesichtsbehandlung bei THE FACE® erleben.",
     faqs: [
       { q: "Wie komme ich von Schaan zur Rämistrasse?", a: "Mit dem Auto fährst Du via Sargans und die A3 in rund 80 Minuten nach Zürich. Alternativ mit dem Bus zum Bahnhof Sargans oder Buchs SG, dann S-Bahn zum Hauptbahnhof und ein kurzes Tram zur Rämistrasse." },
-      { q: "Wann sind Termine möglich?", a: "Termine vergebe ich nach Vereinbarung, bequem online buchbar. Für die Anreise aus Liechtenstein plane ich den Termin mit Dir. Auf Anfrage ist auch ein Termin am Sonntag möglich." },
+      { q: "Wann sind Termine möglich?",         a: "Termine vergebe ich nach Vereinbarung. Ich bin etwa alle 6 Wochen für einen Tag in Schaan und Vaduz – oder auf Anfrage. Bequem online buchbar; auf Anfrage ist auch ein Termin am Sonntag möglich." },
       { q: "Welche Behandlung hilft bei meiner sensiblen Haut?", a: "Pro Calm Treat ist auf sensible, gereizte Haut ausgerichtet: es beruhigt mit milden Clean-Produkten und reduziert Rötungen. In der FACE-MAP Analyse prüfe ich genau, was Deine Haut verträgt." },
       { q: "Was kostet die erste Hautanalyse?", a: "Die FACE-MAP Hautanalyse inklusive Quickboost kostet CHF 95.– und dauert rund 30 Minuten. Sie ist die Basis jeder weiteren Behandlung." },
       { q: "Kann ich die Behandlung mit einem Stadttag in Zürich verbinden?", a: "Sehr gerne. Die Praxis liegt zentral an der Rämistrasse, nah am Hauptbahnhof und der Altstadt. Viele Kundinnen aus Liechtenstein kombinieren den Termin mit Einkäufen und einem See-Spaziergang." },
