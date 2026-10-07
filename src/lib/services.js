@@ -460,6 +460,20 @@ export const SERVICES = [
       "Als Visagistin schminke ich Dich für jeden Anlass – von der Beratung über das Tages- und Abend-Make-up bis zum Brautmake-up. Natürlich, individuell und auf Dich abgestimmt.",
     what:
       "Mit Jane Iredale und Glowskinbeauty-Produkten schminke ich einen natürlichen Look, der zu Dir passt: von der farblichen Beratung bis zum langlebigen Brautmake-up für Deinen besonderen Tag.",
+    variants: [
+      {
+        name: "Make-up Beratung",
+        subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
+        price: "65",
+        desc: "Persönliche Beratung und Antworten auf all Deine Make-up-Fragen. Vom richtigen Hautton finden über Primer, Concealer, getönte Tagespflege inkl. SPF, Mineralienpuder bis Cremefoundation, Augenmake-up bis Wimperntusche, Contouring, Rouge, Lippenpflege inkl. SPF bis Konturen, Lippenstift bis Gloss. Mit Clean Cosmetics von glo Skin Beauty (ex glominerals) und Jane Iredale.",
+      },
+      {
+        name: "Brautmake-up",
+        subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
+        price: "200",
+        desc: "Für Deinen schönsten Tag, damit Du Dich wunderschön und sicher fühlst. Frag mich gerne per WhatsApp an, wie, was und wo. Gerne betreue ich Dich im Institut oder auch ausser Haus – ganz persönlich, professionell und herzlich.",
+      },
+    ],
     benefits: [
       "Beratung, Tages-, Abend- und Brautmake-up",
       "Jane Iredale und Glowskinbeauty Produkte",
