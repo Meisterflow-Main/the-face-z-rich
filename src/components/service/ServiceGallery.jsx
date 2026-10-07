@@ -6,10 +6,10 @@ export default function ServiceGallery({ gallery, serviceName }) {
 
   const cols =
     gallery.length === 1
-      ? "grid-cols-1"
+      ? "columns-1"
       : gallery.length === 2
-      ? "grid-cols-1 sm:grid-cols-2"
-      : "grid-cols-2 lg:grid-cols-3";
+      ? "columns-1 sm:columns-2"
+      : "columns-2 lg:columns-3";
   const singleWrap = gallery.length === 1 ? "max-w-sm mx-auto" : "";
 
   return (
@@ -24,14 +24,14 @@ export default function ServiceGallery({ gallery, serviceName }) {
           </h2>
           <div className="hairline w-16 mx-auto" />
         </ScrollReveal>
-        <div className={`grid ${cols} gap-4`}>
+        <div className={`${cols} [column-gap:1rem] ${singleWrap}`}>
           {gallery.map((src, i) => (
-            <ScrollReveal key={i} delay={i * 0.08} className={singleWrap}>
+            <ScrollReveal key={i} delay={i * 0.08} className="mb-4 break-inside-avoid">
               <div className="overflow-hidden rounded-lg border border-gold/15 shadow-sm bg-secondary">
                 <img
                   src={src}
                   alt={`${serviceName} – Eindruck ${i + 1}`}
-                  className="w-full aspect-[4/3] object-contain block"
+                  className="w-full h-auto block"
                   loading="lazy"
                 />
               </div>
