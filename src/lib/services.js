@@ -10,24 +10,25 @@ export const SERVICES = [
     metaTitle: "Hautanalyse & Beratung in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Hautanalyse & Beratung in Zürich",
     intro:
-      "Mit Dermalogica® Face Mapping™ und Face Fit sowie der chinesischen Hautlesung analysiere ich Deine Haut gründlich, berate Dich ausführlich und ergänze die Sitzung um einen auf Deinen Hautzustand abgestimmten Quick Boost. Die persönliche Hautanalyse ist die Basis jeder Behandlung bei THE FACE®.",
+      "Mit Dermalogica® Face Mapping™ und Face Fit sowie der chinesischen Hautlesung analysiere ich Deine Haut gründlich und berate Dich ausführlich zu Deiner Pflege. Die Sitzung inklusive Quick Boost umfasst Doppelreinigung, Peeling, Serum, Maske und Abschlusspflege mit SPF – für einen sichtbaren Glow und wertvolle Hautpflegeinformationen. Besonders beliebt als Kombi mit dem Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung (CHF 150.–).",
     what:
-      "Vor jeder Behandlung untersuche ich Deine Haut mit Dermalogica® Face Mapping™ und Face Fit sowie der chinesischen Hautlesung: Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten. So weiss ich genau, was Deine Haut braucht. Die Sitzung umfasst Reinigung, Analyse und Beratung, ein auf Deinen Hautzustand abgestimmtes Peeling, Serum und Maske (Quick Boost) sowie Abschlusspflege mit Lichtschutz – plus einen persönlichen Pflegeplan für zuhause.",
+      "Vor jeder Behandlung untersuche ich Deine Haut mit Dermalogica® Face Mapping™ und Face Fit sowie der chinesischen Hautlesung: Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten. So weiss ich genau, was Deine Haut braucht. Die Hautanalyse- und Produktberatung inklusive Quick Boost umfasst Doppelreinigung, ein auf Deinen Hautzustand abgestimmtes Peeling, Serum und Maske sowie die Abschlusspflege mit Lichtschutz (SPF) – für einen sichtbaren Glow und fundierte Hautpflegeinformationen. Du erhältst zudem einen persönlichen Pflegeplan für zuhause.",
     benefits: [
       "Dermalogica® Face Mapping™ & Face Fit",
       "Chinesische Hautlesung (ca. 10 Min.)",
-      "Inkl. Quick Boost Behandlung",
-      "Massgeschneiderte Pflegeempfehlung",
+      "Inkl. Quick Boost: Doppelreinigung, Peeling, Serum, Maske, SPF",
+      "Sichtbarer Glow und fundierte Pflegeinformationen",
+      "Beliebt als Kombi mit Ellebaana Wimpernlift (CHF 150.–)",
       "Für Frauen, Männer, Teenager und sensible Haut",
     ],
     process: [
-      "Reinigung und Hautanalyse mit Dermalogica® Face Mapping™, Face Fit und chinesischer Hautlesung",
+      "Doppelreinigung und Hautanalyse mit Dermalogica® Face Mapping™, Face Fit und chinesischer Hautlesung",
       "Beratung und Pflegeziel definieren",
       "Quick Boost: auf Deinen Hautzustand abgestimmtes Peeling, Serum und Maske",
       "Abschlusspflege und Lichtschutz (SPF)",
       "Persönlicher Pflegeplan für zuhause",
     ],
-    priceFactors: [{ label: "Dermalogica® Face Mapping™ & Face Fit inkl. Quick Boost", price: "95" }],
+    priceFactors: [{ label: "Hautanalyse & Produktberatung inkl. Quick Boost", price: "95" }],
     faqs: [
       {
         q: "Was ist Dermalogica® Face Mapping™?",
