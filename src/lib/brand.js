@@ -46,11 +46,11 @@ export const ASSETS = {
 // Partner brands with their role in the practice. Descriptions appear beneath
 // each logo in the Stats section. Names marked CONFIRM need client verification.
 export const PARTNER_BRANDS = [
-  { logo: ASSETS.partner1, name: "Dermalogica", desc: "Meine Hauptmarke für professionelle Gesichtspflege – Clean Skincare, auf jeden Hautzustand abgestimmt." },
-  { logo: ASSETS.partner2, name: "glo Skin Beauty", desc: "Clean Cosmetics für langlebige Make-up-Looks." },
-  { logo: ASSETS.janeIredale, name: "Jane Iredale", desc: "Mineral Make-up & Clean Cosmetics für einen natürlichen Look." },
-  { logo: ASSETS.partner4, name: "Phytomer", desc: "Spa- und Körperpflege mit marinen Wirkstoffen." },
-  { logo: ASSETS.madeleineWeleda, name: "Minlen", desc: "Naturkosmetik für Kinder, Teenager und Erwachsene." },
+  { logo: ASSETS.partner1, name: "Dermalogica", desc: "Meine Haupt Clean Skin Care: Pioniergeist & Innovation seit 1986, mit klinischen Studien." },
+  { logo: ASSETS.partner2, name: "glo Skin Beauty", desc: "Meine Clean Cosmetics: mineralische, vegane Make-up-Linie aus Amerika (seit 1997)." },
+  { logo: ASSETS.janeIredale, name: "Jane Iredale", desc: "Meine Clean Cosmetics: mineralische, vegane Make-up-Linie aus Amerika (seit 1994)." },
+  { logo: ASSETS.partner4, name: "Phytomer", desc: "Meine SPA-Körperpflegelinie mit Algen und Mineralien direkt von der Bretagne." },
+  { logo: ASSETS.madeleineWeleda, name: "Minlen", desc: "Meine sanfte Baby- und Kinder-Hautpflegelinie für die ganze Familie (auch bei Neurodermitis) mit skandinavischen, hautschützenden Wirkstoffen von Prinzessin Madeleine & Weleda." },
 ];
 
 export const TREATMENTS = [
