@@ -3,20 +3,20 @@ import { motion } from "framer-motion";
 
 const VIDEOS = [
   {
-    title: "Hautanalyse",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/d267568a3_Hautanalyse_Reel_v2.mp4",
+    title: "Hautanalyse für Sie",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/fec0b8ca7_Reel_Woman_Hautanalyse.mp4",
   },
   {
-    title: "Pro Skin Treatment",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/91d5a47bf_Pro_Skin_video.mp4",
+    title: "Pro Skin Treatment für Sie",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/721abd53b_Reel_Woman_Pro_Skin.mp4",
   },
   {
-    title: "Longevity Glow Treatment",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/a7efe6fe0_Longevity_Glow_video.mp4",
+    title: "Pro Clear für Ihn",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/0c711ea23_Reel_Man_Pro_Clear.mp4",
   },
   {
-    title: "Revitalisierung",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/91c941b5a_Revitalisierung_video.mp4",
+    title: "Revitalisierung für Ihn",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/09eb0e245_Reel_Man_Revitalisierung.mp4",
   },
 ];
 
