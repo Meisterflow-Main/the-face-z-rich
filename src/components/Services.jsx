@@ -57,13 +57,17 @@ export default function Services() {
           </ScrollReveal>
           {TREATMENTS.map((t, i) => (
             <ScrollReveal key={t.title} delay={i * 0.05} y={16}>
-              <div className="grid grid-cols-12 gap-4 sm:gap-6 py-7 border-t border-charcoal/10 last:border-b">
-                <span className="col-span-2 sm:col-span-1 font-heading text-charcoal/30 text-sm pt-1.5">
+              <Link
+                to={t.to}
+                className="group grid grid-cols-12 gap-4 sm:gap-6 py-7 border-t border-charcoal/10 last:border-b transition-colors hover:border-gold/40"
+              >
+                <span className="col-span-2 sm:col-span-1 font-heading text-charcoal/30 text-sm pt-1.5 group-hover:text-gold transition-colors">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <div className="col-span-10 sm:col-span-11">
-                  <h3 className="font-heading text-xl sm:text-2xl font-semibold text-charcoal mb-2">
+                  <h3 className="font-heading text-xl sm:text-2xl font-semibold text-charcoal mb-2 inline-flex items-center gap-2 group-hover:text-gold transition-colors">
                     {t.title}
+                    <ArrowRight size={18} className="opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
                   </h3>
                   <p className="text-charcoal/65 text-sm sm:text-base leading-relaxed mb-2">
                     {t.desc}
@@ -72,7 +76,7 @@ export default function Services() {
                     {t.benefit}
                   </p>
                 </div>
-              </div>
+              </Link>
             </ScrollReveal>
           ))}
         </div>

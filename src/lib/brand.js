@@ -58,36 +58,43 @@ export const TREATMENTS = [
     title: "Hautanalyse",
     desc: "Persönliche Beratung und gründliche Analyse Deiner Haut inklusive chinesischer Hautlesung, die Basis jeder Behandlung.",
     benefit: "Erkenntnis & Massgeschneiderte Pflege",
+    to: "/behandlungen/hautanalyse",
   },
   {
     title: "Pro Skin Treatment",
     desc: "Auf Deine Haut abgestimmte Premium-Behandlung mit hochwertigen Dermalogica-Produkten und sanften Händen.",
     benefit: "Tiefenwirksam & Revitalisierend",
+    to: "/behandlungen/pro-skin-treatments",
   },
   {
     title: "Longevity Glow Treatment",
     desc: "Innovatives Skin Longevity-Treatment für nachhaltigen Glow und strahlende, jugendliche Haut.",
     benefit: "Jugendlich & strahlend",
+    to: "/behandlungen/longevity-glow-treatment",
   },
   {
     title: "Revitalisierung",
     desc: "Wirkungsvolle Behandlungsgeräte für nachhaltige Regeneration und sichtbare Erneuerung der Haut.",
     benefit: "Regeneration & Elastizität",
+    to: "/behandlungen/medical-skin-treatments",
   },
   {
     title: "Make-up & Visagistik",
     desc: "Als Visagistin schminke ich Dir ein natürliches, auf Dich abgestimmtes Make-up für jeden Anlass.",
     benefit: "Natürliche Schönheit",
+    to: "/behandlungen/make-up",
   },
   {
     title: "Produkt-Empfehlungen",
     desc: "Individuelle Empfehlungen hochwertiger Clean-Produkte für Deine tägliche Pflegeroutine zuhause.",
     benefit: "Pflege für Zuhause",
+    to: "/behandlungen",
   },
   {
     title: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG",
     desc: "Wohltuende Rückenbehandlung mit Phytomer, entspannender Massage und pflegender Algenpackung für revitalisierte Haut.",
     benefit: "Entspannung & Revitalisierung",
+    to: "/behandlungen/back-relax-revitalize",
   },
 ];
 
