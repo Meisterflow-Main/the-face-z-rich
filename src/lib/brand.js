@@ -85,8 +85,8 @@ export const TREATMENTS = [
     benefit: "Pflege für Zuhause",
   },
   {
-    title: "Back Relax & Revitalize",
-    desc: "Wohltuende Rückenbehandlung mit sanfter Reinigung, pflegender Maske und tiefer Entspannung für revitalisierte Haut.",
+    title: "Phytomer Spa Rückenbehandlung",
+    desc: "Wohltuende Rückenbehandlung mit Phytomer, entspannender Massage und pflegender Algenpackung für revitalisierte Haut.",
     benefit: "Entspannung & Revitalisierung",
   },
 ];

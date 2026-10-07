@@ -317,40 +317,40 @@ export const SERVICES = [
     metaTitle: "Longevity Glow Treatment in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Longevity Glow Treatment in Zürich",
     intro:
-      "Das Longevity Glow Treatment und die Lumin Fusion Nanoneedling-Infusion sind innovative Skin Longevity-Behandlungen für nachhaltigen Glow und strahlende, jugendliche Haut.",
+      "Das Longevity Glow Treatment und die LuminFusion Nanoinfusion sind innovative Skin Longevity-Behandlungen für nachhaltigen Glow und strahlende, jugendliche Haut.",
     what:
-      "Mit der Lumin Fusion Nanoneedling-Infusion oder dem Longevity Glow Treat bringe ich tiefe Nährstoffe in die Haut und rege die Erneuerung an, für sichtbar frische, jugendliche Ausstrahlung.",
+      "Mit der LuminFusion Nanoinfusion oder dem Longevity Glow Treat bringe ich tiefe Nährstoffe in die Haut und rege die Erneuerung an, für sichtbar frische, jugendliche Ausstrahlung.",
     benefits: [
-      "Lumin Fusion Nanoneedling-Infusion",
+      "LuminFusion Nanoinfusion",
       "Nachhaltiger Glow und jugendliche Ausstrahlung",
       "Sanft und schonend",
       "Für reifere und fältchenbetonte Haut",
     ],
     process: [
       "Hautanalyse",
-      "Nanoneedling-Infusion oder Longevity Glow Treat",
+      "Nanoinfusion oder Longevity Glow Treat",
       "Pflege und Abschluss",
     ],
     priceFactors: [
-      { label: "Lumin Fusion Nanoneedling / Infusion", price: "245" },
+      { label: "LuminFusion Nanoinfusion / Infusion", price: "245" },
       { label: "Longevity Glow Treat", price: "225" },
     ],
     faqs: [
       {
-        q: "Was ist Lumin Fusion Nanoneedling?",
-        a: "Eine sanfte Infusion mit Nanoneedling, die Nährstoffe tief in die Haut bringt und die Hautstruktur verbessert – für spürbaren Glow.",
+        q: "Was ist LuminFusion?",
+        a: "LuminFusion ist ein fortschrittlicher Dermalogica Skin Service, der ein gezieltes Peeling, Nanoinfusion und rotes LED-Licht vereint – für spürbaren Glow und verbesserte Hautstruktur.",
       },
       {
         q: "Hilft das gegen Fältchen?",
-        a: "Mit Longevity Glow und Nanoneedling behandle ich Fältchen gezielt. Vorab analysiere ich Deine Haut, um die passende Methode zu wählen.",
+        a: "Mit Longevity Glow und Nanoinfusion behandle ich Fältchen gezielt. Vorab analysiere ich Deine Haut, um die passende Methode zu wählen.",
       },
       {
         q: "Wie oft sollte ich kommen?",
         a: "Einen Rhythmus von vier bis sechs Wochen begleitet den Erneuerungszyklus Deiner Haut optimal. In der Beratung passe ich die Frequenz auf Dein Hautbild an.",
       },
       {
-        q: "Was ist der Unterschied zwischen Nanoneedling und Microneedling?",
-        a: "Nanoneedling arbeitet mit feinsten Nanones an der Hautoberfläche und ist besonders sanft – ideal für die Infusion von Wirkstoffen. Microneedling geht tiefer und regt die Erneuerung stärker an. In der Beratung wähle ich die passende Methode.",
+        q: "Was ist der Unterschied zwischen Nanoinfusion und Microneedling?",
+        a: "Nanoinfusion arbeitet mit feinsten Spitzen an der Hautoberfläche und ist besonders sanft – ideal für die Infusion von Wirkstoffen. Microneedling geht tiefer und regt die Erneuerung stärker an. In der Beratung wähle ich die passende Methode.",
       },
       {
         q: "Gibt es eine Ausfallzeit?",
@@ -509,27 +509,27 @@ export const SERVICES = [
   },
   {
     slug: "back-relax-revitalize",
-    name: "Back Relax & Revitalize",
-    short: "Back Relax & Revitalize",
-    eyebrow: "NEU – Back Relax & Revitalize",
-    metaTitle: "Back Relax & Revitalize in Zürich | THE FACE® Denise Claire Gadient",
-    h1: "Back Relax & Revitalize in Zürich",
+    name: "Phytomer Spa Rückenbehandlung",
+    short: "Phytomer Spa Rücken",
+    eyebrow: "Phytomer Spa Rückenbehandlung",
+    metaTitle: "Phytomer Spa Rückenbehandlung in Zürich | THE FACE® Denise Claire Gadient",
+    h1: "Phytomer Spa Rückenbehandlung in Zürich",
     intro:
-      "Die Back Relax & Revitalize Behandlung ist eine wohltuende Rückenbehandlung mit reinigender Maske und sanfter Pflege – für entspannte Haut und ein tiefes Gefühl der Erholung.",
+      "Die Phytomer Spa Rückenbehandlung ist eine wohltuende Rückenbehandlung mit Massage und pflegender Algenpackung – für entspannte Haut und ein tiefes Gefühl der Erholung. Sanft und revitalisierend, ganz ohne Klär-Extraktion.",
     what:
-      "Mit einer sanften Tiefenreinigung, einer pflegenden Maske und beruhigender Pflege verwöhne ich Deinen Rücken. Die Behandlung klärt die Haut, löst Verspannungen und schenkt Dir einen Moment tiefer Entspannung.",
+      "Mit Phytomer, marinen Wirkstoffen aus der Bretagne, verwöhne ich Deinen Rücken: sanfte Reinigung, eine pflegende Algenpackung und eine entspannende Massage. Die Behandlung löst Verspannungen und schenkt Dir einen Moment tiefer Entspannung. Für die reine Hautklärung bei Rückenakne empfehle ich stattdessen Pro Back Clear.",
     benefits: [
-      "Sanfte Rückenreinigung und Klärung",
-      "Pflegende Maske für beruhigte Haut",
+      "Phytomer marine Wirkstoffe",
+      "Entspannende Rückenmassage",
+      "Pflegende Algenpackung",
       "Tiefe Entspannung und Revitalisierung",
-      "Auch bei unreinem Rücken geeignet",
     ],
     process: [
       "Reinigung und Hautanalyse des Rückens",
-      "Sanftes Peeling und klärende Maske",
-      "Pflege, Massage und Abschluss",
+      "Pflegende Algenpackung mit Phytomer",
+      "Entspannende Massage und Abschluss",
     ],
-    priceFactors: [{ label: "Back Relax & Revitalize", price: "180" }],
+    priceFactors: [{ label: "Phytomer Spa Rückenbehandlung", price: "180" }],
     faqs: [
       {
         q: "Was ist die Back Relax & Revitalize Behandlung?",
