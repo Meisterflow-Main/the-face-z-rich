@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import ScrollReveal from "@/components/ScrollReveal";
-import { Image } from "@/components/ui/image";
 
 const VIDEO_SRC =
   "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/89f2c16e0_InaworldbecomingmoredigitaleverydayJaneWurwandremindsusthathumantouchisstillat.mp4";
@@ -54,19 +53,19 @@ export default function PhilosophyVideo() {
         <ScrollReveal delay={0.15} className="mt-10">
           <div className="grid sm:grid-cols-2 gap-5 sm:gap-6 max-w-3xl mx-auto">
             <div className="rounded-xl overflow-hidden border border-gold/15 shadow-sm bg-charcoal">
-              <Image
+              <img
                 src={PRO_TIP_IMG}
                 alt="Pro Tip: alle 4–6 Wochen zu einem Professional Skin Therapist"
-                fittingType="fit"
-                className="w-full h-auto"
+                loading="lazy"
+                className="block w-full h-auto object-contain"
               />
             </div>
             <div className="rounded-xl overflow-hidden border border-gold/15 shadow-sm bg-charcoal">
-              <Image
+              <img
                 src={HUMAN_TOUCH_IMG}
                 alt="Human Touch – Danke für Deine Treue, Deine Hauttherapeutin"
-                fittingType="fit"
-                className="w-full h-auto"
+                loading="lazy"
+                className="block w-full h-auto object-contain"
               />
             </div>
           </div>
