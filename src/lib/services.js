@@ -515,9 +515,9 @@ export const SERVICES = [
     metaTitle: "Phytomer Spa Rückenbehandlung in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Phytomer Spa Rückenbehandlung in Zürich",
     intro:
-      "Die Phytomer Spa Rückenbehandlung ist eine wohltuende Rückenbehandlung mit Massage und pflegender Algenpackung – für entspannte Haut und ein tiefes Gefühl der Erholung. Sanft und revitalisierend, ganz ohne Klär-Extraktion.",
+      "Die Phytomer Spa Rückenbehandlung ist eine wohltuende Spa-Anwendung für den Rücken mit einer kurzen, entspannenden Massage und einer pflegenden Algenpackung mit Phytomer – für entspannte Haut und ein tiefes Gefühl der Erholung. Sanft und revitalisierend, ganz ohne Klär-Extraktion.",
     what:
-      "Mit Phytomer, marinen Wirkstoffen aus der Bretagne, verwöhne ich Deinen Rücken: sanfte Reinigung, eine pflegende Algenpackung und eine entspannende Massage. Die Behandlung löst Verspannungen und schenkt Dir einen Moment tiefer Entspannung. Für die reine Hautklärung bei Rückenakne empfehle ich stattdessen Pro Back Clear.",
+      "Mit Phytomer, marinen Wirkstoffen aus der Bretagne, verwöhne ich Deinen Rücken: sanfte Reinigung, eine pflegende Algenpackung und eine kurze, entspannende Massage. Die Behandlung löst Verspannungen und schenkt Dir einen Moment tiefer Entspannung. Für die reine Hautklärung bei Rückenakne oder Unreinheiten empfehle ich stattdessen Pro Back Clear aus den Targeted Skin Solutions.",
     benefits: [
       "Phytomer marine Wirkstoffe",
       "Entspannende Rückenmassage",
@@ -549,7 +549,7 @@ export const SERVICES = [
       },
       {
         q: "Kann ich die Behandlung mit einer Gesichtsbehandlung kombinieren?",
-        a: "Ja, viele Kundinnen kombinieren die Phytomer Spa Rückenbehandlung mit einem Pro Skin Treatment für ein rundum-Verwöhnerlebnis.",
+        a: "Ja, die Phytomer Spa Rückenbehandlung ist eine beliebte Ergänzung zu einem Pro Skin Treatment – viele Kundinnen geniessen sie als Add-on für ein rundum-Verwöhnerlebnis.",
       },
     ],
     preparation: [
