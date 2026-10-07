@@ -16,7 +16,7 @@ const VIDEOS = [
   },
   {
     title: "Skin Longevity",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/8722dc421_Reel_Skin_Longevity.mp4",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/c5325fb5e_Skin_Longevity_Reel.mp4",
   },
 ];
 
