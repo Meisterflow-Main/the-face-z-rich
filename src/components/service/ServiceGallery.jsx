@@ -31,7 +31,7 @@ export default function ServiceGallery({ gallery, serviceName }) {
                 <img
                   src={src}
                   alt={`${serviceName} – Eindruck ${i + 1}`}
-                  className="w-full h-auto block"
+                  className="w-full aspect-[4/3] object-cover block"
                   loading="lazy"
                 />
               </div>
