@@ -746,9 +746,7 @@ export const SERVICES = [
     ],
     contraindications: [
       "Jodallergie",
-      "Schwangerschaft: ich berate Dich zu geeigneten Alternativen",
       "Akute Hautentzündungen oder offene Wunden am Rücken",
-      "Frische Sonnenbrand – warte, bis die Haut sich beruhigt hat",
     ],
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a87d55892_ChatGPTImageSep22202605_56_02PM.png",
