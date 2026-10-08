@@ -8,7 +8,7 @@ export const SERVICES = [
     short: "Hautanalyse",
     eyebrow: "Hautanalyse & Beratung",
     metaTitle: "Hautanalyse & Beratung in Zürich | THE FACE® Denise Claire Gadient",
-    h1: "Hautanalyse & Beratung in Zürich",
+    h1: "HAUTANALYSE BERATUNG inkl.QUICKBOOST",
     intro:
       "Persönliche Hautanalyse und Beratung mit Dermalogica® Face Mapping™, Face Fit und chinesischer Hautlesung – inklusive Quick Boost für einen sichtbaren Glow.",
     what:
