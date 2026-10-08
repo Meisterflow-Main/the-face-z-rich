@@ -187,52 +187,46 @@ export const SERVICES = [
     metaTitle: "Minlen Kids & Tweens Skin Treatment in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Minlen Kids & Tweens Skin Treatment in Zürich",
     intro:
-      "Eine sanfte, altersgerechte Hautpflege-Behandlung für Kinder und Tweens mit der natürlichen Minlen Pflegelinie – damit junge Haut früh lernt, sich richtig zu pflegen.",
+      "Eine sanfte, altersgerechte Hautpflege-Behandlung für Kinder und Tweens (4–11 J.) mit der natürlichen Minlen Pflegelinie von Princess Madeleine und Weleda – für sensible Haut und Haut mit Neigung zu atopischer Dermatitis.",
     what:
-      "Das Minlen Kids & Tweens Skin Treatment ist eine einfühlsame Behandlung für junge Haut ab etwa 8 Jahren. Mit der natürlichen Minlen Pflegelinie reinige ich sanft, kläre erste Unreinheiten und erkläre altersgerecht, wie die Haut funktioniert und gepflegt werden möchte. So lernen Kinder und Tweens früh, ihre Haut zu verstehen und selbstbewusst zu pflegen – ohne Überforderung, sanft und mit Spass.",
+      "Das Minlen Kids & Tweens Skin Treatment ist eine einfühlsame Behandlung für sensible Kinderhaut ab 4 Jahren – auch bei Haut mit Neigung zu atopischer Dermatitis. Entwickelt von Princess Madeleine und Weleda mit feinen skandinavischen Wirkstoffen, stärkt und beruhigt es die Hautbarriere und schützt sie. So lernen Kinder und Tweens früh, ihre Haut zu verstehen und selbstbewusst zu pflegen – sanft, natürlich und mit Spass.",
     variants: [
       {
-        name: "Minlen Kids Skin Treatment",
-        subtitle: "Kinder (ca. 8–12 J.)",
-        price: "75",
-        desc: "Sanfte Reinigung, beruhigende Maske und leichte Pflegepflege mit der natürlichen Minlen Linie. Inkl. kurzer Pflegeberatung, altersgerecht erklärt. Ein erster, liebevoller Einstieg in die Hautpflege.",
-      },
-      {
-        name: "Minlen Tweens Skin Treatment",
-        subtitle: "Tweens (ca. 12–15 J.)",
-        price: "95",
-        desc: "Auf die Tween-Haut abgestimmte Reinigung, mildes Peeling bei ersten Unreinheiten, beruhigende Maske und Pflege. Inkl. Pflegeplan für zuhause und Beratung zur richtigen Routine – sanft, klar und nachhaltig.",
+        name: "Minlen Facial Treatment (4–11 J.)",
+        subtitle: "New & Exclusive – Minlen Kids and Tweens Skin Treatment",
+        price: "65",
+        desc: "Minlen Children's Generation Alpha für sensible Haut, inklusive Haut mit Neigung zu atopischer Dermatitis. Entwickelt von Princess Madeleine und Weleda mit feinen skandinavischen Wirkstoffen zur Stärkung, Beruhigung und zum Schutz der Hautbarriere. Inkl. Mini-Gesichtsbehandlung mit Beratung und Produktberatung. Mit hautfreundlichen, hautschützenden, mikrobiom-freundlichen, natürlichen schwedischen Wirkstoffen: sanfte Reinigung, mildes Enzympeeling (bei Bedarf), Serum, Maske, Mini-Verwöhmassage, Tagescreme und Lippenbalsam (Lichtschutz, Primer und Gloss auf Anfrage).",
       },
     ],
     benefits: [
-      "Sanfte, altersgerechte Behandlung ab ca. 8 Jahren",
-      "Natürliche Minlen Pflegelinie",
-      "Klärt erste Unreinheiten mild und behutsam",
-      "Pflegeberatung altersgerecht erklärt",
-      "Fördert frühes Hautbewusstsein",
+      "Sanfte, altersgerechte Behandlung ab 4 Jahren",
+      "Minlen von Princess Madeleine und Weleda",
+      "Für sensible Haut und Haut mit Neigung zu atopischer Dermatitis",
+      "Natürliche skandinavische Wirkstoffe, mikrobiom-freundlich",
+      "Stärkt, beruhigt und schützt die Hautbarriere",
+      "Inkl. Mini-Gesichtsbehandlung, Beratung und Produktberatung",
     ],
     process: [
-      "Kurze Hautanalyse und Beratung",
-      "Sanfte Reinigung und Klärung",
-      "Beruhigende Maske und Pflege",
-      "Pflegetipps für zuhause",
+      "Beratung und Produktberatung",
+      "Sanfte Reinigung und mildes Enzympeeling (bei Bedarf)",
+      "Serum, Maske und Mini-Verwöhmassage",
+      "Tagescreme, Lippenbalsam und Abschluss",
     ],
     priceFactors: [
-      { label: "Minlen Kids Skin Treatment (ca. 8–12 J.)", price: "75" },
-      { label: "Minlen Tweens Skin Treatment (ca. 12–15 J.)", price: "95" },
+      { label: "Minlen Facial Treatment (4–11 J.)", price: "65" },
     ],
     faqs: [
       {
         q: "Ab welchem Alter ist das Minlen Treatment geeignet?",
-        a: "Ab etwa 8 Jahren. Für jüngere Haut passe ich die Behandlung individuell an – sprich mich gerne an.",
+        a: "Ab 4 Jahren. Die Behandlung ist speziell für sensible Kinderhaut und Haut mit Neigung zu atopischer Dermatitis entwickelt.",
       },
       {
-        q: "Welche Produkte werden verwendet?",
-        a: "Ich arbeite mit der natürlichen Minlen Pflegelinie, die sanft zur jungen Haut ist.",
+        q: "Wer hat die Minlen Pflegelinie entwickelt?",
+        a: "Minlen wurde von Princess Madeleine und Weleda mit natürlichen skandinavischen Wirkstoffen entwickelt – hautfreundlich, hautschützend und mikrobiom-freundlich.",
       },
       {
         q: "Ist die Behandlung auch bei Jugendakne geeignet?",
-        a: "Bei ausgeprägter Jugendakne empfehle ich Pro Clear Young unter den Targeted Skin Solutions. Das Minlen Treatment ist ideal für die sanfte Einstiegspflege und erste Unreinheiten.",
+        a: "Bei ausgeprägter Jugendakne empfehle ich Pro Clear Young unter den Targeted Skin Solutions. Das Minlen Treatment ist ideal für die sanfte Einstiegspflege und sensible Haut.",
       },
       {
         q: "Braucht mein Kind eine Vorbereitung?",
