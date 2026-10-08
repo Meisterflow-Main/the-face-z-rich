@@ -152,10 +152,9 @@ export const SERVICES = [
       "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
-      "Verzichte 24 Stunden auf Make-up, Sport und heisse Duschen",
-      "Schütze Deine Haut tagsüber mit SPF, besonders nach peelenden Schritten",
-      "Halte Deine Haut in den ersten Tagen aus direkter Sonne und Hitze fern",
-      "Folge den Pflegetipps, die ich Dir nach der Behandlung mitgebe. Bei Fragen melde Dich per WhatsApp",
+      "Folge dem persönlichen Pflegeplan, den ich für Dich erstelle",
+      "Schütze Deine Haut tagsüber mit dem besprochenen Lichtschutz (SPF)",
+      "Bei Fragen schreib mir jederzeit per WhatsApp",
     ],
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
