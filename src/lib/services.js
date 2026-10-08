@@ -163,8 +163,8 @@ export const SERVICES = [
       "Schwangerschaft: ich berate Dich zu geeigneten Alternativen",
     ],
     gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/72c9dffa9_SereneSplit-ScreenFacialMassage.png",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/8ad80131f_RelaxingFacialMassageinaBrightSpa.png",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/1d987ce50_WhatsAppImage2026-09-29at181518.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/e6304c5a7_IMG_9272.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d8954c19b_IMG_0162.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/90d8a4bbe_IMG_0049.jpg",
