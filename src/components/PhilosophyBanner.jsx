@@ -45,7 +45,7 @@ export default function PhilosophyBanner() {
                 src={q.src}
                 alt={q.alt}
                 loading="lazy"
-                className="block w-full h-[260px] sm:h-[300px] object-cover"
+                className="block w-full h-[320px] sm:h-[380px] object-contain"
               />
             </motion.div>
           ))}
