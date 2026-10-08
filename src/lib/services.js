@@ -684,9 +684,8 @@ export const SERVICES = [
     metaTitle: "Phytomer Spa Rückenbehandlung mit Massage und Algenpackung | THE FACE® Denise Claire Gadient",
     h1: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG",
     intro:
-      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» verwöhnt Deinen Rücken mit Relaxmassage und wärmender Meeresalgenmoorpackung – Entspannung und Revitalisierung, ganz ohne Dusche möglich. Nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar.",
-    what:
-      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» ist ein reines Verwöhnerlebnis für Deinen Rücken: Entspannung und Revitalisierung mit maritimen Wirkstoffen direkt aus dem Meer. Sanft, wärmend und tiefenentspannend – eine schöne Ergänzung, bevor ich mich Deinem Gesicht widme.",
+      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» ist ein reines Verwöhnerlebnis für Deinen Rücken: Entspannung und Revitalisierung mit maritimen Wirkstoffen direkt aus dem Meer. Sanft, wärmend und tiefenentspannend mit Relaxmassage und wärmender Meeresalgenmoorpackung, ganz ohne Dusche möglich – eine schöne Ergänzung, bevor ich mich Deinem Gesicht widme. Nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar.",
+    what: "",
     notice: {
       title: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG – 60.00 CHF",
       body:
