@@ -699,6 +699,11 @@ export const SERVICES = [
       "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» verwöhnt Deinen Rücken mit Relaxmassage und wärmender Meeresalgenmoorpackung – Entspannung und Revitalisierung, ganz ohne Dusche möglich. Nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar.",
     what:
       "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» verwöhnt Deinen Rücken mit einer Relaxmassage mit maritimem Öl und einer wärmenden, blubbernden Meeresalgenmoorpackung zur Entgiftung und Revitalisierung. Anschliessend wasche ich alles sanft mit einem Handschuh ab und trage Oléocreme Bodylotion auf – ganz ohne Dusche möglich. Diese Behandlung ist Entspannung und Revitalisierung, keine Rückenreinigung. Für eine reine Hautklärung bei Rückenakne oder Unreinheiten buche bitte Dermalogica® Pro Back Clear unter den Targeted Skin Solutions. Die Phytomer Spa Rückenbehandlung ist nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar – nur zum Skin Treat, nicht als Stand-alone-Behandlung. Auf Wunsch serviere ich Dir gerne 1 Glas Prosecco (oder alkoholfrei) dazu.",
+    notice: {
+      title: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG – 60.00 CHF",
+      body:
+        "Phytomer Spa Rückenbehandlung «Le Champagne de la Mer» – Entspannung und Revitalisierung. Keine Rückenreinigung. Für eine reine Hautklärung buche bitte Dermalogica® Pro Back Clear unter den Targeted Skin Solutions!\n\nNur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar – nur zum Skin Treat, nicht als Stand-alone-Behandlung. Rückenbehandlung mit Massage und Packung: Relaxmassage mit maritimem Öl, wärmende und blubbernde Meeresalgenmoorpackung zur Entgiftung und Revitalisierung. Abgewaschen mit einem Handschuh, Oléocreme Bodylotion aufgetragen. Dusche nicht erforderlich.\n\nKontraindikationen: Jodallergie / Schwangerschaft. 1 Glas Prosecco (oder alkoholfrei) auf Wunsch.",
+    },
     benefits: [
       "«le Champagne de la Mer» mit Phytomer",
       "Relaxmassage mit maritimem Öl",

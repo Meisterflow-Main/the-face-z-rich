@@ -90,6 +90,20 @@ export default function ServiceDetail({ service }) {
         </p>
       </Section>
 
+      {/* Hinweis-Block */}
+      {service.notice && (
+        <Section bg="sand">
+          <div className="max-w-3xl mx-auto bg-card border border-gold/30 rounded-xl p-6 sm:p-8 shadow-sm">
+            <p className="font-heading text-lg sm:text-xl font-semibold text-charcoal mb-4 text-center">
+              {service.notice.title}
+            </p>
+            <p className="text-charcoal/75 leading-relaxed text-sm sm:text-base whitespace-pre-line">
+              {service.notice.body}
+            </p>
+          </div>
+        </Section>
+      )}
+
       {/* Varianten */}
       {service.variants && service.variants.length > 0 && (
         <Section bg="sand">
