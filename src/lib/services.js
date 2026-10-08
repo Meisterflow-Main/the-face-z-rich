@@ -602,7 +602,6 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Komm mit sauberer, ungeschminkter Haut oder mit leichter Pflege",
       "Bringe Inspirationen oder Fotos Deines gewünschten Looks mit",
       "Für Brautmake-up: vereinbare vorab einen Beratungstermin",
     ],
