@@ -83,12 +83,14 @@ export default function ServiceDetail({ service }) {
       </section>
 
       {/* Was ist */}
-      <Section>
-        <Heading eyebrow="Die Behandlung" title={`Was ist ${service.name}?`} />
-        <p className="text-charcoal/70 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto text-center">
-          {service.what}
-        </p>
-      </Section>
+      {service.what && (
+        <Section>
+          <Heading eyebrow="Die Behandlung" title={`Was ist ${service.name}?`} />
+          <p className="text-charcoal/70 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto text-center">
+            {service.what}
+          </p>
+        </Section>
+      )}
 
       {/* Hinweis-Block */}
       {service.notice && (

@@ -10,9 +10,8 @@ export const SERVICES = [
     metaTitle: "Hautanalyse & Beratung in Zürich | THE FACE® Denise Claire Gadient",
     h1: "HAUTANALYSE BERATUNG inkl.QUICKBOOST",
     intro:
-      "Persönliche Hautanalyse und Beratung mit Dermalogica® Face Mapping™, Face Fit und chinesischer Hautlesung – inklusive Quick Boost für einen sichtbaren Glow.",
-    what:
-      "Ich untersuche Deine Haut Zone für Zone: Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten – so weiss ich genau, was Deine Haut braucht. Die Produktberatung inklusive Quick Boost umfasst Doppelreinigung, ein auf Deinen Hautzustand abgestimmtes Peeling, Serum und Maske sowie die Abschlusspflege mit Lichtschutz (SPF) für fundierte Hautpflegeinformationen. Du erhältst zudem einen persönlichen Pflegeplan für zuhause. Super in Kombi mit dem Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung.",
+      "Persönliche Hautanalyse und Beratung mit Dermalogica® Face Mapping™, Face Fit und chinesischer Hautlesung: Ich untersuche Deine Haut Zone für Zone – Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten – und weiss so genau, was Deine Haut braucht. Inklusive Quick Boost mit Doppelreinigung, auf Deinen Hautzustand abgestimmtem Peeling, Serum, Maske und Abschlusspflege mit Lichtschutz (SPF) für einen sichtbaren Glow und fundierte Hautpflegeinformationen. Du erhältst zudem einen persönlichen Pflegeplan für zuhause. Super in Kombi mit dem Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung.",
+    what: "",
     variants: [
       {
         name: "Face Map & Face Fit Skin Analysis Consultation inkl. Quick Boost",
