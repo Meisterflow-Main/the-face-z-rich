@@ -698,13 +698,14 @@ export const SERVICES = [
     intro:
       "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» verwöhnt Deinen Rücken mit Relaxmassage und wärmender Meeresalgenmoorpackung – Entspannung und Revitalisierung, ganz ohne Dusche möglich. Nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar.",
     what:
-      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» verwöhnt Deinen Rücken mit einer Relaxmassage mit maritimem Öl und einer wärmenden, blubbernden Meeresalgenmoorpackung zur Entgiftung und Revitalisierung. Anschliessend wasche ich alles sanft mit einem Handschuh ab und trage Oléocreme Bodylotion auf – ganz ohne Dusche möglich. Diese Behandlung ist Entspannung und Revitalisierung, keine Rückenreinigung. Für eine reine Hautklärung bei Rückenakne oder Unreinheiten buche bitte Dermalogica® Pro Back Clear unter den Targeted Skin Solutions. Die Phytomer Spa Rückenbehandlung ist nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar – nur zum Skin Treat, nicht als Stand-alone-Behandlung.",
+      "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» verwöhnt Deinen Rücken mit einer Relaxmassage mit maritimem Öl und einer wärmenden, blubbernden Meeresalgenmoorpackung zur Entgiftung und Revitalisierung. Anschliessend wasche ich alles sanft mit einem Handschuh ab und trage Oléocreme Bodylotion auf – ganz ohne Dusche möglich. Diese Behandlung ist Entspannung und Revitalisierung, keine Rückenreinigung. Für eine reine Hautklärung bei Rückenakne oder Unreinheiten buche bitte Dermalogica® Pro Back Clear unter den Targeted Skin Solutions. Die Phytomer Spa Rückenbehandlung ist nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar – nur zum Skin Treat, nicht als Stand-alone-Behandlung. Auf Wunsch serviere ich Dir gerne 1 Glas Prosecco (oder alkoholfrei) dazu.",
     benefits: [
       "«le Champagne de la Mer» mit Phytomer",
       "Relaxmassage mit maritimem Öl",
       "Wärmende, blubbernde Meeresalgenmoorpackung",
       "Entgiftung und Revitalisierung",
       "Ohne Dusche möglich",
+      "1 Glas Prosecco (oder alkoholfrei) auf Wunsch",
     ],
     process: [
       "Relaxmassage mit maritimem Öl",
