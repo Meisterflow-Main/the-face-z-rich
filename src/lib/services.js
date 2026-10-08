@@ -392,7 +392,7 @@ export const SERVICES = [
     intro:
       "Das Longevity Glow Treatment und die LuminFusion Nanoinfusion sind innovative Skin Longevity-Behandlungen für nachhaltigen Glow und strahlende, jugendliche Haut.",
     what:
-      "Mit der LuminFusion Nanoinfusion oder dem Longevity Glow Treat bringe ich tiefe Nährstoffe in die Haut und rege die Erneuerung an, für sichtbar frische, jugendliche Ausstrahlung.",
+      "Mit der LuminFusion Nanoinfusion oder dem Longevity Glow Treat bringe ich tiefe Nährstoffe in die Haut und rege die Erneuerung an, für sichtbar frische, jugendliche Ausstrahlung. Die LuminFusion Nanoinfusion ist die perfekte Wohlfühlbehandlung für alle, die sich bisher nicht getraut haben, eine Microneedling Behandlung durchzuführen – mit echten Ergebnissen: sie glättet feine Linien und Falten und verfeinert die Hauttextur. Die Consultation umfasst Doppelreinigung, ein intensives Vitaminpeeling oder das neue Plump Peel mit sanfter Nanoinfusion, ein hautspezifisches Serum und LED Rot mit Special Light Maske, währenddessen eine Nackenmassage. Den Abschluss bilden ein hautspezifisches Serum, Abschlusspflege mit SPF und ein Skin Perfecting Primer. Für nachhaltige Ergebnisse empfehle ich eine 3-er Kur im Abstand von 3–4 Wochen.",
     variants: [
       {
         name: "LuminFusion Nanoinfusion",
