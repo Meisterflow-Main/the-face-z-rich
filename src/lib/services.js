@@ -258,9 +258,8 @@ export const SERVICES = [
     metaTitle: "Targeted Skin Solutions in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Targeted Skin Solutions in Zürich",
     intro:
-      "Die Dermalogica® Targeted Skin Solutions Treatments zielen auf konkrete Hautanliegen: Unreinheiten und Akne, Pigmentflecken, sensible und gereizte Haut, Feuchtigkeitsmangel, den Rücken sowie straffende Pflege. Jede Behandlung ist auf Deinen Hautzustand abgestimmt.",
-    what:
-      "Pro Clear und Pro Clear Young klären unreine Haut bei Erwachsenen und Teenagern – bei Unreinheiten, Rötungen (PIH), Milien und Pickeln. Pro Back Clear reinigt den Rücken, Pro Bright hellt Pigmentflecken auf, Pro Calm Treat beruhigt sensible, gereizte Haut und Pro Firm strafft. Nach der Dermalogica® Face Mapping™ Analyse wähle ich die passende Methode für Deinen Hautzustand.",
+      "Die Dermalogica® Targeted Skin Solutions Treatments zielen auf konkrete Hautanliegen: Unreinheiten und Akne, Pigmentflecken, sensible und gereizte Haut, Feuchtigkeitsmangel, den Rücken sowie straffende Pflege. Pro Clear und Pro Clear Young klären unreine Haut bei Erwachsenen und Teenagern – bei Unreinheiten, Rötungen (PIH), Milien und Pickeln. Pro Back Clear reinigt den Rücken, Pro Bright hellt Pigmentflecken auf, Pro Calm Treat beruhigt sensible, gereizte Haut und Pro Firm strafft. Nach der Dermalogica® Face Mapping™ Analyse wähle ich die passende Methode für Deinen Hautzustand.",
+    what: "",
     variants: [
       {
         name: "Pro Clear Young Big",
