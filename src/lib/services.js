@@ -64,7 +64,6 @@ export const SERVICES = [
       "Bei Fragen schreib mir jederzeit per WhatsApp",
     ],
     contraindications: [
-      "Akute Hautentzündungen oder offene Wunden im Gesicht",
       "Herpes oder Fieberblasen im Gesicht",
     ],
     related: ["pro-skin-treatments", "targeted-skin-solutions", "longevity-glow-treatment"],
