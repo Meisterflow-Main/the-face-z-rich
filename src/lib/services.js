@@ -159,6 +159,7 @@ export const SERVICES = [
     ],
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Herpes oder Fieberblasen im Gesicht",
       "Frische Sonnenbrand oder aktive Kortisonbehandlung",
       "Schwangerschaft: ich berate Dich zu geeigneten Alternativen",
     ],
