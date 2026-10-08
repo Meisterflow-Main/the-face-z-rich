@@ -84,9 +84,8 @@ export const SERVICES = [
     metaTitle: "Pro Skin Treatments in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Pro Skin Treatments in Zürich",
     intro:
-      "Die Dermalogica® Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmte Premium-Behandlungen mit sanfter Tiefenreinigung, Peeling und Maske, für spürbar revitalisierte Haut und einen frischen Glow.",
-    what:
-      "Du wählst die gebuchte Dauer und Option – von der kompakten 45-Minuten-Behandlung bis zur zweistündigen Ultra Skin 120. Jedes Treatment beginnt mit einer Konsultationsbesprechung und einer Dermalogica® Face Mapping™ Analyse und wird auf Dich persönlich abgestimmt. Ich passe die Behandlung an die Bedürfnisse Deiner Haut an.",
+      "Die Dermalogica® Signature Pro Skin Treatments sind auf Deinen Hautzustand abgestimmte Premium-Behandlungen mit sanfter Tiefenreinigung, Peeling und Maske für spürbar revitalisierte Haut und einen frischen Glow. Du wählst die gebuchte Dauer und Option – von der kompakten 45-Minuten-Behandlung bis zur zweistündigen Ultra Skin 120. Jedes Treatment beginnt mit einer Konsultationsbesprechung und einer Dermalogica® Face Mapping™ Analyse und wird auf Dich persönlich abgestimmt.",
+    what: "",
     variants: [
       {
         name: "Pro Skin 45 Quick Clear",
