@@ -185,9 +185,8 @@ export const SERVICES = [
     metaTitle: "Minlen Kids & Tweens Skin Treatment in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Minlen Kids & Tweens Skin Treatment in Zürich",
     intro:
-      "Eine sanfte, altersgerechte Hautpflege-Behandlung für Kinder und Tweens (4–11 J.) mit der natürlichen Minlen Pflegelinie von Princess Madeleine und Weleda – für sensible Haut und Haut mit Neigung zu atopischer Dermatitis.",
-    what:
-      "Das Minlen Kids & Tweens Skin Treatment ist eine einfühlsame Hautpflege-Behandlung für sensible Kinderhaut ab 4 Jahren – auch bei Haut mit Neigung zu atopischer Dermatitis. Mit der natürlichen Minlen Pflegelinie lernt Dein Kind früh, seine Haut zu verstehen und selbstbewusst zu pflegen – sanft, natürlich und mit Spass.",
+      "Das Minlen Kids & Tweens Skin Treatment ist eine sanfte, altersgerechte Hautpflege-Behandlung für sensible Kinderhaut ab 4 Jahren – auch bei Haut mit Neigung zu atopischer Dermatitis. Mit der natürlichen Minlen Pflegelinie von Princess Madeleine und Weleda lernt Dein Kind früh, seine Haut zu verstehen und selbstbewusst zu pflegen – sanft, natürlich und mit Spass.",
+    what: "",
     variants: [
       {
         name: "Minlen Facial Treatment (4–11 J.)",
