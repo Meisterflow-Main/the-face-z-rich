@@ -737,8 +737,6 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Komm mit sauberer, ungeschminkter Haut",
-      "Verzichte eine Woche vorher auf Peelings oder neue Produkte",
       "Entspanne Dich und nimm Dir Zeit für die Behandlung",
     ],
     aftercare: [
