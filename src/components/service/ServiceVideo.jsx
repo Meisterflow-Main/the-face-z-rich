@@ -1,23 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
+import LazyVideo from "@/components/LazyVideo";
 
 export default function ServiceVideo({ src }) {
-  const ref = useRef(null);
-
-  useEffect(() => {
-    const v = ref.current;
-    if (!v) return;
-    v.play().catch(() => {});
-  }, []);
-
   return (
-    <video
-      ref={ref}
+    <LazyVideo
       src={src}
-      autoPlay
-      muted
-      loop
-      playsInline
-      preload="metadata"
       controls
       className="block w-full h-auto object-contain"
     />

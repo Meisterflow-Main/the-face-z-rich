@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollReveal from "@/components/ScrollReveal";
+import LazyVideo from "@/components/LazyVideo";
 
 const VIDEOS = [
   {
@@ -34,13 +35,9 @@ export default function BrandVideo() {
                 className="relative rounded-xl overflow-hidden shadow-2xl border border-white/10 w-full max-w-[460px]"
               >
                 <div className="aspect-[4/5]">
-                  <video
+                  <LazyVideo
                     src={v.src}
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    aria-label={v.alt}
+                    alt={v.alt}
                     className="w-full h-full object-cover"
                   />
                 </div>

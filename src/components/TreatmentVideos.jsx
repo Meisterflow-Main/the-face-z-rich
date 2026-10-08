@@ -1,5 +1,6 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
+import LazyVideo from "@/components/LazyVideo";
 
 const VIDEOS = [
   {
@@ -21,14 +22,6 @@ const VIDEOS = [
 ];
 
 function VideoCard({ video, index }) {
-  const ref = useRef(null);
-
-  useEffect(() => {
-    const v = ref.current;
-    if (!v) return;
-    v.play().catch(() => {});
-  }, []);
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 24 }}
@@ -36,14 +29,8 @@ function VideoCard({ video, index }) {
       transition={{ duration: 0.7, delay: 0.4 + index * 0.1, ease: [0.22, 1, 0.36, 1] }}
       className="group relative aspect-[4/5] sm:aspect-[3/4] rounded-lg overflow-hidden border border-gold/15 bg-charcoal shadow-sm"
     >
-      <video
-        ref={ref}
+      <LazyVideo
         src={video.src}
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="auto"
         className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.015]"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/10 to-transparent" />
