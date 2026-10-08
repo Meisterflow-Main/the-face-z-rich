@@ -31,7 +31,7 @@ export default function PhilosophyBanner() {
           <div className="hairline w-20 mx-auto mt-4" />
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mx-auto items-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 max-w-3xl mx-auto items-start">
           {QUOTES.map((q, i) => (
             <motion.div
               key={i}
@@ -39,33 +39,34 @@ export default function PhilosophyBanner() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.7, delay: i * 0.15, ease: [0.22, 1, 0.36, 1] }}
-              className="relative overflow-hidden rounded-xl shadow-md border border-charcoal/10"
+              className="relative overflow-hidden rounded-lg shadow-md border border-charcoal/10 bg-card"
             >
               <img
                 src={q.src}
                 alt={q.alt}
-                className="w-full h-auto block"
+                loading="lazy"
+                className="block w-full h-[260px] sm:h-[300px] object-cover"
               />
             </motion.div>
           ))}
         </div>
 
-        <ScrollReveal delay={0.1} className="mt-10 sm:mt-12">
-          <div className="grid sm:grid-cols-2 gap-5 sm:gap-6 max-w-3xl mx-auto">
-            <div className="rounded-xl overflow-hidden border border-gold/15 shadow-sm bg-charcoal">
+        <ScrollReveal delay={0.1} className="mt-8 sm:mt-10">
+          <div className="grid sm:grid-cols-2 gap-4 sm:gap-5 max-w-xl mx-auto">
+            <div className="rounded-lg overflow-hidden border border-gold/15 shadow-sm bg-charcoal">
               <img
                 src="https://media.base44.com/images/public/6aa28dd575421cdcca35083c/df004ae55_SkincareProTipMinimalistPoster.png"
                 alt="Pro Tip: alle 4–6 Wochen zu einem Professional Skin Therapist"
                 loading="lazy"
-                className="block w-full h-auto object-contain"
+                className="block w-full h-[220px] object-contain"
               />
             </div>
-            <div className="rounded-xl overflow-hidden border border-gold/15 shadow-sm bg-charcoal">
+            <div className="rounded-lg overflow-hidden border border-gold/15 shadow-sm bg-charcoal">
               <img
                 src="https://media.base44.com/images/public/6aa28dd575421cdcca35083c/fbe0c4834_HumanTouchLastingConnection.png"
                 alt="Human Touch – Danke für Deine Treue, Deine Hauttherapeutin"
                 loading="lazy"
-                className="block w-full h-auto object-contain"
+                className="block w-full h-[220px] object-contain"
               />
             </div>
           </div>
