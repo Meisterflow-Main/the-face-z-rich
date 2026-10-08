@@ -159,8 +159,6 @@ export const SERVICES = [
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
       "Herpes oder Fieberblasen im Gesicht",
-      "Frische Sonnenbrand oder aktive Kortisonbehandlung",
-      "Schwangerschaft: ich berate Dich zu geeigneten Alternativen",
     ],
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/13f86584b_SereneSplit-SceneFacialMassage.png",
