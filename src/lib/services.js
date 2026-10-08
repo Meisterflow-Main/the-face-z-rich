@@ -56,7 +56,6 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
       "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
@@ -150,7 +149,6 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
       "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
@@ -281,7 +279,6 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
       "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
@@ -358,7 +355,6 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
       "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
@@ -428,7 +424,6 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Erscheine ungeschminkt zum Termin, damit die Hautanalyse sauber gelingt",
       "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
     ],
     aftercare: [
