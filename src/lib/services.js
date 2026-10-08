@@ -464,9 +464,8 @@ export const SERVICES = [
     metaTitle: "Longevity Glow Treatment in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Longevity Glow Treatment in Zürich",
     intro:
-      "Das Longevity Glow Treatment und die LuminFusion Nanoinfusion sind innovative Skin Longevity-Behandlungen für nachhaltigen Glow und strahlende, jugendliche Haut.",
-    what:
       "Das Longevity Glow Treatment ist eine Skin Longevity-Behandlung, die Deine Haut nicht nur kurzfristig zum Strahlen bringt, sondern ihre natürliche Erneuerung nachhaltig unterstützt. Herzstück ist die LuminFusion Nanoinfusion: feinste Nano-Spitzen bringen Wirkstoffe sanft in die Hautoberfläche ein, kombiniert mit rotem LED-Licht. Das Ergebnis ist ein sofortiger Glow, eine verfeinerte Hauttextur und sichtbar geglättete feine Linien – ideal für alle, die echte Ergebnisse wünschen, ohne sich an ein Microneedling heranzuwagen.",
+    what: "",
     variants: [
       {
         name: "LuminFusion Nanoinfusion",
