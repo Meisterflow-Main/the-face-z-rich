@@ -434,8 +434,6 @@ export const SERVICES = [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
       "Herpes oder Fieberblasen im Gesicht",
       "Aktive Akne oder Hautentzündungen im Behandlungsbereich",
-      "Frische Sonnenbrand oder offene Wunden",
-      "Schwangerschaft und Stillzeit: ich berate Dich zu Alternativen",
     ],
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2ab523187_WhatsAppImage2026-10-01at102627.jpeg",
