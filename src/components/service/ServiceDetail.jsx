@@ -313,7 +313,7 @@ export default function ServiceDetail({ service }) {
           Bereit für {service.name}?
         </h2>
         <p className="text-white/70 max-w-xl mx-auto mb-7">
-          Sichere Dir Deinen Termin an der Rämistrasse: online buchen oder persönlich anfragen. Ich freue mich auf Dich.
+          Sichere Dir Deinen Termin an der Rämistrasse: online buchen oder persönlich anfragen. Ob kurze Auszeit oder ausgiebiges Verwöhnerlebnis – ich nehme mir Zeit für Dich und Deine Haut. Ich freue mich auf Dich.
         </p>
         <a
           href={BRAND.booking}
