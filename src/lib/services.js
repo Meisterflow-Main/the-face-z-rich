@@ -319,6 +319,14 @@ export const SERVICES = [
       "Die Dermalogica® Medical Skin Treatments verbinden medizinische Hautbehandlung mit der Pro Skin Philosophie: Exoboost mit Mikrodermabrasion oder Microneedling für sichtbar erneuerte Hautstruktur.",
     what:
       "Mit dem Exoboost Treatment wende ich entweder Mikrodermabrasion oder Microneedling 0.5 an, je nach Hautbild und Ziel. So verfeinere ich die Hautstruktur, werte Narben auf und rege die Erneuerung an.",
+    variants: [
+      {
+        name: "EXOBOOSTER Microneedling 0.5 mm",
+        subtitle: "10% Offer Dermalogica Medical Skin Treatment",
+        price: "470",
+        desc: "NEW GENERATION: Exobooster mit veganen 10 Milliarden Lactobacillus Exosomen – der Gamechanger! Investiere in Deine Skin Longevity für feinere Poren, sanftere Narben und straffere, glattere und revitalisierte Haut.\n\nConsultation: Doppelreinigung, personalisiertes Pro Power Peel, Microneedling 0.5 mm mit veganen Exosomen und Pro Resolution Serum, kühlende Blue Hyaluronic Mask. Inkl. Exosom Serum für 7 Tage zur Heimbehandlung! Keine Downtime!\n\n10% Offer! Empfehlung in einer 3-er Kur alle 3–4 Wochen für CHF 1269.– (gespart CHF 141.–) + inkl. Exosom Serum für zuhause.\n\nKontraindikationen: Schwangerschaft, Metallallergie (ich arbeite mit Chirurgenstahl – ist sicher!), akute Herpes / Akne, 48 Std. kein Schmerzmittel / Cortison / Blutverdünner.",
+      },
+    ],
     benefits: [
       "Mikrodermabrasion oder Microneedling 0.5",
       "Sichtbar erneuerte Hautstruktur",
