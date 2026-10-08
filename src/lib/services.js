@@ -540,9 +540,8 @@ export const SERVICES = [
     metaTitle: "Make-up & Visagistik in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Make-up & Visagistik in Zürich",
     intro:
-      "Als Visagistin schminke ich Dich für jeden Anlass – von der Beratung über das Tages- und Abend-Make-up bis zum Brautmake-up. Natürlich, individuell und auf Dich abgestimmt.",
-    what:
-      "Mit Jane Iredale und Glowskinbeauty-Produkten schminke ich einen natürlichen Look, der zu Dir passt: von der farblichen Beratung bis zum langlebigen Brautmake-up für Deinen besonderen Tag.",
+      "Als Visagistin schminke ich Dich für jeden Anlass – von der Beratung über das Tages- und Abend-Make-up bis zum Brautmake-up. Mit Jane Iredale und Glowskinbeauty-Produkten schminke ich einen natürlichen Look, der zu Dir passt: von der farblichen Beratung bis zum langlebigen Brautmake-up für Deinen besonderen Tag. Natürlich, individuell und auf Dich abgestimmt.",
+    what: "",
     variants: [
       {
         name: "Make-up Beratung",
