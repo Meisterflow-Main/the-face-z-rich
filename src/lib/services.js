@@ -365,8 +365,6 @@ export const SERVICES = [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
       "Herpes oder Fieberblasen im Gesicht",
       "Aktive Akne oder Hautentzündungen im Behandlungsbereich",
-      "Frische Sonnenbrand oder offene Wunden",
-      "Schwangerschaft und Stillzeit: ich berate Dich zu sanften Alternativen",
       "Einnahme von Isotretinoin in den letzten sechs Monaten",
     ],
     gallery: [
