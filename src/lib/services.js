@@ -393,6 +393,14 @@ export const SERVICES = [
       "Das Longevity Glow Treatment und die LuminFusion Nanoinfusion sind innovative Skin Longevity-Behandlungen für nachhaltigen Glow und strahlende, jugendliche Haut.",
     what:
       "Mit der LuminFusion Nanoinfusion oder dem Longevity Glow Treat bringe ich tiefe Nährstoffe in die Haut und rege die Erneuerung an, für sichtbar frische, jugendliche Ausstrahlung.",
+    variants: [
+      {
+        name: "LuminFusion Nanoinfusion",
+        subtitle: "10% Offer – Red Carpet Look bis 31. Oktober",
+        price: "245",
+        desc: "Sofortiger Red Carpet Glow von LA! Für alle, die sich bisher nicht getraut haben, eine Microneedling Behandlung durchzuführen. Wohlfühlbehandlung mit echten Ergebnissen!\n\nGlättet feine Linien und Falten. Verfeinerung der Hauttextur.\n\nConsultation: Doppelreinigung, intensives Vitaminpeeling oder neue Plump Peel mit sanfter Nanoinfusion, hautspezifisches Serum und LED Rot mit Special Light Maske, währenddessen mit Nackenmassage! Hautspezifisches Serum und Abschlusspflege SPF, Skin Perfecting Primer.\n\nEmpfehlung: 3-er Kur alle 3–4 Wochen – profitiere im Abo und lass Dich von mir beraten!\n\nKontraindikationen: Schwangerschaft, Epilepsie, Lichtallergie, keine akute Akne / Herpes, 48 Std. keine Schmerzmittel / Cortison / Blutverdünner.",
+      },
+    ],
     benefits: [
       "LuminFusion Nanoinfusion",
       "Nachhaltiger Glow und jugendliche Ausstrahlung",
