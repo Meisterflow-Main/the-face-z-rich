@@ -450,7 +450,6 @@ export const SERVICES = [
       "Verwende keine klärenden oder peelenden Produkte für eine Woche",
     ],
     contraindications: [
-      "Akute Hautentzündungen oder offene Wunden im Gesicht",
       "Herpes oder Fieberblasen im Gesicht",
       "Aktive Akne oder Hautentzündungen im Behandlungsbereich",
       "Einnahme von Isotretinoin in den letzten sechs Monaten",
