@@ -670,8 +670,6 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Komm mit sauberen, ungeschminkten Wimpern",
-      "Entferne Mascara und Augen-Make-up vor dem Termin",
       "Vermeide Wimpernserum in den 48 Stunden vor dem Termin",
     ],
     aftercare: [
