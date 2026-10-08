@@ -392,9 +392,8 @@ export const SERVICES = [
     metaTitle: "Medical Skin Treatments in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Medical Skin Treatments in Zürich",
     intro:
-      "Die Dermalogica® Medical Skin Treatments verbinden medizinische Hautbehandlung mit der Pro Skin Philosophie: Exoboost mit Mikrodermabrasion oder Microneedling für sichtbar erneuerte Hautstruktur.",
-    what:
       "Die Dermalogica® Medical Skin Treatments verbinden medizinische Hautbehandlung mit der Pro Skin Philosophie. Mit dem Exoboost Treatment setze ich je nach Hautbild und Ziel auf Mikrodermabrasion oder Microneedling 0.5 mm, um die Hautstruktur zu verfeinern, Narben aufzuwerten und die natürliche Erneuerung anzuregen – für sichtbar revitalisierte, glattere Haut.",
+    what: "",
     variants: [
       {
         name: "EXOBOOSTER Microneedling 0.5 mm",
