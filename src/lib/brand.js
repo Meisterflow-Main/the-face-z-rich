@@ -67,6 +67,12 @@ export const TREATMENTS = [
     to: "/behandlungen/pro-skin-treatments",
   },
   {
+    title: "Minlen Kids & Tweens",
+    desc: "Sanfte, altersgerechte Hautpflege-Behandlung für sensible Kinderhaut ab 4 Jahren mit der natürlichen Minlen Pflegelinie von Princess Madeleine und Weleda.",
+    benefit: "Sanft & Altersgerecht",
+    to: "/behandlungen/minlen-kids-tweens",
+  },
+  {
     title: "Longevity Glow Treatment",
     desc: "Innovatives Skin Longevity-Treatment für nachhaltigen Glow und strahlende, jugendliche Haut.",
     benefit: "Jugendlich & strahlend",
