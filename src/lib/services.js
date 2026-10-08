@@ -617,9 +617,8 @@ export const SERVICES = [
     metaTitle: "Lashlift in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Lashlift in Zürich",
     intro:
-      "Der Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung gibt Dir einen wachen, offenen Blick, sanft und langanhaltend.",
-    what:
-      "Mit dem Ellebaana Wimpernlift forme ich Deine Wimpern sanft nach oben und färbe sie blauschwarz. Für einen wachen, natürlichen Blick ohne tägliche Mascara.",
+      "Der Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung gibt Dir einen wachen, offenen Blick, sanft und langanhaltend. Mit dem Ellebaana Wimpernlift forme ich Deine Wimpern sanft nach oben und färbe sie blauschwarz – für einen wachen, natürlichen Blick ohne tägliche Mascara.",
+    what: "",
     variants: [
       {
         name: "Ellebaana Lash Lift incl. Blue-Black Lash Tinting",
