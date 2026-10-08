@@ -177,7 +177,87 @@ export const SERVICES = [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/1d47474f5_IMG_9261.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0a90f4072_IMG_0156.jpg",
     ],
-    related: ["longevity-glow-treatment", "medical-skin-treatments", "targeted-skin-solutions"],
+    related: ["longevity-glow-treatment", "medical-skin-treatments", "targeted-skin-solutions", "minlen-kids-tweens"],
+  },
+  {
+    slug: "minlen-kids-tweens",
+    name: "Minlen Kids & Tweens Skin Treatment",
+    short: "Minlen Kids & Tweens",
+    eyebrow: "Minlen Kids & Tweens",
+    metaTitle: "Minlen Kids & Tweens Skin Treatment in Zürich | THE FACE® Denise Claire Gadient",
+    h1: "Minlen Kids & Tweens Skin Treatment in Zürich",
+    intro:
+      "Eine sanfte, altersgerechte Hautpflege-Behandlung für Kinder und Tweens mit der natürlichen Minlen Pflegelinie – damit junge Haut früh lernt, sich richtig zu pflegen.",
+    what:
+      "Das Minlen Kids & Tweens Skin Treatment ist eine einfühlsame Behandlung für junge Haut ab etwa 8 Jahren. Mit der natürlichen Minlen Pflegelinie reinige ich sanft, kläre erste Unreinheiten und erkläre altersgerecht, wie die Haut funktioniert und gepflegt werden möchte. So lernen Kinder und Tweens früh, ihre Haut zu verstehen und selbstbewusst zu pflegen – ohne Überforderung, sanft und mit Spass.",
+    variants: [
+      {
+        name: "Minlen Kids Skin Treatment",
+        subtitle: "Kinder (ca. 8–12 J.)",
+        price: "75",
+        desc: "Sanfte Reinigung, beruhigende Maske und leichte Pflegepflege mit der natürlichen Minlen Linie. Inkl. kurzer Pflegeberatung, altersgerecht erklärt. Ein erster, liebevoller Einstieg in die Hautpflege.",
+      },
+      {
+        name: "Minlen Tweens Skin Treatment",
+        subtitle: "Tweens (ca. 12–15 J.)",
+        price: "95",
+        desc: "Auf die Tween-Haut abgestimmte Reinigung, mildes Peeling bei ersten Unreinheiten, beruhigende Maske und Pflege. Inkl. Pflegeplan für zuhause und Beratung zur richtigen Routine – sanft, klar und nachhaltig.",
+      },
+    ],
+    benefits: [
+      "Sanfte, altersgerechte Behandlung ab ca. 8 Jahren",
+      "Natürliche Minlen Pflegelinie",
+      "Klärt erste Unreinheiten mild und behutsam",
+      "Pflegeberatung altersgerecht erklärt",
+      "Fördert frühes Hautbewusstsein",
+    ],
+    process: [
+      "Kurze Hautanalyse und Beratung",
+      "Sanfte Reinigung und Klärung",
+      "Beruhigende Maske und Pflege",
+      "Pflegetipps für zuhause",
+    ],
+    priceFactors: [
+      { label: "Minlen Kids Skin Treatment (ca. 8–12 J.)", price: "75" },
+      { label: "Minlen Tweens Skin Treatment (ca. 12–15 J.)", price: "95" },
+    ],
+    faqs: [
+      {
+        q: "Ab welchem Alter ist das Minlen Treatment geeignet?",
+        a: "Ab etwa 8 Jahren. Für jüngere Haut passe ich die Behandlung individuell an – sprich mich gerne an.",
+      },
+      {
+        q: "Welche Produkte werden verwendet?",
+        a: "Ich arbeite mit der natürlichen Minlen Pflegelinie, die sanft zur jungen Haut ist.",
+      },
+      {
+        q: "Ist die Behandlung auch bei Jugendakne geeignet?",
+        a: "Bei ausgeprägter Jugendakne empfehle ich Pro Clear Young unter den Targeted Skin Solutions. Das Minlen Treatment ist ideal für die sanfte Einstiegspflege und erste Unreinheiten.",
+      },
+      {
+        q: "Braucht mein Kind eine Vorbereitung?",
+        a: "Komm mit sauberer, ungeschminkter Haut. Eine besondere Vorbereitung ist nicht nötig.",
+      },
+      {
+        q: "Darf ich als Elternteil dabei sein?",
+        a: "Gerne. Bei jüngeren Kindern ist ein Elternteil willkommen – so fühlt sich das Kind sicher und entspannt.",
+      },
+    ],
+    preparation: [
+      "Komm mit sauberer, ungeschminkter Haut",
+      "Verzichte eine Woche vorher auf Peelings oder neue Produkte",
+    ],
+    aftercare: [
+      "Folge dem einfachen Pflegeplan für zuhause",
+      "Schütze die Haut tagsüber mit Lichtschutz (SPF)",
+      "Bei Fragen schreib mir jederzeit per WhatsApp",
+    ],
+    contraindications: [
+      "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Herpes oder Fieberblasen im Gesicht",
+      "Allergien gegen Inhaltsstoffe – vorab ansprechen",
+    ],
+    related: ["hautanalyse", "targeted-skin-solutions", "pro-skin-treatments"],
   },
   {
     slug: "targeted-skin-solutions",
