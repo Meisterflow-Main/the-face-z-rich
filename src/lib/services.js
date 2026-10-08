@@ -289,6 +289,7 @@ export const SERVICES = [
     ],
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Herpes oder Fieberblasen im Gesicht",
       "Frische Sonnenbrand oder aktive Kortisonbehandlung",
       "Bei Schwangerschaft berate ich zu geeigneten Alternativen",
     ],
@@ -364,6 +365,8 @@ export const SERVICES = [
       "Verwende keine klärenden oder peelenden Produkte für eine Woche",
     ],
     contraindications: [
+      "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Herpes oder Fieberblasen im Gesicht",
       "Aktive Akne oder Hautentzündungen im Behandlungsbereich",
       "Frische Sonnenbrand oder offene Wunden",
       "Schwangerschaft und Stillzeit: ich berate Dich zu sanften Alternativen",
@@ -433,6 +436,8 @@ export const SERVICES = [
       "Verwende für einige Tage keine klärenden Produkte",
     ],
     contraindications: [
+      "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Herpes oder Fieberblasen im Gesicht",
       "Aktive Akne oder Hautentzündungen im Behandlungsbereich",
       "Frische Sonnenbrand oder offene Wunden",
       "Schwangerschaft und Stillzeit: ich berate Dich zu Alternativen",
