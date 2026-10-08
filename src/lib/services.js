@@ -12,7 +12,7 @@ export const SERVICES = [
     intro:
       "Persönliche Hautanalyse und Beratung mit Dermalogica® Face Mapping™, Face Fit und chinesischer Hautlesung – inklusive Quick Boost für einen sichtbaren Glow.",
     what:
-      "Vor jeder Behandlung untersuche ich Deine Haut mit Dermalogica® Face Mapping™ und Face Fit sowie der chinesischen Hautlesung: Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten. So weiss ich genau, was Deine Haut braucht. Die Hautanalyse- und Produktberatung inklusive Quick Boost umfasst Doppelreinigung, ein auf Deinen Hautzustand abgestimmtes Peeling, Serum und Maske sowie die Abschlusspflege mit Lichtschutz (SPF) – für einen sichtbaren Glow und fundierte Hautpflegeinformationen. Du erhältst zudem einen persönlichen Pflegeplan für zuhause. Super in Kombi mit dem Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung (CHF 150.–).",
+      "Vor jeder Behandlung untersuche ich Deine Haut mit Dermalogica® Face Mapping™ und Face Fit sowie der chinesischen Hautlesung: Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten. So weiss ich genau, was Deine Haut braucht. Die Hautanalyse- und Produktberatung inklusive Quick Boost umfasst Doppelreinigung, ein auf Deinen Hautzustand abgestimmtes Peeling, Serum und Maske sowie die Abschlusspflege mit Lichtschutz (SPF) – für einen sichtbaren Glow und fundierte Hautpflegeinformationen. Du erhältst zudem einen persönlichen Pflegeplan für zuhause. Super in Kombi mit dem Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung.",
     benefits: [
       "Dermalogica® Face Mapping™ & Face Fit",
       "Chinesische Hautlesung (ca. 10 Min.)",
