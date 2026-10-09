@@ -31,6 +31,13 @@ const SECTIONS = [
     ],
   },
   {
+    heading: "Stetige Weiterbildung",
+    paragraphs: [
+      "Am 1. Juli 2024 habe ich noch den Sachkundenachweis VNISSG für Haut & Pigmente absolviert.",
+      "Und diesen Frühling 2026 durfte ich mich im KölnSky beim «Dermalogica Longevity Retreat» weiterbilden – mit Skin Longevity, Hautgesundheit und innovativen Behandlungen und Produkten.",
+    ],
+  },
+  {
     heading: "Schönheit bedeutet für mich auch Ganzheitlichkeit",
     paragraphs: [
       "Neben meiner kosmetischen Weiterbildung beschäftige ich mich intensiv mit Spiritualität und medialer Wahrnehmung – unter anderem in QEH (Quantum-Engel-Heilung®). Diese Erfahrungen erlauben es mir, meine Intuition bewusst in meine Arbeit einfliessen zu lassen.",
