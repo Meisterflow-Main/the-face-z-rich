@@ -85,16 +85,16 @@ export const TREATMENTS = [
     to: "/behandlungen/targeted-skin-solutions",
   },
   {
-    title: "Longevity Glow Treatment",
-    desc: "Innovatives Skin Longevity-Treatment für nachhaltigen Glow und strahlende, jugendliche Haut.",
-    benefit: "Jugendlich & strahlend",
-    to: "/behandlungen/longevity-glow-treatment",
-  },
-  {
     title: "Medical Skin Treatments",
     desc: "Exoboost",
     benefit: "Regeneration & Elastizität",
     to: "/behandlungen/medical-skin-treatments",
+  },
+  {
+    title: "Longevity Glow Treatment",
+    desc: "Innovatives Skin Longevity-Treatment für nachhaltigen Glow und strahlende, jugendliche Haut.",
+    benefit: "Jugendlich & strahlend",
+    to: "/behandlungen/longevity-glow-treatment",
   },
   {
     title: "Make-up & Visagistik",
