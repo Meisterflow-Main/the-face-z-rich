@@ -15,9 +15,9 @@ const IMAGES = [
 export default function HeroPromoImages() {
   return (
     <section className="w-full max-w-[1280px] mx-auto px-5 sm:px-8 py-12 sm:py-16">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-5">
         {IMAGES.map((img, i) => (
-          <ScrollReveal key={img.src} delay={i * 0.08} y={20}>
+          <ScrollReveal key={img.src} delay={i * 0.08} y={20} className="w-[calc(50%-8px)] sm:w-[calc(25%-15px)]">
             <div className="relative rounded-lg overflow-hidden border border-gold/15 shadow-sm bg-card">
               <img
                 src={img.src}
