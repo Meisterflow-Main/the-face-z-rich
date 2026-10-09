@@ -606,6 +606,13 @@ export const SERVICES = [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
       "Allergien gegen bestimmte Make-up-Inhaltsstoffe – vorab ansprechen",
     ],
+    gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a91fa3610_WhatsAppImage2026-10-09at0445021.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/8567a206f_WhatsAppImage2026-10-09at044502.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ed72f95f4_WhatsAppImage2026-10-09at044501.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0c8494fe0_WhatsAppImage2026-10-09at044350.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/76e74e110_WhatsAppImage2026-10-09at044349.jpeg",
+    ],
     related: ["lashlift", "hautanalyse", "pro-skin-treatments"],
   },
   {
