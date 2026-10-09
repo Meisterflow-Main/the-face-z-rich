@@ -458,7 +458,6 @@ export const SERVICES = [
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0c1d54256_WhatsAppImage2026-09-29at181222.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/b534510cc_WhatsAppImage2026-09-29at181335.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/903e30af8_IMG_4109.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2d6398a6d_IMG_2973.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/cb60d9588_WhatsAppImage2026-10-01at103427.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0630b003b_WhatsAppImage2026-10-05at111546.jpeg",
