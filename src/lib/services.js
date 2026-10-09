@@ -529,7 +529,86 @@ export const SERVICES = [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/76eb050f8_WhatsAppImage2026-10-01at1026272.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d2881bc5a_WhatsAppImage2026-10-05at111448.jpeg",
     ],
-    related: ["medical-skin-treatments", "pro-skin-treatments", "hautanalyse"],
+    related: ["luminfusion", "medical-skin-treatments", "pro-skin-treatments"],
+  },
+  {
+    slug: "luminfusion",
+    name: "LuminFusion Nanoinfusion",
+    short: "LuminFusion",
+    eyebrow: "LuminFusion Nanoinfusion",
+    metaTitle: "LuminFusion Nanoinfusion in Zürich | THE FACE® Denise Claire Gadient",
+    h1: "LuminFusion Nanoinfusion in Zürich",
+    intro:
+      "Die LuminFusion Nanoinfusion ist der sanfte Red-C Carpet Glow aus Los Angeles – für alle, die echte Ergebnisse wollen, ohne sich an ein Microneedling heranzuwagen. Feinste Nano-Spitzen bringen hautspezifische Wirkstoffe sanft in die Hautoberfläche ein, kombiniert mit rotem LED-Licht und einer Special Light Maske. Das Ergebnis: ein sofortiger Glow, eine verfeinerte Hauttextur und sichtbar geglättete feine Linien. Eine Wohlfühlbehandlung mit echten Ergebnissen.",
+    what: "",
+    variants: [
+      {
+        name: "LuminFusion Nanoinfusion",
+        subtitle: "Red Carpet Glow aus LA",
+        price: "245",
+        desc: "Sofortiger Red Carpet Glow von LA! Für alle, die sich bisher nicht getraut haben, eine Microneedling Behandlung durchzuführen. Wohlfühlbehandlung mit echten Ergebnissen!\n\nGlättet feine Linien und Falten. Verfeinerung der Hauttextur.\n\nConsultation: Doppelreinigung, intensives Vitaminpeeling oder neue Plump Peel mit sanfter Nanoinfusion, hautspezifisches Serum und LED Rot mit Special Light Maske, währenddessen mit Nackenmassage! Hautspezifisches Serum und Abschlusspflege SPF, Skin Perfecting Primer.\n\nEmpfehlung: 3-er Kur alle 3–4 Wochen – profitiere im Abo und lass Dich von mir beraten!\n\nKontraindikationen: Schwangerschaft, Epilepsie, Lichtallergie, keine akute Akne / Herpes, 48 Std. keine Schmerzmittel / Cortison / Blutverdünner.",
+      },
+    ],
+    benefits: [
+      "Sofortiger Red Carpet Glow",
+      "Sanfte Nanoinfusion – kein Microneedling nötig",
+      "Glättet feine Linien und Falten",
+      "Verfeinert die Hauttextur",
+      "Rotes LED-Licht und Special Light Maske",
+      "Inkl. Nackenmassage während der Maske",
+    ],
+    process: [
+      "Consultation und Doppelreinigung",
+      "Intensives Vitaminpeeling oder neue Plump Peel",
+      "Sanfte Nanoinfusion mit hautspezifischem Serum",
+      "LED Rot mit Special Light Maske und Nackenmassage",
+      "Abschlusspflege mit SPF und Skin Perfecting Primer",
+    ],
+    priceFactors: [{ label: "LuminFusion Nanoinfusion", price: "245" }],
+    faqs: [
+      {
+        q: "Was ist LuminFusion Nanoinfusion?",
+        a: "LuminFusion ist ein fortschrittlicher Dermalogica® Skin Service, der ein gezieltes Peeling, Nanoinfusion und rotes LED-Licht vereint – für spürbaren Glow und verbesserte Hautstruktur. Die feinsten Nano-Spitzen bringen Wirkstoffe sanft in die Hautoberfläche ein.",
+      },
+      {
+        q: "Ist LuminFusion schmerzhaft?",
+        a: "Nein. Die Nanoinfusion arbeitet mit feinsten Spitzen an der Hautoberfläche und ist besonders sanft – ideal für alle, die sich bisher nicht an ein Microneedling herangetraut haben.",
+      },
+      {
+        q: "Was ist der Unterschied zwischen Nanoinfusion und Microneedling?",
+        a: "Nanoinfusion arbeitet mit feinsten Spitzen an der Hautoberfläche und ist besonders sanft – ideal für die Infusion von Wirkstoffen. Microneedling geht tiefer und regt die Erneuerung stärker an. In der Beratung wähle ich die passende Methode.",
+      },
+      {
+        q: "Gibt es eine Ausfallzeit?",
+        a: "Kaum. Ein frischerer Teint ist oft direkt sichtbar. Gelegentlich eine kurze Rötung, die rasch abklingt. Die meisten Kundinnen gehen direkt danach ihren Alltag weiter.",
+      },
+      {
+        q: "Wie oft sollte ich LuminFusion wiederholen?",
+        a: "Ich empfehle eine 3-er Kur im Abstand von 3–4 Wochen für nachhaltige Ergebnisse. Im Abo profitierst Du zusätzlich – lass Dich gerne persönlich beraten.",
+      },
+    ],
+    preparation: [
+      "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
+    ],
+    aftercare: [
+      "Verzichte 24 Stunden auf Make-up und Sport",
+      "Trage täglich SPF konsequent auf",
+      "Verwende für einige Tage keine klärenden Produkte",
+    ],
+    contraindications: [
+      "Schwangerschaft",
+      "Epilepsie",
+      "Lichtallergie",
+      "Akute Akne oder Herpes im Gesicht",
+      "48 Std. vor der Behandlung keine Schmerzmittel, Cortison oder Blutverdünner",
+    ],
+    gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2ab523187_WhatsAppImage2026-10-01at102627.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ca841a742_WhatsAppImage2026-10-01at1026271.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/76eb050f8_WhatsAppImage2026-10-01at1026272.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d2881bc5a_WhatsAppImage2026-10-05at111448.jpeg",
+    ],
+    related: ["longevity-glow-treatment", "medical-skin-treatments", "pro-skin-treatments"],
   },
   {
     slug: "make-up",
