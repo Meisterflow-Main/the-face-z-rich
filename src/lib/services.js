@@ -247,6 +247,9 @@ export const SERVICES = [
       "Herpes oder Fieberblasen im Gesicht",
       "Allergien gegen Inhaltsstoffe – vorab ansprechen",
     ],
+    gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/249dadee3_WhatsAppImage2026-09-29at181222.jpeg",
+    ],
     related: ["hautanalyse", "targeted-skin-solutions", "pro-skin-treatments"],
   },
   {
