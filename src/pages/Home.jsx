@@ -5,7 +5,6 @@ import HeroPromoImages from "@/components/HeroPromoImages";
 import BrandVideo from "@/components/BrandVideo";
 import TreatmentVideos from "@/components/TreatmentVideos";
 import TechnologyVideos from "@/components/TechnologyVideos";
-import DermalogicaBanner from "@/components/DermalogicaBanner";
 import LuminfusionBanner from "@/components/LuminfusionBanner";
 import Services from "@/components/Services";
 import Pricing from "@/components/Pricing";
@@ -42,7 +41,6 @@ export default function Home() {
       <main>
         <Hero />
         <HeroPromoImages />
-        <DermalogicaBanner />
         <TreatmentVideos />
         <TechnologyVideos />
         <BrandVideo />
