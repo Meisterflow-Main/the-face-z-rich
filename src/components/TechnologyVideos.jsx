@@ -4,8 +4,8 @@ import LazyVideo from "@/components/LazyVideo";
 
 const VIDEOS = [
   {
-    title: "Was ist Mikrostrom?",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/482a263d5_WhatismicrocurrentFrequencySpecificTrueMicrocurrentisasafeeffectiveandnon-invasivet.mp4",
+    title: "bt-sonic GEN2 Cleansing",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/218863ccc_ThenextgenerationofskincleansingishereThebt-sonicGEN2cleansingbrushcombinesadvanc.mp4",
   },
   {
     title: "Mikrostrom auf zellulärer Ebene",
