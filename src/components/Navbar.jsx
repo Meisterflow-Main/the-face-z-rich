@@ -6,7 +6,7 @@ import { REGIONS } from "@/lib/regions";
 import { SERVICES } from "@/lib/services";
 
 const LINKS = [
-  { label: "Über mich", href: "/#ueber" },
+  { label: "Über mich", to: "/ueber-mich" },
   { label: "FAQ", href: "/#faq" },
   { label: "Kontakt", href: "/#kontakt" },
 ];
@@ -79,7 +79,7 @@ export default function Navbar() {
 
           {LINKS.map((l) =>
             l.to ? (
-              <Link key={l.href} to={l.href} className="text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide">
+              <Link key={l.to} to={l.to} className="text-sm font-medium text-charcoal/80 hover:text-gold transition-colors tracking-wide">
                 {l.label}
               </Link>
             ) : (
@@ -136,7 +136,7 @@ export default function Navbar() {
 
             {LINKS.map((l) =>
               l.to ? (
-                <Link key={l.href} to={l.href} className="text-base font-medium text-charcoal/80 hover:text-gold transition-colors" onClick={() => setOpen(false)}>
+                <Link key={l.to} to={l.to} className="text-base font-medium text-charcoal/80 hover:text-gold transition-colors" onClick={() => setOpen(false)}>
                   {l.label}
                 </Link>
               ) : (

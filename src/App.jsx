@@ -9,6 +9,7 @@ import ScrollToTop from './components/ScrollToTop';
 import CookieBanner from '@/components/CookieBanner';
 // Add page imports here
 import Home from '@/pages/Home';
+import UeberMich from '@/pages/UeberMich';
 import Bewertung from '@/pages/Bewertung';
 import Impressum from '@/pages/Impressum';
 import Datenschutz from '@/pages/Datenschutz';
@@ -48,6 +49,7 @@ const AuthenticatedApp = () => {
     <Routes>
     {/* Add your page Route elements here */}
     <Route path="/" element={<Home />} />
+    <Route path="/ueber-mich" element={<UeberMich />} />
     <Route path="/behandlungen" element={<Behandlungen />} />
     <Route path="/behandlungen/:service" element={<Service />} />
     <Route path="/behandlungen/:service/:region" element={<Money />} />
