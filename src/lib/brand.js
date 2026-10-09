@@ -79,8 +79,8 @@ export const TREATMENTS = [
     to: "/behandlungen/longevity-glow-treatment",
   },
   {
-    title: "Revitalisierung",
-    desc: "Wirkungsvolle Behandlungsgeräte für nachhaltige Regeneration und sichtbare Erneuerung der Haut.",
+    title: "Medical Skin Treatments",
+    desc: "Exoboost",
     benefit: "Regeneration & Elastizität",
     to: "/behandlungen/medical-skin-treatments",
   },
