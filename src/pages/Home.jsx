@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import HeroPromoImages from "@/components/HeroPromoImages";
 import BrandVideo from "@/components/BrandVideo";
 import TreatmentVideos from "@/components/TreatmentVideos";
 import TechnologyVideos from "@/components/TechnologyVideos";
@@ -43,6 +44,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <HeroPromoImages />
         <DermalogicaBanner />
         <TreatmentVideos />
         <TechnologyVideos />
