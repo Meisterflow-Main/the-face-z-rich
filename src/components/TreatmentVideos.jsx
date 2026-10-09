@@ -5,7 +5,7 @@ import LazyVideo from "@/components/LazyVideo";
 const VIDEOS = [
   {
     title: "Hautanalyse für alle",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/8b68ee6fc_Hautanalyse_European.mp4",
+    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/4dd49092c_Teenager_Mask_Treatment.mp4",
   },
   {
     title: "Pro Skin Treatment für Sie",
