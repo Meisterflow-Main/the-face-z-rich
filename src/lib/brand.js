@@ -73,6 +73,12 @@ export const TREATMENTS = [
     to: "/behandlungen/minlen-kids-tweens",
   },
   {
+    title: "Luminfusion",
+    desc: "Red Carpet Glow aus LA: sanfte Nanoinfusion mit hautspezifischen Wirkstoffen und rotem LED-Licht für sofortigen Glow und geglättete feine Linien.",
+    benefit: "Sofortiger Glow",
+    to: "/behandlungen/luminfusion",
+  },
+  {
     title: "Longevity Glow Treatment",
     desc: "Innovatives Skin Longevity-Treatment für nachhaltigen Glow und strahlende, jugendliche Haut.",
     benefit: "Jugendlich & strahlend",

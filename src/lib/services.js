@@ -253,6 +253,76 @@ export const SERVICES = [
     related: ["hautanalyse", "targeted-skin-solutions", "pro-skin-treatments"],
   },
   {
+    slug: "luminfusion",
+    name: "Luminfusion",
+    short: "Luminfusion",
+    eyebrow: "Luminfusion",
+    metaTitle: "Luminfusion in Zürich | THE FACE® Denise Claire Gadient",
+    h1: "Luminfusion in Zürich",
+    intro:
+      "Das Luminfusion Treatment ist eine Skin Longevity-Behandlung, die Deine Haut nicht nur kurzfristig zum Strahlen bringt, sondern ihre natürliche Erneuerung nachhaltig unterstützt. Herzstück ist die LuminFusion Nanoinfusion: feinste Nano-Spitzen bringen Wirkstoffe sanft in die Hautoberfläche ein, kombiniert mit rotem LED-Licht. Das Ergebnis ist ein sofortiger Glow, eine verfeinerte Hauttextur und sichtbar geglättete feine Linien – ideal für alle, die echte Ergebnisse wünschen, ohne sich an ein Microneedling heranzuwagen.",
+    what: "",
+    variants: [
+      {
+        name: "LuminFusion Nanoinfusion",
+        subtitle: "10% Offer – Red Carpet Look bis 31. Oktober",
+        price: "245",
+        desc: "Sofortiger Red Carpet Glow von LA! Für alle, die sich bisher nicht getraut haben, eine Microneedling Behandlung durchzuführen. Wohlfühlbehandlung mit echten Ergebnissen!\n\nGlättet feine Linien und Falten. Verfeinerung der Hauttextur.\n\nConsultation: Doppelreinigung, intensives Vitaminpeeling oder neue Plump Peel mit sanfter Nanoinfusion, hautspezifisches Serum und LED Rot mit Special Light Maske, währenddessen mit Nackenmassage! Hautspezifisches Serum und Abschlusspflege SPF, Skin Perfecting Primer.\n\nEmpfehlung: 3-er Kur alle 3–4 Wochen – profitiere im Abo und lass Dich von mir beraten!\n\nKontraindikationen: Schwangerschaft, Epilepsie, Lichtallergie, keine akute Akne / Herpes, 48 Std. keine Schmerzmittel / Cortison / Blutverdünner.",
+      },
+    ],
+    benefits: [
+      "LuminFusion Nanoinfusion",
+      "Nachhaltiger Glow und jugendliche Ausstrahlung",
+      "Sanft und schonend",
+      "Für reifere und fältchenbetonte Haut",
+    ],
+    process: [
+      "Hautanalyse",
+      "Nanoinfusion oder Longevity Glow Treat",
+      "Pflege und Abschluss",
+    ],
+    priceFactors: [
+      { label: "LuminFusion Nanoinfusion / Infusion", price: "245" },
+      { label: "Longevity Glow Treat", price: "225" },
+    ],
+    faqs: [
+      {
+        q: "Was ist LuminFusion?",
+        a: "LuminFusion ist ein fortschrittlicher Dermalogica® Skin Service, der ein gezieltes Peeling, Nanoinfusion und rotes LED-Licht vereint – für spürbaren Glow und verbesserte Hautstruktur.",
+      },
+      {
+        q: "Hilft das gegen Fältchen?",
+        a: "Mit Longevity Glow und Nanoinfusion behandle ich Fältchen gezielt. Vorab analysiere ich Deine Haut, um die passende Methode zu wählen.",
+      },
+      {
+        q: "Wie oft sollte ich kommen?",
+        a: "Einen Rhythmus von vier bis sechs Wochen begleitet den Erneuerungszyklus Deiner Haut optimal. In der Beratung passe ich die Frequenz auf Dein Hautbild an.",
+      },
+      {
+        q: "Was ist der Unterschied zwischen Nanoinfusion und Microneedling?",
+        a: "Nanoinfusion arbeitet mit feinsten Spitzen an der Hautoberfläche und ist besonders sanft – ideal für die Infusion von Wirkstoffen. Microneedling geht tiefer und regt die Erneuerung stärker an. In der Beratung wähle ich die passende Methode.",
+      },
+      {
+        q: "Gibt es eine Ausfallzeit?",
+        a: "Kaum. Ein frischerer Teint ist oft direkt sichtbar. Gelegentlich eine kurze Rötung, die rasch abklingt. Die meisten Kundinnen gehen direkt danach ihren Alltag weiter.",
+      },
+    ],
+    preparation: [
+      "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
+    ],
+    aftercare: [
+      "Verzichte 24 Stunden auf Make-up und Sport",
+      "Trage täglich SPF konsequent auf",
+      "Verwende für einige Tage keine klärenden Produkte",
+    ],
+    contraindications: [
+      "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Herpes oder Fieberblasen im Gesicht",
+      "Aktive Akne im Behandlungsbereich",
+    ],
+    related: ["longevity-glow-treatment", "pro-skin-treatments", "hautanalyse"],
+  },
+  {
     slug: "targeted-skin-solutions",
     name: "Targeted Skin Solutions",
     short: "Targeted Skin Solutions",
