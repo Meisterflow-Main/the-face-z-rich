@@ -253,92 +253,6 @@ export const SERVICES = [
     related: ["hautanalyse", "targeted-skin-solutions", "pro-skin-treatments"],
   },
   {
-    slug: "luminfusion",
-    name: "Luminfusion",
-    short: "Luminfusion",
-    eyebrow: "Luminfusion Nanoinfusion",
-    metaTitle: "Luminfusion in Zürich | THE FACE® Denise Claire Gadient",
-    h1: "Luminfusion in Zürich",
-    intro:
-      "Die LuminFusion Nanoinfusion ist Dein Red Carpet Glow aus Los Angeles – eine Wohlfühlbehandlung mit echten Ergebnissen für alle, die sich bisher nicht an ein Microneedling herangetraut haben. Feinste Nano-Spitzen bringen hautspezifische Wirkstoffe sanft in die Hautoberfläche ein, kombiniert mit rotem LED-Licht. Das Ergebnis: ein sofortiger Glow, eine verfeinerte Hauttextur und sichtbar geglättete feine Linien.",
-    what: "",
-    variants: [
-      {
-        name: "LuminFusion Nanoinfusion",
-        subtitle: "10% Offer – Red Carpet Look",
-        price: "245",
-        desc: "Sofortiger Red Carpet Glow von LA! Für alle, die sich bisher nicht getraut haben, eine Microneedling Behandlung durchzuführen. Wohlfühlbehandlung mit echten Ergebnissen!\n\nGlättet feine Linien und Falten. Verfeinerung der Hauttextur.\n\nConsultation: Doppelreinigung, intensives Vitaminpeeling oder neue Plump Peel mit sanfter Nanoinfusion, hautspezifisches Serum und LED Rot mit Special Light Maske, währenddessen mit Nackenmassage! Hautspezifisches Serum und Abschlusspflege SPF, Skin Perfecting Primer.\n\nEmpfehlung: 3-er Kur alle 3–4 Wochen – profitiere im Abo und lass Dich von mir beraten!\n\nKontraindikationen: Schwangerschaft, Epilepsie, Lichtallergie, keine akute Akne / Herpes, 48 Std. keine Schmerzmittel / Cortison / Blutverdünner.",
-      },
-    ],
-    benefits: [
-      "LuminFusion Nanoinfusion – Red Carpet Glow aus LA",
-      "Sanfte Nano-Spitzen statt Nadeln – keine Ausfallzeit",
-      "Sofortiger Glow und verfeinerte Hauttextur",
-      "Sichtbar geglättete feine Linien und Falten",
-      "Inkl. Nackenmassage und LED Rotlicht-Maske",
-      "Ideal vor besonderen Anlässen",
-    ],
-    process: [
-      "Doppelreinigung und Consultation",
-      "Intensives Vitaminpeeling oder neue Plump Peel",
-      "Sanfte Nanoinfusion mit hautspezifischem Serum",
-      "LED Rotlicht mit Special Light Maske und Nackenmassage",
-      "Abschlusspflege mit SPF und Skin Perfecting Primer",
-    ],
-    priceFactors: [
-      { label: "LuminFusion Nanoinfusion / Infusion", price: "245" },
-      { label: "3-er Kur (alle 3–4 Wochen)", price: "1269" },
-    ],
-    faqs: [
-      {
-        q: "Was ist LuminFusion?",
-        a: "LuminFusion ist ein fortschrittlicher Dermalogica® Skin Service, der ein gezieltes Peeling, Nanoinfusion und rotes LED-Licht vereint – für spürbaren Glow und verbesserte Hautstruktur.",
-      },
-      {
-        q: "Ist LuminFusion schmerzhaft?",
-        a: "Nein. Die Nanoinfusion arbeitet mit feinsten Spitzen an der Hautoberfläche und ist besonders sanft – ideal für alle, die sich bisher nicht an ein Microneedling herangetraut haben.",
-      },
-      {
-        q: "Hilft LuminFusion gegen Fältchen?",
-        a: "Ja. LuminFusion glättet feine Linien und Falten und verfeinert die Hauttextur für einen sichtbar jugendlicheren Teint.",
-      },
-      {
-        q: "Wie lange dauert die Behandlung?",
-        a: "Die Behandlung dauert rund 60 Minuten inklusive Consultation, Nackenmassage und Abschlusspflege.",
-      },
-      {
-        q: "Gibt es eine Ausfallzeit?",
-        a: "Kaum. Ein frischerer Teint ist oft direkt sichtbar. Gelegentlich eine kurze Rötung, die rasch abklingt. Die meisten Kundinnen gehen direkt danach ihren Alltag weiter.",
-      },
-      {
-        q: "Wie oft sollte ich LuminFusion wiederholen?",
-        a: "Für nachhaltige Ergebnisse empfehle ich eine 3-er Kur im Abstand von 3 bis 4 Wochen. Danach etwa alle 4 bis 6 Wochen zur Erhaltung.",
-      },
-    ],
-    preparation: [
-      "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
-    ],
-    aftercare: [
-      "Verzichte 24 Stunden auf Make-up und Sport",
-      "Trage täglich SPF konsequent auf",
-      "Verwende für einige Tage keine klärenden Produkte",
-    ],
-    contraindications: [
-      "Schwangerschaft",
-      "Epilepsie oder Lichtallergie",
-      "Akute Hautentzündungen oder offene Wunden im Gesicht",
-      "Herpes oder Fieberblasen im Gesicht",
-      "Aktive Akne im Behandlungsbereich",
-    ],
-    gallery: [
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2ab523187_WhatsAppImage2026-10-01at102627.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ca841a742_WhatsAppImage2026-10-01at1026271.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/76eb050f8_WhatsAppImage2026-10-01at1026272.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/d2881bc5a_WhatsAppImage2026-10-05at111448.jpeg",
-    ],
-    related: ["longevity-glow-treatment", "pro-skin-treatments", "hautanalyse"],
-  },
-  {
     slug: "targeted-skin-solutions",
     name: "Targeted Skin Solutions",
     short: "Targeted Skin Solutions",
@@ -551,51 +465,58 @@ export const SERVICES = [
     metaTitle: "Longevity Glow Treatment in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Longevity Glow Treatment in Zürich",
     intro:
-      "Das Longevity Glow Treatment ist eine Skin Longevity-Behandlung, die Deine Haut nicht nur kurzfristig zum Strahlen bringt, sondern ihre natürliche Erneuerung nachhaltig unterstützt. Herzstück ist die LuminFusion Nanoinfusion: feinste Nano-Spitzen bringen Wirkstoffe sanft in die Hautoberfläche ein, kombiniert mit rotem LED-Licht. Das Ergebnis ist ein sofortiger Glow, eine verfeinerte Hauttextur und sichtbar geglättete feine Linien – ideal für alle, die echte Ergebnisse wünschen, ohne sich an ein Microneedling heranzuwagen.",
+      "Das Longevity Glow Treatment ist die neue Ära der Haut-Gesichtsbehandlung für gesunde, widerstandsfähige Haut auf lange Sicht – auch für gestresste, empfindliche Haut. Mit innovativer pflanzlicher Exosomen-Technologie und einem professionellen neuen Dermalogica Peeling inklusive kleiner Massage von Nacken, Décolleté und Gesicht bringt die Behandlung Deine Haut wieder ins Gleichgewicht, spendet intensiv Feuchtigkeit und stärkt die Hautbarriere – für einen natürlichen, frischen Glow. Keine Tiefenreinigung, kein Microneedling, keine Ausfallzeit.",
     what: "",
     variants: [
       {
-        name: "LuminFusion Nanoinfusion",
-        subtitle: "10% Offer – Red Carpet Look bis 31. Oktober",
-        price: "245",
-        desc: "Sofortiger Red Carpet Glow von LA! Für alle, die sich bisher nicht getraut haben, eine Microneedling Behandlung durchzuführen. Wohlfühlbehandlung mit echten Ergebnissen!\n\nGlättet feine Linien und Falten. Verfeinerung der Hauttextur.\n\nConsultation: Doppelreinigung, intensives Vitaminpeeling oder neue Plump Peel mit sanfter Nanoinfusion, hautspezifisches Serum und LED Rot mit Special Light Maske, währenddessen mit Nackenmassage! Hautspezifisches Serum und Abschlusspflege SPF, Skin Perfecting Primer.\n\nEmpfehlung: 3-er Kur alle 3–4 Wochen – profitiere im Abo und lass Dich von mir beraten!\n\nKontraindikationen: Schwangerschaft, Epilepsie, Lichtallergie, keine akute Akne / Herpes, 48 Std. keine Schmerzmittel / Cortison / Blutverdünner.",
+        name: "NEU! Longevity Glow Treat",
+        subtitle: "10% Offer – Red Carpet Look bis 31. Oktober (nicht bei Abo)",
+        price: "225",
+        desc: "Die NEUE ÄRA der HAUT-GESICHTSBEHANDLUNG!\nfür gesunde, widerstandsfähige HAUT auf lange Sicht!\nAuch für gestresste, EMPFINDLICHE HAUT!\n\nAchtung: Keine Tiefenreinigung! Bei UNREINHEITEN bis AKNE – bitte dann eine PRO CLEAR / PRO CLEAR YOUNG buchen. Es ist kein Microneedling! Keine Downtime.\n\n• bringt deine Haut wieder ins Gleichgewicht\n• spendet intensiv Feuchtigkeit\n• stärkt deine Hautbarriere\n• sorgt für diesen natürlichen, frischen GLOW!\n\nIn Kombination mit innovativer PFLANZLICHEN EXOSOMEN-TECHNOLOGIE und einem PROFESSIONELLEN NEUEN DERMALOGICA PEELING inkl. kl. MASSAGE NACKEN & DECOLLÉTÈ & GESICHT – dein LONGEVITY GLOW!",
       },
     ],
     benefits: [
-      "LuminFusion Nanoinfusion",
-      "Nachhaltiger Glow und jugendliche Ausstrahlung",
-      "Sanft und schonend",
-      "Für reifere und fältchenbetonte Haut",
+      "Bringt Deine Haut wieder ins Gleichgewicht",
+      "Spendet intensiv Feuchtigkeit",
+      "Stärkt Deine Hautbarriere",
+      "Sorgt für einen natürlichen, frischen Glow",
+      "Innovative pflanzliche Exosomen-Technologie",
+      "Inkl. Massage von Nacken, Décolleté und Gesicht",
     ],
     process: [
-      "Hautanalyse",
-      "Nanoinfusion oder Longevity Glow Treat",
-      "Pflege und Abschluss",
+      "Doppelreinigung und Hautanalyse",
+      "Professionelles neues Dermalogica Peeling",
+      "Innovative pflanzliche Exosomen-Technologie",
+      "Kleine Massage von Nacken, Décolleté und Gesicht",
+      "Abschlusspflege mit SPF",
     ],
     priceFactors: [
-      { label: "LuminFusion Nanoinfusion / Infusion", price: "245" },
       { label: "Longevity Glow Treat", price: "225" },
     ],
     faqs: [
       {
-        q: "Was ist LuminFusion?",
-        a: "LuminFusion ist ein fortschrittlicher Dermalogica® Skin Service, der ein gezieltes Peeling, Nanoinfusion und rotes LED-Licht vereint – für spürbaren Glow und verbesserte Hautstruktur.",
+        q: "Was ist das Longevity Glow Treat?",
+        a: "Die neue Ära der Haut-Gesichtsbehandlung für gesunde, widerstandsfähige Haut auf lange Sicht – auch für gestresste, empfindliche Haut. Mit innovativer pflanzlicher Exosomen-Technologie und einem professionellen neuen Dermalogica Peeling inklusive kleiner Massage von Nacken, Décolleté und Gesicht.",
       },
       {
-        q: "Hilft das gegen Fältchen?",
-        a: "Mit Longevity Glow und Nanoinfusion behandle ich Fältchen gezielt. Vorab analysiere ich Deine Haut, um die passende Methode zu wählen.",
+        q: "Ist das Longevity Glow Treat eine Tiefenreinigung?",
+        a: "Nein, das Longevity Glow Treat ist keine Tiefenreinigung. Bei Unreinheiten bis Akne buche bitte Pro Clear oder Pro Clear Young unter den Targeted Skin Solutions.",
+      },
+      {
+        q: "Ist es ein Microneedling?",
+        a: "Nein, das Longevity Glow Treat ist kein Microneedling. Es ist eine Wohlfühlbehandlung ohne Ausfallzeit, die Deine Haut ins Gleichgewicht bringt und mit intensiver Feuchtigkeit versorgt.",
+      },
+      {
+        q: "Für wen ist das Longevity Glow Treat geeignet?",
+        a: "Für alle, die gesunde, widerstandsfähige Haut auf lange Sicht möchten – auch für gestresste, empfindliche Haut. Bei Unreinheiten bis Akne empfehle ich Pro Clear oder Pro Clear Young.",
       },
       {
         q: "Wie oft sollte ich kommen?",
         a: "Einen Rhythmus von vier bis sechs Wochen begleitet den Erneuerungszyklus Deiner Haut optimal. In der Beratung passe ich die Frequenz auf Dein Hautbild an.",
       },
       {
-        q: "Was ist der Unterschied zwischen Nanoinfusion und Microneedling?",
-        a: "Nanoinfusion arbeitet mit feinsten Spitzen an der Hautoberfläche und ist besonders sanft – ideal für die Infusion von Wirkstoffen. Microneedling geht tiefer und regt die Erneuerung stärker an. In der Beratung wähle ich die passende Methode.",
-      },
-      {
         q: "Gibt es eine Ausfallzeit?",
-        a: "Kaum. Ein frischerer Teint ist oft direkt sichtbar. Gelegentlich eine kurze Rötung, die rasch abklingt. Die meisten Kundinnen gehen direkt danach ihren Alltag weiter.",
+        a: "Nein, keine Downtime. Ein frischerer Teint ist oft direkt sichtbar. Die meisten Kundinnen gehen direkt danach ihren Alltag weiter.",
       },
     ],
     preparation: [
@@ -607,9 +528,9 @@ export const SERVICES = [
       "Verwende für einige Tage keine klärenden Produkte",
     ],
     contraindications: [
+      "Bei Unreinheiten bis Akne: bitte Pro Clear / Pro Clear Young buchen",
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
       "Herpes oder Fieberblasen im Gesicht",
-      "Aktive Akne im Behandlungsbereich",
     ],
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2ab523187_WhatsAppImage2026-10-01at102627.jpeg",
