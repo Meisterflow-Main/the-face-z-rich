@@ -79,6 +79,12 @@ export const TREATMENTS = [
     to: "/behandlungen/luminfusion",
   },
   {
+    title: "Targeted Skin Solutions",
+    desc: "Gezielte Lösungen bei Akne, Pigmentflecken, sensibler Haut und Rücken mit Dermalogica® Targeted Skin Solutions.",
+    benefit: "Gezielt & Klärend",
+    to: "/behandlungen/targeted-skin-solutions",
+  },
+  {
     title: "Longevity Glow Treatment",
     desc: "Innovatives Skin Longevity-Treatment für nachhaltigen Glow und strahlende, jugendliche Haut.",
     benefit: "Jugendlich & strahlend",
