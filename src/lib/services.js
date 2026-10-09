@@ -537,7 +537,7 @@ export const SERVICES = [
     short: "LuminFusion",
     eyebrow: "LuminFusion Nanoinfusion",
     metaTitle: "LuminFusion Nanoinfusion in Zürich | THE FACE® Denise Claire Gadient",
-    h1: "LuminFusion Nanoinfusion in Zürich",
+    h1: "Luminfusion – Dein Redcarpet-Glow",
     intro:
       "Die LuminFusion Nanoinfusion ist der sanfte Red-C Carpet Glow aus Los Angeles – für alle, die echte Ergebnisse wollen, ohne sich an ein Microneedling heranzuwagen. Feinste Nano-Spitzen bringen hautspezifische Wirkstoffe sanft in die Hautoberfläche ein, kombiniert mit rotem LED-Licht und einer Special Light Maske. Das Ergebnis: ein sofortiger Glow, eine verfeinerte Hauttextur und sichtbar geglättete feine Linien. Eine Wohlfühlbehandlung mit echten Ergebnissen.",
     what: "",
