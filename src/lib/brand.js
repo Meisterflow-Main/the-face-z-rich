@@ -103,12 +103,6 @@ export const TREATMENTS = [
     to: "/behandlungen/make-up",
   },
   {
-    title: "Produkt-Empfehlungen",
-    desc: "Individuelle Empfehlungen hochwertiger Clean-Produkte für Deine tägliche Pflegeroutine zuhause.",
-    benefit: "Pflege für Zuhause",
-    to: "/behandlungen",
-  },
-  {
     title: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG",
     desc: "Wohltuende Rückenbehandlung mit Phytomer, entspannender Massage und pflegender Algenpackung für revitalisierte Haut.",
     benefit: "Entspannung & Revitalisierung",
