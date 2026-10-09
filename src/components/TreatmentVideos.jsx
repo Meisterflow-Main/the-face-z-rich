@@ -4,7 +4,7 @@ import LazyVideo from "@/components/LazyVideo";
 
 const VIDEOS = [
   {
-    title: "Hautanalyse für Sie",
+    title: "Hautanalyse für alle",
     src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/8b68ee6fc_Hautanalyse_European.mp4",
   },
   {
