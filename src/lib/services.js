@@ -692,74 +692,7 @@ export const SERVICES = [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0c8494fe0_WhatsAppImage2026-10-09at044350.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/76e74e110_WhatsAppImage2026-10-09at044349.jpeg",
     ],
-    related: ["lashlift", "hautanalyse", "pro-skin-treatments"],
-  },
-  {
-    slug: "lashlift",
-    name: "Lashlift",
-    short: "Lashlift",
-    eyebrow: "Ellebaana Lashlift",
-    metaTitle: "Lashlift in Zürich | THE FACE® Denise Claire Gadient",
-    h1: "Lashlift in Zürich",
-    intro:
-      "Der Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung gibt Dir einen wachen, offenen Blick, sanft und langanhaltend. Mit dem Ellebaana Wimpernlift forme ich Deine Wimpern sanft nach oben und färbe sie blauschwarz – für einen wachen, natürlichen Blick ohne tägliche Mascara.",
-    what: "",
-    variants: [
-      {
-        name: "Ellebaana Lash Lift incl. Blue-Black Lash Tinting",
-        subtitle: "Ellebaana Lashlift",
-        price: "150",
-        desc: "Der beste Lash Lift von Ellebaana mit neuen Flexrods. Sehr sanft zur Haut – kein Kleber auf der Haut. Schön mit blauschwarzer Wimpernfärbung. Inklusive neuer Lash-Tint-Schutzmaske, hält bis zu 6 Wochen. Als Finishing Touch Dermalogica® Eye Serum inklusive Eye Cream (Concealer auf Wunsch). Super in Kombi mit Dermalogica® Face Mapping & Face Fit – radiant skin, perfectly curled lashes.",
-      },
-    ],
-    benefits: [
-      "Ellebaana Wimpernlift",
-      "Inkl. blauschwarzer Wimpernfärbung",
-      "Wacher, offener Blick",
-      "Langanhaltend und sanft",
-    ],
-    process: [
-      "Beratung",
-      "Wimpernlift und Färbung",
-      "Abschluss und Pflegehinweis",
-    ],
-    priceFactors: [{ label: "Ellebaana Wimpernlift inkl. blauschwarzer Wimpernfärbung", price: "150" }],
-    faqs: [
-      {
-        q: "Wie lange hält der Lashlift?",
-        a: "Ein Ellebaana Wimpernlift hält in der Regel mehrere Wochen, je nach Wimpernwachstum.",
-      },
-      {
-        q: "Ist die Wimpernfärbung inklusive?",
-        a: "Ja, der Preis umfasst den Wimpernlift und die blauschwarze Wimpernfärbung.",
-      },
-      {
-        q: "Kann ich den Lashlift mit einer Gesichtsbehandlung kombinieren?",
-        a: "Ja, der Lashlift lässt sich wunderbar als Ergänzung zu einem Pro Skin Treatment einplanen.",
-      },
-      {
-        q: "Darf ich nach dem Lashlift duschen oder schwimmen?",
-        a: "In den ersten 24 Stunden vermeide ich Wasser, Dampf und Sauna, damit die Form optimal hält. Danach kannst Du Deine gewohnte Routine weiterführen.",
-      },
-      {
-        q: "Ist der Lashlift für alle Wimpern geeignet?",
-        a: "Für die meisten Wimpern ja. Bei sehr kurzen oder feinen Wimpern berate ich Dich individuell, ob der Lift die gewünschte Wirkung erzielt.",
-      },
-    ],
-    preparation: [
-      "Vermeide Wimpernserum in den 48 Stunden vor dem Termin",
-    ],
-    aftercare: [
-      "Vermeide 24 Stunden Wasser, Dampf und Sauna",
-      "Reibe nicht an den Wimpern",
-      "Verwende ölfreie Augen-Make-up-Entferner für langanhaltende Ergebnisse",
-    ],
-    contraindications: [
-      "Augenentzündungen oder -infektionen (Bindehautentzündung, Gerstenkorn)",
-      "Frische Augen-OP oder Wimpernwurzelbehandlung",
-      "Allergie gegen Wimpernfarbe – vorab ansprechen",
-    ],
-    related: ["make-up", "pro-skin-treatments", "hautanalyse"],
+    related: ["hautanalyse", "pro-skin-treatments"],
   },
   {
     slug: "back-relax-revitalize",
