@@ -320,6 +320,9 @@ export const SERVICES = [
       "Herpes oder Fieberblasen im Gesicht",
       "Aktive Akne im Behandlungsbereich",
     ],
+    gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ae6fe312e_WhatsAppImage2026-10-05at111756.jpeg",
+    ],
     related: ["longevity-glow-treatment", "pro-skin-treatments", "hautanalyse"],
   },
   {
