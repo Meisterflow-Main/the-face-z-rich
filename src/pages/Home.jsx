@@ -6,8 +6,6 @@ import BrandVideo from "@/components/BrandVideo";
 import TreatmentVideos from "@/components/TreatmentVideos";
 import TechnologyVideos from "@/components/TechnologyVideos";
 import DermalogicaBanner from "@/components/DermalogicaBanner";
-import PhilosophyBanner from "@/components/PhilosophyBanner";
-import PhilosophyVideo from "@/components/PhilosophyVideo";
 import LuminfusionBanner from "@/components/LuminfusionBanner";
 import Services from "@/components/Services";
 import Pricing from "@/components/Pricing";
@@ -48,8 +46,6 @@ export default function Home() {
         <TreatmentVideos />
         <TechnologyVideos />
         <BrandVideo />
-        <PhilosophyVideo />
-        <PhilosophyBanner />
         <LuminfusionBanner />
         <Services />
         <Pricing />

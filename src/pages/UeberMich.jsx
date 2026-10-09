@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import AboutEditorial from "@/components/AboutEditorial";
+import PhilosophyVideo from "@/components/PhilosophyVideo";
+import PhilosophyBanner from "@/components/PhilosophyBanner";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import MobileCTA from "@/components/MobileCTA";
@@ -16,6 +18,8 @@ export default function UeberMich() {
       <Navbar />
       <main>
         <AboutEditorial />
+        <PhilosophyVideo />
+        <PhilosophyBanner />
       </main>
       <Footer />
       <WhatsAppButton />
