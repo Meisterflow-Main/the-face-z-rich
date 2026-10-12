@@ -42,7 +42,7 @@ export const SERVICES = [
       },
       {
         q: "Was ist die chinesische Hautlesung?",
-        a: "Die chinesische Hautlesung ist eine eigenständige Methode, die das Gesicht als Spiegel des Wohlbefindens betrachtet. Zusätzlich zum Dermalogica® Face Mapping™ lese ich Hautspannung, Farbe und Merkmale als Hinweis auf Zusammenhänge zwischen Hautzustand und Wohlbefinden. Die Lesung dauert etwa 10 Minuten und ersetzt keine medizinische Diagnose.",
+        a: "Die chinesische Hautlesung ist eine eigenständige Methode, die das Gesicht als Spiegel des Wohlbefindens betrachtet. Zusätzlich zum Dermalogica® Face Mapping™ lese ich Hautspannung, Farbe und Merkmale als Hinweis auf Zusammenhänge zwischen Hautzustand und Wohlbefinden. Die Lesung ersetzt keine medizinische Diagnose.",
       },
       {
         q: "Brauche ich die Hautanalyse vor der ersten Behandlung?",
