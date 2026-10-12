@@ -21,6 +21,7 @@ import Regionen from '@/pages/Regionen';
 import Sitemap from '@/pages/Sitemap';
 import Bewertungen from '@/pages/Bewertungen';
 import TreatcardsVouchers from '@/pages/TreatcardsVouchers';
+import { LanguageProvider } from '@/lib/LanguageContext';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -62,6 +63,22 @@ const AuthenticatedApp = () => {
     <Route path="/impressum" element={<Impressum />} />
     <Route path="/datenschutz" element={<Datenschutz />} />
     <Route path="/sitemap" element={<Sitemap />} />
+
+    {/* English routes */}
+    <Route path="/en" element={<Home />} />
+    <Route path="/en/about" element={<UeberMich />} />
+    <Route path="/en/treatments" element={<Behandlungen />} />
+    <Route path="/en/treatments/:service" element={<Service />} />
+    <Route path="/en/treatments/:service/:region" element={<Money />} />
+    <Route path="/en/regions" element={<Regionen />} />
+    <Route path="/en/regions/:slug" element={<Region />} />
+    <Route path="/en/review" element={<Bewertung />} />
+    <Route path="/en/reviews" element={<Bewertungen />} />
+    <Route path="/en/treatcards-vouchers" element={<TreatcardsVouchers />} />
+    <Route path="/en/imprint" element={<Impressum />} />
+    <Route path="/en/privacy" element={<Datenschutz />} />
+    <Route path="/en/sitemap" element={<Sitemap />} />
+
     <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
@@ -75,7 +92,9 @@ function App() {
       <QueryClientProvider client={queryClientInstance}>
         <Router>
           <ScrollToTop />
-          <AuthenticatedApp />
+          <LanguageProvider>
+            <AuthenticatedApp />
+          </LanguageProvider>
           <CookieBanner />
         </Router>
         <Toaster />

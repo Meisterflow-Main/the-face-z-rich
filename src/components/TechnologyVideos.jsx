@@ -1,20 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import LazyVideo from "@/components/LazyVideo";
+import { useLanguage } from "@/lib/LanguageContext";
 
-const VIDEOS = [
-  {
-    title: "bt-sonic GEN2 Cleansing",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/218863ccc_ThenextgenerationofskincleansingishereThebt-sonicGEN2cleansingbrushcombinesadvanc.mp4",
-  },
-  {
-    title: "Mikrostrom auf zellulärer Ebene",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/de92b30e9_Bio-TherapeuticFrequencySpecificMicrocurrentsupportsyourskinatthecellularlevelItmim.mp4",
-  },
-  {
-    title: "bt-micro fusion: 3 in 1",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/37a873669_Didyouknowyourbt-microfusioncando3thingsinonetreatmentExfoliation-gentlylifts.mp4",
-  },
+const VIDEO_SRCS = [
+  { src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/218863ccc_ThenextgenerationofskincleansingishereThebt-sonicGEN2cleansingbrushcombinesadvanc.mp4", titleKey: "tech_video_1" },
+  { src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/de92b30e9_Bio-TherapeuticFrequencySpecificMicrocurrentsupportsyourskinatthecellularlevelItmim.mp4", titleKey: "tech_video_2" },
+  { src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/37a873669_Didyouknowyourbt-microfusioncando3thingsinonetreatmentExfoliation-gentlylifts.mp4", titleKey: "tech_video_3" },
 ];
 
 function VideoCard({ video, index }) {
@@ -41,18 +33,21 @@ function VideoCard({ video, index }) {
 }
 
 export default function TechnologyVideos() {
+  const { t } = useLanguage();
+  const videos = VIDEO_SRCS.map((v) => ({ ...v, title: t(v.titleKey) }));
+
   return (
     <section className="w-full max-w-[1280px] mx-auto px-5 sm:px-8 py-20 sm:py-24">
       <div className="text-center mb-10">
-        <p className="text-gold font-semibold tracking-[0.25em] text-xs uppercase mb-3">Technologie</p>
+        <p className="text-gold font-semibold tracking-[0.25em] text-xs uppercase mb-3">{t("technology_eyebrow")}</p>
         <h2 className="font-heading text-3xl sm:text-4xl md:text-[40px] font-semibold text-foreground tracking-[-0.02em]">
-          Die Innovation hinter der Behandlung
+          {t("technology_title")}
         </h2>
         <div className="hairline w-16 mx-auto mt-5" />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5">
-        {VIDEOS.map((v, i) => (
-          <VideoCard key={v.title} video={v} index={i} />
+        {videos.map((v, i) => (
+          <VideoCard key={v.src} video={v} index={i} />
         ))}
       </div>
     </section>

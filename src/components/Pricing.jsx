@@ -8,8 +8,9 @@ import {
 import { Calendar } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
+import { useLanguage } from "@/lib/LanguageContext";
 
-const PRICE_LIST = [
+const PRICE_LIST_DE = [
   {
     id: "medical-skin-offer",
     title: "10% OFFER DERMALOGICA MEDICAL SKIN TREATMENT bis FEBRUAR 2027",
@@ -124,7 +125,122 @@ const PRICE_LIST = [
   },
 ];
 
-function ServiceRow({ name, price, neu }) {
+const PRICE_LIST_EN = [
+  {
+    id: "medical-skin-offer",
+    title: "10% OFFER DERMALOGICA MEDICAL SKIN TREATMENT until FEBRUARY 2027",
+    tag: "10% OFFER",
+    services: [
+      { name: "EXOBOOSTER MICRONEEDLING 0.5 INCL. HOME SERUM", price: "470" },
+    ],
+  },
+  {
+    id: "red-carpet-offer",
+    title: "10% OFFER ZFF RED CARPET LOOK until 31 October (not with subscription)",
+    tag: "10% OFFER",
+    services: [
+      { name: "LUMINFUSION", price: "245" },
+      { name: "NEW! LONGEVITY GLOW TREAT", price: "225" },
+      { name: "DAY-EVENING to GALA MAKE-UP", price: "99" },
+    ],
+  },
+  {
+    id: "hautanalyse-beratung",
+    title: "SKIN ANALYSIS CONSULTATION incl. QUICKBOOST",
+    services: [
+      { name: "FACE-MAP and FACE-FIT", price: "95" },
+    ],
+  },
+  {
+    id: "targeted-skin-solutions",
+    title: "DERMALOGICA TARGETED SKIN SOLUTIONS TREATMENTS",
+    services: [
+      { name: "PRO CLEAR YOUNG BIG Teenager (from 10-20 years)", price: "160" },
+      { name: "PRO CLEAR YOUNG SMALL Teenager (10-20 years)", price: "100" },
+      { name: "PRO BACK CLEAR back treatment", price: "100" },
+      { name: "PRO CLEAR adults", price: "225" },
+      { name: "PRO BRIGHT brightening", price: "210" },
+      { name: "PRO CALM TREAT calming", price: "180" },
+      { name: "PRO FIRM firming", price: "225" },
+    ],
+  },
+  {
+    id: "signature-pro-skin",
+    title: "DERMALOGICA SIGNATURE PRO SKIN TREATMENTS",
+    services: [
+      { name: "PRO SKIN 45 QUICK CLEAR", price: "180" },
+      { name: "PRO SKIN 60", price: "225" },
+      { name: "PRO SKIN 90", price: "270" },
+      { name: "ULTRA SKIN 120", price: "315" },
+    ],
+  },
+  {
+    id: "minlen-kids",
+    title: "NEW & EXCLUSIVE! MINLEN KIDS AND TWEENS SKIN TREAT",
+    tag: "NEW",
+    services: [
+      { name: "MINLEN FACIAL TREATMENT (from 4-11 years)", price: "65" },
+    ],
+  },
+  {
+    id: "makeup-glowskin-janeiredale",
+    title: "MAKE-UP with GLOWSKINBEAUTY and JANE IREDALE",
+    services: [
+      { name: "MAKE-UP CONSULTATION", price: "65" },
+      { name: "BRIDAL MAKE-UP", price: "200" },
+    ],
+  },
+  {
+    id: "kleiner-service",
+    title: "NEW! SMALL SERVICE",
+    tag: "NEW",
+    services: [
+      { name: "FACE QUICK FIX", price: "90" },
+    ],
+  },
+  {
+    id: "homeservice",
+    title: "NEW! HOMESERVICE EXCLUSIVE",
+    tag: "NEW",
+    services: [
+      { name: "EXCLUSIVE HOME SKIN TREAT", price: "100" },
+    ],
+  },
+  {
+    id: "phytomer-spa-ruecken",
+    title: "PHYTOMER SPA BACK TREATMENT WITH MASSAGE AND ALGAE PACK",
+    services: [
+      { name: "PHYTOMER SPA BACK TREATMENT", price: "60" },
+    ],
+  },
+  {
+    id: "adds-on-skin-treat",
+    title: "ADDS ON SKIN TREAT",
+    services: [
+      { name: "NEW! BLACK EYEPADS incl. SMART EYE DENSITY SERUM", price: "20", neu: true },
+      { name: "LASHTINT", price: "40" },
+      { name: "NEW! PLUMP PEEL & PHYTO E2", price: "20", neu: true },
+      { name: "WAX UPPERLIP", price: "25" },
+      { name: "BROW TINT", price: "35" },
+      { name: "BROWN SHAPE", price: "20" },
+      { name: "BLUE REPAIR MASK", price: "15" },
+      { name: "BT-COCKTAIL MASK", price: "15" },
+      { name: "WAX CHEEKS", price: "40" },
+      { name: "WAX CHIN", price: "10" },
+      { name: "WAX EAR", price: "10" },
+      { name: "WAX NOSE", price: "10" },
+    ],
+  },
+  {
+    id: "quantum-angel-healing",
+    title: "SELF-HEALING / NEW BEGINNING QUANTUM-ANGEL-HEALING® (QEH) by EVA-MARIA MORA",
+    services: [
+      { name: "NEW START SELF-HEALING WITH ANGELS", price: "188" },
+    ],
+  },
+];
+
+function ServiceRow({ name, price, neu, neuLabel }) {
   return (
     <a
       href={BRAND.booking}
@@ -135,7 +251,7 @@ function ServiceRow({ name, price, neu }) {
       <div className="flex items-center gap-2 min-w-0">
         {neu && (
           <span className="text-[10px] tracking-[0.15em] uppercase text-white bg-gold px-2 py-0.5 rounded-sm shrink-0">
-            Neu
+            {neuLabel}
           </span>
         )}
         <span className="text-charcoal/80 group-hover/service:text-charcoal text-[15px] font-medium truncate transition-colors">{name}</span>
@@ -148,25 +264,28 @@ function ServiceRow({ name, price, neu }) {
 }
 
 export default function Pricing() {
+  const { t, lang } = useLanguage();
+  const priceList = lang === "en" ? PRICE_LIST_EN : PRICE_LIST_DE;
+
   return (
     <section id="preise" className="bg-sand py-20 sm:py-28 px-5">
       <div className="max-w-4xl mx-auto">
         <ScrollReveal className="text-center mb-16">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">
-            Behandlungen & Preise
+            {t("pricing_eyebrow")}
           </p>
           <h2 className="font-heading text-3xl sm:text-4xl md:text-[42px] font-semibold text-foreground leading-[1.12] tracking-[-0.02em] mb-4">
-            Invest in <span className="gold-gradient-text">your skin</span>
+            {t("pricing_title")}
           </h2>
           <p className="text-charcoal/60 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            Mein vollständiges Behandlungsangebot mit transparenten Preisen. Ich setze bei meiner professionellen Hautpflege auf Dermalogica® – jede Behandlung ist individuell auf die Bedürfnisse Deiner Haut abgestimmt.
+            {t("pricing_desc")}
           </p>
           <div className="hairline w-24 mx-auto mt-6" />
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
           <Accordion type="single" collapsible className="space-y-4">
-            {PRICE_LIST.map((cat) => (
+            {priceList.map((cat) => (
               <AccordionItem
                 key={cat.id}
                 value={cat.id}
@@ -192,7 +311,7 @@ export default function Pricing() {
                 <AccordionContent className="pb-6 pt-1">
                   <div className="mt-2">
                     {cat.services.map((s) => (
-                      <ServiceRow key={s.name} {...s} />
+                      <ServiceRow key={s.name} {...s} neuLabel={t("pricing_neu")} />
                     ))}
                   </div>
                 </AccordionContent>
@@ -203,7 +322,7 @@ export default function Pricing() {
 
         <ScrollReveal className="text-center mt-14" delay={0.1}>
           <p className="text-charcoal/50 text-sm mb-5 italic">
-            Preise in CHF, inkl. MWST. Behandlungsdauer auf Anfrage.
+            {t("pricing_note")}
           </p>
           <a
             href={BRAND.booking}
@@ -212,7 +331,7 @@ export default function Pricing() {
             className="inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-8 py-4 rounded-lg transition-all hover:shadow-lg hover:shadow-gold/30"
           >
             <Calendar size={18} />
-            Termin buchen
+            {t("pricing_book")}
           </a>
         </ScrollReveal>
       </div>

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { BRAND } from "@/lib/brand";
 import { Calendar } from "lucide-react";
+import { useLanguage } from "@/lib/LanguageContext";
 
 export default function MobileCTA() {
+  const { t } = useLanguage();
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -32,7 +34,7 @@ export default function MobileCTA() {
           rel="noopener noreferrer"
           className="flex-1 inline-flex items-center justify-center gap-2 text-sm font-semibold text-white bg-gold rounded-lg py-3"
         >
-          <Calendar size={16} /> Termin
+          <Calendar size={16} /> {t("mobile_termin")}
         </a>
       </div>
     </div>

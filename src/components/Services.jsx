@@ -1,31 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
-import { TREATMENTS, BRAND } from "@/lib/brand";
+import { BRAND } from "@/lib/brand";
+import { useLanguage } from "@/lib/LanguageContext";
+import { getTreatments } from "@/lib/i18n-data";
 import { ArrowRight } from "lucide-react";
 
 export default function Services() {
+  const { t, lang, localizePath } = useLanguage();
+  const treatments = getTreatments(lang);
+
   return (
     <section id="behandlungen" className="py-20 sm:py-28 px-5 sm:px-8 bg-sand">
       <div className="mx-auto max-w-6xl grid lg:grid-cols-12 gap-10 lg:gap-16">
         <ScrollReveal className="lg:col-span-4">
           <div className="lg:sticky lg:top-28">
             <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-4">
-              Behandlungen
+              {t("services_eyebrow")}
             </p>
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-semibold text-charcoal leading-[1.08] mb-6">
-              Von der Hautanalyse bis zum Glow
+              {t("services_title")}
             </h2>
             <div className="hairline w-16 mb-6" />
             <p className="text-charcoal/65 leading-relaxed mb-4">
-              Jede Behandlung beginnt mit einer persönlichen Hautanalyse und wird massgeschneidert
-              auf die individuellen Bedürfnisse Deiner Haut.
+              {t("services_desc1")}
             </p>
             <p className="text-charcoal/65 leading-relaxed mb-3">
-              Auch Kids &amp; Teens sind bei mir herzlich willkommen – mit individuell abgestimmten Behandlungen für junge Haut.
+              {t("services_desc2")}
             </p>
             <p className="text-sm text-gold font-medium tracking-wide mb-6">
-              Professionelle Hautpflege mit Dermalogica® – individuell abgestimmt auf Deine Haut.
+              {t("services_cta1")}
             </p>
             <a
               href={BRAND.booking}
@@ -33,13 +37,13 @@ export default function Services() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-gold font-semibold text-sm hover:gap-3 transition-all"
             >
-              Termin buchen <ArrowRight size={16} />
+              {t("services_book")} <ArrowRight size={16} />
             </a>
             <Link
-              to="/behandlungen"
+              to={localizePath("/behandlungen")}
               className="mt-2 inline-flex items-center gap-2 text-charcoal/60 hover:text-gold font-medium text-sm transition-colors"
             >
-              Alle Behandlungen ansehen <ArrowRight size={18} />
+              {t("services_view_all")} <ArrowRight size={18} />
             </Link>
           </div>
         </ScrollReveal>
@@ -49,16 +53,16 @@ export default function Services() {
             <div className="overflow-hidden rounded-lg border border-gold/15 shadow-sm">
               <img
                 src="https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2312f53b5_IMG_9271.jpg"
-                alt="Professionelle Gesichtsbehandlung bei THE FACE® Zürich"
+                alt={t("services_alt")}
                 className="w-full h-auto block"
                 loading="lazy"
               />
             </div>
           </ScrollReveal>
-          {TREATMENTS.map((t, i) => (
-            <ScrollReveal key={t.title} delay={i * 0.05} y={16}>
+          {treatments.map((tr, i) => (
+            <ScrollReveal key={tr.title} delay={i * 0.05} y={16}>
               <Link
-                to={t.to}
+                to={localizePath(tr.to)}
                 className="group grid grid-cols-12 gap-4 sm:gap-6 py-7 border-t border-charcoal/10 last:border-b transition-colors hover:border-gold/40"
               >
                 <span className="col-span-2 sm:col-span-1 font-heading text-charcoal/30 text-sm pt-1.5 group-hover:text-gold transition-colors">
@@ -66,14 +70,14 @@ export default function Services() {
                 </span>
                 <div className="col-span-10 sm:col-span-11">
                   <h3 className="font-heading text-xl sm:text-2xl font-semibold text-charcoal mb-2 inline-flex items-center gap-2 group-hover:text-gold transition-colors">
-                    {t.title}
+                    {tr.title}
                     <ArrowRight size={18} className="opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
                   </h3>
                   <p className="text-charcoal/65 text-sm sm:text-base leading-relaxed mb-2">
-                    {t.desc}
+                    {tr.desc}
                   </p>
                   <p className="text-gold text-xs tracking-[0.2em] uppercase font-medium">
-                    {t.benefit}
+                    {tr.benefit}
                   </p>
                 </div>
               </Link>

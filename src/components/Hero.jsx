@@ -2,14 +2,17 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Calendar, ArrowRight } from "lucide-react";
 import { BRAND, ASSETS } from "@/lib/brand";
+import { useLanguage } from "@/lib/LanguageContext";
 
 export default function Hero() {
+  const { t } = useLanguage();
+
   return (
     <section className="relative w-full overflow-hidden bg-[#F5F5F0]">
       {/* Background photo — clean studio image only, no baked-in text */}
       <img
         src={ASSETS.hero}
-        alt="Eleganter Behandlungsraum von THE FACE® Denise Claire Gadient in Zürich"
+        alt={t("hero_alt")}
         className="absolute inset-0 w-full h-full object-cover object-center"
         loading="eager"
         decoding="async"
@@ -36,24 +39,23 @@ export default function Hero() {
             className="max-w-[560px]"
           >
             <p className="text-charcoal/60 text-[11px] md:text-xs tracking-[0.22em] uppercase font-medium mb-6">
-              THE FACE® · Denise Claire Gadient · Zürich
+              {t("hero_eyebrow")}
             </p>
 
             <h1
               className="font-heading text-charcoal font-medium leading-[1.08] tracking-[-0.02em] mb-7"
               style={{ fontSize: "clamp(42px, 4.4vw, 60px)" }}
             >
-              Holistische Gesichtspflege in Zürich
+              {t("hero_title")}
             </h1>
 
             <p className="text-gold text-xs tracking-[0.22em] uppercase font-semibold mb-5">
-              Für Frauen · Männer · Teenager
+              {t("hero_subtitle")}
             </p>
 
             <p className="text-charcoal/75 font-body leading-[1.5] max-w-[530px] mb-9"
                style={{ fontSize: "clamp(16px, 1.2vw, 18px)" }}>
-              Über 30 Jahre spezialisiert auf individuelle Hautanalyse, Pro Skin Treatments und
-              Skin Longevity, mit sanften Händen und hochwertigen Clean-Produkten an der Rämistrasse.
+              {t("hero_desc")}
             </p>
 
             <div className="flex flex-row gap-4">
@@ -61,17 +63,17 @@ export default function Hero() {
                 href={BRAND.booking}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Termin buchen"
+                aria-label={t("hero_book")}
                 className="inline-flex items-center justify-center gap-2 bg-[#4A657D] hover:bg-[#3C526A] text-white font-semibold px-7 py-3.5 rounded-lg transition-all duration-300 hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-[#4A657D]/60 focus-visible:ring-offset-2"
               >
-                <Calendar size={18} /> Termin buchen
+                <Calendar size={18} /> {t("hero_book")}
               </a>
               <a
                 href="#behandlungen"
-                aria-label="Behandlungen entdecken"
+                aria-label={t("hero_discover")}
                 className="inline-flex items-center justify-center gap-2 bg-transparent border border-charcoal/30 text-charcoal hover:bg-charcoal/5 font-semibold px-7 py-3.5 rounded-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-charcoal/30 focus-visible:ring-offset-2"
               >
-                Behandlungen entdecken <ArrowRight size={18} />
+                {t("hero_discover")} <ArrowRight size={18} />
               </a>
             </div>
           </motion.div>
@@ -83,7 +85,7 @@ export default function Hero() {
         {/* Image area — natural aspect ratio, no cropping */}
         <img
           src={ASSETS.hero}
-          alt="Eleganter Behandlungsraum von THE FACE® Denise Claire Gadient in Zürich"
+          alt={t("hero_alt")}
           className="block w-full h-auto object-contain object-center"
           loading="eager"
           decoding="async"
@@ -97,21 +99,20 @@ export default function Hero() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           >
             <p className="text-charcoal/60 text-[10px] tracking-[0.22em] uppercase font-medium mb-5">
-              THE FACE® · Denise Claire Gadient · Zürich
+              {t("hero_eyebrow")}
             </p>
 
             <h1 className="font-heading text-charcoal font-medium leading-[1.1] tracking-[-0.02em] mb-5"
                 style={{ fontSize: "36px" }}>
-              Holistische Gesichtspflege in Zürich
+              {t("hero_title")}
             </h1>
 
             <p className="text-gold text-[11px] tracking-[0.22em] uppercase font-semibold mb-4">
-              Für Frauen · Männer · Teenager
+              {t("hero_subtitle")}
             </p>
 
             <p className="text-charcoal/75 font-body text-base leading-[1.5] mb-8">
-              Über 30 Jahre spezialisiert auf individuelle Hautanalyse, Pro Skin Treatments und
-              Skin Longevity, mit sanften Händen und hochwertigen Clean-Produkten an der Rämistrasse.
+              {t("hero_desc")}
             </p>
 
             <div className="flex flex-col gap-3">
@@ -119,17 +120,17 @@ export default function Hero() {
                 href={BRAND.booking}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Termin buchen"
+                aria-label={t("hero_book")}
                 className="inline-flex items-center justify-center gap-2 bg-[#4A657D] hover:bg-[#3C526A] text-white font-semibold px-6 py-3.5 rounded-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#4A657D]/60"
               >
-                <Calendar size={18} /> Termin buchen
+                <Calendar size={18} /> {t("hero_book")}
               </a>
               <a
                 href="#behandlungen"
-                aria-label="Behandlungen entdecken"
+                aria-label={t("hero_discover")}
                 className="inline-flex items-center justify-center gap-2 bg-transparent border border-charcoal/30 text-charcoal hover:bg-charcoal/5 font-semibold px-6 py-3.5 rounded-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-charcoal/30"
               >
-                Behandlungen entdecken <ArrowRight size={18} />
+                {t("hero_discover")} <ArrowRight size={18} />
               </a>
             </div>
           </motion.div>

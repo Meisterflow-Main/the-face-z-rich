@@ -16,14 +16,30 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import MobileCTA from "@/components/MobileCTA";
 import InternalLinks from "@/components/InternalLinks";
 import Seo from "@/components/region/Seo";
-import { FAQS } from "@/lib/brand";
+import { useLanguage } from "@/lib/LanguageContext";
+import { getFAQS } from "@/lib/i18n-data";
 import { homeSchemaGraph } from "@/lib/schema";
 
+const SEO_DATA = {
+  de: {
+    title: "THE FACE® Zürich – Denise Claire Gadient | Holistische Gesichtspflege & Kosmetik",
+    description: "THE FACE® Denise Claire Gadient in Zürich – Über 30 Jahre spezialisiert auf holistische Gesichtspflege. Kosmetikerin EFZ, Dermalogica® Skin Expert. Hautanalyse, Pro Skin Treatment, Longevity Glow Treatment, Revitalisierung & Make-up. Termin online buchen.",
+  },
+  en: {
+    title: "THE FACE® Zurich – Denise Claire Gadient | Holistic Facial Care & Cosmetics",
+    description: "THE FACE® Denise Claire Gadient in Zurich – Over 30 years specialized in holistic facial care. Certified cosmetologist EFZ, Dermalogica® Skin Expert. Skin analysis, Pro Skin Treatment, Longevity Glow Treatment, revitalization & make-up. Book online.",
+  },
+};
+
 export default function Home() {
+  const { t, lang, localizePath } = useLanguage();
+  const faqs = getFAQS(lang);
+  const seo = SEO_DATA[lang] || SEO_DATA.de;
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: FAQS.map((f) => ({
+    mainEntity: faqs.map((f) => ({
       "@type": "Question",
       name: f.q,
       acceptedAnswer: { "@type": "Answer", text: f.a },
@@ -32,8 +48,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <Seo
-        title="THE FACE® Zürich – Denise Claire Gadient | Holistische Gesichtspflege & Kosmetik"
-        description="THE FACE® Denise Claire Gadient in Zürich – Über 30 Jahre spezialisiert auf holistische Gesichtspflege. Kosmetikerin EFZ, Dermalogica® Skin Expert. Hautanalyse, Pro Skin Treatment, Longevity Glow Treatment, Revitalisierung & Make-up. Termin online buchen."
+        title={seo.title}
+        description={seo.description}
         jsonLd={homeSchemaGraph(faqSchema)}
       />
       <Navbar />
@@ -49,13 +65,13 @@ export default function Home() {
         <Stats />
         <FAQ />
         <InternalLinks
-          eyebrow="Schnellnavigation"
-          title="Finde, was Du suchst"
+          eyebrow={t("home_nav_eyebrow")}
+          title={t("home_nav_title")}
           links={[
-            { to: "/behandlungen", label: "Alle Behandlungen", description: "Hautanalyse, Pro Skin, Targeted und Medical Skin.", anchor: "Behandlungen entdecken" },
-            { to: "/regionen", label: "Regionen in Zürich", description: "Anfahrt aus Deinem Quartier zur Praxis.", anchor: "Regionen ansehen" },
-            { to: "/behandlungen/minlen-kids-tweens", label: "Minlen Kids & Tweens", description: "Sanfte Hautpflege für sensible Kinderhaut ab 4 Jahren.", anchor: "Minlen Treatment ansehen" },
-            { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
+            { to: localizePath("/behandlungen"), label: t("home_nav_link1_label"), description: t("home_nav_link1_desc"), anchor: t("home_nav_link1_anchor") },
+            { to: localizePath("/regionen"), label: t("home_nav_link2_label"), description: t("home_nav_link2_desc"), anchor: t("home_nav_link2_anchor") },
+            { to: localizePath("/behandlungen/minlen-kids-tweens"), label: t("home_nav_link3_label"), description: t("home_nav_link3_desc"), anchor: t("home_nav_link3_anchor") },
+            { to: localizePath("/bewertungen"), label: t("home_nav_link4_label"), description: t("home_nav_link4_desc"), anchor: t("home_nav_link4_anchor") },
           ]}
         />
         <ContactForm />

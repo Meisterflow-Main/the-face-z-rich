@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND, WEBHOOK } from "@/lib/brand";
+import { useLanguage } from "@/lib/LanguageContext";
 import GoogleReviewBadge from "@/components/GoogleReviewBadge";
 import AvailabilityCard from "@/components/AvailabilityCard";
 import { MapPin, Phone, Mail, Instagram, Send, CheckCircle2, Loader2, AlertCircle, MessageCircle } from "lucide-react";
@@ -9,17 +10,18 @@ import { MapPin, Phone, Mail, Instagram, Send, CheckCircle2, Loader2, AlertCircl
 const STATUS = { IDLE: "idle", LOADING: "loading", SUCCESS: "success", ERROR: "error" };
 
 export default function ContactForm() {
+  const { t, localizePath, lang } = useLanguage();
   const [status, setStatus] = useState(STATUS.IDLE);
   const [form, setForm] = useState({ name: "", email: "", phone: "", description: "" });
   const [errors, setErrors] = useState({});
 
   const validate = () => {
     const e = {};
-    if (!form.name.trim()) e.name = "Bitte gib Deinen Namen ein.";
-    if (!form.email.trim()) e.email = "Bitte gib Deine E-Mail ein.";
-    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) e.email = "Ungültige E-Mail-Adresse.";
-    if (!form.phone.trim()) e.phone = "Bitte gib Deine Telefonnummer ein.";
-    if (!form.description.trim()) e.description = "Bitte beschreibe Dein Anliegen.";
+    if (!form.name.trim()) e.name = t("contact_err_name");
+    if (!form.email.trim()) e.email = t("contact_err_email");
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) e.email = t("contact_err_email_invalid");
+    if (!form.phone.trim()) e.phone = t("contact_err_phone");
+    if (!form.description.trim()) e.description = t("contact_err_message");
     setErrors(e);
     return Object.keys(e).length === 0;
   };
@@ -58,7 +60,7 @@ export default function ContactForm() {
           value={form[name]}
           onChange={(e) => setForm({ ...form, [name]: e.target.value })}
           className="w-full rounded-xl border border-gold/20 bg-card px-4 py-3.5 text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors resize-none"
-          placeholder="Wie kann ich Dir helfen?"
+          placeholder={t("contact_placeholder")}
         />
       ) : (
         <input
@@ -78,18 +80,17 @@ export default function ContactForm() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           <ScrollReveal>
             <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-4">
-              Kontakt
+              {t("contact_eyebrow")}
             </p>
             <h2 className="font-heading text-3xl sm:text-4xl md:text-[42px] font-semibold text-foreground mb-6 leading-[1.12]">
-              Beratung anfragen
+              {t("contact_title")}
             </h2>
             <div className="hairline w-16 mb-6" />
             <p className="text-charcoal/60 leading-relaxed mb-4">
-              Hast Du Fragen? Sende mir eine Nachricht – ich melde mich gerne persönlich
-              bei Dir. Oder buche direkt Deinen Termin online.
+              {t("contact_desc1")}
             </p>
             <p className="text-charcoal/60 leading-relaxed mb-6">
-              Professionelle Hautpflege mit Dermalogica® – individuell abgestimmt auf Deine Haut.
+              {t("contact_desc2")}
             </p>
             <GoogleReviewBadge className="mb-8" />
 
@@ -104,7 +105,7 @@ export default function ContactForm() {
                 <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
                   <MessageCircle size={18} className="text-gold group-hover:text-white transition-colors" />
                 </span>
-                <span className="text-charcoal/70 group-hover:text-gold transition-colors">WhatsApp – bevorzugt für Fragen</span>
+                <span className="text-charcoal/70 group-hover:text-gold transition-colors">{t("contact_whatsapp")}</span>
               </a>
               <a href={`mailto:${BRAND.email}`} className="flex items-center gap-4 group">
                 <span className="w-11 h-11 rounded-full bg-card border border-gold/20 flex items-center justify-center group-hover:bg-gold transition-colors">
@@ -146,16 +147,17 @@ export default function ContactForm() {
                 aria-hidden="true"
               />
 
-              {field("name", "Name")}
-              {field("email", "E-Mail", "email")}
-              {field("phone", "Telefon", "tel")}
-              {field("description", "Dein Anliegen", "text", true)}
+              {field("name", t("contact_name"))}
+              {field("email", t("contact_email"), "email")}
+              {field("phone", t("contact_phone"), "tel")}
+              {field("description", t("contact_message"), "text", true)}
 
               <p className="text-xs text-charcoal/50 leading-relaxed">
-                Mit dem Absenden erklärst Du Dich mit der Verarbeitung Deiner Angaben gemäss meiner{" "}
-                <Link to="/datenschutz" className="text-gold underline">Datenschutzerklärung</Link> einverstanden.
-                Angaben zum Unternehmen findest Du im{" "}
-                <Link to="/impressum" className="text-gold underline">Impressum</Link>.
+                {lang === "en" ? (
+                  <>By submitting, you agree to the processing of your data in accordance with my <Link to={localizePath("/datenschutz")} className="text-gold underline">privacy policy</Link>. Company information can be found in the <Link to={localizePath("/impressum")} className="text-gold underline">imprint</Link>.</>
+                ) : (
+                  <>Mit dem Absenden erklärst Du Dich mit der Verarbeitung Deiner Angaben gemäss meiner <Link to={localizePath("/datenschutz")} className="text-gold underline">Datenschutzerklärung</Link> einverstanden. Angaben zum Unternehmen findest Du im <Link to={localizePath("/impressum")} className="text-gold underline">Impressum</Link>.</>
+                )}
               </p>
 
               <button
@@ -167,18 +169,17 @@ export default function ContactForm() {
                 {status === STATUS.SUCCESS && <CheckCircle2 size={18} />}
                 {status === STATUS.ERROR && <AlertCircle size={18} />}
                 {status === STATUS.IDLE && <Send size={18} />}
-                {status === STATUS.LOADING ? "Wird gesendet…" : "Anfrage senden"}
+                {status === STATUS.LOADING ? t("contact_sending") : t("contact_send")}
               </button>
 
               {status === STATUS.SUCCESS && (
                 <p className="text-center text-sm text-green-700 bg-green-50 rounded-lg py-3 px-4">
-                  Vielen Dank! Deine Anfrage ist eingegangen. Ich melde mich bald bei Dir.
+                  {t("contact_success")}
                 </p>
               )}
               {status === STATUS.ERROR && (
                 <p className="text-center text-sm text-destructive bg-destructive/10 rounded-lg py-3 px-4">
-                  Da ist leider etwas schiefgelaufen. Bitte versuche es später erneut oder
-                  schreibe mir direkt per WhatsApp.
+                  {t("contact_error")}
                 </p>
               )}
             </form>

@@ -1,26 +1,29 @@
 import React, { useState } from "react";
 import ScrollReveal from "@/components/ScrollReveal";
-import { FAQS } from "@/lib/brand";
+import { useLanguage } from "@/lib/LanguageContext";
+import { getFAQS } from "@/lib/i18n-data";
 import { Plus, Minus } from "lucide-react";
 
 export default function FAQ() {
+  const { t, lang } = useLanguage();
   const [open, setOpen] = useState(0);
+  const faqs = getFAQS(lang);
 
   return (
     <section id="faq" className="py-24 sm:py-32 px-5 sm:px-8 bg-background">
       <div className="mx-auto max-w-4xl">
         <ScrollReveal className="text-center mb-14">
           <p className="text-gold font-semibold tracking-[0.2em] text-xs uppercase mb-4">
-            Häufige Fragen
+            {t("faq_eyebrow")}
           </p>
           <h2 className="font-heading text-3xl sm:text-4xl md:text-[42px] font-semibold text-foreground mb-5">
-            Gut zu wissen
+            {t("faq_title")}
           </h2>
           <div className="hairline w-16 mx-auto" />
         </ScrollReveal>
 
         <div className="space-y-3">
-          {FAQS.map((f, i) => {
+          {faqs.map((f, i) => {
             const isOpen = open === i;
             return (
               <ScrollReveal key={f.q} delay={i * 0.05}>

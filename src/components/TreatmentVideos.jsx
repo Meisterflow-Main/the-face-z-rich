@@ -1,24 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import LazyVideo from "@/components/LazyVideo";
+import { useLanguage } from "@/lib/LanguageContext";
 
-const VIDEOS = [
-  {
-    title: "Hautanalyse für alle",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/86913763a_Teenager_Mask_Treatment.mp4",
-  },
-  {
-    title: "Pro Skin Treatment für Sie",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/db29ac80e_Pro_Skin_European.mp4",
-  },
-  {
-    title: "Pro Clear für Ihn",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/566f9d9ab_Man_reel_light_beard.mp4",
-  },
-  {
-    title: "Skin Longevity",
-    src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/c5325fb5e_Skin_Longevity_Reel.mp4",
-  },
+const VIDEO_SRCS = [
+  { src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/86913763a_Teenager_Mask_Treatment.mp4", titleKey: "treatment_video_1" },
+  { src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/db29ac80e_Pro_Skin_European.mp4", titleKey: "treatment_video_2" },
+  { src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/566f9d9ab_Man_reel_light_beard.mp4", titleKey: "treatment_video_3" },
+  { src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/c5325fb5e_Skin_Longevity_Reel.mp4", titleKey: "treatment_video_4" },
 ];
 
 function VideoCard({ video, index }) {
@@ -45,18 +34,21 @@ function VideoCard({ video, index }) {
 }
 
 export default function TreatmentVideos() {
+  const { t } = useLanguage();
+  const videos = VIDEO_SRCS.map((v) => ({ ...v, title: t(v.titleKey) }));
+
   return (
     <section className="w-full max-w-[1280px] mx-auto px-5 sm:px-8 py-20 sm:py-24">
       <div className="text-center mb-10">
-        <p className="text-gold font-semibold tracking-[0.25em] text-xs uppercase mb-3">Einblicke</p>
+        <p className="text-gold font-semibold tracking-[0.25em] text-xs uppercase mb-3">{t("treatment_videos_eyebrow")}</p>
         <h2 className="font-heading text-3xl sm:text-4xl md:text-[40px] font-semibold text-foreground tracking-[-0.02em]">
-          Erlebe die Behandlungen in Bewegung
+          {t("treatment_videos_title")}
         </h2>
         <div className="hairline w-16 mx-auto mt-5" />
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-        {VIDEOS.map((v, i) => (
-          <VideoCard key={v.title} video={v} index={i} />
+        {videos.map((v, i) => (
+          <VideoCard key={v.src} video={v} index={i} />
         ))}
       </div>
     </section>

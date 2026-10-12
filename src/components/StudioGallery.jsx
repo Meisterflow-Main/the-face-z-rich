@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import ScrollReveal from "@/components/ScrollReveal";
 import ImageLightbox from "@/components/ImageLightbox";
+import { useLanguage } from "@/lib/LanguageContext";
 
 const STUDIO_IMAGES = [
   { src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a68872878_ChatGPTImageSep28202603_09_45PM.png", alt: "Helles Behandlungszimmer mit ghost chairs, Poster und Französischem Fenster bei THE FACE® Zürich" },
@@ -16,6 +17,7 @@ const STUDIO_IMAGES = [
 ];
 
 export default function StudioGallery() {
+  const { t } = useLanguage();
   const [active, setActive] = useState(null);
 
   return (
@@ -24,17 +26,17 @@ export default function StudioGallery() {
         {/* Caption on top */}
         <ScrollReveal className="text-center mb-10 sm:mb-12">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-2">
-            Einblick
+            {t("studio_eyebrow")}
           </p>
           <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal leading-[1.05] mb-4">
-            Meine <span className="gold-gradient-text">Räumlichkeiten</span>
+            {t("studio_title_a")} <span className="gold-gradient-text">{t("studio_title_b")}</span>
           </h2>
           <div className="hairline w-20 mb-4 mx-auto" />
           <p className="text-charcoal/70 text-sm sm:text-base leading-relaxed mb-3 max-w-2xl mx-auto">
-            Entdecke meine Räumlichkeiten und erhalte einen Einblick in die angenehme Atmosphäre meines Studios.
+            {t("studio_desc1")}
           </p>
           <p className="text-charcoal/60 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
-            Ein Ort der Ruhe, aufmerksamer Pflege und persönlicher Zuwendung – mitten in Zürich. Tippe auf ein Bild, um es zu vergrössern.
+            {t("studio_desc2")}
           </p>
         </ScrollReveal>
 
@@ -50,7 +52,7 @@ export default function StudioGallery() {
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: Math.min(i * 0.07, 0.35), ease: [0.22, 1, 0.36, 1] }}
               className="relative overflow-hidden rounded-lg border border-charcoal/10 shadow-sm group cursor-zoom-in w-full block"
-              aria-label={`Bild vergrössern: ${img.alt}`}
+              aria-label={img.alt}
             >
               <img
                 src={img.src}
