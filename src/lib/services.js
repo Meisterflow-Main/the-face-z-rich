@@ -757,7 +757,7 @@ export const SERVICES = [
       },
       {
         q: "Kann ich die Behandlung mit einer Gesichtsbehandlung kombinieren?",
-        a: "Die Phytomer Spa Rückenbehandlung ist nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar – nur zum Skin Treat, nicht als Stand-alone-Behandlung. So geniesst Du ein rundum-Verwöhnerlebnis.",
+        a: "Ja, du kannst die Phytomer Spa Rückenbehandlung vor jeder Gesichtsbehandlung dazubuchen. So geniesst du ein rundum entspannendes Verwöhnerlebnis.",
       },
     ],
     preparation: [
