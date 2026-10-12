@@ -155,6 +155,7 @@ export const SERVICES = [
     ],
     preparation: [
       "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
+      "Bring alle Deine aktuellen Produkte mit, damit wir sie gemeinsam überprüfen können",
     ],
     aftercare: [
       "Folge dem persönlichen Pflegeplan, den ich für Dich erstelle",
