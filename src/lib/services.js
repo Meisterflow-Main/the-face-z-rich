@@ -528,7 +528,7 @@ export const SERVICES = [
       "Verwende keine klärenden oder peelenden Produkte für eine Woche",
     ],
     contraindications: [
-      "Herpes oder Fieberblasen im Gesicht",
+      "Akute Herpes und Akne im Gesicht",
       "Akute Akne oder Hautentzündungen im Behandlungsbereich",
       "Einnahme von Isotretinoin oder Anwendung einer isotretinoin-haltigen Creme innerhalb der letzten sechs Monate",
     ],
