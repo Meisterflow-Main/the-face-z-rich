@@ -529,6 +529,10 @@ export const SERVICES = [
       "Aktive Akne oder Hautentzündungen im Behandlungsbereich",
       "Einnahme von Isotretinoin in den letzten sechs Monaten",
     ],
+    video: {
+      src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/c71f8a712_WhatsAppVideo2026-10-12at0332351.mp4",
+      title: "Medical Skin Treatments",
+    },
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/4d7e0dcbe_WhatsAppImage2026-10-12at043108.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/c5dd7e993_WhatsAppImage2026-10-01at1032051.jpeg",
