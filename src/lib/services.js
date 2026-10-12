@@ -693,7 +693,6 @@ export const SERVICES = [
       "Für Brautmake-up: vereinbare vorab einen Beratungstermin",
     ],
     aftercare: [
-      "Entferne das Make-up abends gründlich mit einem sanften Reiniger",
       "Pflege die Haut danach mit Feuchtigkeit",
       "Vermeide starkes Reiben beim Abschminken",
     ],
