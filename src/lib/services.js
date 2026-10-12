@@ -793,7 +793,6 @@ export const SERVICES = [
         "Quantum Angel Healing® nach Eva-Maria Mora – Selbstheilung mit Engelskommunikation. Durch hilfreiche Informationen fliessen Heilenergien zur Transformation!\n\nSuchst Du einen Neustart und brauchst professionelle, liebevolle und kraftvolle Unterstützung? Sofortige, spürbare Hilfe zu allen Themen von Gesundheit, Liebe und Beruf – für einen energetisch gereinigten Neustart!\n\nWICHTIGE VORBEREITUNG: Bitte nimm vorher ein Totenmeersalz-Bad (1 Packung ARAD Badesalz von Migros kaufen). Bade auch Stirn und Kopf damit zur Vorreinigung – sehr hohe Schwingung! Kein normales Meersalz! Und bitte mindestens 1–2 Tage kein Alkohol / keine Drogen. Keine anderen Therapien 1 Woche vor oder nach der Sitzung. So bist Du wunderbar vorbereitet!\n\nIch bereite mich entsprechend vor und reinige mein Institut / meine Räumlichkeiten energetisch. Namaste! Wir freuen uns, Dir helfen zu können – von ganzem Herzen!",
     },
     benefits: [
-      "Nach Eva-Maria Mora",
       "Regt die Selbstheilung an",
       "Öffnet den Kontakt zu Engeln",
       "Löst blockierte Energien sanft",
