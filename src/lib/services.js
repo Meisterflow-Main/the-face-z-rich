@@ -10,14 +10,14 @@ export const SERVICES = [
     metaTitle: "Hautanalyse & Beratung in Zürich | THE FACE® Denise Claire Gadient",
     h1: "HAUTANALYSE BERATUNG inkl.QUICKBOOST",
     intro:
-      "Persönliche Hautanalyse und Beratung mit Dermalogica® Face Mapping™, Face Fit und chinesischer Hautlesung: Ich untersuche Deine Haut Zone für Zone – Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten – und weiss so genau, was Deine Haut braucht. Inklusive Quick Boost mit Doppelreinigung, auf Deinen Hautzustand abgestimmtem Peeling, Serum, Maske und Abschlusspflege mit Lichtschutz (SPF) für einen sichtbaren Glow und fundierte Hautpflegeinformationen. Du erhältst zudem einen persönlichen Pflegeplan für zuhause. Super in Kombi mit dem Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung.",
+      "Persönliche Hautanalyse und Beratung mit Dermalogica® Face Mapping™, Face Fit und chinesischer Hautlesung: Ich untersuche Deine Haut Zone für Zone – Hauttyp, Hautzustand, Spannung, Pigmentveränderungen und Empfindlichkeiten – und weiss so genau, was Deine Haut braucht. Inklusive Quick Boost mit Doppelreinigung, auf Deinen Hautzustand abgestimmtem Peeling, Serum, Maske und Abschlusspflege mit Lichtschutz (SPF) für einen sichtbaren Glow und fundierte Hautpflegeinformationen. Du erhältst zudem einen persönlichen Pflegeplan für zuhause.",
     what: "",
     variants: [
       {
         name: "Face Map & Face Fit Skin Analysis Consultation inkl. Quick Boost",
         subtitle: "Hautanalyse & Produktberatung",
         price: "95",
-        desc: "Skin Analysis / Product Consultation inkl. Quick Boost: Doppelreinigung, Peeling, Serum, Maske und Abschlusspflege mit SPF. Für einen sichtbaren Glow und fundierte Hautpflegeinformationen. Super in Kombi mit dem Ellebaana Wimpernlift inklusive blauschwarzer Wimpernfärbung (CHF 150.–).",
+        desc: "Skin Analysis / Product Consultation inkl. Quick Boost: Doppelreinigung, Peeling, Serum, Maske und Abschlusspflege mit SPF. Für einen sichtbaren Glow und fundierte Hautpflegeinformationen.",
       },
     ],
     benefits: [
