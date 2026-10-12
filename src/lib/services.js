@@ -50,7 +50,7 @@ export const SERVICES = [
       },
       {
         q: "Wie lange dauert die chinesische Hautlesung?",
-        a: "Die chinesische Hautlesung selbst dauert etwa 10 Minuten. Die gesamte Sitzung inklusive Quick Boost passe ich an Dein Hautbedürfnis an – die genaue Dauer bespreche ich vorab mit Dir.",
+        a: "Die gesamte Sitzung inklusive Quick Boost passe ich an Dein Hautbedürfnis an – die genaue Dauer bespreche ich vorab mit Dir.",
       },
       {
         q: "Wie oft sollte ich die Hautanalyse wiederholen?",
