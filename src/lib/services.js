@@ -71,7 +71,7 @@ export const SERVICES = [
     ],
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
-      "Herpes oder Fieberblasen im Gesicht",
+      "Akute Herpes und Akne im Gesicht",
     ],
     related: ["pro-skin-treatments", "targeted-skin-solutions", "longevity-glow-treatment"],
   },
