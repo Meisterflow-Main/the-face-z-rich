@@ -614,9 +614,8 @@ export const SERVICES = [
       "Verwende für einige Tage keine klärenden Produkte",
     ],
     contraindications: [
-      "Bei Unreinheiten bis Akne: bitte Pro Clear / Pro Clear Young buchen",
+      "Akute Herpes und Akne im Gesicht",
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
-      "Herpes oder Fieberblasen im Gesicht",
     ],
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2ab523187_WhatsAppImage2026-10-01at102627.jpeg",
