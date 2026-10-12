@@ -173,6 +173,8 @@ export const SERVICES = [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/8ad80131f_RelaxingFacialMassageinaBrightSpa.png",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/1d47474f5_IMG_9261.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0a90f4072_IMG_0156.jpg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/78fc73759_WhatsAppImage2026-10-09at141655.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a73bc95a8_WhatsAppImage2026-10-09at1416551.jpeg",
     ],
     related: ["longevity-glow-treatment", "medical-skin-treatments", "targeted-skin-solutions", "minlen-kids-tweens"],
   },
