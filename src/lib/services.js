@@ -511,7 +511,7 @@ export const SERVICES = [
       },
       {
         q: "Wie lange dauert die Erholung nach dem Exoboost Treatment?",
-        a: "Die meisten Kundinnen haben keine Ausfallzeit. Die Haut kann kurz gerötet sein und erholt sich innerhalb eines Tages. Ich berate Dich individuell zur Pflege in den Tagen nach der Behandlung.",
+        a: "Die meisten Kundinnen haben keine Ausfallzeit. Die Haut kann kurz gerötet sein und erholt sich innerhalb von 1-2 Tagen. Ich berate Dich individuell zur Pflege in den Tagen nach der Behandlung.",
       },
       {
         q: "Wie oft sollte ich das Exoboost Treatment wiederholen?",
