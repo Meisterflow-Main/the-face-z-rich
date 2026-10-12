@@ -773,7 +773,7 @@ export const SERVICES = [
       "Akute Hautentzündungen oder offene Wunden am Rücken",
     ],
     gallery: [
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a87d55892_ChatGPTImageSep22202605_56_02PM.png",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/90f104e78_SpaTreatmentPortraitwithBlueMarbleAccents.png",
     ],
     related: ["pro-skin-treatments", "targeted-skin-solutions", "hautanalyse"],
   },
