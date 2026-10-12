@@ -448,7 +448,7 @@ export const SERVICES = [
     ],
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
-      "Herpes oder Fieberblasen im Gesicht",
+      "Akute Herpes und Akne im Gesicht",
     ],
     video: {
       src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/5408b56f9_ExtractionsstartwiththerightprepFirstcleansewiththebt-sonicGEN2microsoniccleansing.mp4",
