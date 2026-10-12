@@ -10,6 +10,7 @@ import Pricing from "@/components/Pricing";
 import StudioGallery from "@/components/StudioGallery";
 import Stats from "@/components/Stats";
 import FAQ from "@/components/FAQ";
+import GoogleReviews from "@/components/GoogleReviews";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -74,6 +75,7 @@ export default function Home() {
             { to: localizePath("/bewertungen"), label: t("home_nav_link4_label"), description: t("home_nav_link4_desc"), anchor: t("home_nav_link4_anchor") },
           ]}
         />
+        <GoogleReviews />
         <ContactForm />
       </main>
       <Footer />

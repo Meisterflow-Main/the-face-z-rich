@@ -150,6 +150,12 @@ export const UI_STRINGS = {
 
     // Mobile CTA
     mobile_termin: "Termin",
+
+    // Reviews
+    reviews_eyebrow: "Bewertungen",
+    reviews_title: "Was Kundinnen sagen",
+    reviews_like: "Gefällt mir",
+    reviews_share: "Teilen",
   },
 
   en: {
@@ -301,5 +307,11 @@ export const UI_STRINGS = {
 
     // Mobile CTA
     mobile_termin: "Book",
+
+    // Reviews
+    reviews_eyebrow: "Reviews",
+    reviews_title: "What clients say",
+    reviews_like: "Like",
+    reviews_share: "Share",
   },
 };
