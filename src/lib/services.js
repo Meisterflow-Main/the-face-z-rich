@@ -22,7 +22,7 @@ export const SERVICES = [
     ],
     benefits: [
       "Dermalogica® Face Mapping™ & Face Fit",
-      "Chinesische Hautlesung (ca. 10 Min.)",
+      "Chinesische Hautlesung",
       "Inkl. Quick Boost: Doppelreinigung, Peeling, Serum, Maske, SPF",
       "Sichtbarer Glow und fundierte Pflegeinformationen",
       "Für Frauen, Männer, Teenager und sensible Haut",
