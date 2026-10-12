@@ -319,8 +319,7 @@ export const SERVICES = [
     ],
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
-      "Herpes oder Fieberblasen im Gesicht",
-      "Aktive Akne im Behandlungsbereich",
+      "Akute Herpes und Akne im Gesicht",
     ],
     video: {
       src: "https://media.base44.com/videos/public/6aa28dd575421cdcca35083c/fae19d7d8_WhatsAppVideo2026-10-12at033428.mp4",
