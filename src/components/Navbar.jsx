@@ -9,6 +9,7 @@ const LINKS = [
   { label: "Über mich", to: "/ueber-mich" },
   { label: "FAQ", href: "/#faq" },
   { label: "Kontakt", href: "/#kontakt" },
+  { label: "Treatcards & Vouchers", to: "/treatcards-vouchers" },
 ];
 
 export default function Navbar() {

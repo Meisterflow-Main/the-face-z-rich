@@ -20,6 +20,7 @@ import Money from '@/pages/Money';
 import Regionen from '@/pages/Regionen';
 import Sitemap from '@/pages/Sitemap';
 import Bewertungen from '@/pages/Bewertungen';
+import TreatcardsVouchers from '@/pages/TreatcardsVouchers';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -57,6 +58,7 @@ const AuthenticatedApp = () => {
     <Route path="/regionen/:slug" element={<Region />} />
     <Route path="/bewertung" element={<Bewertung />} />
     <Route path="/bewertungen" element={<Bewertungen />} />
+    <Route path="/treatcards-vouchers" element={<TreatcardsVouchers />} />
     <Route path="/impressum" element={<Impressum />} />
     <Route path="/datenschutz" element={<Datenschutz />} />
     <Route path="/sitemap" element={<Sitemap />} />
