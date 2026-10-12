@@ -528,7 +528,7 @@ export const SERVICES = [
     ],
     contraindications: [
       "Herpes oder Fieberblasen im Gesicht",
-      "Aktive Akne oder Hautentzündungen im Behandlungsbereich",
+      "Akute Akne oder Hautentzündungen im Behandlungsbereich",
       "Einnahme von Isotretinoin in den letzten sechs Monaten",
     ],
     video: {
