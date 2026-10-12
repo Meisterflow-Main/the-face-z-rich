@@ -695,7 +695,7 @@ export const SERVICES = [
     aftercare: [
       "Entferne das Make-up abends gründlich mit einem sanften Reiniger",
       "Pflege die Haut danach mit Feuchtigkeit",
-      "Vermeide starkes Reiben beim Abputzen",
+      "Vermeide starkes Reiben beim Abschminken",
     ],
     contraindications: [
       "Akute Hautentzündungen oder offene Wunden im Gesicht",
