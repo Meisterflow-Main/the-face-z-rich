@@ -25,7 +25,6 @@ export const SERVICES = [
       "Chinesische Hautlesung (ca. 10 Min.)",
       "Inkl. Quick Boost: Doppelreinigung, Peeling, Serum, Maske, SPF",
       "Sichtbarer Glow und fundierte Pflegeinformationen",
-      "Beliebt als Kombi mit Ellebaana Wimpernlift (CHF 150.–)",
       "Für Frauen, Männer, Teenager und sensible Haut",
     ],
     process: [
