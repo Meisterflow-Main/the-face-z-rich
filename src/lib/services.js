@@ -492,7 +492,8 @@ export const SERVICES = [
       "FACE-MAP Beratung",
       "Sanftes Peeling bis Pro Power Peel",
       "Exoboost Mikrodermabrasion oder Microneedling",
-      "Beruhigende Pflege und Abschluss",
+      "Beruhigende Gesichtsmaske",
+      "Exoboost Serum und Abschlusspflege (SPF)",
     ],
     priceFactors: [{ label: "Exoboost Mikrodermabrasion oder Microneedling 0.5", price: "470" }],
     faqs: [
