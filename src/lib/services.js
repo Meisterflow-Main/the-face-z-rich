@@ -815,7 +815,7 @@ export const SERVICES = [
       },
       {
         q: "Wie lange dauert eine Sitzung?",
-        a: "Eine Sitzung dauert etwa 60 Minuten inklusive Vor- und Nachgespräch.",
+        a: "Eine Sitzung dauert etwa 1 bis 1,25 Stunden inklusive Vor- und Nachgespräch.",
       },
       {
         q: "Muss ich mich vorab vorbereiten?",
