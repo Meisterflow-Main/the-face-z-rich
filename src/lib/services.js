@@ -507,7 +507,7 @@ export const SERVICES = [
       },
       {
         q: "Gibt es Nebenwirkungen?",
-        a: "Mit sanften Clean-Produkten sind Nebenwirkungen selten. Gelegentlich eine kurze Rötung, die rasch abklingt. Ich berate Dich umfassend.",
+        a: "Es gibt keine Downtime. Gelegentlich können vorübergehende Rötungen auftreten, die meist rasch abklingen. Das Exosomen-Serum ergänzt die Pflege nach der Behandlung.",
       },
       {
         q: "Wie lange dauert die Erholung nach dem Exoboost Treatment?",
