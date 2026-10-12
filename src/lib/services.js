@@ -685,7 +685,7 @@ export const SERVICES = [
       },
       {
         q: "Ist das Make-up wasserfest?",
-        a: "Für besondere Anlässe wie Hochzeiten verwende ich langlebige, wasserresistente Produkte. Im Alltag reicht ein natürlicher Look, der sich sanft abputzen lässt.",
+        a: "Die Wimperntusche ist wasserfest. Die übrigen Make-up-Produkte sind nicht wasserfest.",
       },
     ],
     preparation: [
