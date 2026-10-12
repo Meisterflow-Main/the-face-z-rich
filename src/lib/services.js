@@ -490,6 +490,7 @@ export const SERVICES = [
     ],
     process: [
       "FACE-MAP Beratung",
+      "Sanftes Peeling bis Pro Power Peel",
       "Exoboost Mikrodermabrasion oder Microneedling",
       "Beruhigende Pflege und Abschluss",
     ],
