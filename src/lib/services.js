@@ -229,7 +229,7 @@ export const SERVICES = [
       },
       {
         q: "Braucht mein Kind eine Vorbereitung?",
-        a: "Komm mit sauberer, ungeschminkter Haut. Eine besondere Vorbereitung ist nicht nötig.",
+        a: "Bring alle Deine aktuellen Produkte mit, damit wir sie gemeinsam überprüfen können.",
       },
       {
         q: "Darf ich als Elternteil dabei sein?",
