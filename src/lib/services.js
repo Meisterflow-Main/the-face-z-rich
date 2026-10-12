@@ -749,7 +749,7 @@ export const SERVICES = [
       },
       {
         q: "Wie lange dauert die Behandlung?",
-        a: "Die Behandlung dauert rund 60 Minuten.",
+        a: "Die Behandlung dauert rund 25 Minuten.",
       },
       {
         q: "Wie oft sollte ich die Behandlung wiederholen?",
