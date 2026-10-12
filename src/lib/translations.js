@@ -3,6 +3,7 @@
 export const UI_STRINGS = {
   de: {
     // Navbar
+    nav_home: "Home",
     nav_about: "Über mich",
     nav_faq: "FAQ",
     nav_contact: "Kontakt",
@@ -160,6 +161,7 @@ export const UI_STRINGS = {
 
   en: {
     // Navbar
+    nav_home: "Home",
     nav_about: "About",
     nav_faq: "FAQ",
     nav_contact: "Contact",

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Menu, X, ChevronDown, MapPin } from "lucide-react";
 import { BRAND, ASSETS } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
-import { SERVICES } from "@/lib/services";
+import { getServices } from "@/lib/i18n-data";
 import { useLanguage } from "@/lib/LanguageContext";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 
@@ -15,7 +15,8 @@ const LINKS = [
 ];
 
 export default function Navbar() {
-  const { t, localizePath } = useLanguage();
+  const { t, localizePath, lang } = useLanguage();
+  const services = getServices(lang);
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
@@ -63,7 +64,7 @@ export default function Navbar() {
             <Link to={localizePath("/behandlungen")} className={`${linkCls} font-semibold text-charcoal`}>
               {t("nav_all_treatments")}
             </Link>
-            {SERVICES.map((s) => (
+            {services.map((s) => (
               <Link key={s.slug} to={localizePath(`/behandlungen/${s.slug}`)} className={linkCls}>
                 {s.name}
               </Link>
@@ -119,7 +120,7 @@ export default function Navbar() {
               {t("nav_treatments")}
             </Link>
             <div className="pl-4 flex flex-col gap-2 border-l border-gold/20">
-              {SERVICES.map((s) => (
+              {services.map((s) => (
                 <Link key={s.slug} to={localizePath(`/behandlungen/${s.slug}`)} onClick={() => setOpen(false)} className="text-sm text-charcoal/75 hover:text-gold transition-colors">
                   {s.name}
                 </Link>

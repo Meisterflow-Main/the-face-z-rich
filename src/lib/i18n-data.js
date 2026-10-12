@@ -19,6 +19,7 @@ import {
   PARTNER_BRANDS_EN,
 } from "./brand.en";
 import { SERVICES, getServiceBySlug } from "./services";
+import { SERVICES_EN } from "./services.en";
 
 export function getFAQS(lang) {
   return lang === "en" ? FAQS_EN : FAQS;
@@ -52,12 +53,19 @@ export function getPartnerBrands(lang) {
 }
 
 export function getServices(lang) {
-  // Services EN is a follow-up task — currently returns German data
+  if (lang === "en") {
+    return SERVICES.map((s) => ({ ...s, ...SERVICES_EN[s.slug] }));
+  }
   return SERVICES;
 }
 
 export function getServiceBySlugLocalized(slug, lang) {
-  return getServiceBySlug(slug);
+  const svc = getServiceBySlug(slug);
+  if (!svc) return null;
+  if (lang === "en" && SERVICES_EN[slug]) {
+    return { ...svc, ...SERVICES_EN[slug] };
+  }
+  return svc;
 }
 
 export { BRAND, ASSETS, WEBHOOK };
