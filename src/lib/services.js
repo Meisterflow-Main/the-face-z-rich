@@ -753,7 +753,7 @@ export const SERVICES = [
       },
       {
         q: "Wie oft sollte ich die Behandlung wiederholen?",
-        a: "Für nachhaltige Hautergebnisse empfehle ich alle vier bis sechs Wochen. In der Beratung passe ich den Rhythmus individuell an.",
+        a: "Du kannst die Phytomer Spa Rückenbehandlung vor jeder Gesichtsbehandlung dazubuchen. In der Beratung stimmen wir gemeinsam ab, welcher Rhythmus zu deinen Bedürfnissen passt.",
       },
       {
         q: "Kann ich die Behandlung mit einer Gesichtsbehandlung kombinieren?",
