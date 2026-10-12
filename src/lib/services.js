@@ -827,7 +827,9 @@ export const SERVICES = [
       },
     ],
     preparation: [
-      "Komm offen und in ruhiger Atmosphäre – eine spezielle Vorbereitung ist nicht nötig.",
+      "WICHTIGE VORBEREITUNG: Bitte nimm vorher ein Totenmeersalz-Bad (1 Packung ARAD Badesalz von Migros kaufen).",
+      "Bade auch Stirn und Kopf damit zur Vorreinigung – sehr hohe Schwingung! Kein normales Meersalz! Und bitte mindestens 1–2 Tage kein Alkohol / keine Drogen.",
+      "Keine anderen Therapien 1 Woche vor oder nach der Sitzung. So bist Du wunderbar vorbereitet!",
     ],
     aftercare: [
       "Nimm Dir nach der Sitzung etwas Zeit zur Nachruhe",
