@@ -58,7 +58,7 @@ export const SERVICES = [
       },
       {
         q: "Für wen ist die Hautanalyse geeignet?",
-        a: "Für Frauen, Männer und Teenager, die ihre Haut verstehen und richtig pflegen lernen möchten – auch bei sensibler Haut. Gerade für jugendliche Haut ist die Analyse wertvoll: Sie lernt früh, ihre Haut zu verstehen. Die Untersuchung ist sanft und altersgerecht.",
+        a: "Für Frauen, Männer, Teenager und Senioren, die ihre Haut verstehen und richtig pflegen lernen möchten – auch bei sensibler Haut. Gerade für jugendliche Haut ist die Analyse wertvoll: Sie lernt früh, ihre Haut zu verstehen. Die Untersuchung ist sanft und altersgerecht.",
       },
     ],
     preparation: [
