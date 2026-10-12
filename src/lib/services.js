@@ -503,7 +503,7 @@ export const SERVICES = [
       },
       {
         q: "Hilft Microneedling bei Narben?",
-        a: "Microneedling verfeinert das Hautbild und kann Narben aufwerten. Vorab analysiere ich Deine Haut, um realistisch zu beraten.",
+        a: "Microneedling verfeinert das Hautbild und kann kleine Narben verfeinern. Vorab analysiere ich Deine Haut, um realistisch zu beraten.",
       },
       {
         q: "Gibt es Nebenwirkungen?",
