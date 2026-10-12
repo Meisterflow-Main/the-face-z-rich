@@ -681,7 +681,7 @@ export const SERVICES = [
       },
       {
         q: "Kann ich Make-up und Gesichtsbehandlung an einem Tag kombinieren?",
-        a: "Ja, das ist eine wunderbare Kombination. Viele Kundinnen buchen zuerst ein Pro Skin Treatment und lassen sich danach schminken. So ist die Haut frisch und aufnahmefähig für das Make-up.",
+        a: "Diese Behandlung beinhaltet bereits eine leichte Tagestönung oder ein dezentes Make-up mit Wimperntusche, Rouge und Lipgloss. Wenn du dir ein professionelles Make-up wünschst, empfehle ich dir, dieses separat zu buchen.",
       },
       {
         q: "Ist das Make-up wasserfest?",
