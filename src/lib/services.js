@@ -438,6 +438,7 @@ export const SERVICES = [
     ],
     preparation: [
       "Setze eine Woche vorher keine neuen Produkte, starken Peelings oder Retinol auf",
+      "Am besten bringst du all deine Produkte mit – von der Creme bis zum Make-up. So können wir uns alles gemeinsam in Ruhe anschauen.",
     ],
     aftercare: [
       "Verwende 24 Stunden keine neuen oder klärenden Produkte zuhause",
