@@ -794,7 +794,7 @@ export const SERVICES = [
     },
     benefits: [
       "Regt die Selbstheilung an",
-      "Öffnet den Kontakt zu Engeln",
+      "Öffnet den Kanal zu Engeln",
       "Löst blockierte Energien sanft",
       "Ruhig und achtsam",
     ],
