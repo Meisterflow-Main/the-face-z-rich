@@ -13,11 +13,11 @@ import { Gift, Sparkles, Calendar, MessageCircle } from "lucide-react";
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Treatcards & Vouchers – THE FACE® Zürich",
+  name: "Treatcards & Gutscheine – THE FACE® Zürich",
   url: "https://theface-zuerich.ch/treatcards-vouchers",
   inLanguage: "de-CH",
   description:
-    "Treatcards und Vouchers von THE FACE® Denise Claire Gadient in Zürich – die perfekte Geschenkkarte für jede Hautpflege-Behandlung.",
+    "Treatcards und Gutscheine von THE FACE® Denise Claire Gadient in Zürich – die perfekte Geschenkkarte für jede Hautpflege-Behandlung.",
   isPartOf: { "@id": "https://theface-zuerich.ch/#website" },
   about: { "@id": "https://theface-zuerich.ch/#localbusiness" },
 };
@@ -40,21 +40,21 @@ const VOUCHER_OPTIONS = [
   },
   {
     title: "Individueller Betrag",
-    desc: "Du wünschst einen eigenen Betrag? Schreib mir gerne per WhatsApp und ich erstelle Dir Deinen persönlichen Voucher.",
+    desc: "Du wünschst einen eigenen Betrag? Schreib mir gerne per WhatsApp und ich erstelle Dir Deinen persönlichen Gutschein.",
     icon: MessageCircle,
   },
 ];
 
-export default function TreatcardsVouchers() {
+export default function TreatcardsGutscheine() {
   return (
     <div className="min-h-screen bg-background">
       <Seo
-        title="Treatcards & Vouchers | THE FACE® Zürich – Denise Claire Gadient"
-        description="Treatcards und Vouchers von THE FACE® Denise Claire Gadient in Zürich – die perfekte Geschenkkarte für Hautanalyse, Pro Skin Treatments, Longevity Glow und mehr."
+        title="Treatcards & Gutscheine | THE FACE® Zürich – Denise Claire Gadient"
+        description="Treatcards und Gutscheine von THE FACE® Denise Claire Gadient in Zürich – die perfekte Geschenkkarte für Hautanalyse, Pro Skin Treatments, Longevity Glow und mehr."
         jsonLd={jsonLd}
       />
       <Navbar />
-      <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Treatcards & Vouchers" }]} />
+      <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Treatcards & Gutscheine" }]} />
 
       <main className="px-5 sm:px-8 pt-10 sm:pt-14 pb-24">
         <div className="max-w-4xl mx-auto">
@@ -63,11 +63,11 @@ export default function TreatcardsVouchers() {
               Schenken & Verwöhnen
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl font-semibold text-charcoal mb-4 leading-tight">
-              Treatcards &amp; Vouchers
+              Treatcards &amp; Gutscheine
             </h1>
             <div className="hairline w-16 mb-6" />
             <p className="text-charcoal/65 leading-relaxed mb-10 max-w-2xl">
-              Mit einer Treatcard oder einem Voucher von THE FACE® schenkst Du einen Moment
+              Mit einer Treatcard oder einem Gutschein von THE FACE® schenkst Du einen Moment
               Pflege und Entspannung. Ob für die Hautanalyse, ein Pro Skin Treatment oder den
               Longevity Glow – jede Karte ist individuell auf die Beschenkte Person abgestimmt.
             </p>
@@ -94,7 +94,7 @@ export default function TreatcardsVouchers() {
                   Eine Treatcard verschenken?
                 </p>
                 <p className="text-white/70 text-sm">
-                  Schreib mir per WhatsApp und ich erstelle Dir Deinen persönlichen Voucher.
+                  Schreib mir per WhatsApp und ich erstelle Dir Deinen persönlichen Gutschein.
                 </p>
               </div>
               <a
@@ -103,7 +103,7 @@ export default function TreatcardsVouchers() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-6 py-3.5 rounded-lg transition-all whitespace-nowrap"
               >
-                <MessageCircle size={18} /> Voucher anfragen
+                <MessageCircle size={18} /> Gutschein anfragen
               </a>
             </div>
           </ScrollReveal>
