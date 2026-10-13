@@ -37,7 +37,7 @@ export default function Navbar() {
         {label} <ChevronDown size={16} className={`transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
       {open && (
-        <div className="absolute top-full left-0 pt-3 w-64">
+        <div className="absolute top-full left-0 pt-3 w-80">
           <div className="glass border border-gold/20 rounded-2xl p-3 shadow-lg grid grid-cols-1 gap-0.5 max-h-[70vh] overflow-y-auto">
             {children}
           </div>
@@ -46,7 +46,7 @@ export default function Navbar() {
     </div>
   );
 
-  const linkCls = "flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-charcoal/75 hover:bg-gold/10 hover:text-gold transition-colors";
+  const linkCls = "flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-charcoal/75 hover:bg-gold/10 hover:text-gold transition-colors whitespace-nowrap";
 
   return (
     <header
@@ -124,7 +124,7 @@ export default function Navbar() {
             </Link>
             <div className="pl-4 flex flex-col gap-2 border-l border-gold/20">
               {services.map((s) => (
-                <Link key={s.slug} to={localizePath(`/behandlungen/${s.slug}`)} onClick={() => setOpen(false)} className="text-sm text-charcoal/75 hover:text-gold transition-colors">
+                <Link key={s.slug} to={localizePath(`/behandlungen/${s.slug}`)} onClick={() => setOpen(false)} className="text-sm text-charcoal/75 hover:text-gold transition-colors whitespace-nowrap">
                   {s.name}
                   {s.slug === "luminfusion" && (
                     <span className="text-gold/70 font-normal"> – Red Carpet Glow</span>
