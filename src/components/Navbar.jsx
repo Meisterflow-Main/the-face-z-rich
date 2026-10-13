@@ -66,12 +66,10 @@ export default function Navbar() {
             </Link>
             {services.map((s) => (
               <Link key={s.slug} to={localizePath(`/behandlungen/${s.slug}`)} className={linkCls}>
-                <span className="flex flex-col leading-tight">
-                  <span>{s.name}</span>
-                  {s.slug === "luminfusion" && s.h1 && (
-                    <span className="text-[11px] text-gold/80 font-normal">{s.h1}</span>
-                  )}
-                </span>
+                {s.name}
+                {s.slug === "luminfusion" && s.h1 && (
+                  <span className="text-gold/70 font-normal"> – {s.h1}</span>
+                )}
               </Link>
             ))}
           </Dropdown>
@@ -129,7 +127,7 @@ export default function Navbar() {
                 <Link key={s.slug} to={localizePath(`/behandlungen/${s.slug}`)} onClick={() => setOpen(false)} className="text-sm text-charcoal/75 hover:text-gold transition-colors">
                   {s.name}
                   {s.slug === "luminfusion" && s.h1 && (
-                    <span className="block text-[11px] text-gold/80 font-normal">{s.h1}</span>
+                    <span className="text-gold/70 font-normal"> – {s.h1}</span>
                   )}
                 </Link>
               ))}
