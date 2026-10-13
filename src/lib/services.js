@@ -461,6 +461,7 @@ export const SERVICES = [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/f49757a97_WhatsAppImage2026-10-05at1115462.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/fbbf8f4a4_WhatsAppImage2026-10-05at1115463.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/9eb5c4c1c_WhatsAppImage2026-10-05at1115464.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/58d1cbe41_WhatsAppImage2026-10-09at1416552.jpeg",
     ],
     related: ["pro-skin-treatments", "hautanalyse", "medical-skin-treatments"],
   },
