@@ -67,8 +67,8 @@ export default function Navbar() {
             {services.map((s) => (
               <Link key={s.slug} to={localizePath(`/behandlungen/${s.slug}`)} className={linkCls}>
                 {s.name}
-                {s.slug === "luminfusion" && s.h1 && (
-                  <span className="text-gold/70 font-normal"> – {s.h1}</span>
+                {s.slug === "luminfusion" && (
+                  <span className="text-gold/70 font-normal"> – Red Carpet Glow</span>
                 )}
               </Link>
             ))}
@@ -126,8 +126,8 @@ export default function Navbar() {
               {services.map((s) => (
                 <Link key={s.slug} to={localizePath(`/behandlungen/${s.slug}`)} onClick={() => setOpen(false)} className="text-sm text-charcoal/75 hover:text-gold transition-colors">
                   {s.name}
-                  {s.slug === "luminfusion" && s.h1 && (
-                    <span className="text-gold/70 font-normal"> – {s.h1}</span>
+                  {s.slug === "luminfusion" && (
+                    <span className="text-gold/70 font-normal"> – Red Carpet Glow</span>
                   )}
                 </Link>
               ))}
