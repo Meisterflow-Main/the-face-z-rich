@@ -176,6 +176,7 @@ export const SERVICES = [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0a90f4072_IMG_0156.jpg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/78fc73759_WhatsAppImage2026-10-09at141655.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a73bc95a8_WhatsAppImage2026-10-09at1416551.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/9fec4053a_WhatsAppImage2026-10-09at141655.jpeg",
     ],
     related: ["longevity-glow-treatment", "medical-skin-treatments", "targeted-skin-solutions", "minlen-kids-tweens"],
   },
@@ -251,6 +252,7 @@ export const SERVICES = [
     ],
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/249dadee3_WhatsAppImage2026-09-29at181222.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/9fec4053a_WhatsAppImage2026-10-09at141655.jpeg",
     ],
     related: ["hautanalyse", "targeted-skin-solutions", "pro-skin-treatments"],
   },
@@ -462,6 +464,7 @@ export const SERVICES = [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/fbbf8f4a4_WhatsAppImage2026-10-05at1115463.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/9eb5c4c1c_WhatsAppImage2026-10-05at1115464.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/58d1cbe41_WhatsAppImage2026-10-09at1416552.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/9fec4053a_WhatsAppImage2026-10-09at141655.jpeg",
     ],
     related: ["pro-skin-treatments", "hautanalyse", "medical-skin-treatments"],
   },
