@@ -114,7 +114,7 @@ export const AVAILABILITY_EN = {
   onRequest: [
     "Sunday appointments on request",
     "Home service on request",
-    "Exclusive in Schaan and Vaduz, Principality of Liechtenstein: approx. every 6 weeks for one day or on request",
+    "Exclusive in Schaan, Principality of Liechtenstein: approx. every 6 weeks for one day or on request",
   ],
 };
 
