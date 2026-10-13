@@ -53,7 +53,7 @@ export default function ServiceDetail({ service }) {
       {/* Hero */}
       <section className="px-5 sm:px-8 pb-10">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">
+          <p className={`text-gold tracking-[0.25em] uppercase font-medium mb-3 ${service.slug === "luminfusion" ? "text-sm sm:text-base font-semibold" : "text-xs"}`}>
             {service.eyebrow}
           </p>
           <h1 className={`font-heading leading-[1.1] mb-5 ${service.slug === "luminfusion" ? "text-5xl sm:text-6xl md:text-[64px] font-bold" : "text-4xl sm:text-5xl md:text-[52px] font-semibold"} text-charcoal`}>
