@@ -58,7 +58,7 @@ export default function ServiceDetail({ service }) {
               {service.eyebrow}
             </p>
           )}
-          <h1 className={`font-heading leading-[1.1] mb-5 ${service.slug === "luminfusion" ? "text-5xl sm:text-6xl md:text-[64px] font-bold" : "text-4xl sm:text-5xl md:text-[52px] font-semibold"} text-charcoal`}>
+          <h1 className={`font-heading leading-[1.1] mb-5 whitespace-pre-line ${service.slug === "luminfusion" ? "text-5xl sm:text-6xl md:text-[64px] font-bold" : "text-4xl sm:text-5xl md:text-[52px] font-semibold"} text-charcoal`}>
             {service.h1}
           </h1>
           <div className="hairline w-16 mx-auto mb-6" />
