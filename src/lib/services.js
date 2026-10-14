@@ -343,7 +343,7 @@ export const SERVICES = [
     metaTitle: "Targeted Skin Solutions in Zürich | THE FACE® Denise Claire Gadient",
     h1: "Targeted Skin Solutions in Zürich",
     intro:
-      "Die Dermalogica® Targeted Skin Solutions Treatments zielen auf konkrete Hautanliegen: Unreinheiten und Akne, Pigmentflecken, sensible und gereizte Haut, Feuchtigkeitsmangel, den Rücken sowie straffende Pflege. Pro Clear und Pro Clear Young klären unreine Haut bei Erwachsenen und Teenagern – bei Unreinheiten, Rötungen (PIH), Milien und Pickeln. Pro Back Clear reinigt den Rücken, Pro Bright hellt Pigmentflecken auf, Pro Calm Treat beruhigt sensible, gereizte Haut und Pro Firm strafft. Nach der Dermalogica® Face Mapping™ Analyse wähle ich die passende Methode für Deinen Hautzustand.",
+      "Die Dermalogica® Targeted Skin Solutions Treatments zielen auf konkrete Hautanliegen: Unreinheiten und Akne, Pigmentflecken, sensible und gereizte Haut, Feuchtigkeitsmangel, den Rücken sowie straffende Pflege. Pro Clear und Pro Clear Young klären unreine Haut bei Erwachsenen und Teenagern – bei Unreinheiten, Rötungen (PIH), Milien und Pickeln. Pro Back Clear reinigt den Rücken, Pro Bright hellt Pigmentflecken auf, Pro Calm Treat beruhigt sensible, gereizte Haut. Nach der Dermalogica® Face Mapping™ Analyse wähle ich die passende Methode für Deinen Hautzustand.",
     what: "",
     variants: [
       {
@@ -382,19 +382,12 @@ export const SERVICES = [
         price: "180",
         desc: "Soforthilfe für empfindliche Haut bei Allergien (inkl. Heuschnupfen), Neurodermitis, Rosacea und Schuppenflechte. Haut- und nervenberuhigende Gesichtspflege mit dem ultracalming Wirkstoffkomplex: sofort beruhigend, juckreizlindernd, entzündungshemmend, stärkt die Lipidbarriere und intensiv feuchtigkeitsspendend.",
       },
-      {
-        name: "Pro Firm",
-        subtitle: "Straffend",
-        price: "225",
-        desc: "Beschreibung folgt.",
-      },
     ],
     benefits: [
       "Gezielt bei Akne, Pigmenten, sensibler Haut und Rücken",
       "Pro Clear Young für Teenager (10–20 J.)",
       "Pro Back Clear für die Rückenreinigung",
       "Pro Calm Treat: Soforthilfe bei Allergien, Neurodermitis, Rosacea, Schuppenflechte",
-      "Pro Firm für straffende Pflege",
       "Auf Deinen Hautzustand abgestimmt",
     ],
     process: [
@@ -411,7 +404,6 @@ export const SERVICES = [
       { label: "Pro Back Clear: Rückenreinigung", price: "100" },
       { label: "Pro Bright: Pigmentaufhellend", price: "210" },
       { label: "Pro Calm Treat: Beruhigend", price: "180" },
-      { label: "Pro Firm: Straffend", price: "225" },
     ],
     faqs: [
       {

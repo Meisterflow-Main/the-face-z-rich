@@ -46,7 +46,7 @@ export const SERVICES_EN = {
     metaTitle: "Targeted Skin Solutions in Zurich | THE FACE® Denise Claire Gadient",
     h1: "Targeted Skin Solutions in Zurich",
     intro:
-      "The Dermalogica® Targeted Skin Solutions treatments target specific skin concerns: blemishes and acne, pigmentation spots, sensitive and irritated skin, lack of moisture, the back, and firming care. Pro Clear and Pro Clear Young clarify blemished skin in adults and teenagers – for blemishes, redness (PIH), milia and pimples. Pro Back Clear cleanses the back, Pro Bright lightens pigmentation spots, Pro Calm Treat soothes sensitive, irritated skin and Pro Firm firms. After the Dermalogica® Face Mapping™ analysis, I select the right method for your skin condition.",
+      "The Dermalogica® Targeted Skin Solutions treatments target specific skin concerns: blemishes and acne, pigmentation spots, sensitive and irritated skin, lack of moisture, the back, and firming care. Pro Clear and Pro Clear Young clarify blemished skin in adults and teenagers – for blemishes, redness (PIH), milia and pimples. Pro Back Clear cleanses the back, Pro Bright lightens pigmentation spots, Pro Calm Treat soothes sensitive, irritated skin. After the Dermalogica® Face Mapping™ analysis, I select the right method for your skin condition.",
   },
   "medical-skin-treatments": {
     name: "Medical Skin Treatments",
