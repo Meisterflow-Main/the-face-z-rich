@@ -7,6 +7,7 @@ import { getRegionBySlug } from "@/lib/regions";
 export default function RegionNeighbors({ region }) {
   const slugs = region.neighbors || [];
   const neighbors = slugs.map(getRegionBySlug).filter(Boolean);
+  const isLiechtenstein = region.region === "Liechtenstein";
   return (
     <section className="bg-sand py-16 px-5">
       <div className="max-w-5xl mx-auto">
@@ -16,7 +17,9 @@ export default function RegionNeighbors({ region }) {
             Auch aus den Nachbarquartieren
           </h2>
           <p className="text-charcoal/60 max-w-xl mx-auto">
-            Meine Praxis an der Rämistrasse erreicht Kundinnen und Kunden aus der ganzen Stadt – hier findest Du die benachbarten Regionen.
+            {isLiechtenstein
+              ? "Meine Praxis in Schaan erreicht Kundinnen und Kunden aus der ganzen Region – hier findest Du die benachbarten Regionen."
+              : "Meine Praxis an der Rämistrasse erreicht Kundinnen und Kunden aus der ganzen Stadt – hier findest Du die benachbarten Regionen."}
           </p>
         </ScrollReveal>
         {neighbors.length > 0 ? (

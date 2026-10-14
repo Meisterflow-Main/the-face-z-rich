@@ -5,6 +5,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { REGIONS } from "@/lib/regions";
 
 export default function ServiceArea({ region }) {
+  const isLiechtenstein = region.region === "Liechtenstein";
   return (
     <section className="bg-sand py-16 px-5">
       <div className="max-w-4xl mx-auto text-center">
@@ -14,7 +15,9 @@ export default function ServiceArea({ region }) {
             Gesichtsbehandlung im Raum {region.region}
           </h2>
           <p className="text-charcoal/60 max-w-2xl mx-auto mb-8">
-            Ich behandle ausschliesslich in meiner Praxis an der Rämistrasse 27, 8001 Zürich. Diese Seiten richten sich an Kundinnen und Kunden aus den folgenden Regionen, die den Weg zu mir finden.
+            {isLiechtenstein
+              ? "Ich behandle in meiner Praxis an der Landstrasse 152 in Schaan. Diese Seiten richten sich an Kundinnen und Kunden aus den folgenden Regionen, die den Weg zu mir finden."
+              : "Ich behandle ausschliesslich in meiner Praxis an der Rämistrasse 27, 8001 Zürich. Diese Seiten richten sich an Kundinnen und Kunden aus den folgenden Regionen, die den Weg zu mir finden."}
           </p>
         </ScrollReveal>
 

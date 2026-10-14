@@ -61,7 +61,7 @@ export default function RegionLandingPage({ region }) {
         <PriceCalculator region={region} />
         <RegionReviews region={region} />
         <RegionFAQ region={region} />
-        <MoreServices />
+        <MoreServices region={region} />
         <RegionMoneyLinks region={region} />
         <ServiceArea region={region} />
         <RegionNeighbors region={region} />
@@ -70,7 +70,7 @@ export default function RegionLandingPage({ region }) {
           title="Schnellnavigation"
           links={[
             { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
-            { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung an der Rämistrasse.", anchor: "Kontakt aufnehmen" },
+            { to: "/#kontakt", label: "Kontakt aufnehmen", description: region.region === "Liechtenstein" ? "Persönliche Beratung in Schaan." : "Persönliche Beratung an der Rämistrasse.", anchor: "Kontakt aufnehmen" },
             { to: "/behandlungen", label: "Alle Behandlungen", description: "Von der Hautanalyse bis zum Brautmake-up.", anchor: "Behandlungen entdecken" },
           ]}
         />

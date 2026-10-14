@@ -14,7 +14,9 @@ export default function ContactBlock({ region }) {
           </h2>
           <p className="text-charcoal/60 max-w-xl mx-auto">
             {region.address
-              ? `Regelmässig empfange ich Dich auch in ${region.short}: ${region.address.street}, ${region.address.city}. ${AVAILABILITY.summary}, bequem online buchbar.`
+              ? region.region === "Liechtenstein"
+                ? `In Schaan empfange ich Dich regelmässig: ${region.address.street}, ${region.address.city}. ${AVAILABILITY.summary}, bequem online buchbar.`
+                : `Regelmässig empfange ich Dich auch in ${region.short}: ${region.address.street}, ${region.address.city}. ${AVAILABILITY.summary}, bequem online buchbar.`
               : `Alle Behandlungen finden in meiner Praxis an der Rämistrasse 27 in Zürich statt, von ${region.short} aus gut erreichbar. ${AVAILABILITY.summary}, bequem online buchbar.`}
           </p>
         </ScrollReveal>

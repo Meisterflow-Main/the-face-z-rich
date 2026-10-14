@@ -19,12 +19,14 @@ import InternalLinks from "@/components/InternalLinks";
 // Generates a unique intro paragraph for each service+region combination.
 // Varies sentence structure and angle based on service type and region character.
 function generateIntro(service, region) {
+  const isLiechtenstein = region.region === "Liechtenstein";
+  const practice = isLiechtenstein ? "in Schaan" : "an der Rämistrasse";
   const angles = [
-    `${region.short} liegt ${region.localContext.commute.toLowerCase().includes("wenigen minuten") ? "nah" : "eine kurze Fahrt entfernt"} von meiner Praxis an der Rämistrasse. Dort erhältst Du ${service.name} – ${service.intro.split(".")[0].toLowerCase()}.`,
-    `Suchst Du ${service.name} in der Nähe von ${region.short}? In meiner Praxis an der Rämistrasse verbinde ich über 30 Jahre Erfahrung mit ${service.eyebrow.toLowerCase()}, massgeschneidert auf Dein Hautbild.`,
-    `${service.name} nahe ${region.short}: An der Rämistrasse 27 arbeite ich mit hochwertigen Clean-Produkten und der Dermalogica® FACE-MAP. ${service.intro.split(". ")[1] || ""}`,
-    `Von ${region.short} bist Du rasch bei mir an der Rämistrasse. ${service.name} ist eine meiner Spezialitäten: ${service.intro.split(".")[0].toLowerCase()}.`,
-    `In ${region.short} wohnen und ${service.name} suchen? Meine Praxis an der Rämistrasse bietet Dir ${service.name} mit individueller Hautanalyse und über 30 Jahren Erfahrung.`,
+    `${region.short} liegt ${region.localContext.commute.toLowerCase().includes("wenigen minuten") ? "nah" : "eine kurze Fahrt entfernt"} von meiner Praxis ${practice}. Dort erhältst Du ${service.name} – ${service.intro.split(".")[0].toLowerCase()}.`,
+    `Suchst Du ${service.name} in der Nähe von ${region.short}? In meiner Praxis ${practice} verbinde ich über 30 Jahre Erfahrung mit ${service.eyebrow.toLowerCase()}, massgeschneidert auf Dein Hautbild.`,
+    `${service.name} nahe ${region.short}: ${isLiechtenstein ? "An der Landstrasse 152 in Schaan" : "An der Rämistrasse 27"} arbeite ich mit hochwertigen Clean-Produkten und der Dermalogica® FACE-MAP. ${service.intro.split(". ")[1] || ""}`,
+    `Von ${region.short} bist Du rasch bei mir ${practice}. ${service.name} ist eine meiner Spezialitäten: ${service.intro.split(".")[0].toLowerCase()}.`,
+    `In ${region.short} wohnen und ${service.name} suchen? Meine Praxis ${practice} bietet Dir ${service.name} mit individueller Hautanalyse und über 30 Jahren Erfahrung.`,
   ];
   const idx = (service.slug.length + region.slug.length) % angles.length;
   return angles[idx];
@@ -34,13 +36,17 @@ function generateIntro(service, region) {
 function generateCommuteFaq(region) {
   const commute = region.localContext.commute;
   const areaType = region.localContext.areaType;
-  return `Meine Praxis an der Rämistrasse 27, 8001 Zürich liegt vis-à-vis dem Parkhaus Hohe Promenade. ${commute} ${region.short} ist ein ${areaType.toLowerCase()}. Termine buchst Du rund um die Uhr online über meinen Phorest-Kalender.`;
+  const isLiechtenstein = region.region === "Liechtenstein";
+  const location = isLiechtenstein
+    ? "Meine Praxis an der Landstrasse 152 in Schaan liegt zentral im Ort."
+    : "Meine Praxis an der Rämistrasse 27, 8001 Zürich liegt vis-à-vis dem Parkhaus Hohe Promenade.";
+  return `${location} ${commute} ${region.short} ist ein ${areaType.toLowerCase()}. Termine buchst Du rund um die Uhr online über meinen Phorest-Kalender.`;
 }
 
 // Generates a unique final CTA text based on the service.
 function generateCtaText(service) {
   const ctas = [
-    `Sichere Dir Deinen Termin für ${service.name} an der Rämistrasse: online buchen oder per WhatsApp anfragen.`,
+    `Sichere Dir Deinen Termin für ${service.name}: online buchen oder per WhatsApp anfragen.`,
     `Buche ${service.name} jetzt online: ich berate Dich individuell und nehme mir Zeit für Deine Haut.`,
     `Reserviere Deinen Wunschtermin für ${service.name}: schnell, unkompliziert und auf Dich abgestimmt.`,
     `Vereinbare Deinen Termin für ${service.name} online oder schreib mir per WhatsApp. Ich freue mich auf Dich.`,
@@ -285,7 +291,7 @@ export default function MoneyDetail({ service, region }) {
         title="Schnellnavigation"
         links={[
           { to: "/bewertungen", label: "Google Bewertungen", description: "4,9 Sterne von echten Kundinnen.", anchor: "Bewertungen ansehen" },
-          { to: "/#kontakt", label: "Kontakt aufnehmen", description: "Persönliche Beratung in Zürich.", anchor: "Kontakt aufnehmen" },
+          { to: "/#kontakt", label: "Kontakt aufnehmen", description: region.region === "Liechtenstein" ? "Persönliche Beratung in Schaan." : "Persönliche Beratung in Zürich.", anchor: "Kontakt aufnehmen" },
           { to: `/behandlungen/${service.slug}`, label: `${service.name} Übersicht`, description: "Alle Details zur Behandlung.", anchor: "Behandlung ansehen" },
           { to: `/regionen/${region.slug}`, label: `Region ${region.short}`, description: "Anfahrt und Tipps für Dein Quartier.", anchor: "Region ansehen" },
         ]}
@@ -294,7 +300,7 @@ export default function MoneyDetail({ service, region }) {
       {/* Final CTA */}
       <Section bg="charcoal" dark>
         <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-white mb-4">
-          {service.name} an der Rämistrasse buchen
+          {service.name} {region.region === "Liechtenstein" ? "in Schaan" : "an der Rämistrasse"} buchen
         </h2>
         <p className="text-white/70 max-w-xl mx-auto mb-7">
           {ctaText}

@@ -4,7 +4,8 @@ import { ArrowRight } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 import { REGION_SERVICES_ALL } from "@/lib/regions";
 
-export default function MoreServices() {
+export default function MoreServices({ region }) {
+  const isLiechtenstein = region?.region === "Liechtenstein";
   return (
     <section className="bg-background py-16 px-5">
       <div className="max-w-4xl mx-auto text-center">
@@ -26,7 +27,7 @@ export default function MoreServices() {
                 to={s.href}
                 className="inline-flex items-center gap-1.5 bg-card border border-gold/15 rounded-full px-4 py-2 text-sm text-charcoal/80 hover:border-gold hover:text-gold transition-colors"
               >
-                {s.label} in Zürich <ArrowRight size={18} />
+                {s.label} {isLiechtenstein ? "in Schaan" : "in Zürich"} <ArrowRight size={18} />
               </Link>
             ))}
           </div>
