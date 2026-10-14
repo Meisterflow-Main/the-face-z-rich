@@ -5,9 +5,17 @@ import ScrollReveal from "@/components/ScrollReveal";
 export default function RegionLocalContext({ region }) {
   const c = region.localContext;
   if (!c) return null;
+  const isLiechtenstein = region.region === "Liechtenstein";
+  const practiceLabel = isLiechtenstein ? "Anreise nach Schaan" : "Anreise zur Rämistrasse";
+  const practiceHeading = isLiechtenstein
+    ? `${region.short} und meine Praxis in Schaan`
+    : `${region.short} und meine Praxis an der Rämistrasse`;
+  const practiceSubtext = isLiechtenstein
+    ? `Was ${region.short} auszeichnet und warum sich der Weg in meine Einzelpraxis an der Landstrasse 152 lohnt.`
+    : `Was ${region.short} auszeichnet und warum sich der Weg in meine Einzelpraxis an der Rämistrasse 27 lohnt.`;
   const items = [
     { icon: MapPin, label: "Quartiercharakter", text: c.character },
-    { icon: Train, label: "Anreise zur Rämistrasse", text: c.commute },
+    { icon: Train, label: practiceLabel, text: c.commute },
     { icon: Users, label: `Kundinnen aus ${region.short}`, text: c.customers },
     { icon: Landmark, label: "Rund ums Quartier", text: c.nearby },
   ];
@@ -17,10 +25,10 @@ export default function RegionLocalContext({ region }) {
         <ScrollReveal className="text-center mb-10">
           <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3">{c.areaType}</p>
           <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal mb-4">
-            {region.short} und meine Praxis an der Rämistrasse
+            {practiceHeading}
           </h2>
           <p className="text-charcoal/60 max-w-2xl mx-auto">
-            Was {region.short} auszeichnet und warum sich der Weg in meine Einzelpraxis an der Rämistrasse 27 lohnt.
+            {practiceSubtext}
           </p>
         </ScrollReveal>
         <div className="grid sm:grid-cols-2 gap-5">

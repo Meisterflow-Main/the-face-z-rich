@@ -1218,7 +1218,7 @@ export const REGIONS = [
     priceIntro: "Vorab Klarheit schaffen: wähle Hauttyp, Behandlung und Add-ons und sieh sofort, welcher Preisrahmen Dich erwartet.",
     reviewsIntro: "Kundinnen auf Google: lies, wie sie ihre Gesichtsbehandlung bei THE FACE® erleben.",
     faqs: [
-      { q: "Wie komme ich von Vaduz nach Schaan?", a: "Von Vaduz fährst Du mit dem Auto oder Bus in rund 10 Minuten nach Schaan. Die Praxis liegt an der Landstrasse 152, zentral im Ort." },
+      { q: "Wie komme ich von Vaduz nach Schaan?", a: "Von Vaduz fährst Du mit dem Auto oder Bus nach Schaan. Die Praxis liegt an der Landstrasse 152, zentral im Ort." },
       { q: "Wann sind Termine möglich?",         a: "Termine vergebe ich nach Vereinbarung. Ich bin etwa alle 6 Wochen für einen Tag in Schaan – oder auf Anfrage. Bequem online buchbar; auf Anfrage ist auch ein Termin am Sonntag möglich." },
       { q: "Welche Skin Longevity-Behandlung empfiehlst Du für meine reifere Haut?", a: "Das Longevity Glow Treat bringt tiefe Nährstoffe in die Haut und regt die Regeneration an. In der FACE-MAP Beratung wähle ich die passende Methode für Dein Hautziel." },
       { q: "Was kostet das Ultra Skin 120 Treatment?", a: "Das Ultra Skin 120 kostet CHF 335.– und umfasst zwei Stunden Tiefenreinigung, Peeling, Maske und Massage. Eine bewusste Auszeit, die sich für den kurzen Weg aus Vaduz lohnt." },
@@ -1230,7 +1230,7 @@ export const REGIONS = [
     localContext: {
       areaType: "Hauptstadt des Fürstentums Liechtenstein (FL)",
       character: "Vaduz liegt im Rheintal, Residenzstadt des Fürstentums, mit Schloss, Museen und internationalem Finanzplatz.",
-      commute: "Von Vaduz fährst Du mit dem Auto oder Bus in rund 10 Minuten nach Schaan. Die Praxis liegt an der Landstrasse 152.",
+      commute: "Von Vaduz fährst Du mit dem Auto oder Bus nach Schaan. Die Praxis liegt an der Landstrasse 152.",
       customers: "Kundinnen aus Vaduz schätzen die flexible Terminvereinbarung und den kurzen Weg nach Schaan.",
       nearby: "Rhein, Schloss Vaduz und die Alpen prägen das Fürstentum.",
     },
@@ -1282,7 +1282,7 @@ export const REGIONS = [
     localContext: {
       areaType: "Grösste Gemeinde des Fürstentums Liechtenstein (FL)",
       character: "Schaan liegt im Rheintal, grösste Gemeinde des Fürstentums, mit Industrie, Wohncharakter und Nähe zu Vaduz.",
-      commute: "Die Praxis liegt an der Landstrasse 152 in Schaan, zentral im Ort. Von Vaduz erreichst Du sie in rund 10 Minuten.",
+      commute: "Die Praxis liegt an der Landstrasse 152 in Schaan, zentral im Ort.",
       customers: "Kundinnen aus Schaan schätzen die flexible Terminvereinbarung und die persönliche, sorgfältige Beratung.",
       nearby: "Rhein, Vaduz und die Alpen prägen die Region.",
     },
