@@ -330,7 +330,6 @@ export const SERVICES = [
     },
     gallery: [
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ae6fe312e_WhatsAppImage2026-10-05at111756.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/8e71570c3_WhatsAppImage2026-10-12at043947.jpeg",
       "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/c11a506a6_WhatsAppImage2026-10-09at1416552.jpeg",
     ],
     related: ["longevity-glow-treatment", "pro-skin-treatments", "hautanalyse"],
