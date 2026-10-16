@@ -17,6 +17,8 @@ export const SERVICES = [
         name: "Face Map & Face Fit Skin Analysis Consultation inkl. Quick Boost",
         subtitle: "Hautanalyse & Produktberatung",
         price: "95",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649277&share=true&pId=2873845",
         desc: "Skin Analysis / Product Consultation inkl. Quick Boost: Doppelreinigung, Peeling, Serum, Maske und Abschlusspflege mit SPF. Für einen sichtbaren Glow und fundierte Hautpflegeinformationen.",
       },
     ],
