@@ -46,7 +46,7 @@ const PRICE_LIST_DE = [
       { name: "PRO CLEAR Erwachsene", price: "225", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649519&share=true&pId=2873845" },
       { name: "PRO BRIGHT Pigmentaufhellend", price: "210" },
       { name: "PRO CALM TREAT Beruhigend", price: "180", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649545&share=true&pId=2873845" },
-      { name: "PRO FIRM Straffend", price: "225" },
+      { name: "PRO FIRM Straffend", price: "225", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649531&share=true&pId=2873845" },
     ],
   },
   {
@@ -161,7 +161,7 @@ const PRICE_LIST_EN = [
       { name: "PRO CLEAR adults", price: "225", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649519&share=true&pId=2873845" },
       { name: "PRO BRIGHT brightening", price: "210" },
       { name: "PRO CALM TREAT calming", price: "180", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649545&share=true&pId=2873845" },
-      { name: "PRO FIRM firming", price: "225" },
+      { name: "PRO FIRM firming", price: "225", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649531&share=true&pId=2873845" },
     ],
   },
   {
