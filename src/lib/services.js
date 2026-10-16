@@ -369,6 +369,8 @@ export const SERVICES = [
         name: "Pro Back Clear",
         subtitle: "Rückenreinigung",
         price: "100",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649516&share=true&pId=2873845",
         desc: "Rückenreinigungsbehandlung bei Teenager- oder Erwachsenenakne: Tiefenreinigung, Extraktion und Desinfektion mit sanftem bis stärkerem Peeling, Serum und Maske. Mit Sauerstoff, Hochfrequenz und LED Blaulicht. Auch in Kombination mit Hautärzten als Aknetherapie alle 4 Wochen.",
       },
       {
