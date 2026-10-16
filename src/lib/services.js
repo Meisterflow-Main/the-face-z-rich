@@ -472,9 +472,9 @@ export const SERVICES = [
     what: "",
     variants: [
       {
-        name: "EXOBOOSTER Microneedling 0.5 mm",
+        name: "3-er KUR 10% .1269.- EXOBOOSTER MICRONEEDELING 0.5 INKL. HOMESERUM",
         subtitle: "10% Offer Dermalogica Medical Skin Treatment",
-        price: "470",
+        price: "1269",
         bookingUrl:
           "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689126&share=true&pId=2873845",
         desc: "NEW GENERATION: Exobooster mit veganen 10 Milliarden Lactobacillus Exosomen – der Gamechanger! Investiere in Deine Skin Longevity für feinere Poren, sanftere Narben und straffere, glattere und revitalisierte Haut.\n\nConsultation: Doppelreinigung, personalisiertes Pro Power Peel, Microneedling 0.5 mm mit veganen Exosomen und Pro Resolution Serum, kühlende Blue Hyaluronic Mask. Inkl. Exosom Serum für 7 Tage zur Heimbehandlung! Keine Downtime!\n\n10% Offer! Empfehlung in einer 3-er Kur alle 3–4 Wochen für CHF 1269.– (gespart CHF 141.–) + inkl. Exosom Serum für zuhause.\n\nKontraindikationen: Schwangerschaft, Metallallergie (ich arbeite mit Chirurgenstahl – ist sicher!), akute Herpes / Akne, 48 Std. kein Schmerzmittel / Cortison / Blutverdünner.",
