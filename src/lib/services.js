@@ -391,6 +391,8 @@ export const SERVICES = [
         name: "Pro Calm Treat",
         subtitle: "Beruhigend",
         price: "180",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649545&share=true&pId=2873845",
         desc: "Soforthilfe für empfindliche Haut bei Allergien (inkl. Heuschnupfen), Neurodermitis, Rosacea und Schuppenflechte. Haut- und nervenberuhigende Gesichtspflege mit dem ultracalming Wirkstoffkomplex: sofort beruhigend, juckreizlindernd, entzündungshemmend, stärkt die Lipidbarriere und intensiv feuchtigkeitsspendend.",
       },
     ],
