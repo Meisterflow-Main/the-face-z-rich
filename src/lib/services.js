@@ -377,6 +377,8 @@ export const SERVICES = [
         name: "Pro Clear",
         subtitle: "Erwachsene (ab 20 J.)",
         price: "225",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649519&share=true&pId=2873845",
         desc: "Tiefenreinigende und desinfizierende Gesichtspflege bei Erwachsenenakne. Für Unreinheiten, Rötungen (PIH), Milien, Komedonen bis Pickel. Der Age Bright Clearing Wirkstoffkomplex klärt unreine Haut und wirkt vorzeitiger Hautalterung entgegen. O2, LED Blau/Rot und/oder Hochfrequenz. Auch in Kombination mit Hautärzten als Aknetherapie alle 4 Wochen.",
       },
       {
