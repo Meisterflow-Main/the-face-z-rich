@@ -271,7 +271,9 @@ export const SERVICES = [
       {
         name: "LuminFusion Nanoinfusion",
         subtitle: "10% Offer – Red Carpet Look bis 31. Oktober",
-        price: "245",
+        price: "220",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689154&share=true&pId=2873845",
         desc: "Sofortiger Red Carpet Glow von LA! Für alle, die sich bisher nicht getraut haben, eine Microneedling Behandlung durchzuführen. Wohlfühlbehandlung mit echten Ergebnissen!\n\nGlättet feine Linien und Falten. Verfeinerung der Hauttextur.\n\nConsultation: Doppelreinigung, intensives Vitaminpeeling oder neue Plump Peel mit sanfter Nanoinfusion, hautspezifisches Serum und LED Rot mit Special Light Maske, währenddessen mit Nackenmassage! Hautspezifisches Serum und Abschlusspflege SPF, Skin Perfecting Primer.\n\nEmpfehlung: 3-er Kur alle 3–4 Wochen – profitiere im Abo und lass Dich von mir beraten!\n\nKontraindikationen: Schwangerschaft, Epilepsie, Lichtallergie, keine akute Akne / Herpes, 48 Std. keine Schmerzmittel / Cortison / Blutverdünner.",
       },
     ],
@@ -287,8 +289,8 @@ export const SERVICES = [
       "Pflege und Abschluss",
     ],
     priceFactors: [
-      { label: "LuminFusion Nanoinfusion / Infusion", price: "245" },
-      { label: "Longevity Glow Treat", price: "225" },
+      { label: "LuminFusion Nanoinfusion / Infusion", price: "220" },
+      { label: "Longevity Glow Treat", price: "202" },
     ],
     faqs: [
       {
@@ -555,7 +557,9 @@ export const SERVICES = [
       {
         name: "NEU! Longevity Glow Treat",
         subtitle: "10% Offer – Red Carpet Look bis 31. Oktober (nicht bei Abo)",
-        price: "225",
+        price: "202",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689176&share=true&pId=2873845",
         desc: "Die NEUE ÄRA der HAUT-GESICHTSBEHANDLUNG!\nfür gesunde, widerstandsfähige HAUT auf lange Sicht!\nAuch für gestresste, EMPFINDLICHE HAUT!\n\nAchtung: Keine Tiefenreinigung! Bei UNREINHEITEN bis AKNE – bitte dann eine PRO CLEAR / PRO CLEAR YOUNG buchen. Es ist kein Microneedling! Keine Downtime.\n\n• bringt deine Haut wieder ins Gleichgewicht\n• spendet intensiv Feuchtigkeit\n• stärkt deine Hautbarriere\n• sorgt für diesen natürlichen, frischen GLOW!\n\nIn Kombination mit innovativer PFLANZLICHEN EXOSOMEN-TECHNOLOGIE und einem PROFESSIONELLEN NEUEN DERMALOGICA PEELING inkl. kl. MASSAGE NACKEN & DECOLLÉTÈ & GESICHT – dein LONGEVITY GLOW!",
       },
     ],
@@ -575,7 +579,7 @@ export const SERVICES = [
       "Abschlusspflege mit SPF",
     ],
     priceFactors: [
-      { label: "Longevity Glow Treat", price: "225" },
+      { label: "Longevity Glow Treat", price: "202" },
     ],
     faqs: [
       {
@@ -641,6 +645,14 @@ export const SERVICES = [
         desc: "Persönliche Beratung und Antworten auf all Deine Make-up-Fragen. Vom richtigen Hautton finden über Primer, Concealer, getönte Tagespflege inkl. SPF, Mineralienpuder bis Cremefoundation, Augenmake-up bis Wimperntusche, Contouring, Rouge, Lippenpflege inkl. SPF bis Konturen, Lippenstift bis Gloss. Mit Clean Cosmetics von glo Skin Beauty (ex glominerals) und Jane Iredale.",
       },
       {
+        name: "Tages- & Abend-Make-up bis Gala Make-up",
+        subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
+        price: "89",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689187&share=true&pId=2873845",
+        desc: "Tages- oder Abend-Make-up bis Gala Make-up für jeden Anlass. Natürlich, individuell und langlebig – abgestimmt auf Dich und Deinen Look.",
+      },
+      {
         name: "Brautmake-up",
         subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
         price: "200",
@@ -660,7 +672,7 @@ export const SERVICES = [
     ],
     priceFactors: [
       { label: "Make-up Beratung", price: "65" },
-      { label: "Tages- & Abend-Make-up", price: "80" },
+      { label: "Tages- & Abend-Make-up", price: "89" },
       { label: "Brautmake-up", price: "200" },
     ],
     faqs: [
