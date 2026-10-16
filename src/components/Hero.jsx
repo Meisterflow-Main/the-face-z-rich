@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Calendar, ArrowRight } from "lucide-react";
-import { BRAND, ASSETS } from "@/lib/brand";
+import { ASSETS } from "@/lib/brand";
 import { useLanguage } from "@/lib/LanguageContext";
+
+const FACE_MAP_BOOKING =
+  "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649277&share=true&pId=2873845";
 
 export default function Hero() {
   const { t } = useLanguage();
@@ -60,7 +63,7 @@ export default function Hero() {
 
             <div className="flex flex-row gap-4">
               <a
-                href={BRAND.booking}
+                href={FACE_MAP_BOOKING}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t("hero_book")}
@@ -117,7 +120,7 @@ export default function Hero() {
 
             <div className="flex flex-col gap-3">
               <a
-                href={BRAND.booking}
+                href={FACE_MAP_BOOKING}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t("hero_book")}
