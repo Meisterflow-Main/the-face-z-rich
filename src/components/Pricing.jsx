@@ -25,7 +25,7 @@ const PRICE_LIST_DE = [
     tag: "10% OFFER",
     services: [
       { name: "LUMINFUSION", price: "245", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689154&share=true&pId=2873845" },
-      { name: "NEU ! LONGEVITY GLOW TREAT", price: "225" },
+      { name: "NEU ! LONGEVITY GLOW TREAT", price: "225", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689176&share=true&pId=2873845" },
       { name: "TAGES-ABEND bis GALA MAKE-UP", price: "99" },
     ],
   },
@@ -140,7 +140,7 @@ const PRICE_LIST_EN = [
     tag: "10% OFFER",
     services: [
       { name: "LUMINFUSION", price: "245", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689154&share=true&pId=2873845" },
-      { name: "NEW! LONGEVITY GLOW TREAT", price: "225" },
+      { name: "NEW! LONGEVITY GLOW TREAT", price: "225", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689176&share=true&pId=2873845" },
       { name: "DAY-EVENING to GALA MAKE-UP", price: "99" },
     ],
   },
