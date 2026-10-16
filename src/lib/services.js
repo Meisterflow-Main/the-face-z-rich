@@ -353,6 +353,8 @@ export const SERVICES = [
         name: "Pro Clear Young Big",
         subtitle: "Teenager (10–20 J.) – ab 20 J. bitte Pro Clear buchen",
         price: "160",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649500&share=true&pId=2873845",
         desc: "Tiefenreinigende und desinfizierende Gesichtspflege bei Jugendakne. Für Unreinheiten, Rötungen (PIH), Milien, Komedonen bis Pickel. Mit sanften Clear Start Wirkstoffen: entzündungshemmend, heilungsfördernd, pigmentaufhellend, stärkt die Lipidbarriere und intensiv feuchtigkeitsspendend. O2, LED Blau und/oder Hochfrequenz. Jede weitere 15 Min. +CHF 30.–. Auch in Kombination mit Hautärzten als Aknetherapie alle 4 Wochen.",
       },
       {
