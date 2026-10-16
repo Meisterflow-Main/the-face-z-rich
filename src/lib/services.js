@@ -385,6 +385,8 @@ export const SERVICES = [
         name: "Pro Bright",
         subtitle: "Pigmentaufhellend",
         price: "210",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649531&share=true&pId=2873845",
         desc: "Effektive aufhellende Gesichtspflege für alle mit Hyperpigmentation und dunklen Pigmentflecken. Der PowerBright Wirkstoffkomplex liefert sichtbare Resultate, mit ausgleichendem Fruchtsäurepeeling, Serum und Maske für einen erfrischten Glow. Auch als Kur zu empfehlen.",
       },
       {
