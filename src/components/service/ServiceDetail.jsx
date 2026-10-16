@@ -19,6 +19,9 @@ import ServiceVideo from "@/components/service/ServiceVideo";
 
 export default function ServiceDetail({ service }) {
   const related = service.related.map(getServiceBySlug).filter(Boolean);
+  const variantBookingUrls = (service.variants || []).map((v) => v.bookingUrl).filter(Boolean);
+  const heroBookingUrl =
+    variantBookingUrls.length === 1 ? variantBookingUrls[0] : BRAND.booking;
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -67,7 +70,7 @@ export default function ServiceDetail({ service }) {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href={BRAND.booking}
+              href={heroBookingUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-7 py-3.5 rounded-lg transition-all"
@@ -123,7 +126,15 @@ export default function ServiceDetail({ service }) {
                   </span>
                 </div>
                 {v.subtitle && <p className="text-charcoal/55 text-sm mb-3">{v.subtitle}</p>}
-                <p className="text-charcoal/75 leading-relaxed text-sm sm:text-base">{v.desc}</p>
+                <p className="text-charcoal/75 leading-relaxed text-sm sm:text-base whitespace-pre-line">{v.desc}</p>
+                <a
+                  href={v.bookingUrl || BRAND.booking}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-gold hover:gap-3 transition-all"
+                >
+                  <Calendar size={16} /> {v.name} buchen
+                </a>
               </div>
             ))}
           </div>
@@ -334,7 +345,7 @@ export default function ServiceDetail({ service }) {
           Sichere Dir Deinen Termin an der Rämistrasse: online buchen oder persönlich anfragen. Ob kurze Auszeit oder ausgiebiges Verwöhnerlebnis – ich nehme mir Zeit für Dich und Deine Haut. Ich freue mich auf Dich.
         </p>
         <a
-          href={BRAND.booking}
+          href={heroBookingUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-gold hover:brightness-90 text-white font-semibold px-8 py-4 rounded-lg transition-all"
