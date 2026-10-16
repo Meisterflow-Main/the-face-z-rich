@@ -16,7 +16,7 @@ const PRICE_LIST_DE = [
     title: "10% OFFER DERMALOGICA MEDICAL SKIN TREATMENT bis FEBRUAR 2027",
     tag: "10% OFFER",
     services: [
-      { name: "EXOBOOSTER MICRONEEDLING 0.5 INKL. HOMESERUM", price: "470" },
+      { name: "EXOBOOSTER MICRONEEDLING 0.5 INKL. HOMESERUM", price: "470", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689126&share=true&pId=2873845" },
     ],
   },
   {
@@ -131,7 +131,7 @@ const PRICE_LIST_EN = [
     title: "10% OFFER DERMALOGICA MEDICAL SKIN TREATMENT until FEBRUARY 2027",
     tag: "10% OFFER",
     services: [
-      { name: "EXOBOOSTER MICRONEEDLING 0.5 INCL. HOME SERUM", price: "470" },
+      { name: "EXOBOOSTER MICRONEEDLING 0.5 INCL. HOME SERUM", price: "470", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689126&share=true&pId=2873845" },
     ],
   },
   {
@@ -240,10 +240,10 @@ const PRICE_LIST_EN = [
   },
 ];
 
-function ServiceRow({ name, price, neu, neuLabel }) {
+function ServiceRow({ name, price, neu, neuLabel, bookingUrl }) {
   return (
     <a
-      href={BRAND.booking}
+      href={bookingUrl || BRAND.booking}
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center justify-between gap-4 py-3 border-b border-gold/10 last:border-0 group/service rounded-sm px-2 -mx-2 hover:bg-gold/5 transition-colors"
