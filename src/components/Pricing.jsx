@@ -33,15 +33,15 @@ const PRICE_LIST_DE = [
     id: "hautanalyse-beratung",
     title: "HAUTANALYSE BERATUNG inkl. QUICKBOOST",
     services: [
-      { name: "FACE-MAP und FACE-FIT", price: "95" },
+      { name: "FACE-MAP und FACE-FIT", price: "95", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649277&share=true&pId=2873845" },
     ],
   },
   {
     id: "targeted-skin-solutions",
     title: "DERMALOGICA TARGETET SKIN SOLUTIONS TREATMENTS",
     services: [
-      { name: "PRO CLEAR YOUNG BIG Teenager (ab 10-20 Jahre)", price: "160" },
-      { name: "PRO CLEAR YOUNG SMALL Teenager (10-20 Jahren)", price: "100" },
+      { name: "PRO CLEAR YOUNG BIG Teenager (ab 10-20 Jahre)", price: "160", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649500&share=true&pId=2873845" },
+      { name: "PRO CLEAR YOUNG SMALL Teenager (10-20 Jahren)", price: "100", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649510&share=true&pId=2873845" },
       { name: "PRO BACK CLEAR Rückenreinigung", price: "100" },
       { name: "PRO CLEAR Erwachsene", price: "225" },
       { name: "PRO BRIGHT Pigmentaufhellend", price: "210" },
@@ -148,15 +148,15 @@ const PRICE_LIST_EN = [
     id: "hautanalyse-beratung",
     title: "SKIN ANALYSIS CONSULTATION incl. QUICKBOOST",
     services: [
-      { name: "FACE-MAP and FACE-FIT", price: "95" },
+      { name: "FACE-MAP and FACE-FIT", price: "95", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649277&share=true&pId=2873845" },
     ],
   },
   {
     id: "targeted-skin-solutions",
     title: "DERMALOGICA TARGETED SKIN SOLUTIONS TREATMENTS",
     services: [
-      { name: "PRO CLEAR YOUNG BIG Teenager (from 10-20 years)", price: "160" },
-      { name: "PRO CLEAR YOUNG SMALL Teenager (10-20 years)", price: "100" },
+      { name: "PRO CLEAR YOUNG BIG Teenager (from 10-20 years)", price: "160", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649500&share=true&pId=2873845" },
+      { name: "PRO CLEAR YOUNG SMALL Teenager (10-20 years)", price: "100", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649510&share=true&pId=2873845" },
       { name: "PRO BACK CLEAR back treatment", price: "100" },
       { name: "PRO CLEAR adults", price: "225" },
       { name: "PRO BRIGHT brightening", price: "210" },
