@@ -16,7 +16,7 @@ const PRICE_LIST_DE = [
     title: "10% OFFER DERMALOGICA MEDICAL SKIN TREATMENT bis FEBRUAR 2027",
     tag: "10% OFFER",
     services: [
-      { name: "3-er KUR 10% .1269.- EXOBOOSTER MICRONEEDELING 0.5 INKL. HOMESERUM", price: "470", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689126&share=true&pId=2873845" },
+      { name: "3-er KUR 10% .1269.- EXOBOOSTER MICRONEEDELING 0.5 INKL. HOMESERUM", price: "1269", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689126&share=true&pId=2873845" },
     ],
   },
   {
