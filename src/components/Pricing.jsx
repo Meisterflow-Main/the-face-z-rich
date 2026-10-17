@@ -117,6 +117,13 @@ const PRICE_LIST_DE = [
     ],
   },
   {
+    id: "ellebana-lashlift",
+    title: "ELLEBANA LASHLIFT",
+    services: [
+      { name: "ELLEBAANA WIMPERNLIFT inkl. BLAUSCHWARZER WIMPERNFÄRBUNG", price: "150", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649657&share=true&pId=2873845" },
+    ],
+  },
+  {
     id: "quantum-angel-healing",
     title: "SELBSTHEILUNG / NEUANFANG QUANTUM-ANGEL-HEALING® (QEH) nach EVA-MARIA MORA",
     services: [
@@ -229,6 +236,13 @@ const PRICE_LIST_EN = [
       { name: "WAX CHIN", price: "10", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649888&share=true&pId=2873845" },
       { name: "WAX EAR", price: "10", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649891&share=true&pId=2873845" },
       { name: "WAX NOSE", price: "10", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649899&share=true&pId=2873845" },
+    ],
+  },
+  {
+    id: "ellebana-lashlift",
+    title: "ELLEBANA LASHLIFT",
+    services: [
+      { name: "ELLEBANA LASH LIFT incl. BLUE-BLACK LASH TINT", price: "150", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649657&share=true&pId=2873845" },
     ],
   },
   {
