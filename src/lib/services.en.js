@@ -75,15 +75,6 @@ export const SERVICES_EN = {
     intro:
       "As a make-up artist, I do your make-up for every occasion – from consultation to day and evening make-up to bridal make-up. With Jane Iredale and glo Skin Beauty products, I create a natural look that suits you: from colour consultation to long-lasting bridal make-up for your special day. Natural, individual and tailored to you.",
   },
-  "back-relax-revitalize": {
-    name: "Phytomer Spa Back Treatment",
-    short: "Phytomer Spa Back",
-    eyebrow: "Phytomer Spa Back Treatment",
-    metaTitle: "Phytomer Spa Back Treatment with Massage and Algae Wrap | THE FACE® Denise Claire Gadient",
-    h1: "PHYTOMER SPA BACK TREATMENT WITH MASSAGE AND ALGAE WRAP",
-    intro:
-      "The Phytomer Spa Back Treatment «le Champagne de la Mer» is a pure pampering experience for your back: relaxation and revitalisation with marine active ingredients straight from the sea. Gentle, warming and deeply relaxing with a relaxation massage and warming seaweed mud wrap, possible without a shower – a lovely addition before I devote myself to your face. Only bookable as a 1st step before your facial treatment.",
-  },
   "quantum-angel-healing": {
     name: "Quantum Angel Healing®",
     short: "Quantum Angel Healing®",

@@ -77,12 +77,6 @@ export const TREATMENTS_EN = [
     to: "/behandlungen/make-up",
   },
   {
-    title: "PHYTOMER SPA BACK TREATMENT WITH MASSAGE AND ALGAE PACK",
-    desc: "Soothing back treatment with Phytomer, relaxing massage and nourishing algae pack for revitalised skin.",
-    benefit: "Relaxation & revitalisation",
-    to: "/behandlungen/back-relax-revitalize",
-  },
-  {
     title: "Quantum Angel Healing®",
     desc: "Holistic, energetic treatment by Eva-Maria Mora that stimulates self-healing and gently releases blocked energies.",
     benefit: "Energy & self-healing",
