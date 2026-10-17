@@ -80,7 +80,7 @@ const PRICE_LIST_DE = [
     title: "NEU ! KLEINER SERVICE",
     tag: "NEU",
     services: [
-      { name: "FACE QUICK FIX", price: "90" },
+      { name: "FACE QUICK FIX", price: "90", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649630&share=true&pId=2873845" },
     ],
   },
   {
@@ -195,7 +195,7 @@ const PRICE_LIST_EN = [
     title: "NEW! SMALL SERVICE",
     tag: "NEW",
     services: [
-      { name: "FACE QUICK FIX", price: "90" },
+      { name: "FACE QUICK FIX", price: "90", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649630&share=true&pId=2873845" },
     ],
   },
   {
