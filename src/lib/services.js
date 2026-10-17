@@ -758,6 +758,15 @@ export const SERVICES = [
     intro:
       "Die Phytomer Spa Rückenbehandlung «le Champagne de la Mer» ist ein reines Verwöhnerlebnis für Deinen Rücken: Entspannung und Revitalisierung mit maritimen Wirkstoffen direkt aus dem Meer. Sanft, wärmend und tiefenentspannend mit Relaxmassage und wärmender Meeresalgenmoorpackung, ganz ohne Dusche möglich – eine schöne Ergänzung, bevor ich mich Deinem Gesicht widme. Nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar.",
     what: "",
+    variants: [
+      {
+        name: "Phytomer Spa Rückenbehandlung",
+        subtitle: "Mit Massage und Algenpackung",
+        price: "60",
+        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649763&share=true&pId=2873845",
+        desc: "Phytomer Spa Rückenbehandlung «Le Champagne de la Mer» – Entspannung und Revitalisierung. Relaxmassage mit maritimem Öl, wärmende und blubbernde Meeresalgenmoorpackung zur Entgiftung und Revitalisierung. Nur als 1. Schritt vor Deiner Gesichtsbehandlung buchbar.",
+      },
+    ],
     notice: {
       title: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG – 60.00 CHF",
       body:
@@ -826,6 +835,15 @@ export const SERVICES = [
     intro:
       "Quantum Angel Healing® nach Eva-Maria Mora ist eine holistische, energetische Behandlung, die die Selbstheilung anregt, den Kontakt zu Engeln öffnet und blockierte Energien sanft löst. Ich arbeite energetisch und sanft: ich öffne den Raum für die Kommunikation mit Engeln, löse blockierte Energien und unterstütze Deinen Neustart der Selbstheilung. Eine ruhige, achtsame Behandlung und eine besondere Ergänzung zur klassischen Gesichtspflege.",
     what: "",
+    variants: [
+      {
+        name: "Neustart Selbstheilung mit Engeln",
+        subtitle: "Quantum Angel Healing® nach Eva-Maria Mora",
+        price: "188",
+        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29542591&share=true&pId=2873845",
+        desc: "Quantum Angel Healing® nach Eva-Maria Mora – Selbstheilung mit Engelskommunikation. Sofortige, spürbare Hilfe zu allen Themen von Gesundheit, Liebe und Beruf – für einen energetisch gereinigten Neustart!",
+      },
+    ],
     notice: {
       title: "NEUSTART DER SELBSTHEILUNG MIT ENGELN – 188.00 CHF",
       body:
