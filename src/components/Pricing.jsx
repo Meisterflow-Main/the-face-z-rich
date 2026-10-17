@@ -95,7 +95,7 @@ const PRICE_LIST_DE = [
     id: "phytomer-spa-ruecken",
     title: "PHYTOMER SPA RÜCKENBEHANDLUNG MIT MASSAGE UND ALGENPACKUNG",
     services: [
-      { name: "PHYTOMER SPA RÜCKENBEHANDLUNG", price: "60" },
+      { name: "PHYTOMER SPA RÜCKENBEHANDLUNG", price: "60", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649763&share=true&pId=2873845" },
     ],
   },
   {
@@ -210,7 +210,7 @@ const PRICE_LIST_EN = [
     id: "phytomer-spa-ruecken",
     title: "PHYTOMER SPA BACK TREATMENT WITH MASSAGE AND ALGAE PACK",
     services: [
-      { name: "PHYTOMER SPA BACK TREATMENT", price: "60" },
+      { name: "PHYTOMER SPA BACK TREATMENT", price: "60", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649763&share=true&pId=2873845" },
     ],
   },
   {
