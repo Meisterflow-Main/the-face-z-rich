@@ -88,7 +88,7 @@ const PRICE_LIST_DE = [
     title: "NEU ! HOMESERVICE EXCLUSIV",
     tag: "NEU",
     services: [
-      { name: "EXCLUSIVE HOME SKIN TREAT", price: "100" },
+      { name: "EXCLUSIVE HOME SKIN TREAT", price: "50", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649736&share=true&pId=2873845" },
     ],
   },
   {
@@ -203,7 +203,7 @@ const PRICE_LIST_EN = [
     title: "NEW! HOMESERVICE EXCLUSIVE",
     tag: "NEW",
     services: [
-      { name: "EXCLUSIVE HOME SKIN TREAT", price: "100" },
+      { name: "EXCLUSIVE HOME SKIN TREAT", price: "50", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649736&share=true&pId=2873845" },
     ],
   },
   {
