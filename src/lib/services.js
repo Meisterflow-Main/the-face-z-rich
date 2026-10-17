@@ -656,6 +656,71 @@ export const SERVICES = [
     related: ["medical-skin-treatments", "pro-skin-treatments", "hautanalyse"],
   },
   {
+    slug: "phytomer-spa-rueckenbehandlung",
+    name: "Phytomer Spa Rückenbehandlung",
+    short: "Phytomer Spa Rücken",
+    eyebrow: "Phytomer Spa Rückenbehandlung",
+    metaTitle: "Phytomer Spa Rückenbehandlung in Zürich | THE FACE® Denise Claire Gadient",
+    h1: "Phytomer Spa Rückenbehandlung in Zürich",
+    intro:
+      "Die Phytomer Spa Rückenbehandlung ist eine luxuriöse Rückenbehandlung mit Algen und Mineralien direkt aus der Bretagne. Eine Tiefenreinigung mit sanftem Peeling, warmen Algenkompressen, Massage und einer beruhigenden Maske löst Verspannungen, reinigt die Haut und schenkt ein rundum verwöhntes Gefühl – für einen entspannten, gepflegten Rücken.",
+    what: "",
+    variants: [
+      {
+        name: "Phytomer Spa Rückenbehandlung",
+        subtitle: "Rückenbehandlung mit Algen & Mineralien aus der Bretagne",
+        price: "120",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649913&share=true&pId=2873845",
+        desc: "Luxuriöse Rückenbehandlung mit Phytomer Algen und Mineralien aus der Bretagne. Tiefenreinigung, sanftes Peeling, warme Algenkompressen, Massage und beruhigende Maske für einen entspannten, gepflegten Rücken.",
+      },
+    ],
+    benefits: [
+      "Algen und Mineralien direkt aus der Bretagne",
+      "Tiefenreinigung und sanftes Peeling",
+      "Warme Algenkompressen und Massage",
+      "Löst Verspannungen und reinigt die Haut",
+    ],
+    process: [
+      "Rückenanalyse",
+      "Tiefenreinigung und sanftes Peeling",
+      "Warme Algenkompressen",
+      "Rückenmassage",
+      "Beruhigende Maske und Abschlusspflege",
+    ],
+    priceFactors: [{ label: "Phytomer Spa Rückenbehandlung", price: "120" }],
+    faqs: [
+      {
+        q: "Was ist die Phytomer Spa Rückenbehandlung?",
+        a: "Eine luxuriöse Rückenbehandlung mit Algen und Mineralien direkt aus der Bretagne. Tiefenreinigung, warme Algenkompressen, Massage und eine beruhigende Maske lösen Verspannungen und reinigen die Haut.",
+      },
+      {
+        q: "Für wen ist die Behandlung geeignet?",
+        a: "Für alle, die Verspannungen lösen und ihrem Rücken etwas Gutes tun möchten – auch bei unreiner Haut am Rücken.",
+      },
+      {
+        q: "Wie lange dauert die Behandlung?",
+        a: "Die Behandlung dauert etwa 45 bis 60 Minuten.",
+      },
+      {
+        q: "Wie oft sollte ich die Behandlung wiederholen?",
+        a: "Ein Rhythmus von etwa vier bis sechs Wochen unterstützt die Haut und Verspannungsbildung optimal. Ich berate Dich gerne zum passenden Rhythmus.",
+      },
+    ],
+    preparation: [
+      "Setze eine Woche vorher keine neuen Produkte oder Peelings auf den Rücken auf",
+    ],
+    aftercare: [
+      "Verzichte 24 Stunden auf neue Produkte auf dem Rücken",
+      "Bei Fragen schreib mir jederzeit per WhatsApp",
+    ],
+    contraindications: [
+      "Akute Hautentzündungen oder offene Wunden am Rücken",
+      "Allergien gegen Algen oder Jod – vorab ansprechen",
+    ],
+    related: ["hautanalyse", "pro-skin-treatments"],
+  },
+  {
     slug: "quantum-angel-healing",
     name: "Quantum Angel Healing®",
     short: "Quantum Angel Healing®",

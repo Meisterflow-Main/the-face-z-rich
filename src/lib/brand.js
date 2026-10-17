@@ -103,6 +103,12 @@ export const TREATMENTS = [
     to: "/behandlungen/make-up",
   },
   {
+    title: "Phytomer Spa Rückenbehandlung",
+    desc: "Luxuriöse Rückenbehandlung mit Algen und Mineralien direkt aus der Bretagne.",
+    benefit: "Spa & Rücken",
+    to: "/behandlungen/phytomer-spa-rueckenbehandlung",
+  },
+  {
     title: "Quantum Angel Healing®",
     desc: "Holistische, energetische Behandlung nach Eva-Maria Mora, die die Selbstheilung anregt und blockierte Energien sanft löst.",
     benefit: "Energie & Selbstheilung",

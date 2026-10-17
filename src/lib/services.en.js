@@ -75,6 +75,15 @@ export const SERVICES_EN = {
     intro:
       "As a make-up artist, I do your make-up for every occasion – from consultation to day and evening make-up to bridal make-up. With Jane Iredale and glo Skin Beauty products, I create a natural look that suits you: from colour consultation to long-lasting bridal make-up for your special day. Natural, individual and tailored to you.",
   },
+  "phytomer-spa-rueckenbehandlung": {
+    name: "Phytomer Spa Back Treatment",
+    short: "Phytomer Spa Back",
+    eyebrow: "Phytomer Spa Back Treatment",
+    metaTitle: "Phytomer Spa Back Treatment in Zurich | THE FACE® Denise Claire Gadient",
+    h1: "Phytomer Spa Back Treatment in Zurich",
+    intro:
+      "The Phytomer Spa Back Treatment is a luxurious back treatment with algae and minerals directly from Brittany. Deep cleansing with a gentle peel, warm algae compresses, massage and a soothing mask releases tension, cleanses the skin and gives an all-round pampered feeling – for a relaxed, well-groomed back.",
+  },
   "quantum-angel-healing": {
     name: "Quantum Angel Healing®",
     short: "Quantum Angel Healing®",

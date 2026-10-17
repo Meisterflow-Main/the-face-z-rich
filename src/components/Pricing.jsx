@@ -124,6 +124,13 @@ const PRICE_LIST_DE = [
     ],
   },
   {
+    id: "phytomer-spa-rueckenbehandlung",
+    title: "PHYTOMER SPA RÜCKENBEHANDLUNG",
+    services: [
+      { name: "Phytomer Spa Rückenbehandlung", price: "120", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649913&share=true&pId=2873845" },
+    ],
+  },
+  {
     id: "quantum-angel-healing",
     title: "SELBSTHEILUNG / NEUANFANG QUANTUM-ANGEL-HEALING® (QEH) nach EVA-MARIA MORA",
     services: [
@@ -243,6 +250,13 @@ const PRICE_LIST_EN = [
     title: "CAT CONCIERGE",
     services: [
       { name: "Cat sitting at your home", price: "40", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29674305&share=true&pId=2873845" },
+    ],
+  },
+  {
+    id: "phytomer-spa-rueckenbehandlung",
+    title: "PHYTOMER SPA BACK TREATMENT",
+    services: [
+      { name: "Phytomer Spa Back Treatment", price: "120", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649913&share=true&pId=2873845" },
     ],
   },
   {
