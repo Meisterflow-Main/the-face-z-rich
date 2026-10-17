@@ -840,7 +840,7 @@ export const SERVICES = [
         name: "Neustart Selbstheilung mit Engeln",
         subtitle: "Quantum Angel Healing® nach Eva-Maria Mora",
         price: "188",
-        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29542591&share=true&pId=2873845",
+        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649913&share=true&pId=2873845",
         desc: "Quantum Angel Healing® nach Eva-Maria Mora – Selbstheilung mit Engelskommunikation. Sofortige, spürbare Hilfe zu allen Themen von Gesundheit, Liebe und Beruf – für einen energetisch gereinigten Neustart!",
       },
     ],
