@@ -53,10 +53,10 @@ const PRICE_LIST_DE = [
     id: "signature-pro-skin",
     title: "DERMALOGICA SIGNATURE PRO SKIN TREATMENTS",
     services: [
-      { name: "PRO SKIN 45 QUICK CLEAR", price: "180" },
-      { name: "PRO SKIN 60", price: "225" },
-      { name: "PRO SKIN 90", price: "270" },
-      { name: "ULTRA SKIN 120", price: "315" },
+      { name: "PRO SKIN 45 QUICK CLEAR", price: "180", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29509969&share=true&pId=2873845" },
+      { name: "PRO SKIN 60", price: "225", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29509954&share=true&pId=2873845" },
+      { name: "PRO SKIN 90", price: "270", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29509940&share=true&pId=2873845" },
+      { name: "ULTRA SKIN 120", price: "315", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29509940&share=true&pId=2873845" },
     ],
   },
   {
@@ -168,10 +168,10 @@ const PRICE_LIST_EN = [
     id: "signature-pro-skin",
     title: "DERMALOGICA SIGNATURE PRO SKIN TREATMENTS",
     services: [
-      { name: "PRO SKIN 45 QUICK CLEAR", price: "180" },
-      { name: "PRO SKIN 60", price: "225" },
-      { name: "PRO SKIN 90", price: "270" },
-      { name: "ULTRA SKIN 120", price: "315" },
+      { name: "PRO SKIN 45 QUICK CLEAR", price: "180", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29509969&share=true&pId=2873845" },
+      { name: "PRO SKIN 60", price: "225", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29509954&share=true&pId=2873845" },
+      { name: "PRO SKIN 90", price: "270", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29509940&share=true&pId=2873845" },
+      { name: "ULTRA SKIN 120", price: "315", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29509940&share=true&pId=2873845" },
     ],
   },
   {
