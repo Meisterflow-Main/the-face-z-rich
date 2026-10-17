@@ -202,6 +202,7 @@ export const SERVICES = [
         name: "Minlen Facial Treatment (4–11 J.)",
         subtitle: "New & Exclusive – Minlen Kids and Tweens Skin Treatment",
         price: "65",
+        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649617&share=true&pId=2873845",
         desc: "Minlen Children's Generation Alpha für sensible Haut, inklusive Haut mit Neigung zu atopischer Dermatitis. Entwickelt von Princess Madeleine und Weleda mit feinen skandinavischen Wirkstoffen zur Stärkung, Beruhigung und zum Schutz der Hautbarriere. Inkl. Mini-Gesichtsbehandlung mit Beratung und Produktberatung. Mit hautfreundlichen, hautschützenden, mikrobiom-freundlichen, natürlichen schwedischen Wirkstoffen: sanfte Reinigung, mildes Enzympeeling (bei Bedarf), Serum, Maske, Mini-Verwöhmassage, Tagescreme und Lippenbalsam (Lichtschutz, Primer und Gloss auf Anfrage).",
       },
     ],

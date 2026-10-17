@@ -64,7 +64,7 @@ const PRICE_LIST_DE = [
     title: "NEU & EXCLUSIV! MINLEN KIDS UND TWEENS SKIN TREAT",
     tag: "NEU",
     services: [
-      { name: "MINLEN GESICHTSBEHANDLUNG (ab 4-11 Jahren)", price: "65" },
+      { name: "MINLEN GESICHTSBEHANDLUNG (ab 4-11 Jahren)", price: "65", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649617&share=true&pId=2873845" },
     ],
   },
   {
@@ -179,7 +179,7 @@ const PRICE_LIST_EN = [
     title: "NEW & EXCLUSIVE! MINLEN KIDS AND TWEENS SKIN TREAT",
     tag: "NEW",
     services: [
-      { name: "MINLEN FACIAL TREATMENT (from 4-11 years)", price: "65" },
+      { name: "MINLEN FACIAL TREATMENT (from 4-11 years)", price: "65", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649617&share=true&pId=2873845" },
     ],
   },
   {
