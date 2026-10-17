@@ -656,6 +656,80 @@ export const SERVICES = [
     related: ["medical-skin-treatments", "pro-skin-treatments", "hautanalyse"],
   },
   {
+    slug: "quantum-angel-healing",
+    name: "Quantum Angel Healing®",
+    short: "Quantum Angel Healing®",
+    eyebrow: "Quantum Angel Healing®",
+    metaTitle: "Quantum Angel Healing® in Zürich | THE FACE® Denise Claire Gadient",
+    h1: "Quantum Angel Healing® in Zürich",
+    intro:
+      "Quantum Angel Healing® nach Eva-Maria Mora ist eine holistische, energetische Behandlung, die die Selbstheilung anregt, den Kontakt zu Engeln öffnet und blockierte Energien sanft löst. Ich arbeite energetisch und sanft: ich öffne den Raum für die Kommunikation mit Engeln, löse blockierte Energien und unterstütze Deinen Neustart der Selbstheilung. Eine ruhige, achtsame Behandlung und eine besondere Ergänzung zur klassischen Gesichtspflege.",
+    what: "",
+    variants: [
+      {
+        name: "Neustart Selbstheilung mit Engeln",
+        subtitle: "Quantum Angel Healing® nach Eva-Maria Mora",
+        price: "188",
+        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649913&share=true&pId=2873845",
+        desc: "Quantum Angel Healing® nach Eva-Maria Mora – Selbstheilung mit Engelskommunikation. Sofortige, spürbare Hilfe zu allen Themen von Gesundheit, Liebe und Beruf – für einen energetisch gereinigten Neustart!",
+      },
+    ],
+    notice: {
+      title: "NEUSTART DER SELBSTHEILUNG MIT ENGELN – 188.00 CHF",
+      body:
+        "Quantum Angel Healing® nach Eva-Maria Mora – Selbstheilung mit Engelskommunikation. Durch hilfreiche Informationen fliessen Heilenergien zur Transformation!\n\nSuchst Du einen Neustart und brauchst professionelle, liebevolle und kraftvolle Unterstützung? Sofortige, spürbare Hilfe zu allen Themen von Gesundheit, Liebe und Beruf – für einen energetisch gereinigten Neustart!\n\nWICHTIGE VORBEREITUNG: Bitte nimm vorher ein Totenmeersalz-Bad (1 Packung ARAD Badesalz von Migros kaufen). Bade auch Stirn und Kopf damit zur Vorreinigung – sehr hohe Schwingung! Kein normales Meersalz! Und bitte mindestens 1–2 Tage kein Alkohol / keine Drogen. Keine anderen Therapien 1 Woche vor oder nach der Sitzung. So bist Du wunderbar vorbereitet!\n\nIch bereite mich entsprechend vor und reinige mein Institut / meine Räumlichkeiten energetisch. Namaste! Wir freuen uns, Dir helfen zu können – von ganzem Herzen!",
+    },
+    benefits: [
+      "Regt die Selbstheilung an",
+      "Öffnet den Kanal zu Engeln",
+      "Löst blockierte Energien sanft",
+      "Ruhig und achtsam",
+    ],
+    process: [
+      "Vorgespräch",
+      "Quantum Angel Healing® Sitzung",
+      "Nachruhe und Abschluss",
+    ],
+    priceFactors: [{ label: "Neustart Selbstheilung mit Engeln", price: "188" }],
+    faqs: [
+      {
+        q: "Was ist Quantum Angel Healing?",
+        a: "Eine holistische Behandlung nach Eva-Maria Mora, die Selbstheilung anregt. Eine besondere Ergänzung zur klassischen Gesichtsbehandlung.",
+      },
+      {
+        q: "Ist Quantum Angel Healing eine medizinische Behandlung?",
+        a: "Nein. Es ist eine energetische, ganzheitliche Begleitung und ersetzt keine medizinische Diagnose oder Behandlung.",
+      },
+      {
+        q: "Wie lange dauert eine Sitzung?",
+        a: "Eine Sitzung dauert etwa 1 bis 1,25 Stunden inklusive Vor- und Nachgespräch.",
+      },
+      {
+        q: "Muss ich mich vorab vorbereiten?",
+        a: "Keine besondere Vorbereitung nötig. Komm offen und bereit für eine ruhige, achtsame Zeit. Im Vorgespräch kläre ich mit Dir, was Du mitbringst.",
+      },
+      {
+        q: "Wie oft ist eine Sitzung sinnvoll?",
+        a: "Das hängt von Deinem persönlichen Anliegen. Manche kommen einmalig, andere regelmässig als begleitende Unterstützung. Ich finde mit Dir gemeinsam den passenden Rhythmus.",
+      },
+    ],
+    preparation: [
+      "WICHTIGE VORBEREITUNG: Bitte nimm vorher ein Totenmeersalz-Bad (1 Packung ARAD Badesalz von Migros kaufen).",
+      "Bade auch Stirn und Kopf damit zur Vorreinigung – sehr hohe Schwingung! Kein normales Meersalz! Und bitte mindestens 1–2 Tage kein Alkohol / keine Drogen.",
+      "Keine anderen Therapien 1 Woche vor oder nach der Sitzung. So bist Du wunderbar vorbereitet!",
+    ],
+    aftercare: [
+      "Nimm Dir nach der Sitzung etwas Zeit zur Nachruhe",
+      "Vermeide direkt danach intensive körperliche Belastung",
+      "Achte auf Deine Empfindungen und gib der Wirkung Raum",
+    ],
+    contraindications: [
+      "Quantum Angel Healing ersetzt keine medizinische oder psychotherapeutische Behandlung",
+      "Bei akuten psychischen Krisen berate ich Dich zu geeigneten Fachstellen",
+    ],
+    related: ["hautanalyse", "pro-skin-treatments"],
+  },
+  {
     slug: "make-up",
     name: "Make-up & Visagistik",
     short: "Make-up & Visagistik",

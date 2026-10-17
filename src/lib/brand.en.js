@@ -76,6 +76,12 @@ export const TREATMENTS_EN = [
     benefit: "Natural beauty",
     to: "/behandlungen/make-up",
   },
+  {
+    title: "Quantum Angel Healing®",
+    desc: "Holistic, energetic treatment by Eva-Maria Mora that stimulates self-healing and gently releases blocked energies.",
+    benefit: "Energy & self-healing",
+    to: "/behandlungen/quantum-angel-healing",
+  },
 ];
 
 export const STATS_EN = [

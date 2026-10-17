@@ -75,4 +75,13 @@ export const SERVICES_EN = {
     intro:
       "As a make-up artist, I do your make-up for every occasion – from consultation to day and evening make-up to bridal make-up. With Jane Iredale and glo Skin Beauty products, I create a natural look that suits you: from colour consultation to long-lasting bridal make-up for your special day. Natural, individual and tailored to you.",
   },
+  "quantum-angel-healing": {
+    name: "Quantum Angel Healing®",
+    short: "Quantum Angel Healing®",
+    eyebrow: "Quantum Angel Healing®",
+    metaTitle: "Quantum Angel Healing® in Zurich | THE FACE® Denise Claire Gadient",
+    h1: "Quantum Angel Healing® in Zurich",
+    intro:
+      "Quantum Angel Healing® according to Eva-Maria Mora is a holistic, energetic treatment that stimulates self-healing, opens the contact with angels and gently dissolves blocked energies. I work energetically and gently: I open the space for communication with angels, dissolve blocked energies and support your new start of self-healing. A calm, mindful treatment and a special complement to classic facial care.",
+  },
 };
