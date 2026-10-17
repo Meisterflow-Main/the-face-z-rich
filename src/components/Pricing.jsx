@@ -120,7 +120,7 @@ const PRICE_LIST_DE = [
     id: "quantum-angel-healing",
     title: "SELBSTHEILUNG / NEUANFANG QUANTUM-ANGEL-HEALING® (QEH) nach EVA-MARIA MORA",
     services: [
-      { name: "NEUSTART SELBSTHEILUNG MIT ENGELN", price: "188" },
+      { name: "NEUSTART SELBSTHEILUNG MIT ENGELN", price: "188", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29542591&share=true&pId=2873845" },
     ],
   },
 ];
@@ -235,7 +235,7 @@ const PRICE_LIST_EN = [
     id: "quantum-angel-healing",
     title: "SELF-HEALING / NEW BEGINNING QUANTUM-ANGEL-HEALING® (QEH) by EVA-MARIA MORA",
     services: [
-      { name: "NEW START SELF-HEALING WITH ANGELS", price: "188" },
+      { name: "NEW START SELF-HEALING WITH ANGELS", price: "188", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29542591&share=true&pId=2873845" },
     ],
   },
 ];
