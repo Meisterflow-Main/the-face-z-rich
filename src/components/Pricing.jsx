@@ -103,7 +103,7 @@ const PRICE_LIST_DE = [
     title: "ADDS ON SKIN TREAT",
     services: [
       { name: "NEU! BLACK EYEPADS inkl. SMART EYE DENSITY SERUM", price: "20", neu: true, bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649791&share=true&pId=2873845" },
-      { name: "LASHTINT", price: "40" },
+      { name: "LASHTINT", price: "40", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649803&share=true&pId=2873845" },
       { name: "NEU ! PLUMP PEEL & PHYTO E2", price: "20", neu: true },
       { name: "WAX UPPERLIP", price: "25" },
       { name: "BROW TINT", price: "35" },
@@ -218,7 +218,7 @@ const PRICE_LIST_EN = [
     title: "ADDS ON SKIN TREAT",
     services: [
       { name: "NEW! BLACK EYEPADS incl. SMART EYE DENSITY SERUM", price: "20", neu: true, bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649791&share=true&pId=2873845" },
-      { name: "LASHTINT", price: "40" },
+      { name: "LASHTINT", price: "40", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649803&share=true&pId=2873845" },
       { name: "NEW! PLUMP PEEL & PHYTO E2", price: "20", neu: true },
       { name: "WAX UPPERLIP", price: "25" },
       { name: "BROW TINT", price: "35" },
