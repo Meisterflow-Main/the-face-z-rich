@@ -670,6 +670,7 @@ export const SERVICES = [
         name: "Make-up Beratung",
         subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
         price: "65",
+        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A27441510&share=true&pId=2873845",
         desc: "Persönliche Beratung und Antworten auf all Deine Make-up-Fragen. Vom richtigen Hautton finden über Primer, Concealer, getönte Tagespflege inkl. SPF, Mineralienpuder bis Cremefoundation, Augenmake-up bis Wimperntusche, Contouring, Rouge, Lippenpflege inkl. SPF bis Konturen, Lippenstift bis Gloss. Mit Clean Cosmetics von glo Skin Beauty (ex glominerals) und Jane Iredale.",
       },
       {
