@@ -656,6 +656,99 @@ export const SERVICES = [
     related: ["medical-skin-treatments", "pro-skin-treatments", "hautanalyse"],
   },
   {
+    slug: "make-up",
+    name: "Make-up & Visagistik",
+    short: "Make-up & Visagistik",
+    eyebrow: "Make-up & Visagistik",
+    metaTitle: "Make-up & Visagistik in Zürich | THE FACE® Denise Claire Gadient",
+    h1: "Make-up & Visagistik in Zürich",
+    intro:
+      "Als Visagistin schminke ich Dich für jeden Anlass – von der Beratung über das Tages- und Abend-Make-up bis zum Brautmake-up. Mit Jane Iredale und Glowskinbeauty-Produkten schminke ich einen natürlichen Look, der zu Dir passt: von der farblichen Beratung bis zum langlebigen Brautmake-up für Deinen besonderen Tag. Natürlich, individuell und auf Dich abgestimmt.",
+    what: "",
+    variants: [
+      {
+        name: "Make-up Beratung",
+        subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
+        price: "65",
+        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A27441510&share=true&pId=2873845",
+        desc: "Persönliche Beratung und Antworten auf all Deine Make-up-Fragen. Vom richtigen Hautton finden über Primer, Concealer, getönte Tagespflege inkl. SPF, Mineralienpuder bis Cremefoundation, Augenmake-up bis Wimperntusche, Contouring, Rouge, Lippenpflege inkl. SPF bis Konturen, Lippenstift bis Gloss. Mit Clean Cosmetics von glo Skin Beauty (ex glominerals) und Jane Iredale.",
+      },
+      {
+        name: "Tages- & Abend-Make-up bis Gala Make-up",
+        subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
+        price: "89",
+        bookingUrl:
+          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689187&share=true&pId=2873845",
+        desc: "Tages- oder Abend-Make-up bis Gala Make-up für jeden Anlass. Natürlich, individuell und langlebig – abgestimmt auf Dich und Deinen Look.",
+      },
+      {
+        name: "Brautmake-up",
+        subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
+        price: "200",
+        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A27441511&share=true&pId=2873845",
+        desc: "Für Deinen schönsten Tag, damit Du Dich wunderschön und sicher fühlst. Frag mich gerne per WhatsApp an, wie, was und wo. Gerne betreue ich Dich im Institut oder auch ausser Haus – ganz persönlich, professionell und herzlich.",
+      },
+    ],
+    benefits: [
+      "Beratung, Tages-, Abend- und Brautmake-up",
+      "Jane Iredale und Glowskinbeauty Produkte",
+      "Natürliche, langlebige Looks",
+      "Pflege und Make-up bei derselben Visagistin",
+    ],
+    process: [
+      "Beratung und Farbabstimmung",
+      "Make-up Anwendung",
+      "Abschluss und Pflegetipp",
+    ],
+    priceFactors: [
+      { label: "Make-up Beratung", price: "65" },
+      { label: "Tages- & Abend-Make-up", price: "89" },
+      { label: "Brautmake-up", price: "200" },
+    ],
+    faqs: [
+      {
+        q: "Bietetst Du Brautmake-up an?",
+        a: "Ja, als Visagistin schminke ich Dich für Deinen grossen Tag: natürlich, individuell und langlebig.",
+      },
+      {
+        q: "Welche Produkte werden verwendet?",
+        a: "Ich arbeite mit Jane Iredale und Glowskinbeauty, hochwertigen Make-up-Marken, die sanft zur Haut sind.",
+      },
+      {
+        q: "Brauche ich eine Voranmeldung für das Brautmake-up?",
+        a: "Ja, für das Brautmake-up vereinbare ich vorab einen Beratungstermin mit Dir.",
+      },
+      {
+        q: "Kann ich Make-up und Gesichtsbehandlung an einem Tag kombinieren?",
+        a: "Diese Behandlung beinhaltet bereits eine leichte Tagestönung oder ein dezentes Make-up mit Wimperntusche, Rouge und Lipgloss. Wenn du dir ein professionelles Make-up wünschst, empfehle ich dir, dieses separat zu buchen.",
+      },
+      {
+        q: "Ist das Make-up wasserfest?",
+        a: "Die Wimperntusche ist wasserfest. Die übrigen Make-up-Produkte sind nicht wasserfest.",
+      },
+    ],
+    preparation: [
+      "Bringe Inspirationen oder Fotos Deines gewünschten Looks mit",
+      "Für Brautmake-up: vereinbare vorab einen Beratungstermin",
+    ],
+    aftercare: [
+      "Pflege die Haut danach mit Feuchtigkeit",
+      "Vermeide starkes Reiben beim Abschminken",
+    ],
+    contraindications: [
+      "Akute Hautentzündungen oder offene Wunden im Gesicht",
+      "Allergien gegen bestimmte Make-up-Inhaltsstoffe – vorab ansprechen",
+    ],
+    gallery: [
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a91fa3610_WhatsAppImage2026-10-09at0445021.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/8567a206f_WhatsAppImage2026-10-09at044502.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ed72f95f4_WhatsAppImage2026-10-09at044501.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0c8494fe0_WhatsAppImage2026-10-09at044350.jpeg",
+      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/76e74e110_WhatsAppImage2026-10-09at044349.jpeg",
+    ],
+    related: ["hautanalyse", "pro-skin-treatments"],
+  },
+  {
     slug: "phytomer-spa-rueckenbehandlung",
     name: "Phytomer Spa Rückenbehandlung",
     short: "Phytomer Spa Rücken",
@@ -791,99 +884,6 @@ export const SERVICES = [
     contraindications: [
       "Quantum Angel Healing ersetzt keine medizinische oder psychotherapeutische Behandlung",
       "Bei akuten psychischen Krisen berate ich Dich zu geeigneten Fachstellen",
-    ],
-    related: ["hautanalyse", "pro-skin-treatments"],
-  },
-  {
-    slug: "make-up",
-    name: "Make-up & Visagistik",
-    short: "Make-up & Visagistik",
-    eyebrow: "Make-up & Visagistik",
-    metaTitle: "Make-up & Visagistik in Zürich | THE FACE® Denise Claire Gadient",
-    h1: "Make-up & Visagistik in Zürich",
-    intro:
-      "Als Visagistin schminke ich Dich für jeden Anlass – von der Beratung über das Tages- und Abend-Make-up bis zum Brautmake-up. Mit Jane Iredale und Glowskinbeauty-Produkten schminke ich einen natürlichen Look, der zu Dir passt: von der farblichen Beratung bis zum langlebigen Brautmake-up für Deinen besonderen Tag. Natürlich, individuell und auf Dich abgestimmt.",
-    what: "",
-    variants: [
-      {
-        name: "Make-up Beratung",
-        subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
-        price: "65",
-        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A27441510&share=true&pId=2873845",
-        desc: "Persönliche Beratung und Antworten auf all Deine Make-up-Fragen. Vom richtigen Hautton finden über Primer, Concealer, getönte Tagespflege inkl. SPF, Mineralienpuder bis Cremefoundation, Augenmake-up bis Wimperntusche, Contouring, Rouge, Lippenpflege inkl. SPF bis Konturen, Lippenstift bis Gloss. Mit Clean Cosmetics von glo Skin Beauty (ex glominerals) und Jane Iredale.",
-      },
-      {
-        name: "Tages- & Abend-Make-up bis Gala Make-up",
-        subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
-        price: "89",
-        bookingUrl:
-          "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689187&share=true&pId=2873845",
-        desc: "Tages- oder Abend-Make-up bis Gala Make-up für jeden Anlass. Natürlich, individuell und langlebig – abgestimmt auf Dich und Deinen Look.",
-      },
-      {
-        name: "Brautmake-up",
-        subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
-        price: "200",
-        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A27441511&share=true&pId=2873845",
-        desc: "Für Deinen schönsten Tag, damit Du Dich wunderschön und sicher fühlst. Frag mich gerne per WhatsApp an, wie, was und wo. Gerne betreue ich Dich im Institut oder auch ausser Haus – ganz persönlich, professionell und herzlich.",
-      },
-    ],
-    benefits: [
-      "Beratung, Tages-, Abend- und Brautmake-up",
-      "Jane Iredale und Glowskinbeauty Produkte",
-      "Natürliche, langlebige Looks",
-      "Pflege und Make-up bei derselben Visagistin",
-    ],
-    process: [
-      "Beratung und Farbabstimmung",
-      "Make-up Anwendung",
-      "Abschluss und Pflegetipp",
-    ],
-    priceFactors: [
-      { label: "Make-up Beratung", price: "65" },
-      { label: "Tages- & Abend-Make-up", price: "89" },
-      { label: "Brautmake-up", price: "200" },
-    ],
-    faqs: [
-      {
-        q: "Bietetst Du Brautmake-up an?",
-        a: "Ja, als Visagistin schminke ich Dich für Deinen grossen Tag: natürlich, individuell und langlebig.",
-      },
-      {
-        q: "Welche Produkte werden verwendet?",
-        a: "Ich arbeite mit Jane Iredale und Glowskinbeauty, hochwertigen Make-up-Marken, die sanft zur Haut sind.",
-      },
-      {
-        q: "Brauche ich eine Voranmeldung für das Brautmake-up?",
-        a: "Ja, für das Brautmake-up vereinbare ich vorab einen Beratungstermin mit Dir.",
-      },
-      {
-        q: "Kann ich Make-up und Gesichtsbehandlung an einem Tag kombinieren?",
-        a: "Diese Behandlung beinhaltet bereits eine leichte Tagestönung oder ein dezentes Make-up mit Wimperntusche, Rouge und Lipgloss. Wenn du dir ein professionelles Make-up wünschst, empfehle ich dir, dieses separat zu buchen.",
-      },
-      {
-        q: "Ist das Make-up wasserfest?",
-        a: "Die Wimperntusche ist wasserfest. Die übrigen Make-up-Produkte sind nicht wasserfest.",
-      },
-    ],
-    preparation: [
-      "Bringe Inspirationen oder Fotos Deines gewünschten Looks mit",
-      "Für Brautmake-up: vereinbare vorab einen Beratungstermin",
-    ],
-    aftercare: [
-      "Pflege die Haut danach mit Feuchtigkeit",
-      "Vermeide starkes Reiben beim Abschminken",
-    ],
-    contraindications: [
-      "Akute Hautentzündungen oder offene Wunden im Gesicht",
-      "Allergien gegen bestimmte Make-up-Inhaltsstoffe – vorab ansprechen",
-    ],
-    gallery: [
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/a91fa3610_WhatsAppImage2026-10-09at0445021.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/8567a206f_WhatsAppImage2026-10-09at044502.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/ed72f95f4_WhatsAppImage2026-10-09at044501.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/0c8494fe0_WhatsAppImage2026-10-09at044350.jpeg",
-      "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/76e74e110_WhatsAppImage2026-10-09at044349.jpeg",
     ],
     related: ["hautanalyse", "pro-skin-treatments"],
   },
