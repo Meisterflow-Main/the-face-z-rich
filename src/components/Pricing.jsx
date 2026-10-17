@@ -72,7 +72,7 @@ const PRICE_LIST_DE = [
     title: "MAKE-UP mit GLOWSKINBEAUTY und JANE IREDALE",
     services: [
       { name: "MAKE-UP BERATUNG", price: "65", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A27441510&share=true&pId=2873845" },
-      { name: "BRAUTMAKE-UP", price: "200" },
+      { name: "BRAUTMAKE-UP", price: "200", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A27441511&share=true&pId=2873845" },
     ],
   },
   {
@@ -187,7 +187,7 @@ const PRICE_LIST_EN = [
     title: "MAKE-UP with GLOWSKINBEAUTY and JANE IREDALE",
     services: [
       { name: "MAKE-UP CONSULTATION", price: "65", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A27441510&share=true&pId=2873845" },
-      { name: "BRIDAL MAKE-UP", price: "200" },
+      { name: "BRIDAL MAKE-UP", price: "200", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A27441511&share=true&pId=2873845" },
     ],
   },
   {

@@ -685,6 +685,7 @@ export const SERVICES = [
         name: "Brautmake-up",
         subtitle: "Make-up mit glo Skin Beauty und Jane Iredale",
         price: "200",
+        bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A27441511&share=true&pId=2873845",
         desc: "Für Deinen schönsten Tag, damit Du Dich wunderschön und sicher fühlst. Frag mich gerne per WhatsApp an, wie, was und wo. Gerne betreue ich Dich im Institut oder auch ausser Haus – ganz persönlich, professionell und herzlich.",
       },
     ],
