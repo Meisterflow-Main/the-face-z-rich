@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Search, X, Clock } from "lucide-react";
+import { Search, X } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -9,7 +9,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import ScrollReveal from "@/components/ScrollReveal";
 import BlogCard from "@/components/blog/BlogCard";
 import InternalLinks from "@/components/InternalLinks";
-import { ARTICLES, CATEGORIES, BLOG_INTRO, formatDate } from "@/lib/blog";
+import { ARTICLES, CATEGORIES, BLOG_INTRO } from "@/lib/blog";
 
 const jsonLd = {
   "@context": "https://schema.org",

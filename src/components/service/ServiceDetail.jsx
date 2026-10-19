@@ -12,7 +12,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import ScrollReveal from "@/components/ScrollReveal";
 import { BRAND } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
-import { getServiceBySlug, SERVICES } from "@/lib/services";
+import { getServiceBySlug } from "@/lib/services";
 import InternalLinks from "@/components/InternalLinks";
 import ServiceGallery from "@/components/service/ServiceGallery";
 import ServiceVideo from "@/components/service/ServiceVideo";
