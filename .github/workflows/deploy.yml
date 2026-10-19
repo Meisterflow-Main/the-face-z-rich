@@ -45,3 +45,4 @@ jobs:
           strip_components: 1
 
           #Change the vps key to the new one.
+          #Added the Authorization key in the VPS.
