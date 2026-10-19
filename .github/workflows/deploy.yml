@@ -46,3 +46,5 @@ jobs:
 
           #Change the vps key to the new one.
           #Added the Authorization key in the VPS.
+          #Removed the VPN.
+          
