@@ -30,7 +30,7 @@ export const WEBHOOK =
   "https://app.meisterflow.ch/api/webhooks/enquiries/a902bb23d7e98901900e3750083b670344a14683633ae15f";
 
 export const ASSETS = {
-  logo: "https://theface-zuerich.ch/wp-content/uploads/2026/02/logo.png",
+  logo: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/3cb3f5ee9_theface.png",
   hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/f1b81e5fc_WhatsAppImage2026-09-30at165915.jpeg",
   banner: "https://theface-zuerich.ch/wp-content/uploads/2026/02/banner.png",
   partner1: "https://theface-zuerich.ch/wp-content/uploads/2026/02/partner1.png",
