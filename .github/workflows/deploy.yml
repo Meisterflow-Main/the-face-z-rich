@@ -43,3 +43,5 @@ jobs:
           source: "dist/*"
           target: "/mnt/data/landing-pages/theface/"
           strip_components: 1
+
+          #Change the vps key to the new one.
