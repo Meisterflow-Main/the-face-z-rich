@@ -82,6 +82,46 @@ export const TREATCARDS = [
     bookingUrl:
       "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/packages?id=9a31efec-2daa-49c2-8a9e-80aae2b0fac5&share=true&pId=2873845",
   },
+  {
+    id: "exclusives-spa-paket-rueckenmassage-pro-skin-90",
+    title: {
+      de: "Exclusives SPA-Paket RÜCKENMASSAGE/ PACKUNG und PRO SKIN 90",
+      en: "Exclusive SPA Package BACK MASSAGE/ WRAP and PRO SKIN 90",
+    },
+    tag: { de: "SPA-Paket", en: "SPA Package" },
+    price: "330",
+    expires: { de: "Gültig 6 Monate", en: "Valid for 6 months" },
+    description: {
+      de: "SPA PHYTOMER Rückenbehandlung mit DERMALOGICA Signatur PRO SKIN 90 begleitet von beruhigender Meeresrauschen-Musik für tiefes Wohlbefinden, innere Ruhe und einen Moment puren Glücks!",
+      en: "SPA PHYTOMER back treatment with DERMALOGICA Signature PRO SKIN 90, accompanied by soothing ocean-sound music for deep wellbeing, inner calm and a moment of pure happiness!",
+    },
+    highlights: {
+      de: [
+        "Maritim-Relax-Massage für tiefes Wohlbefinden",
+        "Entschlackende Meeresalgenpackung „Le Champagne de la Mer“, während deine Gesichtsbehandlung beginnt",
+        "Phytomer Bodylotion Travel Size oder 10% Rabatt auf ein Add-on",
+      ],
+      en: [
+        "Maritime relax massage for deep wellbeing",
+        "Detoxifying seaweed wrap „Le Champagne de la Mer“, while your facial treatment begins",
+        "Phytomer body lotion travel size or 10% discount on an add-on",
+      ],
+    },
+    services: [
+      {
+        name: { de: "Pro Skin 90", en: "Pro Skin 90" },
+        sessions: 1,
+        to: "/behandlungen/pro-skin-treatments",
+      },
+      {
+        name: { de: "PHYTOMER SPA RÜCKENBEHANDLUNG", en: "PHYTOMER SPA BACK TREATMENT" },
+        sessions: 1,
+        to: "/behandlungen/phytomer-spa-rueckenbehandlung",
+      },
+    ],
+    bookingUrl:
+      "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/packages?id=cc722236-ae17-4914-9ab0-699f5ffe5862&share=true&pId=2873845",
+  },
 ];
 
 export const getTreatcards = (lang) =>
