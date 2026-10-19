@@ -9,6 +9,7 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const LINKS = [
   { labelKey: "nav_about", to: "/ueber-mich" },
+  { labelKey: "nav_treatcards", to: "/treatcards" },
   { labelKey: "nav_faq", href: "/#faq" },
   { labelKey: "nav_contact", href: "/#kontakt" },
 ];

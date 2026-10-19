@@ -15,6 +15,7 @@ export const UI_STRINGS = {
     nav_all_regions: "Alle Regionen",
     nav_book: "Termin buchen",
     nav_menu: "Menü",
+    nav_treatcards: "Treatcards",
 
     // Footer
     footer_tagline: "Über 30 Jahre spezialisiert in holistischer Gesichtspflege.",
@@ -158,6 +159,23 @@ export const UI_STRINGS = {
     reviews_title: "Was Kundinnen sagen",
     reviews_like: "Gefällt mir",
     reviews_share: "Teilen",
+
+    // Treatcards
+    treatcards_meta_title: "Treatcards & Pakete",
+    treatcards_meta_desc:
+      "Exklusive SPA-Pakete von THE FACE® Zürich – sorgfältig kuratierte Behandlungskombinationen zu einem Vorzugspreis. Das perfekte Geschenk für einen Moment puren Glücks.",
+    treatcards_eyebrow: "Treatcards & Pakete",
+    treatcards_title: "Pakete, die Freude schenken",
+    treatcards_intro:
+      "Sorgfältig kuratierte Behandlungskombinationen zu einem Vorzugspreis – für tiefes Wohlbefinden oder als Geschenk für jemanden, den Du liebst.",
+    treatcards_included: "Im Paket enthalten",
+    treatcards_session: "Sitzung",
+    treatcards_price_label: "Paketpreis",
+    treatcards_vat_note: "inkl. MWST",
+    treatcards_book: "Paket buchen",
+    treatcards_book_note: "Online-Buchung über Fresha. Du erhältst eine Bestätigung per E-Mail.",
+    treatcards_footer_note: "Möchtest Du eine individuelle Behandlung dazubuchen?",
+    treatcards_view_treatments: "Alle Behandlungen ansehen",
   },
 
   en: {
@@ -174,6 +192,7 @@ export const UI_STRINGS = {
     nav_all_regions: "All regions",
     nav_book: "Book appointment",
     nav_menu: "Menu",
+    nav_treatcards: "Treatcards",
 
     // Footer
     footer_tagline: "Over 30 years specialized in holistic facial care.",
@@ -317,5 +336,22 @@ export const UI_STRINGS = {
     reviews_title: "What clients say",
     reviews_like: "Like",
     reviews_share: "Share",
+
+    // Treatcards
+    treatcards_meta_title: "Treatcards & Packages",
+    treatcards_meta_desc:
+      "Exclusive SPA packages at THE FACE® Zurich – carefully curated treatment combinations at a preferred price. The perfect gift for a moment of pure happiness.",
+    treatcards_eyebrow: "Treatcards & Packages",
+    treatcards_title: "Packages that bring joy",
+    treatcards_intro:
+      "Carefully curated treatment combinations at a preferred price – for deep wellbeing or as a gift for someone you love.",
+    treatcards_included: "Included in the package",
+    treatcards_session: "session",
+    treatcards_price_label: "Package price",
+    treatcards_vat_note: "incl. VAT",
+    treatcards_book: "Book package",
+    treatcards_book_note: "Online booking via Fresha. You will receive a confirmation by email.",
+    treatcards_footer_note: "Would you like to add an individual treatment?",
+    treatcards_view_treatments: "View all treatments",
   },
 };

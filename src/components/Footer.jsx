@@ -98,6 +98,7 @@ export default function Footer() {
             </ul>
             <div className="mt-5 flex flex-wrap gap-x-4 gap-y-2 text-xs text-charcoal/55">
               <a href={localizePath("/").replace(/\/$/, "") + "/#ueber"} className="hover:text-gold transition-colors">{t("footer_about")}</a>
+              <Link to={localizePath("/treatcards")} className="hover:text-gold transition-colors">{t("nav_treatcards")}</Link>
               <Link to={localizePath("/bewertungen")} className="hover:text-gold transition-colors">{t("footer_reviews")}</Link>
               <Link to={localizePath("/impressum")} className="hover:text-gold transition-colors">{t("footer_imprint")}</Link>
               <Link to={localizePath("/datenschutz")} className="hover:text-gold transition-colors">{t("footer_privacy")}</Link>
