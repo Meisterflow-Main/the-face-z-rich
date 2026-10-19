@@ -9,7 +9,6 @@ const DE_TO_EN = {
   "/regionen": "/en/regions",
   "/bewertung": "/en/review",
   "/bewertungen": "/en/reviews",
-  "/treatcards-vouchers": "/en/treatcards-vouchers",
   "/impressum": "/en/imprint",
   "/datenschutz": "/en/privacy",
   "/sitemap": "/en/sitemap",

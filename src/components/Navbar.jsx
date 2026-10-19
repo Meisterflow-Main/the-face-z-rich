@@ -11,7 +11,6 @@ const LINKS = [
   { labelKey: "nav_about", to: "/ueber-mich" },
   { labelKey: "nav_faq", href: "/#faq" },
   { labelKey: "nav_contact", href: "/#kontakt" },
-  { labelKey: "nav_treatcards", to: "/treatcards-vouchers" },
 ];
 
 export default function Navbar() {

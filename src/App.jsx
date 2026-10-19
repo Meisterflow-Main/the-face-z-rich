@@ -20,7 +20,7 @@ import Money from '@/pages/Money';
 import Regionen from '@/pages/Regionen';
 import Sitemap from '@/pages/Sitemap';
 import Bewertungen from '@/pages/Bewertungen';
-import TreatcardsVouchers from '@/pages/TreatcardsVouchers';
+
 import { LanguageProvider } from '@/lib/LanguageContext';
 
 const AuthenticatedApp = () => {
@@ -59,7 +59,7 @@ const AuthenticatedApp = () => {
     <Route path="/regionen/:slug" element={<Region />} />
     <Route path="/bewertung" element={<Bewertung />} />
     <Route path="/bewertungen" element={<Bewertungen />} />
-    <Route path="/treatcards-vouchers" element={<TreatcardsVouchers />} />
+
     <Route path="/impressum" element={<Impressum />} />
     <Route path="/datenschutz" element={<Datenschutz />} />
     <Route path="/sitemap" element={<Sitemap />} />
@@ -74,7 +74,7 @@ const AuthenticatedApp = () => {
     <Route path="/en/regions/:slug" element={<Region />} />
     <Route path="/en/review" element={<Bewertung />} />
     <Route path="/en/reviews" element={<Bewertungen />} />
-    <Route path="/en/treatcards-vouchers" element={<TreatcardsVouchers />} />
+
     <Route path="/en/imprint" element={<Impressum />} />
     <Route path="/en/privacy" element={<Datenschutz />} />
     <Route path="/en/sitemap" element={<Sitemap />} />

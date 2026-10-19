@@ -7,7 +7,8 @@ export const UI_STRINGS = {
     nav_about: "Über mich",
     nav_faq: "FAQ",
     nav_contact: "Kontakt",
-    nav_treatcards: "Treatcards & Gutscheine",
+
+
     nav_treatments: "Behandlungen",
     nav_regions: "Regionen",
     nav_all_treatments: "Alle Behandlungen",
@@ -165,7 +166,8 @@ export const UI_STRINGS = {
     nav_about: "About",
     nav_faq: "FAQ",
     nav_contact: "Contact",
-    nav_treatcards: "Treatcards & Vouchers",
+
+
     nav_treatments: "Treatments",
     nav_regions: "Regions",
     nav_all_treatments: "All treatments",
