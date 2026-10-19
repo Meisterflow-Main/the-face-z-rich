@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Phone, Mail, Globe, MapPin, User, Briefcase, ShieldCheck, FileText, ArrowRight, ArrowLeft } from "lucide-react";
+import { Phone, Mail, User, Briefcase, ShieldCheck, FileText, ArrowRight, ArrowLeft } from "lucide-react";
 import { BRAND } from "@/lib/brand";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";

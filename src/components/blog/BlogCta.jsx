@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Phone, Calendar, FileText, MessageCircle, ArrowRight } from "lucide-react";
+import { Phone, Calendar, FileText, MessageCircle } from "lucide-react";
 import { BRAND } from "@/lib/brand";
 
 const WA_LINK = `https://wa.me/${BRAND.phoneRaw}?text=${encodeURIComponent(

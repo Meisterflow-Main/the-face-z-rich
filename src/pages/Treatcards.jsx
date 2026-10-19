@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import { useLanguage } from "@/lib/LanguageContext";
 import { getTreatcards } from "@/lib/treatcards";
-import { BRAND } from "@/lib/brand";
 
 export default function Treatcards() {
   const { t, lang, localizePath } = useLanguage();
