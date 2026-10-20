@@ -15,7 +15,7 @@ export const UI_STRINGS = {
     nav_all_regions: "Alle Regionen",
     nav_book: "Termin buchen",
     nav_menu: "Menü",
-    nav_treatcards: "Treatcards",
+    nav_treatcards: "Treatcards & Pakete",
 
     // Footer
     footer_tagline: "Über 30 Jahre spezialisiert in holistischer Gesichtspflege.",
@@ -196,7 +196,7 @@ export const UI_STRINGS = {
     nav_all_regions: "All regions",
     nav_book: "Book appointment",
     nav_menu: "Menu",
-    nav_treatcards: "Treatcards",
+    nav_treatcards: "Treatcards & Packages",
 
     // Footer
     footer_tagline: "Over 30 years specialized in holistic facial care.",
