@@ -35,7 +35,7 @@ export const SERVICES_EN = {
     short: "Luminfusion",
     eyebrow: "Luminfusion",
     metaTitle: "Luminfusion in Zurich | THE FACE® Denise Claire Gadient",
-    h1: "Luminfusion\nYour Redcarpet - Glow",
+    h1: "Luminfusion\nYour Redcarpet - Look",
     intro:
       "The Luminfusion Treatment is a Skin Longevity treatment that not only makes your skin glow in the short term but sustainably supports its natural renewal. The centrepiece is the LuminFusion Nanoinfusion: finest plastic stamps gently introduce active ingredients into the skin surface, combined with red LED light. The result is an instant glow, a refined skin texture and visibly smoothed fine lines – ideal for anyone who wants real results without daring to try microneedling.",
   },
