@@ -117,13 +117,6 @@ const PRICE_LIST_DE = [
     ],
   },
   {
-    id: "cat-concierge",
-    title: "CAT CONCIERGE",
-    services: [
-      { name: "Katzensitting bei dir zuhause", price: "40", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29674305&share=true&pId=2873845" },
-    ],
-  },
-  {
     id: "phytomer-spa-rueckenbehandlung",
     title: "PHYTOMER SPA RÜCKENBEHANDLUNG",
     services: [
@@ -135,6 +128,13 @@ const PRICE_LIST_DE = [
     title: "SELBSTHEILUNG / NEUANFANG QUANTUM-ANGEL-HEALING® (QEH) nach EVA-MARIA MORA",
     services: [
       { name: "NEUSTART SELBSTHEILUNG MIT ENGELN", price: "188", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649913&share=true&pId=2873845" },
+    ],
+  },
+  {
+    id: "cat-concierge",
+    title: "CAT CONCIERGE",
+    services: [
+      { name: "Katzensitting bei dir zuhause", price: "40", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29674305&share=true&pId=2873845" },
     ],
   },
 ];
@@ -246,13 +246,6 @@ const PRICE_LIST_EN = [
     ],
   },
   {
-    id: "cat-concierge",
-    title: "CAT CONCIERGE",
-    services: [
-      { name: "Cat sitting at your home", price: "40", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29674305&share=true&pId=2873845" },
-    ],
-  },
-  {
     id: "phytomer-spa-rueckenbehandlung",
     title: "PHYTOMER SPA BACK TREATMENT",
     services: [
@@ -264,6 +257,13 @@ const PRICE_LIST_EN = [
     title: "SELF-HEALING / NEW BEGINNING QUANTUM-ANGEL-HEALING® (QEH) by EVA-MARIA MORA",
     services: [
       { name: "NEW START SELF-HEALING WITH ANGELS", price: "188", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29649913&share=true&pId=2873845" },
+    ],
+  },
+  {
+    id: "cat-concierge",
+    title: "CAT CONCIERGE",
+    services: [
+      { name: "Cat sitting at your home", price: "40", bookingUrl: "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29674305&share=true&pId=2873845" },
     ],
   },
 ];
