@@ -1,3 +1,5 @@
+import { Gift, Sparkles, MessageCircle } from "lucide-react";
+
 // Treatcard packages for THE FACE® Zürich.
 // Each package is a curated combination of treatments, bookable via Fresha packages.
 
@@ -179,4 +181,52 @@ export const getTreatcards = (lang) =>
       to: s.to,
     })),
     bookingUrl: c.bookingUrl,
+  }));
+
+// Treatcard & Gutschein options – the flexible gift cards.
+export const VOUCHERS = [
+  {
+    id: "treatcard-ab-65",
+    icon: Gift,
+    title: { de: "Treatcard ab CHF 65", en: "Treatcard from CHF 65" },
+    desc: {
+      de: "Die flexible Geschenkkarte – wählbar für Make-up Beratung, Minlen Kids & Tweens oder als Teilbetrag für jede Behandlung.",
+      en: "The flexible gift card – choose it for a make-up consultation, Minlen Kids & Tweens or as a part payment towards any treatment.",
+    },
+  },
+  {
+    id: "pro-skin-treat",
+    icon: Sparkles,
+    title: { de: "Pro Skin Treat", en: "Pro Skin Treat" },
+    desc: {
+      de: "Eine Premium-Gesichtsbehandlung nach Wahl: Pro Skin 45, 60, 90 oder Ultra Skin 120 – ab CHF 180.",
+      en: "A premium facial treatment of your choice: Pro Skin 45, 60, 90 or Ultra Skin 120 – from CHF 180.",
+    },
+  },
+  {
+    id: "longevity-glow",
+    icon: Sparkles,
+    title: { de: "Longevity Glow", en: "Longevity Glow" },
+    desc: {
+      de: "Das innovative Skin Longevity-Treatment für nachhaltigen Glow und strahlende, jugendliche Haut – CHF 225.",
+      en: "The innovative Skin Longevity treatment for lasting glow and radiant, youthful skin – CHF 225.",
+    },
+  },
+  {
+    id: "individueller-betrag",
+    icon: MessageCircle,
+    title: { de: "Individueller Betrag", en: "Individual amount" },
+    desc: {
+      de: "Du wünschst einen eigenen Betrag? Schreib mir gerne per WhatsApp und ich erstelle Dir Deinen persönlichen Gutschein.",
+      en: "Would you like your own amount? Just message me on WhatsApp and I will create your personal voucher.",
+    },
+  },
+];
+
+export const getVouchers = (lang) =>
+  VOUCHERS.map((v) => ({
+    id: v.id,
+    icon: v.icon,
+    title: v.title[lang] || v.title.de,
+    desc: v.desc[lang] || v.desc.de,
   }));

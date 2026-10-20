@@ -7,11 +7,12 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import { useLanguage } from "@/lib/LanguageContext";
-import { getTreatcards } from "@/lib/treatcards";
+import { getTreatcards, getVouchers } from "@/lib/treatcards";
 
 export default function Treatcards() {
   const { t, lang, localizePath } = useLanguage();
   const cards = getTreatcards(lang);
+  const vouchers = getVouchers(lang);
 
   return (
     <div className="min-h-screen bg-background">
@@ -128,6 +129,32 @@ export default function Treatcards() {
                     </div>
                   </div>
                 </article>
+              </ScrollReveal>
+            ))}
+          </div>
+
+          {/* Treatcard & Gutschein options */}
+          <ScrollReveal className="text-center mt-20 mb-10">
+            <p className="text-gold text-xs tracking-[0.25em] uppercase font-medium mb-3 flex items-center justify-center gap-2">
+              <Gift size={14} /> {t("treatcards_vouchers_eyebrow")}
+            </p>
+            <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-charcoal leading-[1.15] tracking-[-0.02em] mb-4">
+              {t("treatcards_vouchers_title")}
+            </h2>
+            <p className="text-charcoal/60 text-base max-w-2xl mx-auto leading-relaxed">
+              {t("treatcards_vouchers_intro")}
+            </p>
+            <div className="hairline w-24 mx-auto mt-6" />
+          </ScrollReveal>
+
+          <div className="grid sm:grid-cols-2 gap-6">
+            {vouchers.map((v, idx) => (
+              <ScrollReveal key={v.id} delay={idx * 0.05}>
+                <div className="bg-card border border-gold/15 rounded-2xl p-6 sm:p-7 h-full hover:border-gold transition-colors">
+                  <v.icon size={24} className="text-gold mb-4" />
+                  <h3 className="font-heading text-lg font-semibold text-charcoal mb-2">{v.title}</h3>
+                  <p className="text-charcoal/65 text-sm leading-relaxed">{v.desc}</p>
+                </div>
               </ScrollReveal>
             ))}
           </div>

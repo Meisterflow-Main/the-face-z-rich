@@ -176,6 +176,10 @@ export const UI_STRINGS = {
     treatcards_book_note: "Online-Buchung über Fresha. Du erhältst eine Bestätigung per E-Mail.",
     treatcards_footer_note: "Möchtest Du eine individuelle Behandlung dazubuchen?",
     treatcards_view_treatments: "Alle Behandlungen ansehen",
+    treatcards_vouchers_eyebrow: "Verschenken & Verwöhnen",
+    treatcards_vouchers_title: "Treatcards & Gutscheine",
+    treatcards_vouchers_intro:
+      "Mit einer Treatcard oder einem Gutschein von THE FACE® schenkst Du einen Moment Pflege und Entspannung. Ob für die Hautanalyse, ein Pro Skin Treatment oder den Longevity Glow – jede Karte ist individuell auf die beschenkte Person abgestimmt.",
   },
 
   en: {
@@ -353,5 +357,9 @@ export const UI_STRINGS = {
     treatcards_book_note: "Online booking via Fresha. You will receive a confirmation by email.",
     treatcards_footer_note: "Would you like to add an individual treatment?",
     treatcards_view_treatments: "View all treatments",
+    treatcards_vouchers_eyebrow: "Give & Pamper",
+    treatcards_vouchers_title: "Treatcards & Vouchers",
+    treatcards_vouchers_intro:
+      "With a Treatcard or a voucher from THE FACE® you give a moment of care and relaxation. Whether for a skin analysis, a Pro Skin Treatment or the Longevity Glow, every card is individually tailored to the person receiving it.",
   },
 };
