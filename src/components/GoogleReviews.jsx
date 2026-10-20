@@ -5,13 +5,13 @@ import { useLanguage } from "@/lib/LanguageContext";
 
 const REVIEWS = [
   {
-    name: "Michelle Inauen",
-    meta: "3 reviews",
-    avatarBg: "#607D8B",
-    avatarText: "M",
+    name: "Viviane Fromm",
+    meta: "2 reviews · 1 photo",
+    avatarBg: "#546E7A",
+    avatarText: "V",
     stars: 5,
-    time: { de: "vor einem Jahr", en: "a year ago" },
-    text: "Had my first beauty treatment at THE FACE over 5 years ago. Denise is very professional, friendly, and trustworthy. Her knowledge is outstanding. I was able to overcome my fear of skin facials and find the perfect beauty studio. The advice and results are amazing! Which results in me returning again and again!!! Thank you so much and see you soon :)",
+    time: { de: "vor 3 Tagen", en: "3 days ago" },
+    text: "Since my first days in Zurich, I've been going to Denise, and every visit is a pleasure for me and my skin. Her expertise is exceptionally high and diverse. I highly recommend THE FACE ❤️.",
     lang: "en",
     showActions: false,
   },
