@@ -1,4 +1,4 @@
-import { Gift, Sparkles, MessageCircle } from "lucide-react";
+import { Gift, Banknote, Sparkles, MessageCircle } from "lucide-react";
 
 // Treatcard packages for THE FACE® Zürich.
 // Each package is a curated combination of treatments, bookable via Fresha packages.
@@ -192,6 +192,15 @@ export const VOUCHERS = [
     desc: {
       de: "Die flexible Geschenkkarte – wählbar für Make-up Beratung, Minlen Kids & Tweens oder als Teilbetrag für jede Behandlung.",
       en: "The flexible gift card – choose it for a make-up consultation, Minlen Kids & Tweens or as a part payment towards any treatment.",
+    },
+  },
+  {
+    id: "wertgutscheine",
+    icon: Banknote,
+    title: { de: "WertGutscheine ab CHF 25", en: "Value vouchers from CHF 25" },
+    desc: {
+      de: "WertGutscheine von CHF 25 bis CHF 500 – Du entscheidest selbst, ob Du sie für eine Behandlung oder für Produkte einlöst.",
+      en: "Value vouchers from CHF 25 to CHF 500 – you decide whether to redeem them for a treatment or for products.",
     },
   },
   {
