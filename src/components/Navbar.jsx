@@ -68,7 +68,7 @@ export default function Navbar() {
               <Link key={s.slug} to={localizePath(`/behandlungen/${s.slug}`)} className={linkCls}>
                 {s.name}
                 {s.slug === "luminfusion" && (
-                  <span className="text-gold/70 font-normal"> Redcarpet- Look</span>
+                  <span className="text-gold/70 font-normal"> Redcarpet Look</span>
                 )}
               </Link>
             ))}
@@ -127,7 +127,7 @@ export default function Navbar() {
                 <Link key={s.slug} to={localizePath(`/behandlungen/${s.slug}`)} onClick={() => setOpen(false)} className="text-sm text-charcoal/75 hover:text-gold transition-colors whitespace-nowrap">
                   {s.name}
                   {s.slug === "luminfusion" && (
-                    <span className="text-gold/70 font-normal"> Redcarpet- Look</span>
+                    <span className="text-gold/70 font-normal"> Redcarpet Look</span>
                   )}
                 </Link>
               ))}

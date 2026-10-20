@@ -12,7 +12,7 @@ export default function LuminfusionBanner() {
             <div className="relative overflow-hidden">
               <img
                 src="https://media.base44.com/images/public/6aa28dd575421cdcca35083c/7f89fe61c_WhatsAppImage2026-10-05at111756.jpeg"
-                alt="Luminfusion – Dein Redcarpet-Look bei THE FACE® Zürich"
+                alt="Luminfusion – Dein Redcarpet Look bei THE FACE® Zürich"
                 className="w-full h-auto block object-cover"
                 loading="lazy"
               />
@@ -22,7 +22,7 @@ export default function LuminfusionBanner() {
                 Lumin Fusion
               </p>
               <h2 className="font-heading text-2xl sm:text-3xl font-semibold text-charcoal leading-tight mb-4">
-                Luminfusion – Dein Redcarpet-Look
+                Luminfusion – Dein Redcarpet Look
               </h2>
               <div className="hairline w-16 mb-4" />
               <p className="text-charcoal/65 leading-relaxed mb-6">

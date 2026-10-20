@@ -4,7 +4,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 const IMAGES = [
   {
     src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/2a2913723_WhatsAppImage2026-10-05at111756.jpeg",
-    alt: "Luminfusion – Dein Redcarpet-Look Behandlung bei THE FACE® Zürich",
+    alt: "Luminfusion – Dein Redcarpet Look Behandlung bei THE FACE® Zürich",
   },
   {
     src: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/217b2ff54_WhatsAppImage2026-10-05at111624.jpeg",
