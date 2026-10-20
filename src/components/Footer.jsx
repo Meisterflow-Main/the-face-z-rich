@@ -35,7 +35,9 @@ export default function Footer() {
               <li><Link to={localizePath("/behandlungen")} className="hover:text-gold transition-colors font-medium text-charcoal">{t("footer_all_treatments")}</Link></li>
               {SERVICES.map((s) => (
                 <li key={s.slug}>
-                  <Link to={localizePath(`/behandlungen/${s.slug}`)} className="hover:text-gold transition-colors">{s.name}</Link>
+                  <Link to={localizePath(`/behandlungen/${s.slug}`)} className="hover:text-gold transition-colors">
+                    {s.slug === "luminfusion" ? "Luminfusion Redcarpet Look" : s.name}
+                  </Link>
                 </li>
               ))}
             </ul>
