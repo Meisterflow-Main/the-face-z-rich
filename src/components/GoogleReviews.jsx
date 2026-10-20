@@ -11,8 +11,8 @@ const REVIEWS = [
     avatarText: "V",
     stars: 5,
     time: { de: "vor 3 Tagen", en: "3 days ago" },
-    text: "Since my first days in Zurich, I've been going to Denise, and every visit is a pleasure for me and my skin. Her expertise is exceptionally high and diverse. I highly recommend THE FACE ❤️.",
-    lang: "en",
+    text: "Seit meinen ersten Tagen in Zürich gehe ich zu Denise und jeder Aufenthalt ist für mich und meine Haut ein Vergnügen. Ihre Expertise ist aussergewöhnlich hoch und vielseitig. Ich empfehle THE FACE ❤️.",
+    lang: "de",
     showActions: false,
   },
   {
