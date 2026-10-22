@@ -29,6 +29,10 @@ export const AVAILABILITY = {
 export const WEBHOOK =
   "https://app.meisterflow.ch/api/webhooks/enquiries/a902bb23d7e98901900e3750083b670344a14683633ae15f";
 
+// Kontaktformular (Section "Kontakt") – sends enquiries to the MeisterFlow enquiries webhook.
+export const WEBHOOK_CONTACT =
+  "https://app.meisterflow.ch/api/webhooks/enquiries/f294a43d57162035e37e02f0a163dd7a1d26cc6a184820ac";
+
 export const ASSETS = {
   logo: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/3cb3f5ee9_theface.png",
   hero: "https://media.base44.com/images/public/6aa28dd575421cdcca35083c/f1b81e5fc_WhatsAppImage2026-09-30at165915.jpeg",

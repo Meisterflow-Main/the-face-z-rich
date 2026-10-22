@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
-import { BRAND, WEBHOOK } from "@/lib/brand";
+import { BRAND, WEBHOOK_CONTACT } from "@/lib/brand";
 import { useLanguage } from "@/lib/LanguageContext";
 import GoogleReviewBadge from "@/components/GoogleReviewBadge";
 import AvailabilityCard from "@/components/AvailabilityCard";
@@ -33,7 +33,7 @@ export default function ContactForm() {
     if (!validate()) return;
     setStatus(STATUS.LOADING);
     try {
-      const res = await fetch(WEBHOOK, {
+      const res = await fetch(WEBHOOK_CONTACT, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
