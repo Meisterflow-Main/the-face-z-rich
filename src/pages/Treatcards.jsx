@@ -154,6 +154,17 @@ export default function Treatcards() {
                   <v.icon size={24} className="text-gold mb-4" />
                   <h3 className="font-heading text-lg font-semibold text-charcoal mb-2">{v.title}</h3>
                   <p className="text-charcoal/65 text-sm leading-relaxed">{v.desc}</p>
+                  {v.bookingUrl && (
+                    <a
+                      href={v.bookingUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 mt-4 text-gold hover:text-charcoal transition-colors text-sm font-medium"
+                    >
+                      <Gift size={14} />
+                      {t("treatcards_buy_voucher")}
+                    </a>
+                  )}
                 </div>
               </ScrollReveal>
             ))}

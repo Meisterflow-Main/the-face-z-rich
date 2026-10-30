@@ -184,10 +184,14 @@ export const getTreatcards = (lang) =>
   }));
 
 // Treatcard & Gutschein options – the flexible gift cards.
+// Fresha gift-card checkout for the flexible Treatcard & WertGutschein.
+export const GIFT_CARD_URL = "https://l.fresha.com/36jqfw4qv";
+
 export const VOUCHERS = [
   {
     id: "treatcard-ab-65",
     icon: Gift,
+    bookingUrl: GIFT_CARD_URL,
     title: { de: "Treatcard ab CHF 65", en: "Treatcard from CHF 65" },
     desc: {
       de: "Die flexible Geschenkkarte – wählbar für Make-up Beratung, Minlen Kids & Tweens oder als Teilbetrag für jede Behandlung.",
@@ -197,6 +201,7 @@ export const VOUCHERS = [
   {
     id: "wertgutscheine",
     icon: Banknote,
+    bookingUrl: GIFT_CARD_URL,
     title: { de: "WertGutscheine ab CHF 25", en: "Value vouchers from CHF 25" },
     desc: {
       de: "WertGutscheine von CHF 25 bis CHF 500 – Du entscheidest selbst, ob Du sie für eine Behandlung oder für Produkte einlöst.",
@@ -238,4 +243,5 @@ export const getVouchers = (lang) =>
     icon: v.icon,
     title: v.title[lang] || v.title.de,
     desc: v.desc[lang] || v.desc.de,
+    bookingUrl: v.bookingUrl,
   }));
