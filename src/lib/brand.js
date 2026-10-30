@@ -9,7 +9,8 @@ export const BRAND = {
   email: "thefacezuerich@gmail.com",
   website: "theface-zuerich.ch",
   instagram: "https://www.instagram.com/thefacezuerich/",
-  booking: "https://phorest.com/book/salons/thefacedeniseclairegadient",
+  booking:
+    "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&share=true&pId=2873845",
   whatsapp: "https://wa.me/41764260999",
   // Verified Google Business listing (Rämistrasse 27, 8001 Zürich) – pins the practice, not just the street.
   maps: "https://www.google.com/maps?cid=15883321555023348624",

@@ -40,7 +40,7 @@ function generateCommuteFaq(region) {
   const location = isLiechtenstein
     ? "Meine Praxis an der Landstrasse 152 in Schaan liegt zentral im Ort."
     : "Meine Praxis an der Rämistrasse 27, 8001 Zürich liegt vis-à-vis dem Parkhaus Hohe Promenade.";
-  return `${location} ${commute} ${region.short} ist ein ${areaType.toLowerCase()}. Termine buchst Du rund um die Uhr online über meinen Phorest-Kalender.`;
+  return `${location} ${commute} ${region.short} ist ein ${areaType.toLowerCase()}. Termine buchst Du rund um die Uhr online über meinen Fresha-Kalender.`;
 }
 
 // Generates a unique final CTA text based on the service.

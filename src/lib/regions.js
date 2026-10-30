@@ -179,7 +179,7 @@ export const REGIONS = [
       { q: "Was kostet das ausgiebige Ultra Skin 120 Treatment?", a: "Das Ultra Skin 120 kostet CHF 335.– und umfasst zwei Stunden Tiefenreinigung, Peeling, Maske und Massage. Eine bewusste Auszeit für Deine Haut." },
       { q: "Hilft Pro Calm bei meiner gereizten, sensiblen Haut?", a: "Ja. Pro Calm Treat reduziert Rötungen und Spannungen gezielt. Vorab analysiere ich Deine Haut, um die verträglichen Produkte auszuwählen." },
       { q: "Was bedeutet Clean Beauty für meine tägliche Pflege?", a: "Clean-Produkte verzichten auf aggressive Zusätze und respektieren die Hautbarriere. Ich empfehle Dir nach der Analyse eine Pflegeroutine, die Deine Haut sanft und nachhaltig pflegt." },
-      { q: "Kann ich längere Treatments flexibel einplanen?", a: "Ja. Termine vergebe ich nach Vereinbarung, online buchst Du rund um die Uhr über den Phorest-Kalender. Auf Anfrage ist auch ein Termin am Sonntag möglich. Längere Treatments wie Pro Skin 90 oder Ultra Skin 120 lassen sich so wunderbar in einen ruhigen Tag einplanen." },
+      { q: "Kann ich längere Treatments flexibel einplanen?", a: "Ja. Termine vergebe ich nach Vereinbarung, online buchst Du rund um die Uhr über den Fresha-Kalender. Auf Anfrage ist auch ein Termin am Sonntag möglich. Längere Treatments wie Pro Skin 90 oder Ultra Skin 120 lassen sich so wunderbar in einen ruhigen Tag einplanen." },
     ],
     finalCtaTitle: "Zeit für Dich und Deine Haut",
     finalCtaText: "Reserviere Deinen Platz für eine bewusste Auszeit: online buchen oder per WhatsApp anfragen.",
