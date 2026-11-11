@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, ChevronDown, MapPin } from "lucide-react";
+import { Menu, X, ChevronDown, MapPin, Gift } from "lucide-react";
 import { BRAND, ASSETS } from "@/lib/brand";
 import { REGIONS } from "@/lib/regions";
 import { getServices } from "@/lib/i18n-data";
@@ -9,7 +9,6 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const LINKS = [
   { labelKey: "nav_about", to: "/ueber-mich" },
-  { labelKey: "nav_treatcards", to: "/treatcards" },
   { labelKey: "nav_faq", href: "/#faq" },
   { labelKey: "nav_contact", href: "/#kontakt" },
 ];
@@ -97,6 +96,15 @@ export default function Navbar() {
             )
           )}
 
+          <Link
+            to={localizePath("/treatcards")}
+            aria-label={t("nav_vouchers")}
+            className="group inline-flex items-center gap-1.5 text-sm font-semibold text-white bg-[#9C7C3C] hover:bg-[#8A6B31] px-4 py-2.5 rounded-full shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 tracking-wide whitespace-nowrap"
+          >
+            <Gift size={16} className="transition-transform duration-300 group-hover:-rotate-12" />
+            <span className="hidden xl:inline">{t("nav_vouchers")}</span>
+          </Link>
+
           <LanguageSwitcher />
           <a
             href={BRAND.booking}
@@ -160,6 +168,14 @@ export default function Navbar() {
                 </a>
               )
             )}
+
+            <Link
+              to={localizePath("/treatcards")}
+              onClick={() => setOpen(false)}
+              className="flex items-center justify-center gap-2 text-sm font-semibold text-white bg-[#9C7C3C] px-5 py-3 rounded-full"
+            >
+              <Gift size={16} /> {t("nav_vouchers")}
+            </Link>
 
             <a href={BRAND.booking} target="_blank" rel="noopener noreferrer" className="text-center text-sm font-semibold text-white bg-gold px-5 py-3 rounded-lg">
               {t("nav_book")}

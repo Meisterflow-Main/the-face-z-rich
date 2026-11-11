@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
+import VoucherBanner from "@/components/VoucherBanner";
 import Hero from "@/components/Hero";
 import HeroPromoImages from "@/components/HeroPromoImages";
 import BrandVideo from "@/components/BrandVideo";
@@ -54,6 +55,7 @@ export default function Home() {
         jsonLd={homeSchemaGraph(faqSchema)}
       />
       <Navbar />
+      <VoucherBanner />
       <main>
         <Hero />
         <HeroPromoImages />

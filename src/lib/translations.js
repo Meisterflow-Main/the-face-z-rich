@@ -16,6 +16,12 @@ export const UI_STRINGS = {
     nav_book: "Termin buchen",
     nav_menu: "Menü",
     nav_treatcards: "Treatcards & Pakete",
+    nav_vouchers: "Gutscheine & Pakete",
+    voucher_banner_eyebrow: "Geschenkideen",
+    voucher_banner_title: "Schenken Sie Schönheit",
+    voucher_banner_desc: "Entdecken Sie unsere Geschenkgutscheine & Behandlungspakete.",
+    voucher_banner_cta: "Jetzt entdecken",
+    voucher_banner_alt: "Geschenkbox mit goldener Schleife und Gutschein von THE FACE® Zürich",
 
     // Footer
     footer_tagline: "Über 30 Jahre spezialisiert in holistischer Gesichtspflege.",
@@ -198,6 +204,12 @@ export const UI_STRINGS = {
     nav_book: "Book appointment",
     nav_menu: "Menu",
     nav_treatcards: "Treatcards & Packages",
+    nav_vouchers: "Gift Vouchers & Packages",
+    voucher_banner_eyebrow: "Gift Ideas",
+    voucher_banner_title: "Give the Gift of Beauty",
+    voucher_banner_desc: "Discover our gift vouchers & treatment packages.",
+    voucher_banner_cta: "Discover now",
+    voucher_banner_alt: "Gift box with a golden ribbon and a THE FACE® Zurich voucher",
 
     // Footer
     footer_tagline: "Over 30 years specialized in holistic facial care.",
