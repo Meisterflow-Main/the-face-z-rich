@@ -211,6 +211,8 @@ export const VOUCHERS = [
   {
     id: "pro-skin-treat",
     icon: Sparkles,
+    bookingUrl:
+      "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29509969&share=true&pId=2873845",
     title: { de: "Pro Skin Treat", en: "Pro Skin Treat" },
     desc: {
       de: "Eine Premium-Gesichtsbehandlung nach Wahl: Pro Skin 45, 60, 90 oder Ultra Skin 120 – ab CHF 180.",
@@ -220,6 +222,8 @@ export const VOUCHERS = [
   {
     id: "longevity-glow",
     icon: Sparkles,
+    bookingUrl:
+      "https://www.fresha.com/book-now/the-face-denise-claire-gadient-l38o3gpn/services?lid=2973074&eid=5255094&oiid=sv%3A29689176&share=true&pId=2873845",
     title: { de: "Longevity Glow", en: "Longevity Glow" },
     desc: {
       de: "Das innovative Skin Longevity-Treatment für nachhaltigen Glow und strahlende, jugendliche Haut – CHF 225.",
