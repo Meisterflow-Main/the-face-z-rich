@@ -29,10 +29,13 @@ export default function VoucherBanner() {
               loading="lazy"
               decoding="async"
             />
-            <div className="hidden h-[88px] w-[66px] rotate-[-7deg] flex-col items-center justify-center rounded-[5px] border border-[#B08D4F]/45 bg-[#FCF8F1] shadow-[0_6px_16px_rgba(90,70,40,0.15)] sm:flex">
-              <span className="text-[6px] font-semibold tracking-[0.16em] text-[#8A6A33]">THE FACE®</span>
-              <Gift size={15} className="my-1.5 text-[#B08D4F]" />
-              <span className="text-[5px] tracking-[0.2em] text-[#8A6A33]/70">ZÜRICH</span>
+            <div className="hidden h-[94px] w-[112px] rotate-[-7deg] flex-col items-center justify-center gap-1 rounded-[5px] border border-[#B08D4F]/45 bg-[#FCF8F1] px-2 text-center shadow-[0_6px_16px_rgba(90,70,40,0.15)] sm:flex">
+              <Gift size={13} className="text-[#B08D4F]" />
+              <span className="text-[7px] font-semibold tracking-[0.12em] text-[#8A6A33]">THE FACE®</span>
+              <span className="text-[6px] leading-tight tracking-[0.04em] text-[#8A6A33]/85">
+                Denise Claire Gadient
+              </span>
+              <span className="text-[5.5px] tracking-[0.18em] text-[#8A6A33]/70">ZÜRICH</span>
             </div>
           </div>
 
